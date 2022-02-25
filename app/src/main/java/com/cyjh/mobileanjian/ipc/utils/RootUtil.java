@@ -1,6 +1,6 @@
 package com.cyjh.mobileanjian.ipc.utils;
 
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.util.ArrayList;

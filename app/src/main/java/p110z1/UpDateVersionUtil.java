@@ -3,7 +3,7 @@ package p110z1;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import com.tencent.smtt.sdk.TbsConfig;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

@@ -28,7 +28,8 @@
         </LinearLayout>
         <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
             <TextView android:id="@+id/nrzs_app_reward_coin" android:text="@string/h0" android:layout_centerInParent="true" style="@style/ww"/>
-            <com.angel.nrzs.p017ui.view.ToastView android:id="@+id/nrzs_app_reward_toast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <com.angel.nrzs.app.view.ToastView
+                android:id="@+id/nrzs_app_reward_toast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
         </RelativeLayout>
         <TextView android:id="@+id/nrzs_app_reward_reward_btn" android:text="@string/gv" style="@style/wj"/>
     </LinearLayout>

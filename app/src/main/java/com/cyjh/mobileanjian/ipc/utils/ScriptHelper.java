@@ -2,7 +2,7 @@ package com.cyjh.mobileanjian.ipc.utils;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import com.cyjh.p045mq.sdk.entity.Script4Run;
+import com.cyjh.mq.sdk.entity.Script4Run;
 import java.io.File;
 import org.apache.commons.p105io.FileUtils;
 import org.apache.commons.p105io.FilenameUtils;

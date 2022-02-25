@@ -7,8 +7,8 @@ import com.blankj.utilcode.util.LogUtils;
 import com.cyjh.mobileanjian.ipc.interfaces.OnScriptListener;
 import com.cyjh.mobileanjian.ipc.interfaces.OnSpecialMqCmdCallback;
 import com.cyjh.mqm.MQLanguageStub;
-import com.cyjh.p045mq.sdk.MqRunnerLite;
-import com.cyjh.p045mq.sdk.entity.Script4Run;
+import com.cyjh.mq.sdk.MqRunnerLite;
+import com.cyjh.mq.sdk.entity.Script4Run;
 
 /* renamed from: z1.abv */
 /* loaded from: classes3.dex */

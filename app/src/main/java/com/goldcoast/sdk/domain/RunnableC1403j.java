@@ -2,7 +2,7 @@ package com.goldcoast.sdk.domain;
 
 import android.annotation.TargetApi;
 import android.util.Pair;
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import com.goldcoast.sdk.p050a.FileInfo;
 import com.goldcoast.sdk.p052c.LogUtil;
 import com.p007a.p008a.p009a.CommandResult;

@@ -8,7 +8,7 @@ import android.os.Environment;
 import android.text.TextUtils;
 import com.cyjh.ddy.media.p035a.ResultTypeConstant;
 import com.cyjh.mobileanjian.ipc.utils.RomUtils;
-import com.cyjh.p045mq.p049d.PackageUtils;
+import com.cyjh.mq.p049d.PackageUtils;
 import com.stripe.android.model.Card;
 import java.io.File;
 import java.io.IOException;

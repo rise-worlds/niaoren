@@ -7,10 +7,10 @@ import com.cyjh.mobileanjian.ipc.interfaces.OnKeyEventListener;
 import com.cyjh.mobileanjian.ipc.interfaces.OnRequestCallback;
 import com.cyjh.mobileanjian.ipc.interfaces.RootProgressListener;
 import com.cyjh.mqm.MQLanguageStub;
-import com.cyjh.p045mq.sdk.MqBridge;
-import com.cyjh.p045mq.sdk.MqRunner;
-import com.cyjh.p045mq.sdk.MqRunnerLite;
-import com.cyjh.p045mq.sdk.entity.Script4Run;
+import com.cyjh.mq.sdk.MqBridge;
+import com.cyjh.mq.sdk.MqRunner;
+import com.cyjh.mq.sdk.MqRunnerLite;
+import com.cyjh.mq.sdk.entity.Script4Run;
 
 /* renamed from: z1.abt */
 /* loaded from: classes3.dex */

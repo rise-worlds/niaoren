@@ -1,7 +1,7 @@
 package com.p007a.p008a.p009a;
 
 import android.support.annotation.NonNull;
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import com.liulishuo.filedownloader.model.ConnectionModel;
 import java.io.DataOutputStream;
 import java.io.IOException;

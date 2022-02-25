@@ -7,7 +7,7 @@ import android.support.multidex.MultiDex;
 import android.support.p003v4.app.ActivityCompat;
 import android.text.TextUtils;
 import android.util.Log;
-import com.angel.nrzs.p017ui.activity.MainActivity;
+import com.angel.nrzs.app.activity.MainActivity;
 import com.blankj.utilcode.util.CrashUtils;
 import com.blankj.utilcode.util.LogUtils;
 import com.cyjh.ddy.base.utils.CLog;

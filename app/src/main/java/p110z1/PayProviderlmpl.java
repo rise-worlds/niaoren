@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.angel.nrzs.App;
-import com.angel.nrzs.p017ui.activity.NRZSWebviewActivity;
+import com.angel.nrzs.app.activity.NRZSWebviewActivity;
 import com.nrzs.base.router.RouterConstants;
 import com.nrzs.base.router.RouterUtils;
 import com.nrzs.base.router.provider.PayProvider;

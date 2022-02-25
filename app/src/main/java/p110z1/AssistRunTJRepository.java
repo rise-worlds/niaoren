@@ -1,7 +1,7 @@
 package p110z1;
 
-import com.cyjh.p045mq.sdk.MqRunner;
-import com.cyjh.p045mq.sdk.MqRunnerLite;
+import com.cyjh.mq.sdk.MqRunner;
+import com.cyjh.mq.sdk.MqRunnerLite;
 import com.nrzs.data.DataApp;
 import com.nrzs.data.base.BaseResponse;
 import com.nrzs.data.p066ft.bean.AssistInfo;

@@ -18,10 +18,9 @@ import android.os.Process;
 import android.support.annotation.NonNull;
 import android.support.p003v4.content.FileProvider;
 import android.util.Log;
-import com.blankj.utilcode.util.ShellUtils;
-import com.blankj.utilcode.util.Utils;
+
 import com.ctetin.expandabletextviewlibrary.ExpandableTextView;
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
 import java.io.File;
 import java.security.MessageDigest;

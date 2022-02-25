@@ -5,7 +5,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import com.ctetin.expandabletextviewlibrary.ExpandableTextView;
 import com.cyjh.ddy.media.p035a.ResultTypeConstant;
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStream;

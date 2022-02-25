@@ -1,8 +1,8 @@
 package p110z1;
 
 import com.cyjh.mobileanjian.ipc.interfaces.OnScriptListener;
-import com.cyjh.p045mq.sdk.MqRunner;
-import com.cyjh.p045mq.sdk.entity.Script4Run;
+import com.cyjh.mq.sdk.MqRunner;
+import com.cyjh.mq.sdk.entity.Script4Run;
 
 /* renamed from: z1.abu */
 /* loaded from: classes3.dex */

@@ -13,7 +13,7 @@ import android.media.projection.MediaProjectionManager;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.view.WindowManager;
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import java.nio.ByteBuffer;
 
 @TargetApi(21)

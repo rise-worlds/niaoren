@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
     <FrameLayout android:id="@+id/nrzs_app_rq" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
-        <com.angel.nrzs.p017ui.view.CustomViewPager android:id="@+id/nrzs_app_viewpager" style="@style/a5h"/>
+        <com.angel.nrzs.app.view.CustomViewPager
+            android:id="@+id/nrzs_app_viewpager" style="@style/a5h"/>
     </FrameLayout>
     <include layout="@layout/nrzs_main_navigation_layout"/>
 </LinearLayout>

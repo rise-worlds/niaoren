@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.angel.nrzs.C0692R;
-import com.angel.nrzs.p017ui.activity.NRZSWebviewActivity;
+import com.angel.nrzs.app.activity.NRZSWebviewActivity;
 import com.nrzs.data.other.bean.AdResultInfoItem;
 import com.nrzs.p067ft.p068ui.base.FtBaseDialog;
 

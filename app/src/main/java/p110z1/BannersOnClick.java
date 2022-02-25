@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.text.TextUtils;
-import com.angel.nrzs.p017ui.activity.NRZSWebviewActivity;
+import com.angel.nrzs.app.activity.NRZSWebviewActivity;
 import com.nrzs.base.router.RouterUtils;
 import com.nrzs.data.other.bean.AdResultInfoItem;
 import org.apache.http.HttpHost;

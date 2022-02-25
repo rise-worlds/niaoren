@@ -13,8 +13,8 @@ import android.support.annotation.RequiresApi;
 import android.support.annotation.RequiresPermission;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
-import com.blankj.utilcode.util.ShellUtils;
-import com.cyjh.p045mq.p049d.C1363e;
+
+import com.cyjh.mq.p049d.C1363e;
 import com.stripe.android.view.ShippingInfoWidget;
 import java.io.File;
 import java.net.InetAddress;

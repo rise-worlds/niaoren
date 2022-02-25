@@ -20,7 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.angel.nrzs.C0692R;
 import com.angel.nrzs.adapter.UpdateContentAdapter;
-import com.angel.nrzs.p017ui.activity.MainActivity;
+import com.angel.nrzs.app.activity.MainActivity;
 import com.blankj.utilcode.util.FileUtils;
 import com.blankj.utilcode.util.SPUtils;
 import java.io.File;

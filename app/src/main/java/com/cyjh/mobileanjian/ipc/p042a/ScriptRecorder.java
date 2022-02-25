@@ -7,7 +7,7 @@ import com.cyjh.mobileanjian.ipc.interfaces.OnRecordScriptCallback;
 import com.cyjh.mobileanjian.ipc.share.proto.Ipc;
 import com.cyjh.mobileanjian.ipc.share.proto.IpcRaw;
 import com.cyjh.mobileanjian.ipc.utils.RootUtil;
-import com.cyjh.p045mq.p048c.IpcConnection;
+import com.cyjh.mq.p048c.IpcConnection;
 
 /* renamed from: com.cyjh.mobileanjian.ipc.a.d */
 /* loaded from: classes.dex */

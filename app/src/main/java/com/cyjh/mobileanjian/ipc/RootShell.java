@@ -2,7 +2,7 @@ package com.cyjh.mobileanjian.ipc;
 
 import com.alipay.sdk.widget.C0675j;
 import com.cyjh.mobileanjian.ipc.interfaces.OnRootApplyCallback;
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;

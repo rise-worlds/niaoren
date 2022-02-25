@@ -14,8 +14,8 @@ import com.cyjh.mobileanjian.ipc.log.NativeLog;
 import com.cyjh.mobileanjian.ipc.p043b.IRunner;
 import com.cyjh.mqm.MQLanguageStub;
 import com.cyjh.mqsdk.C1375R;
-import com.cyjh.p045mq.p046a.MyApplication;
-import com.cyjh.p045mq.sdk.entity.Script4Run;
+import com.cyjh.mq.p046a.MyApplication;
+import com.cyjh.mq.sdk.entity.Script4Run;
 import java.io.File;
 import java.util.concurrent.ArrayBlockingQueue;
 

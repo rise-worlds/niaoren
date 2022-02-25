@@ -1,6 +1,6 @@
 package p110z1;
 
-import com.cyjh.p045mq.p049d.C1363e;
+import com.cyjh.mq.p049d.C1363e;
 import org.apache.tools.ant.taskdefs.optional.ccm.Continuus;
 import org.apache.tools.ant.types.selectors.DepthSelector;
 

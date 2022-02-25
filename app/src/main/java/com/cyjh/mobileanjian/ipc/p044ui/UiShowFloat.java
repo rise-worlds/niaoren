@@ -18,7 +18,7 @@ import android.widget.RelativeLayout;
 import com.cyjh.ddy.media.media.ActionCode;
 import com.cyjh.mobileanjian.ipc.share.proto.UiMessage;
 import com.cyjh.mqsdk.C1375R;
-import com.cyjh.p045mq.sdk.MqRunner;
+import com.cyjh.mq.sdk.MqRunner;
 
 /* renamed from: com.cyjh.mobileanjian.ipc.ui.j */
 /* loaded from: classes.dex */

@@ -8,12 +8,11 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.angel.nrzs.C0692R;
-import com.angel.nrzs.p017ui.activity.NRZSWebviewActivity;
+import com.angel.nrzs.app.activity.NRZSWebviewActivity;
 import com.blankj.utilcode.util.ClickUtils;
 import com.nrzs.base.router.provider.ProviderFactory;
 import com.nrzs.data.ddy.bean.YsjResultInfo;
 import com.nrzs.data.ddy.bean.respond.OrderDaileInfo;
-import p110z1.PopShowManager;
 
 /* renamed from: z1.ev */
 /* loaded from: classes3.dex */

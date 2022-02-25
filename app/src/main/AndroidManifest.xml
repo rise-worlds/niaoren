@@ -188,26 +188,25 @@
     <uses-permission android:name="com.android.permission.RECV.DOWNLOAD"/>
     <permission android:name="com.android.permission.RECV.DOWNLOAD"/>
     <application android:theme="@style/NRZS_App_Theme" android:label="鸟人助手" android:icon="@mipmap/a" android:name="com.angel.nrzs.App" android:allowBackup="false" android:supportsRtl="true" android:resizeableActivity="true" android:networkSecurityConfig="@xml/d" android:roundIcon="@mipmap/a" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
-        <activity android:name="com.angel.nrzs.p017ui.activity.MainActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
+        <activity android:name="com.angel.nrzs.app.activity.MainActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
             <intent-filter>
-                <action android:name="com.angel.nrzs.p017ui.activity.MainActivity"/>
                 <action android:name="com.angel.nrzs.app.MainActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.angel.nrzs.p017ui.activity.SplashActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
+        <activity android:name="com.angel.nrzs.app.activity.SplashActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.angel.nrzs.p017ui.activity.PurchasedAssistActivyt" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name="com.angel.nrzs.app.activity.PurchasedAssistActivyt" android:launchMode="singleTask" android:screenOrientation="portrait"/>
         <activity android:name="com.angel.nrzs.ddy.activity.GroupManagerActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
         <activity android:name="com.angel.nrzs.ddy.activity.MoveDdyActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
-        <activity android:name="com.angel.nrzs.p017ui.activity.FloaingSetActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
-        <activity android:name="com.angel.nrzs.p017ui.activity.RewardActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
-        <activity android:name="com.angel.nrzs.p017ui.activity.NRZSWebviewActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait">
+        <activity android:name="com.angel.nrzs.app.activity.FloaingSetActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name="com.angel.nrzs.app.activity.RewardActivity" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+        <activity android:name="com.angel.nrzs.app.activity.NRZSWebviewActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.angel.nrzs.app.NRZSWebviewActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -327,7 +326,7 @@
                 <action android:name="com.nrzs.p067ft.service.AssistService"/>
             </intent-filter>
         </service>
-        <service android:name="com.cyjh.p045mq.service.IpcService" android:process="com.angel.nrzs.p"/>
+        <service android:name="com.cyjh.mq.service.IpcService" android:process="com.angel.nrzs.p"/>
         <service android:label="@string/ml" android:name="com.ime.input.InputKb" android:permission="android.permission.BIND_INPUT_METHOD" android:process="com.angel.nrzs.p">
             <intent-filter>
                 <action android:name="android.view.InputMethod"/>

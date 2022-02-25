@@ -1,7 +1,7 @@
 package p110z1;
 
 import android.content.Context;
-import com.cyjh.p045mq.sdk.entity.Script4Run;
+import com.cyjh.mq.sdk.entity.Script4Run;
 import java.io.PrintStream;
 
 /* renamed from: z1.acd */

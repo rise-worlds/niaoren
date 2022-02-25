@@ -7,12 +7,11 @@ import android.net.Uri;
 import android.util.Log;
 import android.webkit.JavascriptInterface;
 import com.angel.nrzs.App;
-import com.angel.nrzs.p017ui.activity.MainActivity;
+import com.angel.nrzs.app.activity.MainActivity;
 import com.blankj.utilcode.util.LogUtils;
 import com.nrzs.data.base.GetSignRequest;
 import com.nrzs.moudlepay.AliPayManeger;
 import java.util.Random;
-import p110z1.BuysuccessEvent;
 
 /* renamed from: z1.fj */
 /* loaded from: classes3.dex */
