@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/g3"/>
+    <item android:id="@android:id/secondaryProgress" android:drawable="@drawable/g6"/>
+    <item android:id="@android:id/progress">
+        <bitmap android:src="@drawable/g3" android:tileModeX="repeat"/>
+    </item>
+</layer-list>

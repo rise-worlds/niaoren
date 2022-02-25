@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout style="@style/or">
+        <RelativeLayout style="@style/p6">
+            <ImageView android:id="@+id/pc" style="@style/a46"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/p3">
+            <TextView android:text="@string/hk" style="@style/a0y"/>
+            <ImageView style="@style/a0x"/>
+            <TextView android:text="@string/hj" style="@style/os"/>
+            <RelativeLayout android:id="@+id/t6" android:visibility="gone" style="@style/zj">
+                <ProgressBar android:id="@+id/ry" android:max="100" style="@style/zl"/>
+                <TextView android:id="@+id/ym" android:text="安装64位鸟人助手" style="@style/zk"/>
+            </RelativeLayout>
+            <TextView android:id="@+id/pm" android:text="@string/hh" style="@style/p5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

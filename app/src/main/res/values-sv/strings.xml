@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Visa startsidan</string>
+    <string name="b">Navigera uppåt</string>
+    <string name="c">Fler alternativ</string>
+    <string name="d">Klart</string>
+    <string name="e">Visa alla</string>
+    <string name="f">Välj en app</string>
+    <string name="g">AV</string>
+    <string name="h">PÅ</string>
+    <string name="u">Alt + </string>
+    <string name="v">Ctrl + </string>
+    <string name="w">delete</string>
+    <string name="x">retur</string>
+    <string name="y">Funktion + </string>
+    <string name="z">Meta + </string>
+    <string name="a0">Skift + </string>
+    <string name="a1">blanksteg</string>
+    <string name="a2">Symbol + </string>
+    <string name="a3">Meny + </string>
+    <string name="a4">Sök …</string>
+    <string name="a5">Ta bort frågan</string>
+    <string name="a6">Sökfråga</string>
+    <string name="a7">Sök</string>
+    <string name="a8">Skicka fråga</string>
+    <string name="a9">Röstsökning</string>
+    <string name="a_">Dela med</string>
+    <string name="aa">Dela med %s</string>
+    <string name="ab">Komprimera</string>
+    <string name="nq">Sök</string>
+    <string name="o4">999+</string>
+</resources>

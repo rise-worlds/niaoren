@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Przejdź do strony głównej</string>
+    <string name="b">Przejdź wyżej</string>
+    <string name="c">Więcej opcji</string>
+    <string name="d">Gotowe</string>
+    <string name="e">Zobacz wszystkie</string>
+    <string name="f">Wybierz aplikację</string>
+    <string name="g">WYŁ.</string>
+    <string name="h">WŁ.</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">Delete</string>
+    <string name="x">Enter</string>
+    <string name="y">Funkcyjny+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">spacja</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">Szukaj…</string>
+    <string name="a5">Wyczyść zapytanie</string>
+    <string name="a6">Wyszukiwane hasło</string>
+    <string name="a7">Szukaj</string>
+    <string name="a8">Wyślij zapytanie</string>
+    <string name="a9">Wyszukiwanie głosowe</string>
+    <string name="a_">Udostępnij dla</string>
+    <string name="aa">Udostępnij przez: %s</string>
+    <string name="ab">Zwiń</string>
+    <string name="nq">Szukaj</string>
+    <string name="o4">999+</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="64dp">
+    <ImageView android:id="@+id/l3" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="4dp" android:src="@drawable/nz" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@+id/l3">
+        <TextView android:textSize="14dp" android:id="@+id/l9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="12dp" android:text="Title"/>
+        <TextView android:textSize="12sp" android:id="@+id/l7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:text="Message"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="50dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TextView android:id="@+id/l8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="00:00" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        <ImageView android:id="@+id/l6" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="4dp" android:layout_marginBottom="5dp" android:src="@drawable/lc" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</RelativeLayout>

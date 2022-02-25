@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">હોમ પર નેવિગેટ કરો</string>
+    <string name="b">ઉપર નૅવિગેટ કરો</string>
+    <string name="c">વધુ વિકલ્પો</string>
+    <string name="d">થઈ ગયું</string>
+    <string name="e">બધું જુઓ</string>
+    <string name="f">એક ઍપ્લિકેશન પસંદ કરો</string>
+    <string name="g">બંધ</string>
+    <string name="h">ચાલુ</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">ડિલીટ કરો</string>
+    <string name="x">Enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">Spacebar</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">મેનૂ+</string>
+    <string name="a4">શોધો…</string>
+    <string name="a5">ક્વેરી સાફ કરો</string>
+    <string name="a6">શોધ ક્વેરી</string>
+    <string name="a7">શોધો</string>
+    <string name="a8">ક્વેરી સબમિટ કરો</string>
+    <string name="a9">વૉઇસ શોધ</string>
+    <string name="a_">આની સાથે શેર કરો</string>
+    <string name="aa">%sની સાથે શેર કરો</string>
+    <string name="ab">સંકુચિત કરો</string>
+    <string name="nq">શોધો</string>
+    <string name="o4">999+</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#40000000" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/e7" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="160dp">
+        <RelativeLayout android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/f7" android:id="@+id/s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Are you a fish ?"/>
+            <Button android:textColor="@color/f7" android:id="@+id/uj" android:background="@drawable/e8" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/mc" android:layout_below="@+id/s2" android:layout_centerHorizontal="true"/>
+            <LinearLayout android:id="@+id/ir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/s2" android:layout_centerHorizontal="true">
+                <Button android:textColor="@color/f7" android:id="@+id/rw" android:background="@drawable/e8" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="@string/mc"/>
+                <Button android:textColor="@color/f7" android:id="@+id/km" android:background="@drawable/e8" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/ma"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/is" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/s2" android:layout_centerHorizontal="true">
+                <Button android:textColor="@color/f7" android:id="@+id/a0x" android:background="@drawable/e8" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="@string/md"/>
+                <Button android:textColor="@color/f7" android:id="@+id/kt" android:background="@drawable/e8" android:layout_width="80dp" android:layout_height="wrap_content" android:text="@string/mb"/>
+                <Button android:textColor="@color/f7" android:id="@+id/ct" android:background="@drawable/e8" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/ma"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

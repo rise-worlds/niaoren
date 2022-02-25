@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <RelativeLayout style="@style/sm">
+        <ImageView style="@style/sp"/>
+        <LinearLayout style="@style/ut">
+            <EditText android:hint="@string/g2" style="@style/uu"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/br"/>
+    <TextView android:text="@string/f9" style="@style/tn"/>
+    <LinearLayout style="@style/td">
+        <TextView android:text="@string/ed" style="@style/te"/>
+        <TextView android:text="@string/e9" style="@style/te"/>
+        <TextView android:text="@string/e9" style="@style/te"/>
+    </LinearLayout>
+    <LinearLayout style="@style/td">
+        <TextView android:text="@string/e9" style="@style/te"/>
+        <TextView android:text="@string/e9" style="@style/te"/>
+        <TextView android:text="@string/e9" style="@style/te"/>
+    </LinearLayout>
+    <TextView android:text="@string/f8" style="@style/tn"/>
+    <LinearLayout style="@style/td">
+        <TextView android:text="@string/e9" style="@style/te"/>
+        <TextView android:text="@string/e9" style="@style/te"/>
+        <TextView android:text="@string/e9" style="@style/te"/>
+    </LinearLayout>
+</LinearLayout>

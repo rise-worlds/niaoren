@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">होम पेज पर जाएं</string>
+    <string name="b">ऊपर जाएं</string>
+    <string name="c">ज़्यादा विकल्प</string>
+    <string name="d">हो गया</string>
+    <string name="e">सभी देखें</string>
+    <string name="f">कोई एप्‍लिकेशन चुनें</string>
+    <string name="g">बंद</string>
+    <string name="h">चालू</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">space</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">खोजा जा रहा है…</string>
+    <string name="a5">क्‍वेरी साफ़ करें</string>
+    <string name="a6">सर्च क्वेरी</string>
+    <string name="a7">सर्च करें</string>
+    <string name="a8">क्वेरी सबमिट करें</string>
+    <string name="a9">आवाज़ सर्च</string>
+    <string name="a_">इसके साथ शेयर करें</string>
+    <string name="aa">%s के साथ शेयर करें</string>
+    <string name="ab">छोटा करें</string>
+    <string name="nq">सर्च</string>
+    <string name="o4">999+</string>
+</resources>

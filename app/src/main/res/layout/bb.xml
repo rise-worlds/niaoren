@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a5h">
+    <TextView android:text="@string/d7" style="@style/rh"/>
+</RelativeLayout>

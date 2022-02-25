@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/fa" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p006v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d" app:contentInsetStart="0dp" app:title="登录界面" app:titleTextColor="@android:color/white">
+        <RelativeLayout android:id="@+id/ph" style="@style/sm">
+            <ImageView android:id="@+id/p9" style="@style/sp"/>
+            <TextView android:text="@string/dy" style="@style/ss"/>
+            <ImageView android:id="@+id/pi" style="@style/sr"/>
+        </RelativeLayout>
+    </android.support.p006v7.widget.Toolbar>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.nrzs.moudleui.pinnedheader.PinnedHeaderRecyclerView android:id="@+id/pg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.nrzs.game.p069ui.view.PYSideBar android:id="@+id/pe" android:layout_width="36dp" android:layout_height="360dp" android:layout_alignParentRight="true" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

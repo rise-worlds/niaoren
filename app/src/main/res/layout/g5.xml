@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout style="@style/t9">
+        <ImageView android:id="@+id/i0" style="@style/t_"/>
+        <TextView android:id="@+id/wg" style="@style/tb"/>
+        <TextView android:id="@+id/wf" style="@style/ta"/>
+        <TextView android:id="@+id/yn" android:text="@string/fo" style="@style/tc"/>
+    </RelativeLayout>
+    <LinearLayout android:visibility="gone" style="@style/to">
+        <RelativeLayout android:id="@+id/cc" style="@style/ts">
+            <ImageView android:src="@drawable/im" style="@style/tr"/>
+            <LinearLayout style="@style/tw">
+                <TextView android:id="@+id/w1" android:text="购买该游戏辅助" style="@style/tu"/>
+                <TextView android:id="@+id/w0" android:text="@string/fn" style="@style/tz"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/cd" style="@style/tt">
+            <ImageView android:src="@drawable/in" style="@style/tr"/>
+            <ImageView style="@style/tv"/>
+            <LinearLayout style="@style/tw">
+                <TextView android:id="@+id/w3" android:text="@string/fj" style="@style/tu"/>
+                <TextView android:id="@+id/w2" android:text="@string/fk" style="@style/tz"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View style="@style/pw"/>
+    <ImageView android:id="@+id/hz" style="@style/t8"/>
+</LinearLayout>

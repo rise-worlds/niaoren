@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lihang.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/jv" android:layout_marginTop="@dimen/fs" app:hl_cornerRadius="@dimen/gg" app:hl_shadowColor="@color/ak" app:hl_shadowLimit="@dimen/dt" style="@style/q_">
+    <LinearLayout style="@style/q7">
+        <android.support.p006v7.widget.RecyclerView android:id="@+id/recycler_group_list" android:paddingBottom="@dimen/dc" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="100dp" android:minHeight="15dp"/>
+        <TextView android:id="@+id/manage_btn" android:text="@string/d0" style="@style/q9"/>
+    </LinearLayout>
+</com.lihang.ShadowLayout>

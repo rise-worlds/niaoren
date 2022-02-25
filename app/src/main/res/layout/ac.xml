@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/fa" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p006v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:id="@+id/xa" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d" app:contentInsetStart="0dp" app:title="登录界面" app:titleTextColor="@android:color/white">
+        <RelativeLayout android:id="@+id/fj" style="@style/sm">
+            <ImageView android:id="@+id/ap" style="@style/sp"/>
+            <TextView android:text="@string/gm" style="@style/ss"/>
+            <TextView android:id="@+id/fy" android:text="@string/gl" style="@style/sq"/>
+        </RelativeLayout>
+    </android.support.p006v7.widget.Toolbar>
+    <LinearLayout android:id="@+id/dz" style="@style/st">
+        <RelativeLayout android:id="@+id/d8" style="@style/sw">
+            <TextView android:id="@+id/kh" android:text="@string/es" style="@style/t0"/>
+            <ImageView android:id="@+id/gv" android:background="@drawable/li" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <LinearLayout android:id="@+id/s4" android:visibility="gone" style="@style/t4">
+            <TextView android:id="@+id/dy" android:text="充值问题" style="@style/t3"/>
+            <View style="@style/t2"/>
+            <TextView android:id="@+id/tl" android:text="脚本问题" style="@style/t3"/>
+            <View style="@style/t2"/>
+            <TextView android:id="@+id/sy" android:text="软件问题" style="@style/t3"/>
+            <View style="@style/t2"/>
+            <TextView android:id="@+id/a0y" android:text="意见建议" style="@style/t3"/>
+            <View style="@style/t2"/>
+            <TextView android:id="@+id/r4" android:text="其他" style="@style/t3"/>
+            <View style="@style/t2"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/d6" android:visibility="gone" style="@style/sw">
+            <TextView android:id="@+id/d7" android:text="@string/et" style="@style/t0"/>
+            <ImageView style="@style/sy"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/d9" android:visibility="gone" style="@style/sw">
+            <TextView android:id="@+id/tr" android:text="@string/eu" style="@style/t0"/>
+            <ImageView style="@style/sy"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/fi" style="@style/sw">
+            <EditText android:id="@+id/fc" android:hint="@string/er" android:maxLength="200" style="@style/t1"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/vb" android:background="@drawable/d_" android:text="@string/ep" style="@style/su"/>
+        <CheckBox android:id="@+id/k7" android:checked="false" android:text="@string/eq" style="@style/py"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/vc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/ve" android:text="@string/ew" style="@style/t6"/>
+        <TextView android:id="@+id/vd" android:visibility="gone" android:text="@string/ev" style="@style/t5"/>
+        <TextView android:id="@+id/v9" android:visibility="gone" android:text="@string/ex" style="@style/sv"/>
+    </LinearLayout>
+</LinearLayout>

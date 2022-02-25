@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/v7" android:layout_width="match_parent" android:layout_height="128dp">
+    <include android:layout_width="@dimen/j5" android:layout_height="@dimen/j4" layout="@layout/ei"/>
+    <include android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/ec"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/l5" android:paddingTop="@dimen/j6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j4" android:minHeight="@dimen/j4" android:layout_toLeftOf="@+id/cr" android:layout_marginStart="@dimen/j4" android:layout_toStartOf="@+id/cr">
+        <FrameLayout android:id="@+id/l4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j3" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_weight="1" android:layout_marginStart="@dimen/j3" android:layout_marginEnd="8dp"/>
+        <FrameLayout android:id="@+id/su" android:paddingTop="@dimen/jd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+            <DateTimeView android:textAppearance="@style/h7" android:layout_gravity="end|top" android:id="@+id/wn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <Chronometer android:textAppearance="@style/h7" android:layout_gravity="end|top" android:id="@+id/d_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textAppearance="@style/h2" android:layout_gravity="end|bottom" android:id="@+id/h0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:singleLine="true"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/k8" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_alignParentBottom="true" android:layoutDirection="ltr"/>
+    <ImageView android:id="@+id/x" android:background="?android:attr/dividerHorizontal" android:layout_width="match_parent" android:layout_height="1dp" android:layout_above="@+id/k8"/>
+</RelativeLayout>

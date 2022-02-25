@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <LinearLayout android:id="@+id/pr" style="@style/vg">
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/qa" android:hint="@string/ge" style="@style/vo"/>
+        </LinearLayout>
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/qb" android:hint="@string/gc" style="@style/vo"/>
+        </LinearLayout>
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/qc" android:hint="@string/gd" style="@style/vo"/>
+        </LinearLayout>
+        <TextView android:id="@+id/qe" android:text="@string/cp" style="@style/vk"/>
+    </LinearLayout>
+</LinearLayout>

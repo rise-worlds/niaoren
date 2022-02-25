@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="f4">r/k/f4.png</drawable>
+    <drawable name="f5">r/k/f5.png</drawable>
+    <drawable name="f6">r/k/f6.png</drawable>
+    <drawable name="f7">r/k/f7.png</drawable>
+    <drawable name="f8">r/k/f8.png</drawable>
+    <drawable name="f9">r/k/f9.png</drawable>
+    <drawable name="f_">r/k/f_.png</drawable>
+    <drawable name="fa">r/k/fa.png</drawable>
+    <drawable name="fb">r/k/fb.png</drawable>
+    <drawable name="fc">r/k/fc.png</drawable>
+    <drawable name="fd">r/k/fd.png</drawable>
+    <drawable name="fe">r/k/fe.png</drawable>
+    <drawable name="ff">r/k/ff.png</drawable>
+    <drawable name="fg">r/k/fg.png</drawable>
+    <drawable name="fh">r/k/fh.png</drawable>
+    <drawable name="fi">r/k/fi.png</drawable>
+    <drawable name="fj">r/k/fj.png</drawable>
+    <drawable name="fk">r/k/fk.png</drawable>
+    <drawable name="fl">r/k/fl.png</drawable>
+    <drawable name="fm">r/k/fm.png</drawable>
+    <drawable name="fn">r/k/fn.png</drawable>
+</resources>

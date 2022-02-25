@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lihang.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/jv" android:layout_marginTop="@dimen/g0" app:hl_cornerRadius="@dimen/gg" app:hl_shadowColor="@color/ak" app:hl_shadowLimit="@dimen/dt" style="@style/q_">
+    <LinearLayout style="@style/q7">
+        <TextView android:text="全部设备(20)" style="@style/q8"/>
+        <TextView android:text="默认分组(3)" style="@style/q8"/>
+        <TextView android:text="火影忍者(8)" style="@style/q8"/>
+        <TextView android:text="@string/d0" style="@style/q9"/>
+    </LinearLayout>
+</com.lihang.ShadowLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Siirry etusivulle</string>
+    <string name="b">Siirry ylös</string>
+    <string name="c">Lisää</string>
+    <string name="d">Valmis</string>
+    <string name="e">Näytä kaikki</string>
+    <string name="f">Valitse sovellus</string>
+    <string name="g">POIS KÄYTÖSTÄ</string>
+    <string name="h">KÄYTÖSSÄ</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Fn+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Vaihto+</string>
+    <string name="a1">välilyönti</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Valikko+</string>
+    <string name="a4">Haku…</string>
+    <string name="a5">Tyhjennä kysely</string>
+    <string name="a6">Hakulauseke</string>
+    <string name="a7">Haku</string>
+    <string name="a8">Lähetä kysely</string>
+    <string name="a9">Puhehaku</string>
+    <string name="a_">Jakaminen:</string>
+    <string name="aa">Jaa sovelluksessa %s</string>
+    <string name="ab">Kutista</string>
+    <string name="nq">Haku</string>
+    <string name="o4">999+</string>
+</resources>

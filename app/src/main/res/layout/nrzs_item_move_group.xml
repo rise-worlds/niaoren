@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.lihang.ShadowLayout android:id="@+id/jv" android:layout_marginLeft="@dimen/g5" android:layout_marginRight="@dimen/g5" android:layout_marginBottom="@dimen/e3" app:hl_cornerRadius="@dimen/fr" app:hl_shadowColor="#80e3e3e3" app:hl_shadowLimit="@dimen/f7" style="@style/a4l">
+        <LinearLayout style="@style/q3">
+            <CheckBox android:id="@+id/d4" android:checked="true" style="@style/q5"/>
+            <ImageView android:id="@+id/iy" android:src="@drawable/kd" style="@style/rf"/>
+            <LinearLayout style="@style/r9">
+                <TextView android:id="@+id/g6" android:layout_height="wrap_content" android:text="我的火影专机" style="@style/r_"/>
+                <TextView android:id="@+id/r2" android:text="编号:H1230249494" style="@style/rd"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="剩余:" style="@style/rd"/>
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/wn" android:layout_width="80dp" android:text="3244天32小时" style="@style/rc"/>
+        </LinearLayout>
+    </com.lihang.ShadowLayout>
+</LinearLayout>

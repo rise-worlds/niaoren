@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/qh">
+    <RelativeLayout style="@style/qj">
+        <ImageView style="@style/ql"/>
+        <TextView android:text="@string/d2" style="@style/qm"/>
+        <TextView android:text="@string/cw" style="@style/qk"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/qr">
+        <LinearLayout style="@style/qn">
+            <TextView android:text="默认分组(10)" style="@style/qq"/>
+        </LinearLayout>
+        <LinearLayout style="@style/qn">
+            <TextView android:text="三国志专用(30)" style="@style/qq"/>
+            <ImageView style="@style/qp"/>
+            <ImageView style="@style/qo"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView style="@style/qi"/>
+</LinearLayout>

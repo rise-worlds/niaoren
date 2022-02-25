@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">হোম এ নেভিগেট করুন</string>
+    <string name="b">উপরের দিকে নেভিগেট করুন</string>
+    <string name="c">আরও বিকল্প</string>
+    <string name="d">সম্পন্ন হয়েছে</string>
+    <string name="e">সবগুলো দেখুন</string>
+    <string name="f">একটি অ্যাপ্লিকেশান বেছে নিন</string>
+    <string name="g">বন্ধ</string>
+    <string name="h">চালু</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">মুছুন</string>
+    <string name="x">enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">স্পেস</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">মেনু+</string>
+    <string name="a4">অনুসন্ধান...</string>
+    <string name="a5">ক্যোয়ারী সাফ করুন</string>
+    <string name="a6">ক্যোয়ারী খুঁজুন</string>
+    <string name="a7">খুঁজুন</string>
+    <string name="a8">ক্যোয়ারী জমা দিন</string>
+    <string name="a9">ভয়েস অনুসন্ধান</string>
+    <string name="a_">এর সাথে শেয়ার করুন</string>
+    <string name="aa">%s এর সাথে শেয়ার করুন</string>
+    <string name="ab">সঙ্কুচিত করুন</string>
+    <string name="nq">খুঁজুন</string>
+    <string name="o4">৯৯৯+</string>
+</resources>

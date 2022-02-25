@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:layout_height="@dimen/e5" android:layout_marginTop="@dimen/db" style="@style/yv">
+        <RelativeLayout android:visibility="gone" android:layout_height="@dimen/g6" style="@style/z2">
+            <ImageView android:id="@+id/pp" style="@style/ox"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/yw">
+            <TextView android:text="@string/ik" style="@style/z3"/>
+            <TextView android:id="@+id/uk" android:text="@string/ij" style="@style/z0"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/t6" android:visibility="gone" style="@style/z1">
+            <ProgressBar android:id="@+id/ry" android:layout_width="match_parent" android:layout_height="@dimen/fm" android:progress="0" android:progressDrawable="@drawable/dr" style="?android:attr/progressBarStyleHorizontal"/>
+            <TextView android:id="@+id/ym" android:text="连接中" style="@style/a1j"/>
+        </RelativeLayout>
+        <LinearLayout android:id="@+id/v6" style="@style/z1">
+            <TextView android:id="@+id/kx" android:text="@string/ie" style="@style/yx"/>
+            <TextView android:id="@+id/ef" android:text="@string/ii" style="@style/yz"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

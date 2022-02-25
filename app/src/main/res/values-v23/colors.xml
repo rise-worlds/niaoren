@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c">r/g/c.xml</color>
+    <color name="d">r/g/d.xml</color>
+    <color name="fj">r/g/fj.xml</color>
+    <color name="r">r/g/r.xml</color>
+    <color name="s">r/g/s.xml</color>
+    <color name="t">r/g/t.xml</color>
+    <color name="u">r/g/u.xml</color>
+    <color name="v">r/g/v.xml</color>
+    <color name="w">r/g/w.xml</color>
+    <color name="bt">r/g/bt.xml</color>
+</resources>

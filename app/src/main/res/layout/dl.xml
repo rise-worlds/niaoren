@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a5h">
+    <LinearLayout android:layout_centerInParent="true" style="@style/nt">
+        <ImageView android:id="@+id/i6" style="@style/ny"/>
+        <TextView android:text="@string/ce" style="@style/nz"/>
+        <CheckBox android:id="@+id/cx" android:text="@string/cd" style="@style/nx"/>
+        <LinearLayout style="@style/nu">
+            <TextView android:id="@+id/zs" android:text="@string/cc" style="@style/nw"/>
+            <TextView android:id="@+id/zt" android:text="@string/cb" style="@style/nv"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

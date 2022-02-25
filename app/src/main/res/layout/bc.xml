@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/s_">
+    <TextView android:text="@string/h7" style="@style/sd"/>
+    <TextView android:text="@string/eb" style="@style/se"/>
+    <ImageView style="@style/sb"/>
+    <View style="@style/xd"/>
+    <TextView android:text="@string/fo" style="@style/sa"/>
+</LinearLayout>

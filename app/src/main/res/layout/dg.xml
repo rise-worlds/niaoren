@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:orientation="vertical" android:background="@color/fa" android:layout_width="300dp" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/a7" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新增悬浮窗功能。需要您在系统设置中手动开通系统权限。"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/a7" android:gravity="center" android:id="@+id/xu" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暂不开启" android:layout_weight="1"/>
+        <TextView android:textColor="@color/ao" android:gravity="center" android:id="@+id/xv" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="立即开启" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

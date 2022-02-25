@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.stripe.android.view.CountryAutoCompleteTextView android:id="@+id/dq" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <android.support.design.widget.TextInputLayout android:id="@+id/x3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/be">
+        <com.stripe.android.view.StripeEditText android:id="@+id/f5" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@+id/wz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/be">
+        <com.stripe.android.view.StripeEditText android:id="@+id/ey" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@+id/x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/be">
+        <com.stripe.android.view.StripeEditText android:id="@+id/ez" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@+id/x1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/be">
+        <com.stripe.android.view.StripeEditText android:id="@+id/f1" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@+id/x6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/be">
+        <com.stripe.android.view.StripeEditText android:id="@+id/f9" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@+id/x5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/be">
+        <com.stripe.android.view.StripeEditText android:id="@+id/f7" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@+id/x4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/be" android:hint="@string/az">
+        <com.stripe.android.view.StripeEditText android:id="@+id/f6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+</merge>

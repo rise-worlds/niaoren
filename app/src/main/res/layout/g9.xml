@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout style="@style/xk">
+        <RelativeLayout style="@style/p6">
+            <ImageView android:id="@+id/pc" style="@style/a46"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/p3">
+            <ImageView android:src="@drawable/n6" style="@style/p0"/>
+            <TextView android:text="@string/k_" style="@style/pr"/>
+            <TextView android:text="@string/k9" style="@style/pq"/>
+            <CheckBox android:id="@+id/p_" android:text="@string/k2" style="@style/xt"/>
+            <TextView android:id="@+id/pm" android:text="@string/k8" style="@style/p5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

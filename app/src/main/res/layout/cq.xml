@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/gq" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" style="@style/a4o">
+            <ImageView android:id="@+id/bf" style="@style/a4n"/>
+            <ImageView android:id="@+id/bq" style="@style/a4n"/>
+            <ImageView android:id="@+id/c1" style="@style/a4n"/>
+            <ImageView android:id="@+id/c5" style="@style/a4n"/>
+            <ImageView android:id="@+id/c6" style="@style/a4n"/>
+            <ImageView android:id="@+id/c7" style="@style/a4n"/>
+            <ImageView android:id="@+id/c8" style="@style/a4n"/>
+            <ImageView android:id="@+id/c9" style="@style/a4n"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" style="@style/a4o">
+            <ImageView android:id="@+id/c_" style="@style/a4n"/>
+            <ImageView android:id="@+id/bg" style="@style/a4n"/>
+            <ImageView android:id="@+id/bh" style="@style/a4n"/>
+            <ImageView android:id="@+id/bi" style="@style/a4n"/>
+            <ImageView android:id="@+id/bj" style="@style/a4n"/>
+            <ImageView android:id="@+id/bk" style="@style/a4n"/>
+            <ImageView android:id="@+id/bl" style="@style/a4n"/>
+            <ImageView android:id="@+id/bm" style="@style/a4n"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" style="@style/a4o">
+            <ImageView android:id="@+id/bn" style="@style/a4n"/>
+            <ImageView android:id="@+id/bo" style="@style/a4n"/>
+            <ImageView android:id="@+id/bp" style="@style/a4n"/>
+            <ImageView android:id="@+id/br" style="@style/a4n"/>
+            <ImageView android:id="@+id/bs" style="@style/a4n"/>
+            <ImageView android:id="@+id/bt" style="@style/a4n"/>
+            <ImageView android:id="@+id/bu" style="@style/a4n"/>
+            <ImageView android:id="@+id/bv" style="@style/a4n"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" style="@style/a4o">
+            <ImageView android:id="@+id/bw" style="@style/a4n"/>
+            <ImageView android:id="@+id/bx" style="@style/a4n"/>
+            <ImageView android:id="@+id/by" style="@style/a4n"/>
+            <ImageView android:id="@+id/bz" style="@style/a4n"/>
+            <ImageView android:id="@+id/c0" style="@style/a4n"/>
+            <ImageView android:id="@+id/c2" style="@style/a4n"/>
+            <ImageView android:id="@+id/c3" style="@style/a4n"/>
+            <ImageView android:id="@+id/c4" style="@style/a4n"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

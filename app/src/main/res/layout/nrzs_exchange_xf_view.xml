@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/dz" android:visibility="visible" style="@style/ya">
+        <RelativeLayout style="@style/p6">
+            <ImageView android:id="@+id/dd" style="@style/a46"/>
+            <TextView android:text="@string/cm" style="@style/ye"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/yc">
+            <android.support.p006v7.widget.RecyclerView android:id="@+id/recycler_group_list" android:paddingBottom="@dimen/dc" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dc" android:layout_marginTop="@dimen/dc" android:layout_marginRight="@dimen/dc" android:minHeight="15dp"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/manage_btn" android:text="@string/ci" style="@style/yd"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ssuccess_lay" android:visibility="gone" style="@style/a1n">
+        <RelativeLayout style="@style/ym">
+            <TextView android:text="@string/cm" style="@style/pp"/>
+            <ImageView style="@style/ox"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/a1o">
+            <TextView android:text="@string/kp" style="@style/a1p"/>
+            <RelativeLayout style="@style/a0t">
+                <TextView android:id="@+id/ssuccess_typename" android:text="@string/i4" style="@style/yq"/>
+                <TextView android:id="@+id/success_time" android:text="@string/e1" style="@style/yp"/>
+            </RelativeLayout>
+            <View style="@style/a1q"/>
+            <RelativeLayout style="@style/a0t"/>
+            <TextView android:id="@+id/success_ok" android:text="@string/ci" style="@style/pb"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

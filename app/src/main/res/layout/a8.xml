@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/bu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp">
+    <LinearLayout android:layout_width="330dp" style="@style/a06">
+        <RelativeLayout style="@style/p6">
+            <TextView android:id="@+id/b7" android:text="当前账号VIP运行开数上限：0" style="@style/a0q"/>
+            <TextView android:id="@+id/y7" android:text="已运行设备数:0" android:layout_toRightOf="@+id/b7" style="@style/a0r"/>
+            <TextView android:id="@+id/b5" android:visibility="gone" android:text="@string/jj" style="@style/a0s"/>
+            <ImageView android:id="@+id/ob" style="@style/a46"/>
+            <ImageView android:id="@+id/g0" android:layout_toLeftOf="@+id/ob" style="@style/a0j"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/a0k">
+            <TextView android:textColor="@color/fa" android:id="@+id/zb" android:background="@drawable/dl" android:clickable="true" android:layout_width="100dp" android:text="VIP设备（0）" style="@style/a0n"/>
+            <LinearLayout android:id="@+id/j9" android:background="@drawable/dm" android:layout_width="100dp" style="@style/a0o">
+                <TextView android:id="@+id/y2" android:text="金币设备（0）" style="@style/a0l"/>
+                <TextView android:id="@+id/y3" android:text="@string/jh" style="@style/a0m"/>
+            </LinearLayout>
+            <TextView android:id="@+id/aj" android:visibility="visible" android:text="@string/hx" style="@style/a07"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/l1" android:visibility="gone" style="@style/a08">
+            <TextView android:text="暂无挂机中设备" style="@style/a0i"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dz" android:visibility="visible" style="@style/a08">
+            <LinearLayout style="@style/a00">
+                <TextView android:text="运行机型" style="@style/a0f"/>
+                <TextView android:layout_width="@dimen/gr" android:text="运行时间" style="@style/a0e"/>
+                <TextView android:layout_width="@dimen/g_" android:text="@string/j2" style="@style/a0c"/>
+                <TextView style="@style/a0c"/>
+            </LinearLayout>
+            <android.support.p006v7.widget.RecyclerView android:id="@+id/te" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@+id/yx" android:visibility="invisible" android:text="@string/je" style="@style/a0p"/>
+</LinearLayout>

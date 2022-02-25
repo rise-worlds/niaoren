@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ගෙදරට සංචාලනය කරන්න</string>
+    <string name="b">ඉහලට සංචාලනය කරන්න</string>
+    <string name="c">තවත් විකල්ප</string>
+    <string name="d">අවසාන වූ</string>
+    <string name="e">සියල්ල බලන්න</string>
+    <string name="f">යෙදුමක් තෝරන්න</string>
+    <string name="g">ක්‍රියාවිරහිතයි</string>
+    <string name="h">ක්‍රියාත්මකයි</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">මකන්න</string>
+    <string name="x">enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">space</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">සොයන්න...</string>
+    <string name="a5">විමසුම හිස් කරන්න</string>
+    <string name="a6">සෙවුම් විමසුම</string>
+    <string name="a7">සෙවීම</string>
+    <string name="a8">විමසුම යොමු කරන්න</string>
+    <string name="a9">හඬ සෙවීම</string>
+    <string name="a_">සමඟ බෙදාගන්න</string>
+    <string name="aa">%s සමඟ බෙදා ගන්න</string>
+    <string name="ab">හකුළන්න</string>
+    <string name="nq">සොයන්න</string>
+    <string name="o4">999+</string>
+</resources>

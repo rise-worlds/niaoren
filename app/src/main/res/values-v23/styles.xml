@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ai" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="as" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="b2" parent="@style/a5k">
+    </style>
+    <style name="b9" parent="@style/a5l">
+    </style>
+    <style name="a5k" parent="@style/a5i">
+        <item name="b">?android:attr/actionBarItemBackground</item>
+        <item name="o">?android:attr/actionMenuTextAppearance</item>
+        <item name="p">?android:attr/actionMenuTextColor</item>
+        <item name="i0">@drawable/f1</item>
+        <item name="po">?android:attr/ratingBarStyleIndicator</item>
+        <item name="pp">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="a5l" parent="@style/a5j">
+        <item name="b">?android:attr/actionBarItemBackground</item>
+        <item name="o">?android:attr/actionMenuTextAppearance</item>
+        <item name="p">?android:attr/actionMenuTextColor</item>
+        <item name="i0">@drawable/f1</item>
+        <item name="po">?android:attr/ratingBarStyleIndicator</item>
+        <item name="pp">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="d3" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="d5" parent="@android:style/Widget.Material.Button.Colored">
+    </style>
+    <style name="dz" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="e0" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="e6" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="ed" parent="@style/o">
+        <item name="fi">?android:attr/colorBackgroundFloating</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a7" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/ai" style="@style/r7">
+        <ImageView android:id="@+id/iy" android:src="@drawable/kb" style="@style/rf"/>
+        <LinearLayout style="@style/r9">
+            <TextView android:ellipsize="end" android:id="@+id/g6" android:text="我的火影专机" android:maxEms="5" android:singleLine="true" style="@style/ra"/>
+            <TextView android:id="@+id/r2" android:text="编号:H1230249494" style="@style/rb"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

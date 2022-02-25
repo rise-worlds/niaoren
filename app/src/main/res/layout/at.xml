@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/on">
+    <LinearLayout android:orientation="vertical" style="@style/a5h">
+        <LinearLayout style="@style/xv">
+            <TextView android:text="@string/dp" style="@style/y1"/>
+            <TextView android:text="@string/do" style="@style/y0"/>
+            <LinearLayout style="@style/xz">
+                <TextView android:text="@string/di" style="@style/xw"/>
+                <TextView android:text="@string/ds" style="@style/xx"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_marginTop="@dimen/dc" style="@style/xv">
+            <TextView android:text="@string/dr" style="@style/y1"/>
+            <TextView android:text="@string/dq" style="@style/y0"/>
+            <LinearLayout style="@style/xz">
+                <TextView android:text="@string/di" style="@style/xw"/>
+                <TextView android:text="@string/ds" style="@style/xx"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_marginTop="@dimen/dc" style="@style/xv">
+            <TextView android:text="@string/dj" style="@style/y1"/>
+            <EditText android:hint="@string/dk" style="@style/xy"/>
+            <LinearLayout style="@style/xz">
+                <TextView android:text="@string/di" style="@style/xw"/>
+                <TextView android:text="@string/ds" style="@style/xx"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_marginTop="@dimen/dc" style="@style/xv">
+            <TextView android:text="@string/dn" style="@style/y1"/>
+            <EditText android:hint="@string/dk" style="@style/xy"/>
+            <LinearLayout style="@style/xz">
+                <TextView android:text="@string/di" style="@style/xw"/>
+                <TextView android:text="@string/ds" style="@style/xx"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_marginTop="@dimen/dc" style="@style/xv">
+            <TextView android:text="@string/dl" style="@style/y1"/>
+            <TextView android:text="@string/dm" style="@style/y0"/>
+            <LinearLayout style="@style/xz">
+                <TextView android:text="@string/di" style="@style/xw"/>
+                <TextView android:text="@string/ds" style="@style/xx"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

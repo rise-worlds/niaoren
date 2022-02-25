@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <LinearLayout android:id="@+id/pr" style="@style/vg">
+        <TextView android:text="@string/g3" style="@style/ve"/>
+        <TextView android:id="@+id/qd" android:text="@string/g4" style="@style/vf"/>
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/qf" android:hint="请输入验证码" style="@style/vn"/>
+            <TextView android:id="@+id/q_" android:visibility="gone" android:text="@string/g5" style="@style/vh"/>
+            <TextView android:id="@+id/q9" android:text="@string/g6" style="@style/vi"/>
+        </LinearLayout>
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/qb" android:hint="@string/gc" style="@style/vo"/>
+        </LinearLayout>
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/qc" android:hint="@string/gd" style="@style/vo"/>
+        </LinearLayout>
+        <TextView android:id="@+id/qs" android:visibility="gone" android:text="@string/g_" style="@style/vp"/>
+        <TextView android:id="@+id/qe" android:text="@string/cp" style="@style/vk"/>
+    </LinearLayout>
+</LinearLayout>

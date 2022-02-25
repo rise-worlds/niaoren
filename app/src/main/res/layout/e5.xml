@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/hm" android:paddingRight="@dimen/hk" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/hm" android:paddingEnd="@dimen/hk">
+    <com.stripe.android.view.MaskedCardView android:id="@+id/k2" android:layout_width="match_parent" android:layout_height="@dimen/hl"/>
+</FrameLayout>

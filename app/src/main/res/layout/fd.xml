@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/on">
+    <LinearLayout style="@style/u_">
+        <RelativeLayout style="@style/uc">
+            <TextView android:text="@string/fv" style="@style/ue"/>
+            <ImageView android:id="@+id/ob" style="@style/ua"/>
+        </RelativeLayout>
+        <TextView android:text="@string/fu" style="@style/ud"/>
+        <TextView android:text="@string/fq" style="@style/uf"/>
+        <TextView android:text="@string/fr" style="@style/uf"/>
+        <LinearLayout style="@style/ub">
+            <TextView android:id="@+id/kf" android:text="@string/fs" style="@style/ou"/>
+            <TextView android:id="@+id/oz" android:text="@string/ft" style="@style/ov"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

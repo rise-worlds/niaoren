@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <RelativeLayout style="@style/sm">
+        <ImageView style="@style/sp"/>
+        <TextView android:text="@string/e0" style="@style/ss"/>
+    </RelativeLayout>
+    <TextView android:text="@string/f6" style="@style/tn"/>
+    <include layout="@layout/bt"/>
+    <TextView android:text="@string/f6" style="@style/tn"/>
+    <include layout="@layout/bt"/>
+</LinearLayout>

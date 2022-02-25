@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a1u">
+    <ImageView android:src="@drawable/n7" style="@style/a5g"/>
+    <LinearLayout style="@style/a1x">
+        <TextView android:text="@string/l5" style="@style/a1y"/>
+        <TextView android:text="@string/ku" style="@style/a1v"/>
+    </LinearLayout>
+    <TextView android:text="@string/kw" style="@style/a1w"/>
+</LinearLayout>

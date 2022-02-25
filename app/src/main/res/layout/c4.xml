@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <LinearLayout style="@style/xc">
+        <ImageView android:src="@drawable/nv" style="@style/a5g"/>
+        <TextView android:text="@string/fb" style="@style/a3b"/>
+    </LinearLayout>
+</LinearLayout>

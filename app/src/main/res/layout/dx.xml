@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/se" style="@style/a25">
+    <TextView android:id="@+id/sd" android:text="2020年1月15日" style="@style/a2b"/>
+    <TextView android:id="@+id/sg" android:layout_marginLeft="@dimen/dp" android:layout_marginRight="@dimen/dp" android:text="15:16:56" style="@style/a2b"/>
+    <TextView android:text="收到" style="@style/a2b"/>
+    <TextView android:id="@+id/sh" android:layout_marginRight="@dimen/fz" android:text="锅的锅的锅锅" style="@style/a2d"/>
+    <TextView android:id="@+id/sf" android:text="5" style="@style/a2c"/>
+    <TextView android:text="元" style="@style/a2b"/>
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/on">
+    <LinearLayout android:orientation="vertical" style="@style/a4l">
+        <LinearLayout style="@style/xk">
+            <RelativeLayout style="@style/p6">
+                <ImageView style="@style/a46"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/p3">
+                <ImageView android:src="@drawable/n6" style="@style/p0"/>
+                <TextView android:text="@string/jn" style="@style/pr"/>
+                <TextView android:text="@string/jm" style="@style/pq"/>
+                <CheckBox android:text="@string/k2" style="@style/xt"/>
+                <LinearLayout style="@style/ow">
+                    <TextView android:text="@string/hn" style="@style/ou"/>
+                    <TextView android:text="@string/hs" style="@style/ov"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:visibility="gone" style="@style/xk">
+            <RelativeLayout style="@style/p6">
+                <ImageView style="@style/a46"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/p3">
+                <TextView android:text="@string/en" style="@style/pq"/>
+                <TextView android:text="@string/ks" style="@style/p5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/zd">
+            <RelativeLayout style="@style/p6">
+                <TextView android:text="@string/im" style="@style/p8"/>
+                <ImageView style="@style/a46"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/p3">
+                <ImageView android:src="@drawable/mj" style="@style/ps"/>
+                <TextView android:text="@string/io" style="@style/pt"/>
+                <TextView android:text="@string/in" style="@style/p5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:visibility="gone" style="@style/zd">
+            <RelativeLayout style="@style/p6">
+                <TextView android:text="@string/ip" style="@style/p8"/>
+                <ImageView style="@style/a46"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/p3">
+                <ImageView android:src="@drawable/n3" style="@style/ps"/>
+                <TextView android:text="@string/iu" style="@style/zf"/>
+                <TextView android:text="@string/it" style="@style/ze"/>
+                <LinearLayout style="@style/ow">
+                    <TextView android:text="@string/iq" style="@style/ov"/>
+                    <TextView android:text="@string/ir" style="@style/ou"/>
+                </LinearLayout>
+                <CheckBox android:layout_marginTop="@dimen/db" android:text="@string/is" style="@style/xt"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/a06">
+            <RelativeLayout style="@style/p6">
+                <TextView android:id="@+id/b7" android:text="@string/jk" style="@style/a0q"/>
+                <TextView android:text="@string/jl" android:layout_toRightOf="@+id/b7" style="@style/a0r"/>
+                <TextView android:visibility="gone" android:text="@string/jj" style="@style/a0s"/>
+                <ImageView android:id="@+id/b6" style="@style/a46"/>
+                <ImageView android:layout_toLeftOf="@+id/b6" style="@style/a0j"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/a0k">
+                <TextView android:clickable="true" android:text="@string/ji" style="@style/a0n"/>
+                <LinearLayout android:clickable="true" style="@style/a0o">
+                    <TextView android:text="@string/jg" style="@style/a0l"/>
+                    <TextView android:text="@string/jh" style="@style/a0m"/>
+                </LinearLayout>
+                <TextView android:text="@string/hx" style="@style/a07"/>
+            </LinearLayout>
+            <LinearLayout android:visibility="gone" style="@style/a08">
+                <TextView android:text="@string/jf" style="@style/a0i"/>
+            </LinearLayout>
+            <LinearLayout android:visibility="visible" style="@style/a08">
+                <LinearLayout style="@style/a00">
+                    <TextView android:text="@string/j4" style="@style/a0f"/>
+                    <TextView android:text="@string/j3" style="@style/a0e"/>
+                    <TextView android:text="@string/j2" style="@style/a0c"/>
+                    <TextView style="@style/a0c"/>
+                </LinearLayout>
+                <LinearLayout style="@style/a09">
+                    <TextView android:text="@string/e4" style="@style/a0g"/>
+                    <TextView android:text="@string/e2" style="@style/a0e"/>
+                    <TextView android:text="无" style="@style/a0d"/>
+                    <LinearLayout style="@style/a0_">
+                        <TextView android:text="@string/jc" style="@style/a0a"/>
+                        <TextView android:text="@string/jd" style="@style/a0b"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout style="@style/a09">
+                    <TextView android:text="iphone  X" style="@style/a0g"/>
+                    <TextView android:text="@string/e2" style="@style/a0e"/>
+                    <TextView android:text="大号日常大号日常" style="@style/a0d"/>
+                    <LinearLayout style="@style/a0_">
+                        <TextView android:text="@string/jc" style="@style/a0a"/>
+                        <TextView android:text="@string/jd" style="@style/a0b"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout style="@style/a09">
+                    <TextView android:text="iphone  X" style="@style/a0g"/>
+                    <TextView android:text="@string/e2" style="@style/a0e"/>
+                    <TextView android:text="大号日常大号日常" style="@style/a0d"/>
+                    <LinearLayout style="@style/a0_">
+                        <TextView android:text="@string/jc" style="@style/a0a"/>
+                        <TextView android:text="@string/jd" style="@style/a0b"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:text="@string/je" style="@style/a0p"/>
+        </LinearLayout>
+        <LinearLayout style="@style/y3">
+            <RelativeLayout style="@style/p6">
+                <TextView android:text="@string/hz" style="@style/p8"/>
+                <ImageView style="@style/a46"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/y7">
+                <LinearLayout style="@style/y8">
+                    <TextView android:text="@string/i0" style="@style/y9"/>
+                    <TextView android:text="@string/e5" style="@style/y_"/>
+                </LinearLayout>
+                <LinearLayout style="@style/y8">
+                    <TextView android:text="@string/i3" style="@style/y9"/>
+                    <TextView android:text="@string/e8" style="@style/y_"/>
+                </LinearLayout>
+                <LinearLayout style="@style/y8">
+                    <TextView android:text="@string/i2" style="@style/y9"/>
+                    <TextView android:text="@string/e6" style="@style/y_"/>
+                </LinearLayout>
+                <LinearLayout style="@style/y8">
+                    <TextView android:text="@string/i1" style="@style/y9"/>
+                    <TextView android:text="@string/e7" style="@style/y_"/>
+                </LinearLayout>
+                <LinearLayout style="@style/ow">
+                    <TextView android:text="@string/hy" style="@style/ou"/>
+                    <TextView android:text="@string/hw" style="@style/ov"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/y3">
+            <RelativeLayout style="@style/p6">
+                <TextView android:text="@string/hu" style="@style/p8"/>
+                <ImageView style="@style/a46"/>
+            </RelativeLayout>
+            <EditText android:hint="最多6个字符" style="@style/y5"/>
+            <TextView android:text="@string/hv" style="@style/y4"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

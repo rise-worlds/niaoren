@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ma">취소</string>
+    <string name="mb">아니오</string>
+    <string name="mc">확인</string>
+    <string name="md">예</string>
+    <string name="ml">입력기</string>
+    <string name="o9">임시 루트권한 획득 실패</string>
+    <string name="o_">임시 루트권한 획득 성공</string>
+    <string name="oa">스크립트가 비정상적으로 종료되었습니다.</string>
+    <string name="ob">권한이 없습니다.</string>
+    <string name="oc">%s 루트권한이 필요합니다.</string>
+    <string name="od">실행 시작</string>
+    <string name="oe">실행 중지</string>
+    <string name="of">실행 이상(%d)</string>
+    <string name="og">다른 스크립트가 이미 실행중입니다.</string>
+    <string name="oh">스크립트 환경 초기화 실패</string>
+    <string name="oi">스크립트 환경 초기화 중</string>
+    <string name="oz">유효하지 않은 색상값입니다.</string>
+    <string name="p0">종료</string>
+    <string name="p1">ID 가 % s 인 부유 창 을 찾 을 수 없습니다</string>
+    <string name="p2">ID가 “%s” 인 인터페이스를 찾지 못했습니다.</string>
+    <string name="p3">ID가 “%s” 인 위젯을 찾지 못했습니다.</string>
+    <string name="p4">계속</string>
+</resources>

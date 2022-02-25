@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:fitsSystemWindows="true" style="@style/pv">
+    <LinearLayout android:orientation="vertical" android:id="@+id/je" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout style="@style/sm">
+            <ImageView android:id="@+id/ca" style="@style/sp"/>
+            <TextView android:id="@+id/we" style="@style/ss"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/a3d">
+            <ImageView android:id="@+id/ht" android:src="@drawable/ii" style="@style/a37"/>
+            <LinearLayout style="@style/a38">
+                <TextView android:id="@+id/wb" android:text="@string/e9" style="@style/a3a"/>
+                <TextView android:id="@+id/yp" android:text="@string/e_" style="@style/a35"/>
+                <LinearLayout style="@style/a3g">
+                    <TextView android:id="@+id/xm" android:text="@string/lj" android:layout_weight="1" style="@style/a3k"/>
+                    <TextView android:id="@+id/w_" android:text="@string/li" android:layout_weight="1" style="@style/a3k"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@+id/yn" android:text="@string/fo" style="@style/a3e"/>
+        </RelativeLayout>
+        <LinearLayout android:visibility="gone" style="@style/to">
+            <LinearLayout android:id="@+id/cd" style="@style/tq">
+                <TextView android:text="@string/fj" style="@style/tu"/>
+                <TextView android:id="@+id/w2" android:text="@string/fn" style="@style/tz"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/pw"/>
+        <ScrollView style="@style/a2v">
+            <LinearLayout android:orientation="vertical" style="@style/a5h">
+                <TextView android:text="@string/le" style="@style/a2y"/>
+                <TextView android:id="@+id/w8" android:text="@string/ed" style="@style/a2x"/>
+                <RelativeLayout style="@style/a4l">
+                    <TextView android:text="@string/lq" style="@style/a2y"/>
+                    <TextView android:id="@+id/wa" android:text="@string/lh" style="@style/a3l"/>
+                    <TextView android:id="@+id/z0" android:text="@string/ld" style="@style/a2u"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/yz" android:text="@string/lr" style="@style/a2x"/>
+            </LinearLayout>
+        </ScrollView>
+        <TextView android:id="@+id/cg" android:text="@string/fe" style="@style/a2w"/>
+    </LinearLayout>
+</LinearLayout>

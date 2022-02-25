@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Navigeerimine avaekraanile</string>
+    <string name="b">Navigeerimine üles</string>
+    <string name="c">Rohkem valikuid</string>
+    <string name="d">Valmis</string>
+    <string name="e">Kuva kõik</string>
+    <string name="f">Valige rakendus</string>
+    <string name="g">VÄLJAS</string>
+    <string name="h">SEES</string>
+    <string name="u">Alt +</string>
+    <string name="v">Ctrl +</string>
+    <string name="w">kustutamisklahv</string>
+    <string name="x">sisestusklahv</string>
+    <string name="y">Funktsiooniklahv +</string>
+    <string name="z">Meta +</string>
+    <string name="a0">Tõstuklahv +</string>
+    <string name="a1">tühik</string>
+    <string name="a2">Sym +</string>
+    <string name="a3">Menüü +</string>
+    <string name="a4">Otsige …</string>
+    <string name="a5">Päringu tühistamine</string>
+    <string name="a6">Otsingupäring</string>
+    <string name="a7">Otsing</string>
+    <string name="a8">Päringu esitamine</string>
+    <string name="a9">Häälotsing</string>
+    <string name="a_">Jagamine:</string>
+    <string name="aa">Jagamine rakendusega %s</string>
+    <string name="ab">Ahendamine</string>
+    <string name="nq">Otsing</string>
+    <string name="o4">999+</string>
+</resources>

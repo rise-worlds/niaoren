@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="i1" parent="@style/hz">
+    </style>
+    <style name="i2" parent="@style/hz">
+    </style>
+    <style name="i3" parent="@style/i8">
+    </style>
+    <style name="i4" parent="@style/i9">
+    </style>
+    <style name="i5" parent="@style/i_">
+    </style>
+    <style name="i6" parent="@style/ia">
+    </style>
+    <style name="i7" parent="@style/ii">
+    </style>
+</resources>

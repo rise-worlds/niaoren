@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:fitsSystemWindows="true" style="@style/pv">
+    <RelativeLayout style="@style/sm">
+        <ImageView android:id="@+id/ca" style="@style/sp"/>
+        <LinearLayout style="@style/ut">
+            <EditText android:id="@+id/f8" android:hint="@string/n6" android:maxLines="1" style="@style/uu"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/jf" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p006v7.widget.RecyclerView android:id="@+id/s_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/jg" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:id="@+id/u2" style="@style/a1u">
+                <ImageView android:id="@+id/u3" android:src="@drawable/n7" style="@style/a5g"/>
+                <LinearLayout style="@style/a1x">
+                    <TextView android:id="@+id/ts" android:text="@string/l5" style="@style/a1y"/>
+                    <TextView android:id="@+id/tt" android:text="@string/ku" style="@style/a1v"/>
+                </LinearLayout>
+                <TextView android:id="@+id/eq" android:text="@string/kw" style="@style/a1w"/>
+            </LinearLayout>
+            <TextView android:text="@string/f9" style="@style/tn"/>
+            <com.nrzs.game.p069ui.view.NRZSGridView android:id="@+id/gc" android:background="#fff" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="3"/>
+            <TextView android:text="@string/f8" style="@style/tn"/>
+            <com.nrzs.game.p069ui.view.NRZSGridView android:id="@+id/ge" android:background="#fff" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="3"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/jh" android:visibility="gone" style="@style/xc">
+            <ImageView android:src="@drawable/nu" style="@style/a5g"/>
+            <TextView android:text="@string/fa" style="@style/a3b"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

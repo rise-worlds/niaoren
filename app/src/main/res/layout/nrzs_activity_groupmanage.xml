@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/as" style="@style/qh">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/f8" style="@style/qh">
+        <RelativeLayout android:background="@color/as" style="@style/sm">
+            <ImageView android:id="@+id/ap" style="@style/sp"/>
+            <TextView android:id="@+id/we" android:text="@string/d0" style="@style/ss"/>
+            <TextView android:id="@+id/move_btn" android:text="@string/d2" style="@style/sq"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/qr">
+            <android.support.p006v7.widget.RecyclerView android:id="@+id/recycler_group_list" android:paddingBottom="@dimen/dc" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="15dp"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/create_group_btn" style="@style/qi"/>
+    </LinearLayout>
+</LinearLayout>

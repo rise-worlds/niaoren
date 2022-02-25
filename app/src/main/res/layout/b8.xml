@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/qh">
+    <RelativeLayout style="@style/qj">
+        <ImageView style="@style/ql"/>
+        <TextView android:text="@string/d2" style="@style/qm"/>
+        <TextView android:text="默认分组(3)" style="@style/q2"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/qr">
+        <CheckBox android:text="@string/cz" style="@style/q6"/>
+        <include layout="@layout/bm"/>
+        <include layout="@layout/bm"/>
+        <include layout="@layout/bm"/>
+    </LinearLayout>
+    <ImageView style="@style/q1"/>
+</LinearLayout>

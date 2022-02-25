@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a5h">
+    <LinearLayout style="@style/p9">
+        <RelativeLayout style="@style/pa">
+            <ImageView android:id="@+id/btn_close" style="@style/ox"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/p_">
+            <LinearLayout style="@style/oy">
+                <TextView android:id="@+id/text_version" android:text="@string/ch" style="@style/oz"/>
+                <TextView android:id="@+id/text_app_size" android:text="@string/cg" style="@style/oz"/>
+            </LinearLayout>
+            <LinearLayout style="@style/zi">
+                <TextView android:text="@string/kn" style="@style/a1l"/>
+                <android.support.p006v7.widget.RecyclerView android:id="@+id/recycler_update_content_list" android:paddingBottom="@dimen/dc" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="122dp" android:minHeight="15dp"/>
+            </LinearLayout>
+            <TextView android:id="@+id/tv_error_show" android:text="" style="@style/a1m"/>
+            <TextView android:id="@+id/btn_update_immediately" android:text="@string/ki" style="@style/p5"/>
+            <RelativeLayout android:id="@+id/t6" android:visibility="gone" style="@style/a1i">
+                <ProgressBar android:id="@+id/pb_progressbar" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="0" android:secondaryProgress="150" android:progressDrawable="@drawable/dr" style="?android:attr/progressBarStyleHorizontal"/>
+                <TextView android:id="@+id/ym" android:text="连接中" style="@style/a1j"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

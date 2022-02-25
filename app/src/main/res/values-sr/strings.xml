@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Одлазак на Почетну</string>
+    <string name="b">Кретање нагоре</string>
+    <string name="c">Још опција</string>
+    <string name="d">Готово</string>
+    <string name="e">Прикажи све</string>
+    <string name="f">Избор апликације</string>
+    <string name="g">ИСКЉУЧИ</string>
+    <string name="h">УКЉУЧИ</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">тастер за размак</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">Претражите...</string>
+    <string name="a5">Брисање упита</string>
+    <string name="a6">Упит за претрагу</string>
+    <string name="a7">Претрага</string>
+    <string name="a8">Слање упита</string>
+    <string name="a9">Гласовна претрага</string>
+    <string name="a_">Дели са</string>
+    <string name="aa">Дељење са апликацијом %s</string>
+    <string name="ab">Скупи</string>
+    <string name="nq">Претражи</string>
+    <string name="o4">999+</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lihang.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/jv" android:layout_marginLeft="@dimen/g5" android:layout_marginRight="@dimen/g5" android:layout_marginBottom="@dimen/e3" app:hl_cornerRadius="@dimen/fr" app:hl_shadowColor="#80e3e3e3" app:hl_shadowLimit="@dimen/f7" style="@style/a4l">
+    <LinearLayout style="@style/q3">
+        <CheckBox android:checked="true" style="@style/q5"/>
+        <ImageView android:src="@drawable/kd" style="@style/rf"/>
+        <LinearLayout style="@style/r9">
+            <TextView android:text="我的火影专机" style="@style/r_"/>
+            <TextView android:text="编号:H1230249494" style="@style/rd"/>
+        </LinearLayout>
+        <TextView android:text="@string/dt" style="@style/rd"/>
+        <TextView android:text="3244天32小时" style="@style/rc"/>
+    </LinearLayout>
+</com.lihang.ShadowLayout>

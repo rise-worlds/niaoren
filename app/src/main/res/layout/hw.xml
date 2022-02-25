@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/jd" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/o1">
+    <FrameLayout android:id="@+id/ip" style="@style/a5g">
+        <LinearLayout android:id="@+id/id" style="@style/o3">
+            <ImageView style="@style/ob"/>
+            <LinearLayout android:id="@+id/iq" style="@style/o6">
+                <ImageView android:id="@+id/rf" android:src="@drawable/j2" style="@style/og"/>
+                <TextView android:id="@+id/yi" android:text="@string/j7" style="@style/o9"/>
+            </LinearLayout>
+            <View style="@style/n7"/>
+            <LinearLayout android:id="@+id/ig" style="@style/o6">
+                <ImageView android:id="@+id/r6" android:src="@drawable/j5" style="@style/og"/>
+                <TextView android:text="@string/jb" style="@style/o9"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/ik" style="@style/o6">
+                <ImageView android:id="@+id/rh" android:src="@drawable/iy" style="@style/og"/>
+                <TextView android:text="@string/il" style="@style/o9"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/io" android:visibility="gone" style="@style/of">
+            <ImageView android:id="@+id/rb" android:layout_height="wrap_content" android:src="@drawable/j2" style="@style/o8"/>
+            <View style="@style/n7"/>
+            <ImageView android:id="@+id/r_" android:src="@drawable/j5" style="@style/og"/>
+            <ImageView android:id="@+id/rd" android:src="@drawable/iy" style="@style/og"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/ie" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@+id/ic" style="@style/o2">
+            <LinearLayout android:id="@+id/im" style="@style/o_">
+                <ImageView android:id="@+id/r8" android:src="@drawable/j9" style="@style/oa"/>
+                <TextView android:id="@+id/yh" android:text="@string/k5" style="@style/o9"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/ij" style="@style/o_">
+                <ImageView android:id="@+id/rg" android:src="@drawable/je" style="@style/oa"/>
+                <TextView android:id="@+id/yj" android:text="@string/kq" style="@style/o9"/>
+            </LinearLayout>
+            <View style="@style/n7"/>
+            <LinearLayout android:id="@+id/if" style="@style/o_">
+                <ImageView android:id="@+id/r5" android:src="@drawable/iw" style="@style/oa"/>
+                <TextView android:text="@string/hl" style="@style/o9"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/ih" style="@style/o_">
+                <ImageView android:id="@+id/r7" android:src="@drawable/ix" style="@style/oa"/>
+                <TextView android:text="@string/ht" style="@style/o9"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/ii" style="@style/o_">
+                <ImageView android:id="@+id/re" android:src="@drawable/j4" style="@style/oa"/>
+                <TextView android:text="@string/ja" style="@style/o9"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/in" android:visibility="gone" style="@style/oe">
+            <ImageView android:id="@+id/ra" android:src="@drawable/j_" style="@style/oa"/>
+            <ImageView android:id="@+id/rc" android:src="@drawable/je" style="@style/oa"/>
+            <View style="@style/n7"/>
+            <ImageView android:id="@+id/r9" android:src="@drawable/iw" style="@style/oa"/>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/j8" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/ie" android:layout_below="@+id/ip"/>
+</RelativeLayout>

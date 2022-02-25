@@ -1,0 +1,30 @@
+package p110z1;
+
+import org.apache.tools.ant.types.selectors.SizeSelector;
+
+/* compiled from: localVariableReferences.kt */
+@bwy(m8750a = "1.1")
+@Metadata(m8864a = 1, m8863b = {1, 1, 15}, m8862c = {1, 0, 3}, m8861d = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0002\b\u0017\u0018\u00002\u00020\u0001B\u0005¢\u0006\u0002\u0010\u0002J\n\u0010\u0003\u001a\u0004\u0018\u00010\u0004H\u0016J\b\u0010\u0005\u001a\u00020\u0006H\u0016J\u0012\u0010\u0007\u001a\u00020\b2\b\u0010\t\u001a\u0004\u0018\u00010\u0004H\u0016¨\u0006\n"}, m8860e = {"Lkotlin/jvm/internal/MutableLocalVariableReference;", "Lkotlin/jvm/internal/MutablePropertyReference0;", "()V", "get", "", "getOwner", "Lkotlin/reflect/KDeclarationContainer;", "set", "", SizeSelector.SIZE_KEY, "kotlin-stdlib"})
+/* renamed from: z1.cjp */
+/* loaded from: classes3.dex */
+public class cjp extends MutablePropertyReference0 {
+    @Override // p110z1.CallableReference
+    @NotNull
+    public KDeclarationContainer getOwner() {
+        cjl.m5154b();
+        throw null;
+    }
+
+    @Override // p110z1.cng
+    @dbs
+    public Object get() {
+        cjl.m5154b();
+        throw null;
+    }
+
+    @Override // p110z1.cnb
+    public void set(@dbs Object obj) {
+        cjl.m5154b();
+        throw null;
+    }
+}

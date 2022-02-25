@@ -1,0 +1,19 @@
+package org.apache.tools.ant.taskdefs.condition;
+
+import java.util.Enumeration;
+import org.apache.tools.ant.BuildException;
+
+/* renamed from: org.apache.tools.ant.taskdefs.condition.Or */
+/* loaded from: classes2.dex */
+public class C3208Or extends ConditionBase implements Condition {
+    @Override // org.apache.tools.ant.taskdefs.condition.Condition
+    public boolean eval() throws BuildException {
+        Enumeration conditions = getConditions();
+        while (conditions.hasMoreElements()) {
+            if (((Condition) conditions.nextElement()).eval()) {
+                return true;
+            }
+        }
+        return false;
+    }
+}

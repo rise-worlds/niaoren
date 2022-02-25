@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <ScrollView style="@style/vr">
+        <LinearLayout android:orientation="vertical" style="@style/a5h">
+            <LinearLayout style="@style/wz">
+                <RelativeLayout style="@style/so">
+                    <ImageView style="@style/sp"/>
+                    <TextView android:text="@string/gz" style="@style/ss"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_marginTop="@dimen/dc" style="@style/x5">
+                    <ImageView style="@style/x4"/>
+                </RelativeLayout>
+                <TextView android:text="@string/lu" style="@style/x8"/>
+                <TextView android:text="@string/lt" style="@style/x7"/>
+            </LinearLayout>
+            <TextView android:text="@string/gw" style="@style/wk"/>
+            <GridLayout android:columnCount="3" style="@style/wo">
+                <LinearLayout style="@style/wl">
+                    <TextView android:text="@string/eh" style="@style/wn"/>
+                    <TextView style="@style/wm"/>
+                </LinearLayout>
+                <LinearLayout android:clickable="true" style="@style/wl">
+                    <TextView android:text="@string/eh" style="@style/wn"/>
+                    <TextView style="@style/wm"/>
+                </LinearLayout>
+                <LinearLayout style="@style/wl">
+                    <TextView android:text="@string/h8" style="@style/wn"/>
+                    <TextView style="@style/wm"/>
+                </LinearLayout>
+                <LinearLayout style="@style/wl">
+                    <TextView android:text="@string/eh" style="@style/wn"/>
+                    <TextView style="@style/wm"/>
+                </LinearLayout>
+                <LinearLayout android:clickable="true" style="@style/wl">
+                    <TextView android:text="@string/eh" style="@style/wn"/>
+                    <TextView style="@style/wm"/>
+                </LinearLayout>
+                <LinearLayout style="@style/wl">
+                    <TextView android:text="@string/h8" style="@style/wn"/>
+                    <TextView style="@style/wm"/>
+                </LinearLayout>
+            </GridLayout>
+            <LinearLayout style="@style/a2v">
+                <TextView android:layout_marginBottom="0dp" android:text="@string/gs" style="@style/a2x"/>
+                <TextView android:layout_width="wrap_content" android:text="@string/lq" style="@style/a2y"/>
+                <TextView android:text="@string/lr" style="@style/a2x"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/wx">
+        <View style="@style/wy"/>
+        <TextView android:text="@string/h0" style="@style/ww"/>
+    </LinearLayout>
+    <TextView android:text="@string/gv" style="@style/wj"/>
+</LinearLayout>

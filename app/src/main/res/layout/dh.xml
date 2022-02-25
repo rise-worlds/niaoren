@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#40000000" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/e7" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/f7" android:id="@+id/s2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Are you a fish?"/>
+            <EditText android:textColor="@color/f7" android:id="@+id/f4" android:background="@drawable/aj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:cursorVisible="true" android:textCursorDrawable="@drawable/e1"/>
+            <Button android:textColor="@color/f7" android:layout_gravity="center_horizontal" android:id="@+id/uj" android:background="@drawable/e8" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/mc" android:layout_below="@+id/s2"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/a5h">
+    <RelativeLayout android:id="@+id/ok" style="@style/oo">
+        <ImageView android:id="@+id/ax" style="@style/op"/>
+        <LinearLayout android:layout_below="@+id/ax" style="@style/ug">
+            <TextView android:id="@+id/p3" android:text="@string/fy" style="@style/uk"/>
+            <LinearLayout android:orientation="vertical" style="@style/uh">
+                <TextView android:id="@+id/p4" android:text="@string/fz" style="@style/ul"/>
+                <CheckBox android:id="@+id/ox" android:text="@string/fx" style="@style/uj"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/ol" android:visibility="gone" style="@style/oo">
+        <ImageView android:id="@+id/ay" style="@style/oq"/>
+        <LinearLayout android:layout_below="@+id/ay" style="@style/ui">
+            <TextView android:id="@+id/ov" android:text="@string/fw" style="@style/uk"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

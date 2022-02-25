@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Pārvietoties uz sākuma ekrānu</string>
+    <string name="b">Pārvietoties augšup</string>
+    <string name="c">Vairāk opciju</string>
+    <string name="d">Gatavs</string>
+    <string name="e">Skatīt visu</string>
+    <string name="f">Izvēlieties lietotni</string>
+    <string name="g">IZSLĒGTS</string>
+    <string name="h">IESLĒGTS</string>
+    <string name="u">Alternēšanas taustiņš +</string>
+    <string name="v">Vadīšanas taustiņš +</string>
+    <string name="w">dzēšanas taustiņš</string>
+    <string name="x">ievadīšanas taustiņš</string>
+    <string name="y">Funkcijas taustiņš +</string>
+    <string name="z">Meta taustiņš +</string>
+    <string name="a0">Pārslēgšanas taustiņš +</string>
+    <string name="a1">atstarpes taustiņš</string>
+    <string name="a2">Simbolu taustiņš +</string>
+    <string name="a3">Poga Izvēlne +</string>
+    <string name="a4">Meklējiet…</string>
+    <string name="a5">Notīrīt vaicājumu</string>
+    <string name="a6">Meklēšanas vaicājums</string>
+    <string name="a7">Meklēt</string>
+    <string name="a8">Iesniegt vaicājumu</string>
+    <string name="a9">Meklēšana ar balsi</string>
+    <string name="a_">Kopīgot ar:</string>
+    <string name="aa">Kopīgot ar lietojumprogrammu %s</string>
+    <string name="ab">Sakļaut</string>
+    <string name="nq">Meklēt</string>
+    <string name="o4">999+</string>
+</resources>

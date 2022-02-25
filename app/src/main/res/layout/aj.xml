@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p006v7.widget.Toolbar android:theme="@style/fo" android:id="@+id/x8" android:background="?attr/hd" android:layout_width="match_parent" android:layout_height="?attr/d" android:layout_alignParentTop="true" android:elevation="@dimen/jv"/>
+    <ViewStub android:id="@+id/a0e" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/x8"/>
+    <ProgressBar android:id="@+id/rz" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" android:layout_below="@+id/x8" style="@style/ld"/>
+</RelativeLayout>

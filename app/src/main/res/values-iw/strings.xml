@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">נווט לדף הבית</string>
+    <string name="b">נווט למעלה</string>
+    <string name="c">עוד אפשרויות</string>
+    <string name="d">בוצע</string>
+    <string name="e">ראה הכל</string>
+    <string name="f">בחר אפליקציה</string>
+    <string name="g">כבוי</string>
+    <string name="h">פועל</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+‎</string>
+    <string name="w">delete</string>
+    <string name="x">Enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">מקש רווח</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">תפריט+</string>
+    <string name="a4">חיפוש…</string>
+    <string name="a5">מחק שאילתה</string>
+    <string name="a6">שאילתת חיפוש</string>
+    <string name="a7">חיפוש</string>
+    <string name="a8">שלח שאילתה</string>
+    <string name="a9">חיפוש קולי</string>
+    <string name="a_">שתף עם</string>
+    <string name="aa">שתף עם %s</string>
+    <string name="ab">כווץ</string>
+    <string name="nq">חיפוש</string>
+    <string name="o4">999+</string>
+</resources>

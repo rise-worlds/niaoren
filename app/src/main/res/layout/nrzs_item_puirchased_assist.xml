@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a2z">
+    <ImageView android:id="@+id/nrzs_app_buy_item_img" android:src="@drawable/ii" style="@style/a37"/>
+    <LinearLayout style="@style/a38">
+        <TextView android:textSize="@dimen/h1" android:textColor="@color/a8" android:ellipsize="end" android:id="@+id/nrzs_app_sctript_buy_assist_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="8" android:singleLine="true"/>
+        <LinearLayout style="@style/a3g">
+            <TextView android:id="@+id/nrzs_app__buy_assist_ietm_time" android:text="@string/lm" style="@style/a3k"/>
+        </LinearLayout>
+        <TextView android:id="@+id/nrzs_app__vipvontent" android:layout_marginTop="3dp" android:text="@string/ed" style="@style/a3s"/>
+    </LinearLayout>
+    <LinearLayout style="@style/a2t">
+        <TextView android:id="@+id/nrzs_app__buy_assist_ietm_xf" android:text="@string/ll" style="@style/a3u"/>
+        <TextView android:id="@+id/nrzs_app__buy_assist_ietm_run" android:text="@string/fe" style="@style/a31"/>
+    </LinearLayout>
+</RelativeLayout>

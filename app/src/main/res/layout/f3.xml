@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/f2" style="@style/a5h">
+    <LinearLayout android:gravity="center" android:orientation="vertical" style="@style/a5h">
+        <LinearLayout android:id="@+id/j6" android:background="@color/f2" android:visibility="visible" style="@style/a1n">
+            <RelativeLayout style="@style/pj">
+                <TextView android:text="@string/cn" style="@style/pn"/>
+                <ImageView android:id="@+id/i4" style="@style/ox"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/pd">
+                <EditText android:id="@+id/f_" android:hint="@string/ck" android:maxLength="33" style="@style/pf"/>
+                <TextView android:id="@+id/zl" android:visibility="invisible" android:text="@string/cl" style="@style/ph"/>
+                <TextView android:id="@+id/zh" android:text="@string/cj" style="@style/pb"/>
+                <TextView android:id="@+id/zg" android:text="@string/lc" style="@style/a2s"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/t3" android:background="@color/f2" android:visibility="gone" style="@style/a1n">
+            <RelativeLayout style="@style/pl">
+                <TextView android:text="@string/cm" style="@style/pp"/>
+                <ImageView android:id="@+id/i5" style="@style/ox"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/a1o">
+                <RelativeLayout style="@style/a0t">
+                    <TextView android:text="@string/h2" style="@style/vz"/>
+                    <TextView android:id="@+id/zk" android:text="@string/h6" style="@style/w0"/>
+                </RelativeLayout>
+                <View style="@style/a1q"/>
+                <RelativeLayout style="@style/a0t">
+                    <TextView android:id="@+id/b3" android:text="@string/gr" style="@style/vx"/>
+                    <TextView android:id="@+id/zi" android:text="@string/eh" style="@style/wf"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/qz" android:text="确定" style="@style/pb"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Придвижване към „Начало“</string>
+    <string name="b">Придвижване нагоре</string>
+    <string name="c">Още опции</string>
+    <string name="d">Готово</string>
+    <string name="e">Вижте всички</string>
+    <string name="f">Изберете приложение</string>
+    <string name="g">ИЗКЛ.</string>
+    <string name="h">ВКЛ.</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">клавиша за интервал</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">Търсете…</string>
+    <string name="a5">Изчистване на заявката</string>
+    <string name="a6">Заявка за търсене</string>
+    <string name="a7">Търсене</string>
+    <string name="a8">Изпращане на заявката</string>
+    <string name="a9">Гласово търсене</string>
+    <string name="a_">Споделяне със:</string>
+    <string name="aa">Споделяне със: %s</string>
+    <string name="ab">Свиване</string>
+    <string name="nq">Търсене</string>
+    <string name="o4">999+</string>
+</resources>

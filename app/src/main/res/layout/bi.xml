@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <RelativeLayout android:id="@+id/fj" style="@style/sm">
+        <ImageView style="@style/sp"/>
+        <TextView android:text="@string/gm" style="@style/ss"/>
+        <TextView android:text="@string/gl" style="@style/sq"/>
+    </RelativeLayout>
+    <TextView android:visibility="gone" android:text="@string/ew" style="@style/t6"/>
+    <TextView android:text="@string/ev" style="@style/t5"/>
+    <TextView android:text="@string/ex" style="@style/sv"/>
+</LinearLayout>

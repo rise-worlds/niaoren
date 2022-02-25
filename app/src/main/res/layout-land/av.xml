@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/on">
+    <LinearLayout android:gravity="center" android:orientation="vertical" style="@style/a5h">
+        <LinearLayout style="@style/a1n">
+            <RelativeLayout style="@style/pk">
+                <TextView android:text="@string/cn" style="@style/po"/>
+                <ImageView style="@style/ox"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/pd">
+                <EditText android:hint="@string/ck" style="@style/pg"/>
+                <TextView android:visibility="invisible" android:text="@string/cl" style="@style/ph"/>
+                <TextView android:text="@string/cj" style="@style/pc"/>
+                <TextView android:text="@string/lc" style="@style/a2s"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/a1n">
+            <RelativeLayout style="@style/pm">
+                <TextView android:text="@string/cm" style="@style/pp"/>
+                <ImageView style="@style/ox"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/a1o">
+                <TextView android:text="@string/kp" style="@style/a1p"/>
+                <RelativeLayout style="@style/a0t">
+                    <TextView android:text="@string/h2" style="@style/vz"/>
+                    <TextView android:text="@string/h6" style="@style/w0"/>
+                </RelativeLayout>
+                <View style="@style/a1q"/>
+                <RelativeLayout style="@style/a0t">
+                    <TextView android:id="@+id/b3" android:text="@string/gr" style="@style/vx"/>
+                    <TextView android:text="@string/eh" style="@style/wf"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

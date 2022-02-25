@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/p9">
+    <RelativeLayout style="@style/ok">
+        <TextView android:text="@string/cf" style="@style/ol"/>
+        <ImageView android:id="@+id/i2" style="@style/ox"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/p_">
+        <LinearLayout style="@style/oy">
+            <TextView android:id="@+id/z7" android:text="@string/ch" style="@style/oz"/>
+            <TextView android:id="@+id/z5" android:text="@string/cg" style="@style/oz"/>
+        </LinearLayout>
+        <LinearLayout style="@style/zi">
+            <TextView android:text="@string/kn" style="@style/a1l"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="135dp">
+                <TextView android:id="@+id/z3" android:scrollbars="vertical" android:layout_height="match_parent" android:text="没有最新版本了" style="@style/a1k"/>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout style="@style/a1i">
+            <ProgressBar android:id="@+id/sz" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="100" android:secondaryProgress="150" android:progressDrawable="@drawable/dr" style="?android:attr/progressBarStyleHorizontal"/>
+            <TextView android:gravity="center" android:id="@+id/z6" android:layout_width="match_parent" android:layout_height="match_parent" android:text="知道了" style="@style/a1j"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

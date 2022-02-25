@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Gå til startsiden</string>
+    <string name="b">Gå opp</string>
+    <string name="c">Flere alternativer</string>
+    <string name="d">Ferdig</string>
+    <string name="e">Se alle</string>
+    <string name="f">Velg en app</string>
+    <string name="g">AV</string>
+    <string name="h">PÅ</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Funksjon+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">mellomrom</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Meny+</string>
+    <string name="a4">Søk …</string>
+    <string name="a5">Slett søket</string>
+    <string name="a6">Søkeord</string>
+    <string name="a7">Søk</string>
+    <string name="a8">Utfør søket</string>
+    <string name="a9">Talesøk</string>
+    <string name="a_">Del med</string>
+    <string name="aa">Del med %s</string>
+    <string name="ab">Skjul</string>
+    <string name="nq">Søk</string>
+    <string name="o4">999+</string>
+</resources>

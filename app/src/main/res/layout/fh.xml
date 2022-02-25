@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/y3">
+    <RelativeLayout style="@style/p6">
+        <TextView android:text="@string/hz" style="@style/p8"/>
+        <ImageView android:id="@+id/hf" style="@style/a46"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/y7">
+        <LinearLayout style="@style/y8">
+            <TextView android:text="@string/i0" style="@style/y9"/>
+            <TextView android:id="@+id/ho" android:text="@string/e5" style="@style/y_"/>
+        </LinearLayout>
+        <LinearLayout style="@style/y8">
+            <TextView android:text="@string/i3" style="@style/y9"/>
+            <TextView android:id="@+id/ye" android:text="@string/e8" style="@style/y_"/>
+        </LinearLayout>
+        <LinearLayout style="@style/y8">
+            <TextView android:text="@string/i2" style="@style/y9"/>
+            <TextView android:id="@+id/yf" android:text="@string/e6" style="@style/y_"/>
+        </LinearLayout>
+        <LinearLayout style="@style/y8">
+            <TextView android:text="@string/i1" style="@style/y9"/>
+            <TextView android:id="@+id/yo" android:text="@string/e7" style="@style/y_"/>
+        </LinearLayout>
+        <LinearLayout style="@style/ow">
+            <TextView android:id="@+id/xs" android:text="@string/hy" style="@style/ou"/>
+            <TextView android:id="@+id/z1" android:text="@string/hw" style="@style/ov"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

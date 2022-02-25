@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Přejít na plochu</string>
+    <string name="b">Přejít nahoru</string>
+    <string name="c">Více možností</string>
+    <string name="d">Hotovo</string>
+    <string name="e">Zobrazit vše</string>
+    <string name="f">Vybrat aplikaci</string>
+    <string name="g">VYPNUTO</string>
+    <string name="h">ZAPNUTO</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Fn+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">mezerník</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">Vyhledat…</string>
+    <string name="a5">Smazat dotaz</string>
+    <string name="a6">Vyhledávací dotaz</string>
+    <string name="a7">Hledat</string>
+    <string name="a8">Odeslat dotaz</string>
+    <string name="a9">Hlasové vyhledávání</string>
+    <string name="a_">Sdílet pomocí</string>
+    <string name="aa">Sdílet s aplikací %s</string>
+    <string name="ab">Sbalit</string>
+    <string name="nq">Hledat</string>
+    <string name="o4">999+</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_marginBottom="@dimen/dc" style="@style/ys">
+        <RelativeLayout style="@style/zg">
+            <TextView android:text="@string/id" style="@style/a1f"/>
+            <ImageView android:id="@+id/clse_img" style="@style/xu"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/time_conten" android:text="@string/ic" android:drawableTop="@drawable/kv" style="@style/yu"/>
+        <TextView android:id="@+id/buy_tv" android:text="@string/i_" style="@style/yt"/>
+    </LinearLayout>
+</LinearLayout>

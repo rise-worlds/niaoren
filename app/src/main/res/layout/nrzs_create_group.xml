@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/j6" android:background="@color/f2" android:visibility="visible" style="@style/a1n">
+        <LinearLayout android:layout_marginTop="@dimen/dc" style="@style/xv">
+            <TextView android:text="@string/dj" style="@style/y1"/>
+            <EditText android:id="@+id/editText_btn" android:hint="@string/dk" android:maxLength="12" style="@style/xy"/>
+            <LinearLayout style="@style/xz">
+                <TextView android:id="@+id/cancle_btn" android:text="@string/di" style="@style/xw"/>
+                <TextView android:id="@+id/sure_btn" android:text="@string/ds" style="@style/xx"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

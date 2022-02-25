@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Ugrás a főoldalra</string>
+    <string name="b">Felfelé mozgatás</string>
+    <string name="c">További lehetőségek</string>
+    <string name="d">Kész</string>
+    <string name="e">Összes megtekintése</string>
+    <string name="f">Válasszon ki egy alkalmazást</string>
+    <string name="g">KI</string>
+    <string name="h">BE</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">Delete</string>
+    <string name="x">Enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">Szóköz</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">Keresés…</string>
+    <string name="a5">Lekérdezés törlése</string>
+    <string name="a6">Keresési lekérdezés</string>
+    <string name="a7">Keresés</string>
+    <string name="a8">Lekérdezés küldése</string>
+    <string name="a9">Hangalapú keresés</string>
+    <string name="a_">Megosztás a következővel:</string>
+    <string name="aa">Megosztás a következő alkalmazással: %s</string>
+    <string name="ab">Összecsukás</string>
+    <string name="nq">Keresés</string>
+    <string name="o4">999+</string>
+</resources>

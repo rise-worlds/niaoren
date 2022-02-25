@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout style="@style/a51">
+        <LinearLayout style="@style/a53">
+            <RelativeLayout style="@style/a54">
+                <TextView android:text="@string/o0" style="@style/a55"/>
+                <ImageView android:id="@+id/dg" style="@style/a52"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/t0" style="@style/a5_">
+                <TextView android:text="@string/ns" style="@style/a5c"/>
+                <RadioButton android:id="@+id/t7" android:checked="true" style="@style/a5b"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/t1" style="@style/a5_">
+                <TextView android:text="@string/nt" style="@style/a5c"/>
+                <RadioButton android:id="@+id/t8" style="@style/a5b"/>
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" style="@style/a5_">
+                <TextView android:text="@string/nu" style="@style/a5c"/>
+                <RadioButton android:id="@+id/t9" style="@style/a5b"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/t5" style="@style/a5a">
+                <TextView android:text="@string/nw" style="@style/a5c"/>
+                <RadioButton android:id="@+id/t_" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a5b"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/a56">
+                <LinearLayout style="@style/a57">
+                    <TextView android:text="@string/nz" style="@style/a59"/>
+                    <EditText android:id="@+id/f" style="@style/a58"/>
+                </LinearLayout>
+                <LinearLayout style="@style/a57">
+                    <TextView android:text="@string/ny" style="@style/a59"/>
+                    <EditText android:id="@+id/e" style="@style/a58"/>
+                </LinearLayout>
+                <LinearLayout style="@style/a57">
+                    <TextView android:text="@string/nx" style="@style/a59"/>
+                    <EditText android:id="@+id/d" style="@style/a58"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/h1" android:textColor="@color/fa" android:gravity="center" android:id="@+id/vb" android:background="#536dff" android:layout_width="match_parent" android:layout_height="50dp" android:text="@string/nr"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

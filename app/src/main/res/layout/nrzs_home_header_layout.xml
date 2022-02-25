@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.youth.banner.Banner android:id="@+id/nrzs_app_home_banner" android:visibility="gone" app:indicator_height="@dimen/gg" app:indicator_margin="@dimen/fr" app:indicator_width="@dimen/gg" style="@style/uy"/>
+    <LinearLayout android:id="@+id/reb_bag_layout" style="@style/a1u">
+        <ImageView android:id="@+id/red_logos" android:src="@drawable/n7" style="@style/a5g"/>
+        <LinearLayout style="@style/a1x">
+            <TextView android:id="@+id/red_title" android:text="@string/l5" style="@style/a1y"/>
+            <TextView android:id="@+id/red_count" android:text="@string/ku" style="@style/a1v"/>
+        </LinearLayout>
+        <TextView android:id="@+id/entrance_redbag" android:text="@string/kw" style="@style/a1w"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/nrzs_app_home_ll_gold" style="@style/s_">
+        <TextView android:text="@string/h7" style="@style/sd"/>
+        <TextView android:id="@+id/nrzs_app_tv_gold" style="@style/se"/>
+        <ImageView android:id="@+id/nrzs_app_iv_help" style="@style/sb"/>
+        <View style="@style/xd"/>
+        <TextView android:id="@+id/nrzs_app_tv_recharge_gold" android:text="@string/fo" style="@style/sa"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/nrzs_app_rl_likes" style="@style/uo">
+        <TextView android:id="@+id/nrzs_app_tv_the_author_script" android:text="@string/f7" style="@style/uq"/>
+        <TextView android:text="@string/dy" style="@style/up"/>
+    </RelativeLayout>
+</LinearLayout>

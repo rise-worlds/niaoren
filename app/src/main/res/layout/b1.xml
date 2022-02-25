@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/om">
+    <ImageView style="@style/nr"/>
+    <TextView android:text="@string/c_" style="@style/nq"/>
+    <TextView android:text="@string/ca" style="@style/ns"/>
+    <TextView android:text="@string/c8" style="@style/no"/>
+</RelativeLayout>

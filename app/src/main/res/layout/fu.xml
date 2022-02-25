@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#70000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/pn" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="16dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="38dp">
+            <ImageView android:id="@+id/pc" style="@style/a46"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/pd" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+        <TextView android:id="@+id/pm" android:layout_marginBottom="16dp" android:text="安装64位插件" style="@style/p5"/>
+    </LinearLayout>
+</LinearLayout>

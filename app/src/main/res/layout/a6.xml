@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#f6f6f6" style="@style/pv">
+    <RelativeLayout style="@style/sm">
+        <ImageView android:id="@+id/ds" style="@style/sp"/>
+        <TextView android:text="抢红包必看" style="@style/ss"/>
+    </RelativeLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" style="@style/a5h">
+            <RelativeLayout style="@style/a50">
+                <TextView android:text="@string/ng" style="@style/a4z"/>
+                <TextView android:id="@+id/uc" android:text="前往设置" style="@style/a4w"/>
+            </RelativeLayout>
+            <ImageView android:layout_height="255dp" android:src="@drawable/hb" style="@style/a4x"/>
+            <RelativeLayout style="@style/a50">
+                <TextView android:text="@string/nh" style="@style/a4z"/>
+                <TextView android:id="@+id/r0" android:text="打开微信" style="@style/a4w"/>
+            </RelativeLayout>
+            <TextView android:text="@string/ni" style="@style/a4y"/>
+            <ImageView android:layout_height="230dp" android:src="@drawable/hc" style="@style/a4x"/>
+            <TextView android:text="@string/nj" style="@style/a4y"/>
+            <ImageView android:layout_height="232dp" android:src="@drawable/hd" style="@style/a4x"/>
+            <TextView android:text="@string/nk" style="@style/a4y"/>
+            <ImageView android:layout_height="232dp" android:src="@drawable/he" style="@style/a4x"/>
+            <RelativeLayout style="@style/a50">
+                <TextView android:text="@string/nl" style="@style/a4z"/>
+            </RelativeLayout>
+            <TextView android:text="@string/nm" style="@style/a4y"/>
+            <ImageView android:layout_height="@dimen/eo" android:src="@drawable/hf" style="@style/a4x"/>
+            <TextView android:text="@string/nn" style="@style/a4y"/>
+            <ImageView android:layout_height="@dimen/fj" android:src="@drawable/hg" style="@style/a4x"/>
+            <RelativeLayout style="@style/a50">
+                <TextView android:text="@string/no" style="@style/a4z"/>
+            </RelativeLayout>
+            <TextView android:text="@string/np" style="@style/a4y"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

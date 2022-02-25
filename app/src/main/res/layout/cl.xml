@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.stripe.android.view.IconTextInputLayout android:id="@+id/wv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bf" android:hint="@string/ac">
+        <com.stripe.android.view.CardNumberEditText android:id="@+id/eu" android:nextFocusDown="@+id/ew" android:layout_width="match_parent" android:layout_height="wrap_content" android:digits="@string/pb" android:drawableLeft="@drawable/fl" android:drawablePadding="@dimen/bo" android:inputType="number" android:imeOptions="actionDone" android:nextFocusForward="@+id/ew" android:drawableStart="@drawable/fl"/>
+    </com.stripe.android.view.IconTextInputLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/u6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bf" android:baselineAligned="false">
+        <android.support.design.widget.TextInputLayout android:id="@+id/wx" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bg" android:hint="@string/ad" android:layout_weight="1" android:layout_marginEnd="@dimen/bg">
+            <com.stripe.android.view.ExpiryDateEditText android:id="@+id/ew" android:nextFocusDown="@+id/ev" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="@integer/h" android:inputType="date" android:imeOptions="actionDone" android:nextFocusForward="@+id/ev"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:id="@+id/ww" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bg" android:layout_weight="1" android:layout_marginEnd="@dimen/bg">
+            <com.stripe.android.view.StripeEditText android:id="@+id/ev" android:nextFocusDown="@+id/ex" android:layout_width="match_parent" android:layout_height="wrap_content" android:digits="@string/pb" android:inputType="number" android:imeOptions="actionDone" android:nextFocusForward="@+id/ex"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:id="@+id/wy" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.stripe.android.view.StripeEditText android:id="@+id/ex" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/ae" android:maxLength="5" android:digits="@string/pb" android:inputType="number" android:imeOptions="actionDone"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</merge>

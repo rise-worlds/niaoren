@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/fa" android:fitsSystemWindows="true" android:layout_width="@dimen/f5" android:layout_height="wrap_content">
+    <RelativeLayout style="@style/p6">
+        <ImageView android:id="@+id/dd" style="@style/a46"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/p3">
+        <ImageView android:src="@drawable/n6" style="@style/p0"/>
+        <TextView android:text="@string/jn" style="@style/pr"/>
+        <TextView android:text="@string/jm" style="@style/pq"/>
+        <CheckBox android:id="@+id/fg" android:text="@string/k2" style="@style/xt"/>
+        <LinearLayout style="@style/ow">
+            <TextView android:id="@+id/df" android:text="@string/hn" style="@style/ou"/>
+            <TextView android:id="@+id/qy" android:text="@string/hs" style="@style/ov"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/f2" style="@style/on">
+    <LinearLayout android:orientation="vertical" style="@style/a4l">
+        <LinearLayout android:layout_gravity="center_horizontal" style="@style/xk">
+            <RelativeLayout style="@style/p6">
+                <ImageView android:id="@+id/nrzs_app_iv_close" style="@style/a46"/>
+            </RelativeLayout>
+            <ScrollView android:layout_width="match_parent" android:layout_height="230dp">
+                <LinearLayout style="@style/p3">
+                    <TextView android:id="@+id/nrzs_app_tv_infrom" android:text="@string/en" style="@style/pq"/>
+                </LinearLayout>
+            </ScrollView>
+            <TextView android:id="@+id/nrzs_app_tv_agree" android:text="确定" style="@style/p5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

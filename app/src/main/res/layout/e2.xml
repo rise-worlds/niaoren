@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <LinearLayout style="@style/xg">
+        <com.nrzs.moudleui.p070ui.state.LoadingImageView android:id="@+id/hd" style="@style/a5g"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/zd">
+    <RelativeLayout style="@style/p6">
+        <TextView android:text="@string/im" style="@style/p8"/>
+        <ImageView android:id="@+id/o_" style="@style/a46"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/p3">
+        <ImageView android:src="@drawable/mj" style="@style/ps"/>
+        <TextView android:text="@string/io" style="@style/pt"/>
+        <TextView android:id="@+id/yu" android:text="@string/in" style="@style/p5"/>
+    </LinearLayout>
+</LinearLayout>

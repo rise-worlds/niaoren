@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/ai" android:layout_marginLeft="@dimen/dc" style="@style/wl">
+        <TextView android:id="@+id/nrzs_app_reward_item_money" android:duplicateParentState="true" android:text="@string/eh" style="@style/wn"/>
+        <EditText android:textColor="@color/fa" android:id="@+id/nrzs_app_reward_item_money_edtext" android:visibility="gone" android:duplicateParentState="true" android:inputType="number" style="@style/wn"/>
+        <TextView android:id="@+id/nrzs_app_reward_item_money_img" android:duplicateParentState="true" style="@style/wm"/>
+    </LinearLayout>
+</LinearLayout>

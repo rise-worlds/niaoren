@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="b2" parent="@style/a5r">
+    </style>
+    <style name="b9" parent="@style/a5s">
+    </style>
+    <style name="a5r" parent="@style/a5o">
+        <item name="i_">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="a5s" parent="@style/a5p">
+        <item name="i_">?android:attr/dialogCornerRadius</item>
+    </style>
+</resources>

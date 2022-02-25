@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">होमवर नेव्‍हिगेट करा</string>
+    <string name="b">वर नेव्‍हिगेट करा</string>
+    <string name="c">अधिक पर्याय</string>
+    <string name="d">पूर्ण झाले</string>
+    <string name="e">सर्व पहा</string>
+    <string name="f">एक अ‍ॅप निवडा</string>
+    <string name="g">बंद</string>
+    <string name="h">चालू</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">हटवा</string>
+    <string name="x">एंटर करा</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">spacebar</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">मेनू+</string>
+    <string name="a4">शोधा…</string>
+    <string name="a5">क्‍वेरी स्‍पष्‍ट करा</string>
+    <string name="a6">शोध क्वेरी</string>
+    <string name="a7">शोध</string>
+    <string name="a8">क्वेरी सबमिट करा</string>
+    <string name="a9">व्हॉइस शोध</string>
+    <string name="a_">यांच्यासह शेअर करा</string>
+    <string name="aa">%s सह शेअर करा</string>
+    <string name="ab">संक्षिप्त करा</string>
+    <string name="nq">शोधा</string>
+    <string name="o4">९९९+</string>
+</resources>

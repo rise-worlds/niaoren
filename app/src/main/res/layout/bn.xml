@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lihang.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/jv" app:hl_cornerRadius="@dimen/e8" app:hl_shadowColor="@color/ak" app:hl_shadowLimit="@dimen/g5" style="@style/s8">
+    <RelativeLayout style="@style/qs">
+        <ImageView android:src="@drawable/ig" style="@style/qx"/>
+        <ImageView android:visibility="gone" android:src="@drawable/ik" style="@style/s5"/>
+        <LinearLayout android:visibility="gone" style="@style/rk">
+            <ImageView android:id="@+id/b0" android:src="@drawable/ao" style="@style/rl"/>
+            <TextView android:text="@string/d8" style="@style/rm"/>
+        </LinearLayout>
+        <RelativeLayout style="@style/r2">
+            <ImageView android:id="@+id/az" android:src="@drawable/kb" style="@style/rf"/>
+            <TextView android:text="@string/d6" android:layout_below="@+id/az" style="@style/rg"/>
+            <LinearLayout android:layout_toRightOf="@+id/az" style="@style/r3">
+                <TextView android:text="V-7403833" style="@style/s4"/>
+                <TextView android:text="编号:321349493949" style="@style/r4"/>
+                <TextView android:text="还剩3天4小时" style="@style/r4"/>
+            </LinearLayout>
+            <TextView android:text="@string/dg" style="@style/qt"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/qz">
+            <TextView android:text="@string/df" style="@style/s7"/>
+            <TextView android:text="@string/d9" style="@style/rn"/>
+            <TextView android:text="@string/d4" style="@style/qy"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/ro">
+            <TextView android:text="@string/da" style="@style/s1"/>
+            <TextView android:text="@string/d_" style="@style/s0"/>
+            <TextView android:text="@string/db" style="@style/s2"/>
+            <TextView android:text="@string/dc" style="@style/s3"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.lihang.ShadowLayout>

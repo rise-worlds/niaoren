@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/fa" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/o6" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.live.ddy.visual.view.DdyMediaLayout android:id="@+id/nz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/o1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:id="@+id/o2" android:background="@color/fa" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:text="@string/d7" style="@style/rh"/>
+    </LinearLayout>
+</RelativeLayout>

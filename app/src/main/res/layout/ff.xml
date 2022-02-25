@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout style="@style/or">
+        <ImageView android:id="@+id/ob" android:visibility="gone" style="@style/un"/>
+        <LinearLayout style="@style/y2">
+            <ImageView android:src="@drawable/mo" style="@style/a0u"/>
+            <TextView android:text="@string/j8" style="@style/a04"/>
+            <TextView android:textColor="@color/eb" android:gravity="center" android:id="@+id/xy" android:visibility="visible" style="@style/a05"/>
+            <TextView android:visibility="gone" android:text="@string/j9" style="@style/a05"/>
+            <LinearLayout style="@style/xl">
+                <TextView android:id="@+id/ou" android:text="@string/hp" style="@style/xp"/>
+                <View style="@style/xo"/>
+                <TextView android:id="@+id/p1" android:text="@string/hm" style="@style/xp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

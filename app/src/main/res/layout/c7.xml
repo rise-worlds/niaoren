@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/on">
+    <TextView android:text="@string/gu" style="@style/ws"/>
+    <LinearLayout style="@style/wi">
+        <LinearLayout style="@style/wp">
+            <ImageView android:src="@drawable/m0" style="@style/wu"/>
+            <TextView android:text="@string/lu" style="@style/wv"/>
+            <TextView android:text="@string/gx" style="@style/wq"/>
+            <TextView android:text="@string/gy" style="@style/wh"/>
+        </LinearLayout>
+        <TextView style="@style/wg"/>
+    </LinearLayout>
+</LinearLayout>

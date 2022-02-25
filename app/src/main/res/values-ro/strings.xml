@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Navigați la ecranul de pornire</string>
+    <string name="b">Navigați în sus</string>
+    <string name="c">Mai multe opțiuni</string>
+    <string name="d">Terminat</string>
+    <string name="e">Afișați-le pe toate</string>
+    <string name="f">Alegeți o aplicație</string>
+    <string name="g">DEZACTIVAȚI</string>
+    <string name="h">ACTIVAT</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Funcție+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">spațiu</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Meniu+</string>
+    <string name="a4">Căutați…</string>
+    <string name="a5">Ștergeți interogarea</string>
+    <string name="a6">Interogare de căutare</string>
+    <string name="a7">Căutați</string>
+    <string name="a8">Trimiteți interogarea</string>
+    <string name="a9">Căutare vocală</string>
+    <string name="a_">Trimiteți la</string>
+    <string name="aa">Trimiteți folosind %s</string>
+    <string name="ab">Restrângeți</string>
+    <string name="nq">Căutați</string>
+    <string name="o4">999+</string>
+</resources>

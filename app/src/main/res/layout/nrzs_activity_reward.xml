@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <LinearLayout android:orientation="vertical" android:id="@+id/nrzs_app_reward_load_lay" style="@style/pv">
+        <LinearLayout style="@style/vr">
+            <LinearLayout style="@style/wt">
+                <View android:id="@+id/rl_reward_title" android:layout_width="match_parent" android:layout_height="0dp"/>
+                <RelativeLayout style="@style/so">
+                    <ImageView android:id="@+id/ca" style="@style/sp"/>
+                    <TextView android:text="@string/gz" style="@style/ss"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_marginTop="@dimen/dc" style="@style/x5">
+                    <ImageView android:id="@+id/nrzs_app_reward_heardimg" style="@style/x4"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/nrzs_app_reward_name" android:text="@string/lu" style="@style/x8"/>
+                <TextView android:text="@string/lt" style="@style/x7"/>
+            </LinearLayout>
+            <ScrollView style="@style/vr">
+                <LinearLayout android:orientation="vertical" style="@style/a5h">
+                    <TextView android:text="@string/gw" style="@style/wk"/>
+                    <android.support.p006v7.widget.RecyclerView android:id="@+id/nrzs_app_reward_recycle" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <LinearLayout style="@style/a2v">
+                        <TextView android:layout_marginBottom="0dp" android:text="@string/gs" style="@style/a2x"/>
+                        <TextView android:text="@string/lq" style="@style/a2y"/>
+                        <TextView android:id="@+id/nrzs_app_reward_authorjy" android:text="@string/lr" style="@style/a2x"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/nrzs_app_reward_coin" android:text="@string/h0" android:layout_centerInParent="true" style="@style/ww"/>
+            <com.angel.nrzs.p017ui.view.ToastView android:id="@+id/nrzs_app_reward_toast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/nrzs_app_reward_reward_btn" android:text="@string/gv" style="@style/wj"/>
+    </LinearLayout>
+</LinearLayout>

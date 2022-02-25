@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/hv" style="@style/a5h">
+    <RelativeLayout style="@style/oo">
+        <ImageView android:id="@+id/ax" style="@style/oq"/>
+        <LinearLayout android:layout_below="@+id/ax" style="@style/ui">
+            <TextView android:text="@string/fw" style="@style/uk"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

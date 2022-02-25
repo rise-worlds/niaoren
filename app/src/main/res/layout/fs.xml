@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/fa" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p006v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d" app:contentInsetStart="0dp" app:titleTextColor="@android:color/white">
+        <RelativeLayout style="@style/sm">
+            <ImageView style="@style/sp"/>
+            <TextView android:text="@string/e9" style="@style/ss"/>
+            <TextView android:text="@string/dz" style="@style/sq"/>
+        </RelativeLayout>
+    </android.support.p006v7.widget.Toolbar>
+</LinearLayout>

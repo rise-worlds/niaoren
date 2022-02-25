@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout style="@style/wi">
+        <LinearLayout style="@style/wp">
+            <ImageView android:id="@+id/iv_author_head" android:src="@drawable/m0" style="@style/wu"/>
+            <TextView android:id="@+id/xm" android:text="@string/lu" style="@style/wv"/>
+            <TextView android:text="@string/gx" style="@style/wq"/>
+            <TextView android:id="@+id/tv_close" android:text="@string/gy" style="@style/wh"/>
+        </LinearLayout>
+        <TextView android:id="@+id/nrzs_closimg" style="@style/wg"/>
+    </LinearLayout>
+</LinearLayout>

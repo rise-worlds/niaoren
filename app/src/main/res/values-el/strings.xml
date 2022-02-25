@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Πλοήγηση στην αρχική σελίδα</string>
+    <string name="b">Πλοήγηση προς τα επάνω</string>
+    <string name="c">Περισσότερες επιλογές</string>
+    <string name="d">Τέλος</string>
+    <string name="e">Προβολή όλων</string>
+    <string name="f">Επιλέξτε κάποια εφαρμογή</string>
+    <string name="g">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="h">ΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">διάστημα</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">Αναζήτηση…</string>
+    <string name="a5">Διαγραφή ερωτήματος</string>
+    <string name="a6">Ερώτημα αναζήτησης</string>
+    <string name="a7">Αναζήτηση</string>
+    <string name="a8">Υποβολή ερωτήματος</string>
+    <string name="a9">Φωνητική αναζήτηση</string>
+    <string name="a_">Κοινή χρήση με</string>
+    <string name="aa">Κοινή χρήση με %s</string>
+    <string name="ab">Σύμπτυξη</string>
+    <string name="nq">Αναζήτηση</string>
+    <string name="o4">999+</string>
+</resources>

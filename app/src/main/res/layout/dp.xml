@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/pv">
+    <LinearLayout style="@style/vg">
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/pt" android:hint="@string/g8" style="@style/vn"/>
+        </LinearLayout>
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/q0" android:hint="@string/gc" style="@style/vo"/>
+        </LinearLayout>
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/pz" android:hint="@string/gd" style="@style/vo"/>
+        </LinearLayout>
+        <LinearLayout android:visibility="gone" style="@style/vj">
+            <EditText android:id="@+id/py" android:hint="@string/g7" style="@style/vl"/>
+            <com.nrzs.user.p071ui.view.AuthCodeView android:id="@+id/a05" app:userTitleText="3712" app:userTitleTextColor="#ff0000" app:userTitleTextSize="38sp" style="@style/vm"/>
+        </LinearLayout>
+        <TextView android:id="@+id/q8" android:visibility="gone" android:text="@string/g_" style="@style/vp"/>
+        <TextView android:id="@+id/q7" android:text="@string/cs" style="@style/vk"/>
+    </LinearLayout>
+</LinearLayout>

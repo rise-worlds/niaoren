@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#f7f7f7" style="@style/a5h">
+    <LinearLayout android:orientation="vertical" style="@style/a5h">
+        <RelativeLayout style="@style/qa">
+            <ImageView style="@style/qc"/>
+            <TextView android:text="@string/d1" style="@style/qd"/>
+            <TextView android:text="@string/cw" style="@style/qb"/>
+        </RelativeLayout>
+        <LinearLayout android:visibility="gone" style="@style/qe">
+            <ImageView style="@style/qg"/>
+            <TextView android:text="@string/cw" style="@style/qf"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" style="@style/qe">
+            <include layout="@layout/bn"/>
+        </LinearLayout>
+        <RelativeLayout style="@style/pz">
+            <ImageView android:src="@drawable/ij" style="@style/pz"/>
+            <ImageView style="@style/q0"/>
+        </RelativeLayout>
+        <include layout="@layout/be"/>
+    </LinearLayout>
+    <include android:visibility="gone" layout="@layout/bq"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="db" parent="@style/dc">
+        <item name="at">18.66dp</item>
+        <item name="ih">24dp</item>
+        <item name="k9">3.33dp</item>
+    </style>
+</resources>

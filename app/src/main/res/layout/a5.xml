@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:fitsSystemWindows="true" style="@style/pv">
+    <LinearLayout android:orientation="vertical" android:background="@color/fa" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p006v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:id="@+id/xa" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d" app:contentInsetStart="0dp" app:title="登录界面" app:titleTextColor="@android:color/white">
+            <RelativeLayout style="@style/sm">
+                <ImageView android:id="@+id/ca" style="@style/sp"/>
+                <TextView android:id="@+id/we" android:text="@string/e9" style="@style/ss"/>
+                <TextView android:id="@+id/cf" android:text="@string/dz" style="@style/sq"/>
+            </RelativeLayout>
+        </android.support.p006v7.widget.Toolbar>
+        <android.support.p003v4.widget.SwipeRefreshLayout android:id="@+id/v0" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <android.support.p006v7.widget.RecyclerView android:id="@+id/s9" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </android.support.p003v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+</LinearLayout>

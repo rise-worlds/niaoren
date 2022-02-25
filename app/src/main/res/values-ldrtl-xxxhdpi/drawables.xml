@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="fx">r/p/fx.png</drawable>
+    <drawable name="fy">r/p/fy.png</drawable>
+    <drawable name="gl">r/p/gl.9.png</drawable>
+</resources>

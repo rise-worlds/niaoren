@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/of" style="@style/on">
+    <LinearLayout style="@style/a44">
+        <RelativeLayout style="@style/a4d">
+            <ImageView android:id="@+id/o_" style="@style/a4f"/>
+            <TextView android:id="@+id/p6" style="@style/a4g"/>
+            <TextView android:id="@+id/or" android:text="@string/fo" style="@style/a4e"/>
+            <ImageView android:id="@+id/ob" style="@style/a46"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_weight="1" style="@style/a5h">
+            <android.support.p006v7.widget.RecyclerView android:id="@+id/oo" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a5h">
+    <LinearLayout android:orientation="vertical" style="@style/pv">
+        <LinearLayout android:orientation="vertical" android:layout_weight="1" style="@style/a5h">
+            <RelativeLayout style="@style/sm">
+                <LinearLayout style="@style/ur">
+                    <EditText android:hint="@string/g2" style="@style/uu"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout style="@style/uy">
+                <ImageView style="@style/uz"/>
+                <LinearLayout style="@style/v0">
+                    <ImageView style="@style/v2"/>
+                    <ImageView style="@style/v1"/>
+                    <ImageView style="@style/v1"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <include android:visibility="gone" layout="@layout/br"/>
+            <include layout="@layout/bc"/>
+            <View android:visibility="gone" style="@style/ux"/>
+            <RelativeLayout style="@style/uo">
+                <TextView android:text="@string/f7" style="@style/uq"/>
+                <TextView android:text="@string/dy" style="@style/up"/>
+            </RelativeLayout>
+            <include layout="@layout/bo"/>
+        </LinearLayout>
+        <include layout="@layout/be"/>
+    </LinearLayout>
+    <include layout="@layout/bf"/>
+</RelativeLayout>

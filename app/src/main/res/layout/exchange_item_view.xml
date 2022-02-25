@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/xa" android:visibility="gone" style="@style/yf">
+        <TextView android:text="@string/i5" style="@style/yn"/>
+        <TextView android:text="@string/i6" style="@style/yb"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/nomal_lay" style="@style/yf">
+        <TextView android:text="@string/i7" style="@style/yn"/>
+        <ImageView android:src="@drawable/kd" style="@style/yg"/>
+        <LinearLayout style="@style/yl">
+            <TextView android:id="@+id/order_name" android:text="我的顶级云手机我的顶级云手机1我的顶级云手机11" style="@style/yj"/>
+            <TextView android:id="@+id/r2" android:text="编号:12566666335" style="@style/yk"/>
+            <TextView android:id="@+id/order_time" android:text="剩余:1256天32小时" style="@style/yk"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

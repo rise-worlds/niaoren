@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/a5h">
+    <LinearLayout android:orientation="vertical" style="@style/pv">
+        <android.support.p006v7.widget.Toolbar android:id="@+id/nrzs_app_toolbar" android:background="@color/as" android:layout_width="match_parent" android:layout_height="0dp" app:contentInsetStart="0dp"/>
+        <LinearLayout android:orientation="vertical" style="@style/a5h">
+            <LinearLayout style="@style/v3">
+                <RelativeLayout style="@style/v6">
+                    <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/b_" android:src="@drawable/m0" style="@style/va"/>
+                    <TextView android:id="@+id/b9" android:text="@string/lu" android:layout_toRightOf="@+id/b_" style="@style/v7"/>
+                    <TextView android:id="@+id/b8" android:text="@string/ek" android:layout_toRightOf="@+id/b_" android:layout_alignBottom="@+id/b_" style="@style/vd"/>
+                    <TextView android:id="@+id/ba" android:text="@string/eo" android:layout_toRightOf="@+id/b8" android:layout_alignBottom="@+id/b_" style="@style/vd"/>
+                    <TextView android:id="@+id/nrzs_app_tv_rewaerd" android:text="@string/l7" style="@style/vb"/>
+                    <ImageView android:id="@+id/nrzs_app_iv_search" style="@style/vc"/>
+                </RelativeLayout>
+                <RelativeLayout style="@style/v8">
+                    <com.ctetin.expandabletextviewlibrary.ExpandableTextView android:textSize="@dimen/h0" android:textColor="@color/fa" android:id="@+id/nrzs_app_tv_redmore" android:text="@string/en" app:ep_expand_color="@color/dx" app:ep_expand_text="@string/kt" app:ep_max_line="3" app:ep_need_always_showright="true" app:ep_need_contract="false" app:ep_need_expand="true" style="@style/v9"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_marginTop="@dimen/db" style="@style/uw">
+                <android.support.p006v7.widget.RecyclerView android:id="@+id/nrzs_app_channel_recyclerView" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <LinearLayout android:id="@+id/nrzs_app_ll_nodata" android:visibility="gone" android:layout_marginTop="@dimen/db" style="@style/uw">
+                    <ImageView android:src="@drawable/lg" style="@style/a5g"/>
+                    <TextView android:text="@string/lw" style="@style/uv"/>
+                    <TextView android:id="@+id/nrzs_app_tv_allgame" android:layout_marginTop="@dimen/db" android:text="@string/all_game" style="@style/uv"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/nezs_channel_bottom_banner" android:visibility="gone" android:layout_marginBottom="@dimen/db" style="@style/v4">
+        <ImageView android:id="@+id/nezs_channel_bottom_banner_image" android:background="@color/am" android:scaleType="fitXY" style="@style/a5h"/>
+        <ImageView android:id="@+id/nezs_channel_bottom_banner_close" style="@style/v5"/>
+    </RelativeLayout>
+</RelativeLayout>

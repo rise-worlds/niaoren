@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout style="@style/t9">
+        <ImageView android:src="@drawable/ii" style="@style/t_"/>
+        <TextView android:text="@string/e9" style="@style/tb"/>
+        <TextView android:text="@string/ed" style="@style/ta"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/to">
+        <RelativeLayout style="@style/ts">
+            <ImageView android:src="@drawable/im" style="@style/tr"/>
+            <LinearLayout style="@style/tw">
+                <TextView android:text="@string/fi" style="@style/tu"/>
+                <TextView android:text="@string/fn" style="@style/tz"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout style="@style/tt">
+            <ImageView android:src="@drawable/in" style="@style/tr"/>
+            <ImageView style="@style/tv"/>
+            <LinearLayout style="@style/tw">
+                <TextView android:text="@string/fj" style="@style/tu"/>
+                <TextView android:text="@string/fk" style="@style/tz"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View style="@style/pw"/>
+    <ImageView android:src="@drawable/il" style="@style/t8"/>
+</LinearLayout>

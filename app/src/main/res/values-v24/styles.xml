@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="aq" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored">
+    </style>
+    <style name="ar" parent="@android:style/TextAppearance.Material.Widget.Button.Colored">
+    </style>
+    <style name="h2" parent="@style/h1">
+    </style>
+    <style name="h5" parent="@style/h0">
+    </style>
+    <style name="h7" parent="@style/h6">
+    </style>
+    <style name="h9" parent="@style/h8">
+    </style>
+</resources>

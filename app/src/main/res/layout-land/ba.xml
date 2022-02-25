@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a5h">
+    <LinearLayout style="@style/re">
+        <LinearLayout style="@style/rs">
+            <TextView android:text="@string/dd" style="@style/rv"/>
+            <TextView android:text="@string/d5" style="@style/rq"/>
+            <View style="@style/xd"/>
+            <TextView android:text="@string/de" style="@style/ry"/>
+        </LinearLayout>
+        <GridLayout style="@style/ri">
+            <LinearLayout style="@style/r7">
+                <ImageView android:src="@drawable/kb" style="@style/rf"/>
+                <LinearLayout style="@style/r9">
+                    <TextView android:text="我的火影专机" style="@style/ra"/>
+                    <TextView android:text="编号:H1230249494" style="@style/rb"/>
+                </LinearLayout>
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+    <RelativeLayout style="@style/r1">
+        <ImageView style="@style/qu"/>
+        <ImageView style="@style/qv"/>
+        <ImageView style="@style/qw"/>
+    </RelativeLayout>
+</RelativeLayout>

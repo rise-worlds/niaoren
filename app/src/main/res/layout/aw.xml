@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" style="@style/on">
+    <RelativeLayout style="@style/z5">
+        <ImageView style="@style/z7"/>
+        <LinearLayout style="@style/z_">
+            <TextView android:text="@string/f5" style="@style/zc"/>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/l2" style="@style/a5g"/>
+                <TextView android:text="@string/f1" style="@style/z9"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/l3" style="@style/a5g"/>
+                <TextView android:text="@string/f2" style="@style/z9"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/l4" style="@style/a5g"/>
+                <TextView android:text="@string/f3" style="@style/z9"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/za">
+                <TextView android:text="@string/f4" style="@style/zb"/>
+                <TextView android:text="@string/f0" style="@style/z6"/>
+            </LinearLayout>
+            <LinearLayout style="@style/za">
+                <CheckBox android:checked="true" android:text="@string/ez" android:layout_weight="1" style="@style/z4"/>
+                <CheckBox android:text="@string/ey" style="@style/z4"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_marginTop="@dimen/dp" style="@style/z5">
+        <LinearLayout style="@style/z_">
+            <TextView android:text="@string/la" style="@style/zc"/>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/ni" style="@style/a5g"/>
+                <TextView android:text="@string/l8" style="@style/z9"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/nj" style="@style/a5g"/>
+                <TextView android:text="@string/l9" style="@style/z9"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/nk" style="@style/a5g"/>
+                <TextView android:text="@string/l_" style="@style/z9"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:visibility="gone" style="@style/a12">
+        <LinearLayout style="@style/a11">
+            <ImageView android:src="@drawable/mn" style="@style/a13"/>
+            <TextView android:text="@string/jz" style="@style/a15"/>
+            <TextView android:text="@string/ka" style="@style/a19"/>
+            <TextView android:text="@string/kb" style="@style/a1_"/>
+            <TextView android:text="@string/kc" style="@style/a1a"/>
+            <LinearLayout style="@style/xs">
+                <TextView android:text="@string/jx" style="@style/xr"/>
+                <TextView android:text="@string/jv" style="@style/xq"/>
+            </LinearLayout>
+            <LinearLayout android:visibility="gone" style="@style/xn">
+                <TextView android:text="@string/jw" style="@style/xr"/>
+                <TextView android:text="@string/jv" style="@style/xq"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView style="@style/a1e"/>
+    </RelativeLayout>
+    <RelativeLayout android:visibility="gone" style="@style/a12">
+        <LinearLayout style="@style/a14">
+            <ImageView android:src="@drawable/mt" style="@style/a13"/>
+            <TextView android:text="@string/jy" style="@style/a15"/>
+            <TextView android:text="@string/ka" style="@style/a19"/>
+            <TextView android:text="@string/kd" style="@style/a1b"/>
+            <TextView android:text="@string/ke" style="@style/a1c"/>
+        </LinearLayout>
+        <ImageView style="@style/a1d"/>
+    </RelativeLayout>
+</LinearLayout>

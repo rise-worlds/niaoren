@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/on">
+    <LinearLayout android:orientation="vertical" style="@style/a5h">
+        <LinearLayout style="@style/p9">
+            <RelativeLayout style="@style/pa">
+                <ImageView style="@style/ox"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/p_">
+                <LinearLayout style="@style/oy">
+                    <TextView android:text="@string/ch" style="@style/oz"/>
+                    <TextView android:text="@string/cg" style="@style/oz"/>
+                </LinearLayout>
+                <LinearLayout style="@style/zi">
+                    <TextView android:text="@string/kn" style="@style/a1l"/>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="135dp">
+                        <TextView android:text="@string/kl" style="@style/a1k"/>
+                        <TextView android:text="@string/km" style="@style/a1k"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:text="@string/ki" style="@style/p5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/p9">
+            <RelativeLayout style="@style/pa">
+                <ImageView style="@style/ox"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/p_">
+                <LinearLayout style="@style/oy">
+                    <TextView android:text="@string/ch" style="@style/oz"/>
+                    <TextView android:text="@string/cg" style="@style/oz"/>
+                </LinearLayout>
+                <LinearLayout style="@style/zi">
+                    <TextView android:text="@string/kn" style="@style/a1l"/>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="135dp">
+                        <TextView android:text="@string/kl" style="@style/a1k"/>
+                        <TextView android:text="@string/km" style="@style/a1k"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <RelativeLayout style="@style/a1i">
+                    <ProgressBar android:layout_width="match_parent" android:layout_height="match_parent" android:max="204" android:progress="10" android:secondaryProgress="150" android:progressDrawable="@drawable/dr" style="?android:attr/progressBarStyleHorizontal"/>
+                    <TextView android:text="@string/kk" style="@style/a1j"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/p9">
+            <RelativeLayout style="@style/pa">
+                <ImageView style="@style/ox"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/p_">
+                <LinearLayout style="@style/oy">
+                    <TextView android:text="@string/ch" style="@style/oz"/>
+                    <TextView android:text="@string/cg" style="@style/oz"/>
+                </LinearLayout>
+                <LinearLayout style="@style/zi">
+                    <TextView android:text="@string/kn" style="@style/a1l"/>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="125dp">
+                        <TextView android:text="@string/kl" style="@style/a1k"/>
+                        <TextView android:text="@string/km" style="@style/a1k"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:visibility="gone" android:text="@string/ko" style="@style/a1m"/>
+                <TextView android:text="@string/kh" style="@style/p5"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

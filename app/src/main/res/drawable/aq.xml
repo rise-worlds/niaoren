@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="130" android:drawable="@drawable/hh"/>
+    <item android:duration="130" android:drawable="@drawable/hi"/>
+    <item android:duration="130" android:drawable="@drawable/hj"/>
+    <item android:duration="130" android:drawable="@drawable/hk"/>
+    <item android:duration="130" android:drawable="@drawable/hl"/>
+    <item android:duration="130" android:drawable="@drawable/hm"/>
+    <item android:duration="130" android:drawable="@drawable/hn"/>
+</animation-list>

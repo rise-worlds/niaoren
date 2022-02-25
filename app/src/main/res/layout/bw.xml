@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a2z">
+    <ImageView android:src="@drawable/ii" style="@style/a37"/>
+    <LinearLayout style="@style/a38">
+        <TextView android:text="@string/e9" style="@style/a3a"/>
+        <LinearLayout style="@style/a3g">
+            <TextView android:text="@string/e_" style="@style/a36"/>
+            <TextView android:text="@string/li" style="@style/a3o"/>
+            <TextView android:text="@string/lj" style="@style/a3m"/>
+            <TextView android:text="@string/em" style="@style/a3h"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:text="@string/fe" style="@style/a31"/>
+</RelativeLayout>

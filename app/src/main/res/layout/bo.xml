@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/tg">
+    <RelativeLayout style="@style/tf">
+        <ImageView android:src="@drawable/ir" style="@style/tm"/>
+        <TextView android:text="@string/lo" style="@style/a41"/>
+        <RelativeLayout style="@style/ti">
+            <ImageView android:src="@drawable/ii" style="@style/th"/>
+            <ImageView style="@style/tj"/>
+        </RelativeLayout>
+        <TextView android:text="@string/ed" style="@style/tk"/>
+        <TextView android:text="@string/fe" style="@style/tl"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/tf">
+        <ImageView android:src="@drawable/is" style="@style/tm"/>
+        <TextView android:text="@string/lo" style="@style/a41"/>
+        <RelativeLayout style="@style/ti">
+            <ImageView android:src="@drawable/ii" style="@style/th"/>
+        </RelativeLayout>
+        <TextView android:text="@string/ed" style="@style/tk"/>
+        <TextView android:text="@string/fe" style="@style/tl"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/tf">
+        <ImageView android:src="@drawable/ir" style="@style/tm"/>
+        <TextView android:text="@string/lo" style="@style/a41"/>
+        <RelativeLayout style="@style/ti">
+            <ImageView android:src="@drawable/ii" style="@style/th"/>
+            <ImageView style="@style/tj"/>
+        </RelativeLayout>
+        <TextView android:text="@string/ed" style="@style/tk"/>
+        <TextView android:text="@string/fe" style="@style/tl"/>
+    </RelativeLayout>
+</LinearLayout>

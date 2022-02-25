@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/on">
+    <LinearLayout style="@style/a44">
+        <RelativeLayout style="@style/a4d">
+            <ImageView style="@style/a4f"/>
+            <TextView android:text="@string/e9" style="@style/a4h"/>
+            <TextView android:text="@string/fo" style="@style/a4e"/>
+            <ImageView style="@style/a46"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_weight="1" style="@style/a5h">
+            <LinearLayout style="@style/a40">
+                <RelativeLayout style="@style/a2z">
+                    <ImageView android:src="@drawable/ii" style="@style/a37"/>
+                    <LinearLayout style="@style/a39">
+                        <TextView android:text="@string/e9" style="@style/a3a"/>
+                        <TextView android:text="@string/e_" style="@style/a35"/>
+                        <LinearLayout style="@style/a3i">
+                            <TextView android:text="@string/lj" style="@style/a3k"/>
+                            <TextView android:text="@string/li" style="@style/a3k"/>
+                            <TextView android:text="@string/lh" style="@style/a3k"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:visibility="gone" android:text="@string/fd" style="@style/a3v"/>
+                </RelativeLayout>
+                <TextView android:text="@string/ln" style="@style/a3z"/>
+                <TextView android:text="@string/fe" style="@style/a3y"/>
+            </LinearLayout>
+            <LinearLayout style="@style/a40">
+                <RelativeLayout style="@style/a2z">
+                    <ImageView android:src="@drawable/ii" style="@style/a37"/>
+                    <LinearLayout style="@style/a39">
+                        <TextView android:text="@string/e9" style="@style/a3a"/>
+                        <TextView android:text="@string/e_" style="@style/a35"/>
+                        <LinearLayout style="@style/a3i">
+                            <TextView android:text="@string/lj" style="@style/a3k"/>
+                            <TextView android:text="@string/li" style="@style/a3k"/>
+                            <TextView android:text="@string/lh" style="@style/a3k"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:visibility="gone" android:text="@string/fd" style="@style/a3v"/>
+                </RelativeLayout>
+                <TextView android:text="@string/ln" style="@style/a3z"/>
+                <TextView android:text="@string/fe" style="@style/a3y"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

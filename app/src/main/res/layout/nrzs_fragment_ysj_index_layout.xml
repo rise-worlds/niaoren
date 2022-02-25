@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/c5" style="@style/a5h">
+    <LinearLayout android:orientation="vertical" android:background="@color/fa" android:layout_marginTop="@dimen/f8" style="@style/a5h">
+        <RelativeLayout style="@style/qa">
+            <ImageView android:id="@+id/flash_list" android:layout_width="wrap_content" android:layout_height="24dp" style="@style/qc"/>
+            <TextView android:ellipsize="end" android:id="@+id/group_title" android:text="@string/d1" android:maxEms="10" android:singleLine="true" style="@style/qd"/>
+            <TextView android:id="@+id/add_btn" android:text="@string/cw" style="@style/qb"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/toplaypout" android:background="#f1f1f1" android:visibility="gone" android:clipChildren="false" android:layout_weight="1" style="@style/a5h">
+            <android.support.p003v4.view.ViewPager android:id="@+id/vp_card" android:background="#f1f1f1" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="46dp" android:layout_marginTop="10dp" android:layout_marginRight="46dp" android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/no_login" style="@style/qe">
+            <ImageView android:id="@+id/no_loging_img" style="@style/qg"/>
+            <TextView android:id="@+id/no_login_add" android:text="@string/cw" style="@style/qf"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/button_lay" android:background="#f1f1f1" android:layout_width="match_parent" android:layout_height="@dimen/gh">
+            <RelativeLayout android:id="@+id/ad_lay" style="@style/pz">
+                <ImageView android:id="@+id/ad_img" android:src="@drawable/ij" style="@style/pz"/>
+                <ImageView android:id="@+id/ad_close" style="@style/q0"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

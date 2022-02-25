@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/sf">
+    <TextView android:id="@+id/nrzs_app_tv_home" android:text="@string/dw" style="@style/sk"/>
+    <TextView android:id="@+id/nrzs_app_tv_ysj" android:text="云手机" style="@style/sj"/>
+    <TextView android:id="@+id/nrzs_app_tv_xnkj" android:text="@string/du" style="@style/sg"/>
+    <TextView android:id="@+id/nrzs_app_tv_person" android:text="@string/dx" style="@style/sl"/>
+</LinearLayout>

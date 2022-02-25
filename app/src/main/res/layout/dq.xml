@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/pv">
+    <LinearLayout style="@style/vg">
+        <LinearLayout style="@style/vj">
+            <EditText android:id="@+id/qn" android:hint="@string/ga" style="@style/vn"/>
+        </LinearLayout>
+        <LinearLayout android:visibility="gone" style="@style/vj">
+            <EditText android:id="@+id/ps" android:hint="@string/g7" style="@style/vl"/>
+            <ImageView android:visibility="gone" android:src="@drawable/ih" style="@style/vm"/>
+            <com.nrzs.user.p071ui.view.AuthCodeView android:id="@+id/q4" app:userTitleText="3712" app:userTitleTextColor="#ff0000" app:userTitleTextSize="38sp" style="@style/vm"/>
+        </LinearLayout>
+        <TextView android:visibility="gone" android:text="@string/g_" style="@style/vp"/>
+        <TextView android:id="@+id/qh" android:text="@string/cu" style="@style/vk"/>
+    </LinearLayout>
+</LinearLayout>

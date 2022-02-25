@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/y3">
+    <RelativeLayout style="@style/p6">
+        <TextView android:text="@string/hu" style="@style/p8"/>
+        <ImageView android:id="@+id/hf" style="@style/a46"/>
+    </RelativeLayout>
+    <EditText android:id="@+id/ek" android:hint="最多6个字符" style="@style/y5"/>
+    <TextView android:id="@+id/yt" android:text="@string/hv" style="@style/y4"/>
+</LinearLayout>

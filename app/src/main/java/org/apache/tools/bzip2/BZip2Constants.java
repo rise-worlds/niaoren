@@ -1,0 +1,30 @@
+package org.apache.tools.bzip2;
+
+import android.support.p003v4.view.InputDeviceCompat;
+import android.support.p006v7.widget.helper.ItemTouchHelper;
+import com.cyjh.ddy.media.p035a.ResultTypeConstant;
+import com.cyjh.mobileanjian.ipc.share.proto.IpcCommand;
+import com.cyjh.mobileanjian.ipc.share.proto.UiMessage;
+import com.lody.virtual.helper.compat.IntentCompat;
+import com.nrzs.data.C1963a;
+import com.tencent.smtt.sdk.TbsListener;
+import com.tencent.smtt.sdk.TbsMediaPlayer;
+import com.tencent.smtt.utils.TbsLog;
+import org.apache.http.HttpStatus;
+import org.apache.tools.tar.TarConstants;
+import p110z1.PDF417Common;
+
+/* loaded from: classes2.dex */
+public interface BZip2Constants {
+    public static final int G_SIZE = 50;
+    public static final int MAX_ALPHA_SIZE = 258;
+    public static final int MAX_CODE_LEN = 23;
+    public static final int MAX_SELECTORS = 18002;
+    public static final int NUM_OVERSHOOT_BYTES = 20;
+    public static final int N_GROUPS = 6;
+    public static final int N_ITERS = 4;
+    public static final int RUNA = 0;
+    public static final int RUNB = 1;
+    public static final int baseBlockSize = 100000;
+    public static final int[] rNums = {619, 720, 127, 481, 931, 816, 813, TbsListener.ErrorCode.DECOUPLE_INSTLL_SUCCESS, 566, 247, 985, 724, 205, 454, 863, 491, 741, TbsListener.ErrorCode.TPATCH_ENABLE_EXCEPTION, 949, 214, 733, 859, 335, 708, 621, 574, 73, 654, 730, 472, 419, 436, 278, 496, 867, 210, 399, 680, 480, 51, 878, 465, 811, TbsListener.ErrorCode.STARTDOWNLOAD_10, 869, 675, UiMessage.CommandToUi.Command_Type.FW_SET_HEIGHT_VALUE, 697, 867, 561, 862, 687, 507, 283, 482, IpcCommand.f8356aC, 807, 591, 733, 623, 150, TbsListener.ErrorCode.TPATCH_FAIL, 59, 379, 684, 877, 625, TbsListener.ErrorCode.STARTDOWNLOAD_10, 643, 105, TbsListener.ErrorCode.NEEDDOWNLOAD_TRUE, UiMessage.CommandToUi.Command_Type.FW_GET_VALUE_VALUE, 520, 932, 727, 476, 693, 425, TbsListener.ErrorCode.NEEDDOWNLOAD_FALSE_4, 647, 73, TbsListener.ErrorCode.DOWNLOAD_HAS_COPY_TBS_ERROR, 335, 530, 442, 853, 695, 249, 445, 515, 909, 545, 703, 919, 874, 474, 882, 500, 594, UiMessage.CommandToUi.Command_Type.FW_SET_TEXT_VALUE, 641, 801, TbsListener.ErrorCode.COPY_INSTALL_SUCCESS, TbsListener.ErrorCode.STARTDOWNLOAD_3, 819, 984, 589, InputDeviceCompat.SOURCE_DPAD, 495, 799, TbsListener.ErrorCode.STARTDOWNLOAD_2, UiMessage.CommandToUi.Command_Type.IS_FW_TOUCHMOVE_VALUE, 958, 533, TbsListener.ErrorCode.INCRUPDATE_INSTALL_SUCCESS, 400, 386, 867, 600, 782, 382, 596, 414, TbsListener.ErrorCode.NEEDDOWNLOAD_FALSE_1, 516, 375, 682, 485, 911, ResultTypeConstant.f7208u, 98, 553, TbsListener.ErrorCode.STARTDOWNLOAD_4, 354, 666, 933, HttpStatus.SC_FAILED_DEPENDENCY, 341, 533, 870, TbsListener.ErrorCode.HOST_CONTEXT_IS_NULL, 730, 475, 186, TarConstants.VERSION_OFFSET, 647, 537, 686, 600, TbsListener.ErrorCode.EXCEED_INCR_UPDATE, 469, 68, 770, 919, 190, 373, 294, 822, 808, 206, 184, 943, 795, 384, 383, 461, 404, 758, 839, 887, 715, 67, 618, ResultTypeConstant.f7208u, 204, 918, 873, 777, UiMessage.CommandToUi.Command_Type.IS_FW_TOUCHMOVE_VALUE, 560, 951, TbsListener.ErrorCode.STARTDOWNLOAD_1, 578, 722, 79, 804, 96, 409, 713, 940, 652, 934, 970, 447, TbsListener.ErrorCode.ERROR_QBSDK_INIT_ISSUPPORT, 353, 859, 672, 112, 785, 645, 863, 803, 350, 139, 93, 354, 99, 820, 908, UiMessage.CommandToUi.Command_Type.FW_SET_TOP_VALUE, 772, 154, ResultTypeConstant.f7202o, 580, 184, 79, 626, 630, 742, 653, 282, 762, 623, 680, 81, 927, 626, 789, TbsListener.ErrorCode.DOWNLOAD_THROWABLE, 411, 521, 938, 300, 821, 78, 343, TbsListener.ErrorCode.NEEDDOWNLOAD_FALSE_5, 128, ItemTouchHelper.Callback.DEFAULT_SWIPE_ANIMATION_DURATION, TbsListener.ErrorCode.NEEDDOWNLOAD_TRUE, 774, 972, ResultTypeConstant.f7207t, 999, 639, 495, 78, 352, TbsListener.ErrorCode.PV_UPLOAD_ERROR, 857, 956, 358, 619, 580, TbsListener.ErrorCode.DOWNLOAD_REDIRECT_EMPTY, 737, 594, 701, UiMessage.CommandToUi.Command_Type.FW_SET_TEXT_VALUE, 669, 112, 134, 694, 363, TbsLog.TBSLOG_CODE_SDK_UNAVAIL_X5CORE, 809, 743, TbsListener.ErrorCode.STARTDOWNLOAD_9, 974, 944, 375, 748, 52, 600, 747, 642, 182, 862, 81, 344, 805, 988, 739, 511, 655, 814, 334, 249, 515, 897, 955, 664, 981, 649, 113, 974, 459, 893, TbsListener.ErrorCode.INCR_ERROR_DETAIL, 433, 837, 553, 268, 926, TbsListener.ErrorCode.TPATCH_VERSION_FAILED, 102, 654, 459, 51, 686, 754, 806, 760, 493, 403, 415, 394, 687, 700, 946, 670, 656, UiMessage.CommandToUi.Command_Type.FW_SET_WIDTH_VALUE, 738, 392, 760, 799, 887, 653, 978, TbsListener.ErrorCode.ERROR_TBSINSTALLER_ISTBSCORELEGAL_01, 576, 617, 626, 502, 894, 679, 243, 440, 680, 879, 194, 572, 640, 724, 926, 56, 204, 700, 707, 151, 457, 449, 797, IntentCompat.IMMUTABLE_FLAGS, 791, 558, 945, 679, 297, 59, 87, 824, 713, 663, 412, 693, 342, UiMessage.CommandToUi.Command_Type.FW_OPACITY_VALUE, 134, 108, 571, 364, 631, 212, TbsListener.ErrorCode.NEEDDOWNLOAD_FALSE_4, 643, 304, TbsListener.ErrorCode.ERROR_GETSTRINGARRAY_JARFILE, 343, 97, 430, TbsMediaPlayer.TbsMediaPlayerListener.MEDIA_INFO_NO_VIDEO_DATA, 497, TbsListener.ErrorCode.ERROR_CANLOADVIDEO_RETURN_NULL, 983, 374, 822, PDF417Common.f22405b, TbsListener.ErrorCode.NEEDDOWNLOAD_1, 206, 73, TarConstants.VERSION_OFFSET, 980, 736, 876, 478, 430, 305, TbsListener.ErrorCode.NEEDDOWNLOAD_TRUE, 514, 364, 692, 829, 82, 855, 953, 676, 246, 369, 970, 294, 750, 807, 827, 150, TbsMediaPlayer.TbsMediaPlayerListener.MEDIA_INFO_BUFFERING_PERCENTAGE, 288, 923, 804, 378, 215, 828, 592, 281, 565, 555, 710, 82, 896, 831, 547, IpcCommand.f8362aI, 524, 462, 293, 465, 502, 56, 661, 821, 976, 991, 658, 869, 905, 758, 745, 193, 768, 550, UiMessage.CommandToUi.Command_Type.FW_SET_LEFT_VALUE, 933, 378, 286, 215, 979, 792, 961, 61, 688, 793, 644, 986, 403, 106, 366, 905, 644, 372, 567, 466, 434, 645, 210, 389, 550, 919, 135, C1963a.f10596l, 773, 635, 389, 707, 100, 626, 958, TbsListener.ErrorCode.STARTDOWNLOAD_6, 504, 920, TbsListener.ErrorCode.NEEDDOWNLOAD_FALSE_6, 193, 713, 857, 265, 203, 50, 668, 108, 645, 990, 626, 197, TbsListener.ErrorCode.INFO_CODE_FILEREADER_OPENFILEREADER_MINIQBSUCCESS, 357, 358, 850, 858, 364, 936, 638};
+}

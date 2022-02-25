@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Krmarjenje domov</string>
+    <string name="b">Krmarjenje navzgor</string>
+    <string name="c">Več možnosti</string>
+    <string name="d">Končano</string>
+    <string name="e">Pokaži vse</string>
+    <string name="f">Izbira aplikacije</string>
+    <string name="g">IZKLOPLJENO</string>
+    <string name="h">VKLOPLJENO</string>
+    <string name="u">Alt +</string>
+    <string name="v">Ctrl +</string>
+    <string name="w">Delete</string>
+    <string name="x">Enter</string>
+    <string name="y">Fn +</string>
+    <string name="z">Meta +</string>
+    <string name="a0">Shift +</string>
+    <string name="a1">preslednica</string>
+    <string name="a2">Sym +</string>
+    <string name="a3">Meni +</string>
+    <string name="a4">Iskanje …</string>
+    <string name="a5">Izbris poizvedbe</string>
+    <string name="a6">Iskalna poizvedba</string>
+    <string name="a7">Iskanje</string>
+    <string name="a8">Pošiljanje poizvedbe</string>
+    <string name="a9">Glasovno iskanje</string>
+    <string name="a_">Deljenje z</string>
+    <string name="aa">Deljenje z drugimi prek aplikacije %s</string>
+    <string name="ab">Strni</string>
+    <string name="nq">Iskanje</string>
+    <string name="o4">999+</string>
+</resources>

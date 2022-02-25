@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.p006v7.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="196dp">
+    <ImageView android:id="@+id/g5" android:background="@drawable/z" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp"/>
+    <LinearLayout android:id="@+id/dk" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="?attr/ik" style="@style/f8">
+        <RelativeLayout android:layout_gravity="center_vertical" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/f9">
+            <TextView android:textAppearance="?attr/s4" android:ellipsize="marquee" android:id="@+id/wq" android:fadingEdge="horizontal" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" style="@style/fb"/>
+            <TextView android:textAppearance="?attr/sb" android:id="@+id/uf" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/wq" style="@style/fb"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/v_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" style="@style/fa"/>
+    </LinearLayout>
+</android.support.p006v7.view.menu.ListMenuItemView>

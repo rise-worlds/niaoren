@@ -1,0 +1,18 @@
+package org.apache.http.client;
+
+@Deprecated
+/* loaded from: assets/org.apache.http.legacy.boot */
+public class CircularRedirectException extends RedirectException {
+    private static final long serialVersionUID = 6830063487001091803L;
+
+    public CircularRedirectException() {
+    }
+
+    public CircularRedirectException(String message) {
+        super(message);
+    }
+
+    public CircularRedirectException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}

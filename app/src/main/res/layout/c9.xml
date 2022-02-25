@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a20">
+    <ImageView android:background="@drawable/i8" android:layout_marginTop="@dimen/g6" android:layout_centerHorizontal="true" style="@style/a5g"/>
+    <RelativeLayout style="@style/a1z">
+        <ImageView style="@style/a1r"/>
+        <TextView android:text="开启抢红包时，将微信和QQ放置在后台效率更高" style="@style/a22"/>
+        <TextView android:text="@string/kv" style="@style/a1t"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_marginTop="@dimen/e1" android:layout_marginBottom="@dimen/dd" style="@style/a5h">
+        <LinearLayout style="@style/a2e">
+            <ImageView android:id="@+id/aw" android:src="@drawable/n_" style="@style/a2f"/>
+            <TextView android:text="@string/l6" style="@style/a2i"/>
+            <LinearLayout style="@style/a5g">
+                <TextView android:text="7884010" style="@style/a2g"/>
+                <TextView android:text="78770" style="@style/a2g"/>
+            </LinearLayout>
+            <LinearLayout style="@style/a5g">
+                <TextView android:text="@string/l0" style="@style/a2h"/>
+                <TextView android:text="@string/ky" style="@style/a2h"/>
+            </LinearLayout>
+            <TextView android:text="@string/l3" style="@style/a1s"/>
+        </LinearLayout>
+        <TextView android:text="@string/l1" style="@style/a23"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_alignParentBottom="true" style="@style/a24">
+        <LinearLayout android:layout_height="@dimen/gp" style="@style/a27">
+            <TextView android:visibility="gone" android:text="@string/kz" style="@style/a28"/>
+            <include layout="@layout/bs"/>
+        </LinearLayout>
+        <TextView android:text="@string/l2" style="@style/a2a"/>
+        <TextView android:text="@string/kx" style="@style/a21"/>
+    </RelativeLayout>
+    <View android:background="#87000000" android:visibility="visible" style="@style/a5h"/>
+    <RelativeLayout android:visibility="visible" android:layout_alignParentBottom="true" style="@style/a24">
+        <LinearLayout android:layout_height="@dimen/fn" style="@style/a27">
+            <TextView android:visibility="gone" android:text="@string/kz" style="@style/a29"/>
+            <include android:visibility="visible" layout="@layout/bs"/>
+            <include android:visibility="visible" layout="@layout/bs"/>
+            <include android:visibility="visible" layout="@layout/bs"/>
+        </LinearLayout>
+        <TextView android:text="@string/l2" style="@style/a2a"/>
+        <TextView android:text="@string/kx" style="@style/a21"/>
+    </RelativeLayout>
+</RelativeLayout>

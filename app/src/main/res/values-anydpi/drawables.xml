@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="gy">r/i/gy.xml</drawable>
+    <drawable name="gz">r/i/gz.xml</drawable>
+    <drawable name="f4">r/i/f4.xml</drawable>
+    <drawable name="f5">r/i/f5.xml</drawable>
+    <drawable name="f6">r/i/f6.xml</drawable>
+    <drawable name="f7">r/i/f7.xml</drawable>
+    <drawable name="f8">r/i/f8.xml</drawable>
+    <drawable name="f9">r/i/f9.xml</drawable>
+    <drawable name="f_">r/i/f_.xml</drawable>
+    <drawable name="fa">r/i/fa.xml</drawable>
+    <drawable name="fb">r/i/fb.xml</drawable>
+    <drawable name="fc">r/i/fc.xml</drawable>
+    <drawable name="fd">r/i/fd.xml</drawable>
+    <drawable name="fe">r/i/fe.xml</drawable>
+    <drawable name="ff">r/i/ff.xml</drawable>
+    <drawable name="fg">r/i/fg.xml</drawable>
+    <drawable name="fh">r/i/fh.xml</drawable>
+    <drawable name="fi">r/i/fi.xml</drawable>
+    <drawable name="fj">r/i/fj.xml</drawable>
+    <drawable name="fk">r/i/fk.xml</drawable>
+    <drawable name="fl">r/i/fl.xml</drawable>
+    <drawable name="fm">r/i/fm.xml</drawable>
+    <drawable name="fn">r/i/fn.xml</drawable>
+</resources>

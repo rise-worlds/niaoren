@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <RelativeLayout style="@style/sm">
+        <ImageView style="@style/sp"/>
+        <TextView android:text="@string/cv" style="@style/ss"/>
+        <TextView android:text="@string/fo" style="@style/um"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" style="@style/a5h">
+        <ImageView android:src="@drawable/il" style="@style/t8"/>
+        <RelativeLayout style="@style/a3r">
+            <ImageView android:src="@drawable/no" style="@style/a3q"/>
+            <LinearLayout style="@style/a3p">
+                <TextView android:text="@string/lk" style="@style/a3t"/>
+                <TextView android:text="@string/lm" style="@style/a3w"/>
+                <TextView android:text="@string/ed" style="@style/a3s"/>
+            </LinearLayout>
+            <TextView android:text="@string/ll" style="@style/a3u"/>
+        </RelativeLayout>
+        <View style="@style/pw"/>
+        <include layout="@layout/bv"/>
+        <include layout="@layout/bv"/>
+        <include layout="@layout/bv"/>
+    </LinearLayout>
+    <LinearLayout android:visibility="gone" style="@style/xc">
+        <ImageView android:src="@drawable/nn" style="@style/a5g"/>
+        <TextView android:text="@string/lf" style="@style/a3b"/>
+        <TextView android:text="@string/lg" style="@style/a3c"/>
+    </LinearLayout>
+</LinearLayout>

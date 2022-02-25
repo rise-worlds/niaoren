@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/of" style="@style/zu">
+    <TextView android:id="@+id/z_" style="@style/zz"/>
+    <TextView android:id="@+id/zc" style="@style/zy"/>
+    <TextView android:id="@+id/za" style="@style/zx"/>
+    <TextView android:id="@+id/zd" android:text="@string/j1" style="@style/zv"/>
+</LinearLayout>

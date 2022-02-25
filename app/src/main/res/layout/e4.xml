@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/bu" android:fitsSystemWindows="true" android:layout_width="@dimen/f5" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/gi" android:background="@drawable/bu" android:layout_width="wrap_content" android:layout_height="@dimen/dk" android:layout_marginTop="@dimen/dc" android:layout_centerInParent="true"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/e4" android:text="数据加载中，请稍候..." android:layout_below="@+id/gi" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

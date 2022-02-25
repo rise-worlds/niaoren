@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/of" style="@style/a09">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/gh" style="@style/a0g">
+        <TextView android:textColor="#7a000000" android:id="@+id/z_" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="VIVO X21A"/>
+        <TextView android:textColor="#7a000000" android:id="@+id/z8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="当前"/>
+    </LinearLayout>
+    <TextView android:textColor="#7a000000" android:id="@+id/zc" android:layout_width="@dimen/gk" android:text="@string/e2" android:singleLine="false" style="@style/a0e"/>
+    <TextView android:textColor="#7a000000" android:id="@+id/za" android:layout_width="@dimen/gb" android:text="106区正常" style="@style/a0d"/>
+    <LinearLayout style="@style/a0_">
+        <TextView android:id="@+id/z9" android:text="@string/jc" style="@style/a0a"/>
+        <TextView android:id="@+id/zd" android:text="@string/jd" style="@style/a0b"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_marginTop="@dimen/g6" style="@style/u0">
+    <TextView android:text="@string/fp" style="@style/u2"/>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt">ExpandableTextViewLibrary</string>
+    <string name="o1">Fold</string>
+    <string name="o2">More</string>
+    <string name="o3">Website link</string>
+</resources>

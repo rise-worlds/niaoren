@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/zd">
+    <RelativeLayout style="@style/p6">
+        <TextView android:text="@string/ip" style="@style/p8"/>
+        <ImageView android:id="@+id/o_" style="@style/a46"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/p3">
+        <ImageView android:src="@drawable/n3" style="@style/ps"/>
+        <TextView android:text="@string/iu" style="@style/zf"/>
+        <TextView android:text="@string/it" style="@style/ze"/>
+        <LinearLayout style="@style/ow">
+            <TextView android:id="@+id/oy" android:text="@string/iq" style="@style/ov"/>
+            <TextView android:id="@+id/p8" android:text="@string/ir" style="@style/ou"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/cw" android:layout_marginTop="@dimen/db" android:text="@string/is" style="@style/xt"/>
+    </LinearLayout>
+</LinearLayout>

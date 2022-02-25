@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/oi">
+    <ImageView style="@style/oj"/>
+    <TextView android:text="@string/bw" style="@style/n9"/>
+    <ProgressBar android:progress="50" android:indeterminateOnly="false" style="@style/n8"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pv">
+    <android.support.p006v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:id="@+id/q6" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d" app:contentInsetStart="0dp" app:title="登录界面" app:titleTextColor="@android:color/white">
+        <RelativeLayout style="@style/sm">
+            <ImageView android:id="@+id/qj" style="@style/sp"/>
+            <TextView android:text="@string/cs" style="@style/ss"/>
+            <TextView android:id="@+id/qg" android:text="@string/cr" style="@style/sq"/>
+        </RelativeLayout>
+    </android.support.p006v7.widget.Toolbar>
+    <FrameLayout android:id="@+id/q3" android:background="#fff" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

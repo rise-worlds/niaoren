@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <RelativeLayout style="@style/sm">
+        <ImageView style="@style/sp"/>
+        <LinearLayout style="@style/ut">
+            <EditText android:hint="@string/g2" style="@style/uu"/>
+            <ImageView style="@style/us"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:visibility="gone" style="@style/xc">
+        <ImageView android:src="@drawable/nu" style="@style/a5g"/>
+        <TextView android:text="@string/fa" style="@style/a3b"/>
+    </LinearLayout>
+    <LinearLayout style="@style/xc">
+        <ImageView android:src="@drawable/nv" style="@style/a5g"/>
+        <TextView android:text="@string/fb" style="@style/a3b"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout style="@style/xk">
+        <RelativeLayout style="@style/p6">
+            <ImageView android:id="@+id/pc" style="@style/a46"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/p3">
+            <ImageView android:src="@drawable/n6" style="@style/p0"/>
+            <TextView android:id="@+id/zp" android:text="@string/k_" style="@style/pr"/>
+            <TextView android:id="@+id/zo" android:text="@string/k7" style="@style/pq"/>
+            <CheckBox android:id="@+id/p_" android:text="@string/k2" style="@style/xt"/>
+            <RelativeLayout android:id="@+id/t6" android:visibility="gone" style="@style/zj">
+                <ProgressBar android:id="@+id/ry" android:max="100" style="@style/zl"/>
+                <TextView android:id="@+id/ym" android:text="@string/k6" style="@style/zk"/>
+            </RelativeLayout>
+            <TextView android:id="@+id/pm" android:text="@string/hr" style="@style/a10"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

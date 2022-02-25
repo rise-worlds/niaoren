@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="et" parent="@style/a5m">
+    </style>
+    <style name="eu" parent="@style/a5n">
+    </style>
+    <style name="a5m" parent="@android:style/Theme.Material.NoActionBar">
+    </style>
+    <style name="a5n" parent="@android:style/Theme.Material.Light.NoActionBar">
+    </style>
+</resources>

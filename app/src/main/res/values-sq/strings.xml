@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Orientohu për në shtëpi</string>
+    <string name="b">Ngjitu lart</string>
+    <string name="c">Opsione të tjera</string>
+    <string name="d">U krye!</string>
+    <string name="e">Shikoji të gjitha</string>
+    <string name="f">Zgjidh një aplikacion</string>
+    <string name="g">JOAKTIV</string>
+    <string name="h">AKTIV</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Funksioni+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">hapësirë</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menyja+</string>
+    <string name="a4">Kërko...</string>
+    <string name="a5">Pastro pyetjen</string>
+    <string name="a6">Kërko pyetjen</string>
+    <string name="a7">Kërko</string>
+    <string name="a8">Dërgo pyetjen</string>
+    <string name="a9">Kërkim me zë</string>
+    <string name="a_">Shpërnda publikisht me</string>
+    <string name="aa">Ndaje me %s</string>
+    <string name="ab">Shpalos</string>
+    <string name="nq">Kërko</string>
+    <string name="o4">999+</string>
+</resources>

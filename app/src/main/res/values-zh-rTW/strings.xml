@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">瀏覽首頁</string>
+    <string name="b">向上瀏覽</string>
+    <string name="c">更多選項</string>
+    <string name="d">完成</string>
+    <string name="e">查看全部</string>
+    <string name="f">選擇應用程式</string>
+    <string name="g">關閉</string>
+    <string name="h">開啟</string>
+    <string name="u">Alt +</string>
+    <string name="v">Ctrl +</string>
+    <string name="w">Delete 鍵</string>
+    <string name="x">Enter 鍵</string>
+    <string name="y">Fn +</string>
+    <string name="z">Meta +</string>
+    <string name="a0">Shift +</string>
+    <string name="a1">空格鍵</string>
+    <string name="a2">Sym +</string>
+    <string name="a3">Menu +</string>
+    <string name="a4">搜尋…</string>
+    <string name="a5">清除查詢</string>
+    <string name="a6">搜尋查詢</string>
+    <string name="a7">搜尋</string>
+    <string name="a8">提交查詢</string>
+    <string name="a9">語音搜尋</string>
+    <string name="a_">選擇分享對象</string>
+    <string name="aa">與「%s」分享</string>
+    <string name="ab">收合</string>
+    <string name="nq">搜尋</string>
+    <string name="o4">999+</string>
+</resources>

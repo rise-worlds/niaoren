@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">홈 탐색</string>
+    <string name="b">위로 탐색</string>
+    <string name="c">옵션 더보기</string>
+    <string name="d">완료</string>
+    <string name="e">전체 보기</string>
+    <string name="f">앱 선택</string>
+    <string name="g">사용 안함</string>
+    <string name="h">사용</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">삭제</string>
+    <string name="x">입력</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">스페이스바</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">Menu+</string>
+    <string name="a4">검색...</string>
+    <string name="a5">검색어 삭제</string>
+    <string name="a6">검색어</string>
+    <string name="a7">검색</string>
+    <string name="a8">검색어 보내기</string>
+    <string name="a9">음성 검색</string>
+    <string name="a_">공유 대상</string>
+    <string name="aa">%s와(과) 공유</string>
+    <string name="ab">접기</string>
+    <string name="nq">검색</string>
+    <string name="o4">999+</string>
+</resources>

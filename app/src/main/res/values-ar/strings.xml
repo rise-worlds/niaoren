@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">التنقل إلى الشاشة الرئيسية</string>
+    <string name="b">التنقل إلى أعلى</string>
+    <string name="c">خيارات إضافية</string>
+    <string name="d">تم</string>
+    <string name="e">عرض الكل</string>
+    <string name="f">اختيار تطبيق</string>
+    <string name="g">إيقاف</string>
+    <string name="h">تشغيل</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">delete</string>
+    <string name="x">enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">space</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">القائمة+</string>
+    <string name="a4">بحث…</string>
+    <string name="a5">محو طلب البحث</string>
+    <string name="a6">طلب البحث</string>
+    <string name="a7">بحث</string>
+    <string name="a8">إرسال طلب البحث</string>
+    <string name="a9">البحث الصوتي</string>
+    <string name="a_">مشاركة مع</string>
+    <string name="aa">مشاركة مع %s</string>
+    <string name="ab">تصغير</string>
+    <string name="nq">البحث</string>
+    <string name="o4">999+</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/a5h">
+    <LinearLayout android:orientation="vertical" style="@style/pv">
+        <LinearLayout android:orientation="vertical" android:layout_weight="1" style="@style/a5h">
+            <LinearLayout style="@style/v3">
+                <RelativeLayout style="@style/v6">
+                    <ImageView android:id="@+id/b_" android:src="@drawable/m0" style="@style/va"/>
+                    <TextView android:id="@+id/b9" android:text="@string/lu" android:layout_toRightOf="@+id/b_" style="@style/v7"/>
+                    <TextView android:id="@+id/b8" android:text="@string/ek" android:layout_toRightOf="@+id/b_" android:layout_alignBottom="@+id/b_" style="@style/vd"/>
+                    <TextView android:id="@+id/ba" android:text="@string/eo" android:layout_toRightOf="@+id/b8" android:layout_alignBottom="@+id/b_" style="@style/vd"/>
+                    <TextView android:text="@string/l7" style="@style/vb"/>
+                    <ImageView style="@style/vc"/>
+                </RelativeLayout>
+                <RelativeLayout style="@style/v8">
+                    <TextView android:text="@string/en" style="@style/v9"/>
+                    <TextView android:text="@string/kt" style="@style/v_"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout style="@style/uy">
+                <ImageView style="@style/uz"/>
+                <LinearLayout style="@style/v0">
+                    <ImageView style="@style/v2"/>
+                    <ImageView style="@style/v1"/>
+                    <ImageView style="@style/v1"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <include layout="@layout/bc"/>
+            <RelativeLayout style="@style/uo">
+                <TextView android:text="@string/el" style="@style/uq"/>
+                <TextView android:text="@string/dy" style="@style/up"/>
+            </RelativeLayout>
+            <LinearLayout style="@style/uw">
+                <ImageView android:src="@drawable/lg" style="@style/a5g"/>
+                <TextView android:text="@string/lw" style="@style/uv"/>
+            </LinearLayout>
+            <include layout="@layout/bw"/>
+        </LinearLayout>
+        <include layout="@layout/be"/>
+    </LinearLayout>
+    <RelativeLayout style="@style/v4">
+        <ImageView android:background="@color/am" style="@style/a5h"/>
+        <ImageView style="@style/v5"/>
+    </RelativeLayout>
+</RelativeLayout>

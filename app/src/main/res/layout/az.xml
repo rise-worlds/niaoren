@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/o9" style="@style/a5h">
+    <LinearLayout android:visibility="visible" style="@style/nn">
+        <RelativeLayout style="@style/nm">
+            <GridLayout android:columnCount="2" style="@style/n_">
+                <TextView android:text="@string/c0" style="@style/ne"/>
+                <TextView android:text="@string/by" style="@style/nb"/>
+                <TextView android:text="@string/c1" style="@style/nf"/>
+                <TextView android:text="@string/c4" style="@style/nj"/>
+                <TextView android:visibility="gone" android:text="@string/c2" style="@style/nh"/>
+            </GridLayout>
+            <LinearLayout android:visibility="visible" style="@style/a2n">
+                <TextView style="@style/a2o"/>
+                <TextView style="@style/a2o"/>
+                <TextView style="@style/a2o"/>
+                <TextView style="@style/a2o"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <GridLayout android:layout_marginTop="@dimen/dc" android:columnCount="2" style="@style/n_">
+            <TextView android:text="@string/c3" style="@style/ni"/>
+            <TextView android:text="@string/c7" style="@style/nl"/>
+        </GridLayout>
+    </LinearLayout>
+    <RelativeLayout android:visibility="visible" style="@style/o1">
+        <LinearLayout style="@style/o3">
+            <ImageView style="@style/ob"/>
+            <LinearLayout style="@style/o6">
+                <ImageView android:src="@drawable/j2" style="@style/og"/>
+                <TextView android:text="@string/j7" style="@style/o9"/>
+            </LinearLayout>
+            <View style="@style/n7"/>
+            <LinearLayout style="@style/o6">
+                <ImageView android:src="@drawable/j5" style="@style/og"/>
+                <TextView android:text="@string/jb" style="@style/o9"/>
+            </LinearLayout>
+            <LinearLayout style="@style/o6">
+                <ImageView android:src="@drawable/iy" style="@style/og"/>
+                <TextView android:text="@string/il" style="@style/o9"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/o2">
+            <LinearLayout style="@style/o_">
+                <ImageView android:src="@drawable/j9" style="@style/oa"/>
+                <TextView android:text="@string/k5" style="@style/o9"/>
+            </LinearLayout>
+            <LinearLayout style="@style/o_">
+                <ImageView android:src="@drawable/je" style="@style/oa"/>
+                <TextView android:text="@string/kq" style="@style/o9"/>
+            </LinearLayout>
+            <View style="@style/n7"/>
+            <LinearLayout style="@style/o_">
+                <ImageView android:src="@drawable/iw" style="@style/oa"/>
+                <TextView android:text="@string/hl" style="@style/o9"/>
+            </LinearLayout>
+            <LinearLayout style="@style/o_">
+                <ImageView android:src="@drawable/ix" style="@style/oa"/>
+                <TextView android:text="@string/ht" style="@style/o9"/>
+            </LinearLayout>
+            <LinearLayout style="@style/o_">
+                <ImageView android:src="@drawable/j4" style="@style/oa"/>
+                <TextView android:text="@string/ja" style="@style/o9"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:visibility="gone" style="@style/od">
+        <LinearLayout style="@style/of">
+            <ImageView android:layout_height="wrap_content" android:src="@drawable/j2" style="@style/o8"/>
+            <View style="@style/n7"/>
+            <ImageView android:src="@drawable/j5" style="@style/og"/>
+            <ImageView android:src="@drawable/iy" style="@style/og"/>
+        </LinearLayout>
+        <LinearLayout style="@style/oe">
+            <ImageView android:src="@drawable/j_" style="@style/oa"/>
+            <ImageView android:src="@drawable/je" style="@style/oa"/>
+            <View style="@style/n7"/>
+            <ImageView android:src="@drawable/iw" style="@style/oa"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout style="@style/a4i">
+        <ImageView android:src="@drawable/ky" style="@style/a4j"/>
+        <ImageView android:src="@drawable/kz" style="@style/a4j"/>
+        <ImageView android:src="@drawable/l0" style="@style/a4j"/>
+    </LinearLayout>
+</RelativeLayout>

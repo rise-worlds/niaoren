@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/pv">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout style="@style/vr">
+            <LinearLayout style="@style/wz">
+                <RelativeLayout style="@style/x5">
+                    <ImageView android:id="@+id/nrzs_app_tv_heardimg" style="@style/x4"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/nrzs_app_tv_name" android:text="@string/h1" style="@style/x6"/>
+                <LinearLayout style="@style/x0">
+                    <TextView android:id="@+id/nrzs_app_tv_resite" android:text="@string/cs" style="@style/x3"/>
+                    <TextView android:id="@+id/nrzs_app_tv_login" android:text="@string/cr" style="@style/x1"/>
+                    <TextView android:id="@+id/nrzs_app_tv_login_out" android:visibility="gone" android:text="@string/cq" style="@style/x2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:visibility="gone" style="@style/wa">
+                <LinearLayout android:id="@+id/nrzs_app_lay_pay" style="@style/w2">
+                    <TextView android:text="@string/go" style="@style/w7"/>
+                </LinearLayout>
+                <View style="@style/wc"/>
+                <LinearLayout android:id="@+id/nrzs_app_lay_fz" style="@style/w2">
+                    <TextView android:text="@string/cv" style="@style/w_"/>
+                </LinearLayout>
+                <View style="@style/wc"/>
+                <LinearLayout style="@style/w2"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/nrzs_app_home_ll_gold" style="@style/s_">
+                <TextView android:text="@string/h7" style="@style/sd"/>
+                <TextView android:id="@+id/nrzs_app_tv_gold" style="@style/se"/>
+                <ImageView android:id="@+id/nrzs_app_iv_help" style="@style/sb"/>
+                <View style="@style/xd"/>
+                <TextView android:id="@+id/nrzs_app_tv_recharge_gold" android:text="@string/fo" style="@style/sa"/>
+            </LinearLayout>
+            <RelativeLayout style="@style/vt">
+                <TextView android:id="@+id/b3" android:text="@string/h2" style="@style/vz"/>
+                <ImageView android:id="@+id/nrzs_app_iv_vip_help" android:layout_toRightOf="@+id/b3" style="@style/we"/>
+                <LinearLayout android:layout_alignParentRight="true" style="@style/a5f">
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/ll_my_vip_unopen" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:id="@+id/tv_vip_state" android:text="@string/h6" style="@style/vw"/>
+                        <TextView android:id="@+id/tv_vip_open" android:visibility="visible" android:text="@string/h4" style="@style/x_"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/ll_my_vip_open" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:id="@+id/tv_my_vip_open_sum" android:text="@string/ei" style="@style/vy"/>
+                        <TextView android:id="@+id/tv_my_vip_date" android:text="@string/e3" style="@style/vw"/>
+                        <TextView android:id="@+id/tv_my_vip_renew" android:text="@string/h5" style="@style/xa"/>
+                        <TextView android:id="@+id/tv_my_vip_add_open" android:text="@string/h3" style="@style/x9"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout style="@style/vt">
+                <TextView android:id="@+id/b3" android:text="鸟币" style="@style/vx"/>
+                <ImageView android:id="@+id/iv_bird_nb_tips" android:layout_toRightOf="@+id/b3" style="@style/we"/>
+                <TextView android:id="@+id/tv_bird_money" android:text="0" style="@style/wf"/>
+            </RelativeLayout>
+            <View style="@style/pw"/>
+            <View style="@style/wb"/>
+            <LinearLayout style="@style/wa">
+                <LinearLayout android:id="@+id/nrzs_app_lay_code" style="@style/w2">
+                    <TextView android:text="@string/gk" style="@style/w3"/>
+                </LinearLayout>
+                <View style="@style/wc"/>
+                <LinearLayout android:id="@+id/nrzs_app_lay_openmore" style="@style/w2">
+                    <TextView android:text="@string/gn" style="@style/w6"/>
+                </LinearLayout>
+                <View style="@style/wc"/>
+                <LinearLayout android:id="@+id/nrzs_app_lay_model" style="@style/w2">
+                    <TextView android:text="@string/gq" style="@style/w9"/>
+                </LinearLayout>
+                <View style="@style/wc"/>
+            </LinearLayout>
+            <View style="@style/wb"/>
+            <LinearLayout style="@style/wa">
+                <LinearLayout android:id="@+id/nrzs_app_lay_faq" style="@style/w2">
+                    <TextView android:text="@string/gl" style="@style/w4"/>
+                </LinearLayout>
+                <View style="@style/wc"/>
+                <LinearLayout android:id="@+id/nrzs_app_lay_question" style="@style/w2">
+                    <TextView android:text="问题反馈" style="@style/w5"/>
+                </LinearLayout>
+                <View style="@style/wc"/>
+                <LinearLayout android:id="@+id/nrzs_app_lay_rules" style="@style/w2">
+                    <TextView android:text="@string/gp" style="@style/w8"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View style="@style/pw"/>
+            <RelativeLayout android:id="@+id/rl_check_update" style="@style/vt">
+                <TextView android:text="@string/gh" style="@style/vu"/>
+                <TextView android:id="@+id/tv_version_name" android:layout_marginRight="10dp" android:text="@string/gi" style="@style/w0"/>
+                <ImageView android:id="@+id/iv_red_position" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nd" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.p006v7.widget.Toolbar android:id="@+id/nrzs_app_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dp" app:contentInsetStart="0dp"/>
+</LinearLayout>

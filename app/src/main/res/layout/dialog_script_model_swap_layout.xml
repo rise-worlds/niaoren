@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/f9" style="@style/on">
+    <RelativeLayout android:id="@+id/nrzs_app_sctript_model_pxkj" style="@style/z5">
+        <LinearLayout android:id="@+id/nrzs_app_sctript_model_linner_pxkj" style="@style/z_">
+            <TextView android:text="@string/f5" style="@style/zc"/>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/l2" style="@style/a5g"/>
+                <TextView android:text="@string/f1" style="@style/z9"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/l3" style="@style/a5g"/>
+                <TextView android:text="@string/f2" style="@style/z9"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/l4" style="@style/a5g"/>
+                <TextView android:text="@string/f3" style="@style/z9"/>
+            </RelativeLayout>
+            <LinearLayout android:id="@+id/nrzs_app_sctript_mobile_screen_model" style="@style/za">
+                <TextView android:text="@string/jx" style="@style/zb"/>
+                <TextView android:text="@string/f0" style="@style/z6"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/nrzs_app_sctript_va_screen_model" style="@style/za">
+                <TextView android:text="@string/f4" style="@style/zb"/>
+                <TextView android:text="@string/f0" style="@style/z6"/>
+            </LinearLayout>
+            <LinearLayout style="@style/za">
+                <CheckBox android:id="@+id/install_wx" android:checked="true" android:text="@string/ez" android:layout_weight="1" style="@style/z4"/>
+                <CheckBox android:id="@+id/insatall_qq" android:text="@string/ey" style="@style/z4"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/nrzs_app_sctript_model_img_pxkj" style="@style/z7"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/nrzs_app_sctript_model_lacal" android:layout_marginTop="@dimen/dp" style="@style/z5">
+        <LinearLayout android:id="@+id/nrzs_app_sctript_model_linner_lacal" style="@style/z_">
+            <TextView android:text="@string/la" style="@style/zc"/>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/ni" style="@style/a5g"/>
+                <TextView android:text="@string/l8" style="@style/z9"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/nj" style="@style/a5g"/>
+                <TextView android:text="@string/l9" style="@style/z9"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/z8">
+                <ImageView android:src="@drawable/nk" style="@style/a5g"/>
+                <TextView android:text="@string/l_" style="@style/z9"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/nrzs_app_sctript_model_img_lacal" style="@style/z7"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
+    <RelativeLayout style="@style/sm">
+        <ImageView style="@style/sp"/>
+        <ImageView style="@style/sn"/>
+        <TextView android:text="@string/ha" style="@style/ss"/>
+    </RelativeLayout>
+    <LinearLayout style="@style/xg">
+        <ImageView android:background="@drawable/ap" style="@style/xh"/>
+        <TextView android:text="@string/hc" style="@style/xj"/>
+        <TextView android:text="@string/hb" style="@style/xi"/>
+    </LinearLayout>
+    <TextView android:text="@string/h9" style="@style/xe"/>
+    <TextView android:text="@string/h_" style="@style/xf"/>
+</LinearLayout>

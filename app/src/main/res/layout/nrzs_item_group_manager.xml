@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout style="@style/qn">
+        <TextView android:id="@+id/g6" android:text="三国志专用(30)" style="@style/qq"/>
+        <ImageView android:id="@+id/edit_grout" style="@style/qp"/>
+        <ImageView android:id="@+id/delete_btn" style="@style/qo"/>
+    </LinearLayout>
+</LinearLayout>

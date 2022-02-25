@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ወደ መነሻ ይዳስሱ</string>
+    <string name="b">ወደ ላይ ይዳስሱ</string>
+    <string name="c">ተጨማሪ አማራጮች</string>
+    <string name="d">ተከናውኗል</string>
+    <string name="e">ሁሉንም ይመልከቱ</string>
+    <string name="f">መተግበሪያ ይምረጡ</string>
+    <string name="g">ጠፍቷል</string>
+    <string name="h">በርቷል</string>
+    <string name="u">Alt+</string>
+    <string name="v">Ctrl+</string>
+    <string name="w">ሰርዝ</string>
+    <string name="x">enter</string>
+    <string name="y">Function+</string>
+    <string name="z">Meta+</string>
+    <string name="a0">Shift+</string>
+    <string name="a1">space</string>
+    <string name="a2">Sym+</string>
+    <string name="a3">ምናሌ+</string>
+    <string name="a4">ፈልግ…</string>
+    <string name="a5">መጠይቅ አጽዳ</string>
+    <string name="a6">የፍለጋ ጥያቄ</string>
+    <string name="a7">ፍለጋ</string>
+    <string name="a8">መጠይቅ ያስረክቡ</string>
+    <string name="a9">የድምፅ ፍለጋ</string>
+    <string name="a_">ከሚከተለው ጋር ያጋሩ</string>
+    <string name="aa">ከ%s ጋር አጋራ</string>
+    <string name="ab">ሰብስብ</string>
+    <string name="nq">ፈልግ</string>
+    <string name="o4">999+</string>
+</resources>

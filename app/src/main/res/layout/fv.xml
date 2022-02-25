@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout style="@style/or">
+        <RelativeLayout style="@style/p6">
+            <ImageView android:id="@+id/pb" style="@style/a46"/>
+        </RelativeLayout>
+        <LinearLayout style="@style/p3">
+            <ImageView android:src="@drawable/mp" style="@style/p0"/>
+            <TextView android:text="@string/g0" style="@style/p2"/>
+            <TextView android:id="@+id/pl" android:text="@string/e0" style="@style/p5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
