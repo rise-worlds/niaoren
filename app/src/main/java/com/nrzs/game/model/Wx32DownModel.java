@@ -18,7 +18,6 @@ import com.nrzs.core.models.AppData;
 import com.nrzs.core.models.AppInfo;
 import com.nrzs.core.models.AppInfoLite;
 import com.nrzs.data.p066ft.bean.MultVersion;
-import com.nrzs.game.model.Wx32DownModel;
 import com.nrzs.http.UICallback;
 import com.nrzs.p072va.AppInstallOptions;
 import com.nrzs.p072va.AppInstallResult;
@@ -56,7 +55,7 @@ public class Wx32DownModel {
     private boolean f10921g = false;
 
     /* renamed from: a */
-    AppRepository f10916a = new AppRepository(GameApp.m13000d().m13006b());
+    AppRepository f10916a = new AppRepository(GameApp.getInstance().m13006b());
 
     /* compiled from: Wx32DownModel.java */
     /* renamed from: com.nrzs.game.model.b$a */
@@ -79,7 +78,7 @@ public class Wx32DownModel {
     }
 
     private Wx32DownModel() {
-        m18753a(GameApp.m13000d().m13006b());
+        m18753a(GameApp.getInstance().m13006b());
         m18736c();
     }
 
@@ -301,7 +300,7 @@ public class Wx32DownModel {
     /* renamed from: c */
     private void m18734c(String str) {
         if (!this.f10921g) {
-            this.f10916a.mo12946b(GameApp.m13000d().m13006b(), str).mo3282b(new C20763());
+            this.f10916a.mo12946b(GameApp.getInstance().m13006b(), str).mo3282b(new C20763());
         }
     }
 
@@ -421,7 +420,7 @@ public class Wx32DownModel {
 
     /* renamed from: a */
     private BaseDownloadInfo m18744a(String str, String str2) {
-        BaseDownloadInfo downloadInfo = BaseDownloadOperate.getDownloadInfo(GameApp.m13000d().m13006b(), str2);
+        BaseDownloadInfo downloadInfo = BaseDownloadOperate.getDownloadInfo(GameApp.getInstance().m13006b(), str2);
         if (downloadInfo == null) {
             downloadInfo = m18737b(str, str2);
             if (m18752a(downloadInfo)) {
@@ -447,7 +446,7 @@ public class Wx32DownModel {
 
     /* renamed from: b */
     private void m18740b(BaseDownloadInfo baseDownloadInfo) {
-        BaseDownloadOperate.addNewDownloadTask(GameApp.m13000d().m13006b(), baseDownloadInfo);
+        BaseDownloadOperate.addNewDownloadTask(GameApp.getInstance().m13006b(), baseDownloadInfo);
     }
 
     /* renamed from: h */

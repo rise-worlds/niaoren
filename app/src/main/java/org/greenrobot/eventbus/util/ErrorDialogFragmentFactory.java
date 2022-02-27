@@ -2,8 +2,7 @@ package org.greenrobot.eventbus.util;
 
 import android.annotation.TargetApi;
 import android.os.Bundle;
-import android.support.p003v4.app.Fragment;
-import org.greenrobot.eventbus.util.ErrorDialogFragments;
+import android.support.v4.app.Fragment;
 
 /* renamed from: org.greenrobot.eventbus.util.c */
 /* loaded from: classes2.dex */

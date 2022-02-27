@@ -3,7 +3,7 @@ package com.nrzs.moudleui.pinnedheader;
 import android.content.Context;
 import android.graphics.Rect;
 import android.support.annotation.Nullable;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 

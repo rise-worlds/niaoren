@@ -2,8 +2,8 @@ package com.angel.nrzs.app.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.p006v7.widget.GridLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
@@ -182,7 +182,7 @@ public class RewardActivity extends AppBaseActivity implements View.OnClickListe
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         getWindow().setSoftInputMode(32);
@@ -195,7 +195,7 @@ public class RewardActivity extends AppBaseActivity implements View.OnClickListe
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
     }
@@ -318,7 +318,7 @@ public class RewardActivity extends AppBaseActivity implements View.OnClickListe
         return new DecimalFormat("#").format(d);
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onBackPressed() {
         m24974e();
     }

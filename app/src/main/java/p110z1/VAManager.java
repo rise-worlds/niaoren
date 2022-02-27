@@ -13,7 +13,7 @@ import com.nrzs.core.models.AppInfoLite;
 import com.nrzs.core.models.GameInfo;
 import com.nrzs.data.game.bean.TopicInfo;
 import com.nrzs.data.p066ft.bean.AssistInfo;
-import com.nrzs.game.p069ui.activity.GameVALoadingActivity;
+import com.nrzs.game.ui.activity.GameVALoadingActivity;
 import com.nrzs.p072va.AppInstallOptions;
 import com.nrzs.p072va.AppInstallResult;
 import com.nrzs.p072va.VirtualCoreProxy;

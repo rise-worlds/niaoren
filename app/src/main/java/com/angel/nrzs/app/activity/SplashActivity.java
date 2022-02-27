@@ -379,7 +379,7 @@ public class SplashActivity extends AppBaseActivity {
         m24955f();
         if (!NRZSLocalConfig.m12512d()) {
             try {
-                GameApp.m13000d().m13003c();
+                GameApp.getInstance().m13003c();
                 new VAGameScreenInfoRepository().m12695a();
                 PXKJCoreUtils.m12928a(App.m25213a());
                 TentcentDownModel.m18803a().m18779d();
@@ -417,7 +417,7 @@ public class SplashActivity extends AppBaseActivity {
         }
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity, android.support.p003v4.app.ActivityCompat.OnRequestPermissionsResultCallback
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity, android.support.v4.app.ActivityCompat.OnRequestPermissionsResultCallback
     public void onRequestPermissionsResult(int i, String[] strArr, int[] iArr) {
         super.onRequestPermissionsResult(i, strArr, iArr);
         switch (PermissionUtil.m11847a(this, "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.READ_PHONE_STATE", "android.permission.ACCESS_FINE_LOCATION")) {
@@ -435,7 +435,7 @@ public class SplashActivity extends AppBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         HandlerC0814a aVar = this.f5503n;
@@ -445,7 +445,7 @@ public class SplashActivity extends AppBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         EventCollectManager.m12642a().m12640a(App.m25213a(), "欢迎页面", "欢迎页面", EventConstants.f16434b);

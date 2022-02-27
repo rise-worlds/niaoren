@@ -14,9 +14,9 @@ import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
-import android.support.p003v4.app.Fragment;
-import android.support.p003v4.app.FragmentActivity;
-import android.support.p003v4.util.ArrayMap;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.util.ArrayMap;
 import android.util.Log;
 import android.view.View;
 import com.bumptech.glide.Glide;
@@ -48,7 +48,7 @@ public class RequestManagerRetriever implements Handler.Callback {
     @VisibleForTesting
     final Map<FragmentManager, RequestManagerFragment> pendingRequestManagerFragments = new HashMap();
     @VisibleForTesting
-    final Map<android.support.p003v4.app.FragmentManager, SupportRequestManagerFragment> pendingSupportRequestManagerFragments = new HashMap();
+    final Map<android.support.v4.app.FragmentManager, SupportRequestManagerFragment> pendingSupportRequestManagerFragments = new HashMap();
     private final ArrayMap<View, Fragment> tempViewToSupportFragment = new ArrayMap<>();
     private final ArrayMap<View, android.app.Fragment> tempViewToFragment = new ArrayMap<>();
     private final Bundle tempBundle = new Bundle();
@@ -299,7 +299,7 @@ public class RequestManagerRetriever implements Handler.Callback {
     }
 
     @NonNull
-    private SupportRequestManagerFragment getSupportRequestManagerFragment(@NonNull android.support.p003v4.app.FragmentManager fragmentManager, @Nullable Fragment fragment, boolean z) {
+    private SupportRequestManagerFragment getSupportRequestManagerFragment(@NonNull android.support.v4.app.FragmentManager fragmentManager, @Nullable Fragment fragment, boolean z) {
         SupportRequestManagerFragment supportRequestManagerFragment = (SupportRequestManagerFragment) fragmentManager.findFragmentByTag(FRAGMENT_TAG);
         if (supportRequestManagerFragment == null && (supportRequestManagerFragment = this.pendingSupportRequestManagerFragments.get(fragmentManager)) == null) {
             supportRequestManagerFragment = new SupportRequestManagerFragment();
@@ -315,7 +315,7 @@ public class RequestManagerRetriever implements Handler.Callback {
     }
 
     @NonNull
-    private RequestManager supportFragmentGet(@NonNull Context context, @NonNull android.support.p003v4.app.FragmentManager fragmentManager, @Nullable Fragment fragment, boolean z) {
+    private RequestManager supportFragmentGet(@NonNull Context context, @NonNull android.support.v4.app.FragmentManager fragmentManager, @Nullable Fragment fragment, boolean z) {
         SupportRequestManagerFragment supportRequestManagerFragment = getSupportRequestManagerFragment(fragmentManager, fragment, z);
         RequestManager requestManager = supportRequestManagerFragment.getRequestManager();
         if (requestManager != null) {
@@ -337,7 +337,7 @@ public class RequestManagerRetriever implements Handler.Callback {
                 obj = this.pendingRequestManagerFragments.remove(obj2);
                 break;
             case 2:
-                obj2 = (android.support.p003v4.app.FragmentManager) message.obj;
+                obj2 = (android.support.v4.app.FragmentManager) message.obj;
                 obj = this.pendingSupportRequestManagerFragments.remove(obj2);
                 break;
             default:

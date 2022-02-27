@@ -5,7 +5,7 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.ContextWrapper;
-import android.support.p003v4.internal.view.SupportMenu;
+import android.support.v4.internal.view.SupportMenu;
 import android.text.Html;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
 

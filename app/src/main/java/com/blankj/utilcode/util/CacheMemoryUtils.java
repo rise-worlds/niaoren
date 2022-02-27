@@ -1,7 +1,7 @@
 package com.blankj.utilcode.util;
 
 import android.support.annotation.NonNull;
-import android.support.p003v4.util.LruCache;
+import android.support.v4.util.LruCache;
 import java.util.HashMap;
 import java.util.Map;
 import p110z1.CacheConstants;

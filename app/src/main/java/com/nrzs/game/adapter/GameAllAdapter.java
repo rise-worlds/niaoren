@@ -12,7 +12,7 @@ import com.nrzs.base.router.RouterUtils;
 import com.nrzs.base.router.provider.ProviderFactory;
 import com.nrzs.data.game.bean.TopicInfo;
 import com.nrzs.game.C2029R;
-import com.nrzs.game.p069ui.activity.GameAllActivity;
+import com.nrzs.game.ui.activity.GameAllActivity;
 import com.nrzs.moudleui.adapter.BaseViewHolder;
 import com.nrzs.moudleui.pinnedheader.PinnedHeaderAdapter;
 import java.util.List;

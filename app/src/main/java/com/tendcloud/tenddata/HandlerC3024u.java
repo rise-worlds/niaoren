@@ -3,8 +3,7 @@ package com.tendcloud.tenddata;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.p003v4.app.NotificationCompat;
-import com.tendcloud.tenddata.C3034zz;
+import android.support.v4.app.NotificationCompat;
 
 /* compiled from: td */
 /* renamed from: com.tendcloud.tenddata.u */

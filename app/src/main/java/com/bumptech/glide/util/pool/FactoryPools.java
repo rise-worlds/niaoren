@@ -1,7 +1,7 @@
 package com.bumptech.glide.util.pool;
 
 import android.support.annotation.NonNull;
-import android.support.p003v4.util.Pools;
+import android.support.v4.util.Pools;
 import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
@@ -93,7 +93,7 @@ public final class FactoryPools {
             this.resetter = resetter;
         }
 
-        @Override // android.support.p003v4.util.Pools.Pool
+        @Override // android.support.v4.util.Pools.Pool
         public T acquire() {
             T acquire = this.pool.acquire();
             if (acquire == null) {
@@ -108,7 +108,7 @@ public final class FactoryPools {
             return acquire;
         }
 
-        @Override // android.support.p003v4.util.Pools.Pool
+        @Override // android.support.v4.util.Pools.Pool
         public boolean release(@NonNull T t) {
             if (t instanceof Poolable) {
                 ((Poolable) t).getVerifier().setRecycled(true);

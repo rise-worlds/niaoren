@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Handler;
 import android.support.annotation.Nullable;
-import android.support.p006v7.widget.AppCompatImageView;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import com.blankj.utilcode.util.LogUtils;
 import com.nrzs.moudleui.C2202R;

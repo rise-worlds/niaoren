@@ -4,9 +4,9 @@ import android.graphics.Bitmap;
 import android.support.annotation.ColorInt;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.app.FragmentTransaction;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
-import com.bumptech.glide.gifdecoder.GifDecoder;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

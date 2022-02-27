@@ -13,7 +13,7 @@ import com.cyjh.ddy.media.p035a.ResultTypeConstant;
 import com.nrzs.base.router.RouterUtils;
 import com.nrzs.base.router.provider.ProviderFactory;
 import com.nrzs.data.other.bean.AdResultInfoItem;
-import com.nrzs.game.p069ui.activity.GameAllActivity;
+import com.nrzs.game.ui.activity.GameAllActivity;
 import com.redwas.redwars.RedbgaIndextActivity;
 import com.youth.banner.Banner;
 import java.util.ArrayList;

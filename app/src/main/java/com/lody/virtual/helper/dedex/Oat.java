@@ -1,6 +1,6 @@
 package com.lody.virtual.helper.dedex;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import com.lody.virtual.helper.utils.FileUtils;
 import com.tencent.smtt.sdk.TbsListener;
 import java.io.File;

@@ -10,7 +10,7 @@ import com.nrzs.data.base.BaseResponse;
 import com.nrzs.data.game.bean.TopicInfo;
 import com.nrzs.data.other.bean.request.GetTopicInfo;
 import com.nrzs.data.p066ft.bean.AssistInfo;
-import com.nrzs.game.p069ui.activity.GameScreenShotActivity;
+import com.nrzs.game.ui.activity.GameScreenShotActivity;
 import com.nrzs.http.ThreadCallback;
 import com.nrzs.http.UICallback;
 import p110z1.GameDialogVARunScriptCheck;

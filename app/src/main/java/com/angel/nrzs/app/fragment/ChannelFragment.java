@@ -5,9 +5,9 @@ import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
-import android.support.p006v7.widget.SimpleItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SimpleItemAnimator;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,8 +27,8 @@ import com.nrzs.data.DataApp;
 import com.nrzs.data.game.bean.AuthorInfo;
 import com.nrzs.data.game.bean.AuthorScriptBean;
 import com.nrzs.data.other.bean.AdResultInfoItem;
-import com.nrzs.game.p069ui.activity.GameAllActivity;
-import com.nrzs.game.p069ui.activity.GameSearchActivity;
+import com.nrzs.game.ui.activity.GameAllActivity;
+import com.nrzs.game.ui.activity.GameSearchActivity;
 import com.nrzs.moudleui.p070ui.state.LoadingView;
 import java.util.ArrayList;
 import java.util.List;
@@ -300,13 +300,13 @@ public class ChannelFragment extends AppBaseFragment implements View.OnClickList
         }
     }
 
-    @Override // com.nrzs.libcommon.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.nrzs.libcommon.BaseFragment, android.support.v4.app.Fragment
     public View onCreateView(@NonNull LayoutInflater layoutInflater, @Nullable ViewGroup viewGroup, @Nullable Bundle bundle) {
         EventBus.m3448a().m3446a(this);
         return super.onCreateView(layoutInflater, viewGroup, bundle);
     }
 
-    @Override // com.nrzs.libcommon.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.nrzs.libcommon.BaseFragment, android.support.v4.app.Fragment
     public void onDestroy() {
         super.onDestroy();
         EventBus.m3448a().m3430c(this);

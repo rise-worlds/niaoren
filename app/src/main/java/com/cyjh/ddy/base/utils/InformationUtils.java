@@ -9,7 +9,7 @@ import android.net.wifi.WifiManager;
 import android.opengl.GLES20;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
-import android.support.p003v4.app.ActivityCompat;
+import android.support.v4.app.ActivityCompat;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import com.blankj.utilcode.util.DeviceUtils;

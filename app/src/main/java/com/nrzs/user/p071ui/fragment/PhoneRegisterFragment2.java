@@ -356,7 +356,7 @@ public class PhoneRegisterFragment2 extends UserBaseFragment {
         }
     }
 
-    @Override // com.nrzs.libcommon.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.nrzs.libcommon.BaseFragment, android.support.v4.app.Fragment
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         if (getArguments() != null) {

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
-import android.support.p003v4.app.ActivityOptionsCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.util.SparseArray;
 import com.alibaba.android.arouter.facade.callback.NavigationCallback;
 import com.alibaba.android.arouter.facade.model.RouteMeta;

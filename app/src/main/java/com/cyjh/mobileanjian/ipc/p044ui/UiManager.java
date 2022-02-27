@@ -9,7 +9,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.GradientDrawable;
 import android.net.Uri;
 import android.os.Build;
-import android.support.p003v4.view.ViewCompat;
+import android.support.v4.view.ViewCompat;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;

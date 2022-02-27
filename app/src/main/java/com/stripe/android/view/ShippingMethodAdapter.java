@@ -1,7 +1,7 @@
 package com.stripe.android.view;
 
 import android.support.annotation.NonNull;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import com.stripe.android.model.ShippingMethod;

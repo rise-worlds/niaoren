@@ -2,7 +2,7 @@ package com.nrzs.libcommon;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.p006v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 
 /* loaded from: classes2.dex */
 public abstract class BaseActivity extends AppCompatActivity {
@@ -26,7 +26,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     public abstract void mo18300d();
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         mo18291c(bundle);
         super.onCreate(bundle);

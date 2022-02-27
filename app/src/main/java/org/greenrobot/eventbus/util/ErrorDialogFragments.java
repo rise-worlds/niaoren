@@ -61,8 +61,8 @@ public class ErrorDialogFragments {
     }
 
     /* loaded from: classes2.dex */
-    public static class Support extends android.support.p003v4.app.DialogFragment implements DialogInterface.OnClickListener {
-        @Override // android.support.p003v4.app.DialogFragment
+    public static class Support extends android.support.v4.app.DialogFragment implements DialogInterface.OnClickListener {
+        @Override // android.support.v4.app.DialogFragment
         public Dialog onCreateDialog(Bundle bundle) {
             return ErrorDialogFragments.m14820a(getActivity(), getArguments(), this);
         }

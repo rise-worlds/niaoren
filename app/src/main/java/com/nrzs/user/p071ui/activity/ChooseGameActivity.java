@@ -4,7 +4,7 @@ import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.p006v7.widget.GridLayoutManager;
+import android.support.v7.widget.GridLayoutManager;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -97,7 +97,7 @@ public class ChooseGameActivity extends UserBaseActivity {
         }
     }
 
-    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     @Subscribe(m3389a = ThreadMode.MAIN)
     protected void onDestroy() {
         super.onDestroy();

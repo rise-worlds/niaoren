@@ -13,7 +13,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Process;
-import android.support.p003v4.content.FileProvider;
+import android.support.v4.content.FileProvider;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -535,7 +535,7 @@ public final class Utils {
 
     /* loaded from: classes.dex */
     public static final class FileProvider4UtilCode extends FileProvider {
-        @Override // android.support.p003v4.content.FileProvider, android.content.ContentProvider
+        @Override // android.support.v4.content.FileProvider, android.content.ContentProvider
         public boolean onCreate() {
             Utils.m24101a(getContext());
             return true;

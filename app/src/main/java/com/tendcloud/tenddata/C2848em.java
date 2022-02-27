@@ -5,7 +5,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v7.widget.helper.ItemTouchHelper;
 
 /* compiled from: td */
 /* renamed from: com.tendcloud.tenddata.em */

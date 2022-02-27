@@ -2,8 +2,8 @@ package com.youth.banner;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.p003v4.view.PagerAdapter;
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -616,7 +616,7 @@ public class Banner extends FrameLayout implements ViewPager.OnPageChangeListene
     /* renamed from: com.youth.banner.Banner$a */
     /* loaded from: classes2.dex */
     public class C3044a extends PagerAdapter {
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public boolean isViewFromObject(View view, Object obj) {
             return view == obj;
         }
@@ -624,12 +624,12 @@ public class Banner extends FrameLayout implements ViewPager.OnPageChangeListene
         C3044a() {
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public int getCount() {
             return Banner.this.f14537z.size();
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public Object instantiateItem(ViewGroup viewGroup, final int i) {
             viewGroup.addView((View) Banner.this.f14537z.get(i));
             View view = (View) Banner.this.f14537z.get(i);
@@ -653,13 +653,13 @@ public class Banner extends FrameLayout implements ViewPager.OnPageChangeListene
             return view;
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public void destroyItem(ViewGroup viewGroup, int i, Object obj) {
             viewGroup.removeView((View) obj);
         }
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageScrollStateChanged(int i) {
         ViewPager.OnPageChangeListener onPageChangeListener = this.f14505M;
         if (onPageChangeListener != null) {
@@ -694,7 +694,7 @@ public class Banner extends FrameLayout implements ViewPager.OnPageChangeListene
         }
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageScrolled(int i, float f, int i2) {
         ViewPager.OnPageChangeListener onPageChangeListener = this.f14505M;
         if (onPageChangeListener != null) {
@@ -702,7 +702,7 @@ public class Banner extends FrameLayout implements ViewPager.OnPageChangeListene
         }
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageSelected(int i) {
         this.f14531t = i;
         ViewPager.OnPageChangeListener onPageChangeListener = this.f14505M;

@@ -2,10 +2,10 @@ package com.lbd.p054xj.p056ui.view.gvp.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.p003v4.view.PagerAdapter;
-import android.support.p003v4.view.ViewPager;
-import android.support.p006v7.widget.GridLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -101,12 +101,12 @@ public class GridViewPager extends ViewPager {
         /* renamed from: b */
         private GVPAdapter f9970b;
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public int getItemPosition(Object obj) {
             return -2;
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public boolean isViewFromObject(View view, Object obj) {
             return view == obj;
         }
@@ -115,7 +115,7 @@ public class GridViewPager extends ViewPager {
             this.f9970b = adwVar;
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public int getCount() {
             GridViewPager gridViewPager = GridViewPager.this;
             gridViewPager.f9963d = gridViewPager.f9960a % GridViewPager.this.f9961b == 0 ? GridViewPager.this.f9960a / GridViewPager.this.f9961b : (GridViewPager.this.f9960a / GridViewPager.this.f9961b) + 1;
@@ -132,7 +132,7 @@ public class GridViewPager extends ViewPager {
             return inflate;
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public void destroyItem(ViewGroup viewGroup, int i, Object obj) {
             viewGroup.removeView((View) obj);
         }

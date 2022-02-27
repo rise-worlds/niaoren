@@ -1,7 +1,7 @@
 package com.cyjh.ddy.base.utils;
 
 import android.os.Build;
-import android.support.p003v4.app.ActivityCompat;
+import android.support.v4.app.ActivityCompat;
 import android.text.TextUtils;
 import com.blankj.utilcode.util.PhoneUtils;
 import com.blankj.utilcode.util.SPUtils;

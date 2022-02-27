@@ -4,7 +4,7 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Build;
-import android.support.p003v4.view.GravityCompat;
+import android.support.v4.view.GravityCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;

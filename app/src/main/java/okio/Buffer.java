@@ -1,6 +1,6 @@
 package okio;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import com.tencent.smtt.sdk.TbsListener;
 import java.io.Closeable;
 import java.io.EOFException;

@@ -256,7 +256,7 @@ public class PersonFragment extends AppBaseFragment implements View.OnClickListe
         return C0692R.layout.nrzs_fragment_main_person_layout;
     }
 
-    @Override // com.nrzs.libcommon.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.nrzs.libcommon.BaseFragment, android.support.v4.app.Fragment
     @Nullable
     public View onCreateView(@NonNull LayoutInflater layoutInflater, @Nullable ViewGroup viewGroup, @Nullable Bundle bundle) {
         EventBus.m3448a().m3446a(this);
@@ -267,7 +267,7 @@ public class PersonFragment extends AppBaseFragment implements View.OnClickListe
         return super.onCreateView(layoutInflater, viewGroup, bundle);
     }
 
-    @Override // com.nrzs.libcommon.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.nrzs.libcommon.BaseFragment, android.support.v4.app.Fragment
     public void onDestroy() {
         super.onDestroy();
         EventBus.m3448a().m3430c(this);
@@ -412,7 +412,7 @@ public class PersonFragment extends AppBaseFragment implements View.OnClickListe
         }
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onResume() {
         super.onResume();
         m24893h();

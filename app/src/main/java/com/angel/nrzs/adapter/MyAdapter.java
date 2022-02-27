@@ -1,7 +1,7 @@
 package com.angel.nrzs.adapter;
 
 import android.support.annotation.NonNull;
-import android.support.p006v7.util.DiffUtil;
+import android.support.v7.util.DiffUtil;
 import android.view.View;
 import com.angel.nrzs.C0692R;
 import com.nrzs.moudleui.adapter.BasePageAdapter;

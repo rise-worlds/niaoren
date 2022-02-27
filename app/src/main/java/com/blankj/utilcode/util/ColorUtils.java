@@ -6,9 +6,9 @@ import android.support.annotation.ColorRes;
 import android.support.annotation.FloatRange;
 import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
-import android.support.p003v4.content.ContextCompat;
-import android.support.p003v4.view.InputDeviceCompat;
-import android.support.p003v4.view.ViewCompat;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.view.InputDeviceCompat;
+import android.support.v4.view.ViewCompat;
 import com.cyjh.ddy.media.p035a.ResultTypeConstant;
 
 /* renamed from: com.blankj.utilcode.util.p */

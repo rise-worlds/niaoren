@@ -1,8 +1,8 @@
 package p110z1;
 
 import android.content.Context;
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;

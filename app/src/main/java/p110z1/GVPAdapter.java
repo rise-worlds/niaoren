@@ -1,6 +1,6 @@
 package p110z1;
 
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import java.util.List;
 

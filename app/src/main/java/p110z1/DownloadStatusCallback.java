@@ -6,7 +6,7 @@ import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
 import android.os.SystemClock;
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import com.liulishuo.filedownloader.message.MessageSnapshotFlow;
 import com.liulishuo.filedownloader.message.MessageSnapshotTaker;
 import com.liulishuo.filedownloader.model.FileDownloadModel;

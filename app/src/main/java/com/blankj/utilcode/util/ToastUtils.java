@@ -14,7 +14,7 @@ import android.support.annotation.ColorInt;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.StringRes;
-import android.support.p003v4.app.NotificationManagerCompat;
+import android.support.v4.app.NotificationManagerCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +22,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.blankj.utilcode.util.Utils;
+
 import java.lang.reflect.Field;
 
 /* renamed from: com.blankj.utilcode.util.bc */

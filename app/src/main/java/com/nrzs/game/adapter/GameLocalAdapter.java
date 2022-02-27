@@ -15,7 +15,7 @@ import com.nrzs.base.router.provider.XNKJRunProvider;
 import com.nrzs.core.models.GameInfo;
 import com.nrzs.data.game.bean.TopicInfo;
 import com.nrzs.game.C2029R;
-import com.nrzs.game.p069ui.activity.GameLocalActivity;
+import com.nrzs.game.ui.activity.GameLocalActivity;
 import com.nrzs.moudleui.adapter.BaseViewHolder;
 import com.nrzs.moudleui.pinnedheader.PinnedHeaderAdapter;
 import java.util.List;

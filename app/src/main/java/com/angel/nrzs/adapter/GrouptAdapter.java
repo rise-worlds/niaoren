@@ -1,6 +1,6 @@
 package com.angel.nrzs.adapter;
 
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

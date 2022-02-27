@@ -1,8 +1,8 @@
 package p110z1;
 
-import android.support.p003v4.view.InputDeviceCompat;
-import android.support.p003v4.view.PointerIconCompat;
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v4.view.InputDeviceCompat;
+import android.support.v4.view.PointerIconCompat;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import com.cyjh.ddy.media.media.ActionCode;
 import com.cyjh.ddy.media.p035a.ResultTypeConstant;
 import com.cyjh.ddysdk.device.C1187a;

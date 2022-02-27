@@ -9,7 +9,7 @@ import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
 import android.os.Message;
-import android.support.p003v4.app.FragmentActivity;
+import android.support.v4.app.FragmentActivity;
 import com.common.utils.log.LogUtils;
 import com.lbd.p054xj.keeplive.PlayerMusicService;
 import p110z1.EventBus;
@@ -73,7 +73,7 @@ public class XJBaseANativityctivity extends FragmentActivity {
         return false;
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         EventBus.m3448a().m3446a(this);
         getWindow().setFlags(128, 128);
@@ -82,17 +82,17 @@ public class XJBaseANativityctivity extends FragmentActivity {
         m19540a();
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onPause() {
         super.onPause();
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onResume() {
         super.onResume();
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         LogUtils.m22037e("Full onDestroy555555555555555555555555555555555555");
         super.onDestroy();

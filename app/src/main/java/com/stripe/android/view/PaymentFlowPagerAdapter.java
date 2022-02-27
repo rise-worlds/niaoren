@@ -3,7 +3,7 @@ package com.stripe.android.view;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.view.PagerAdapter;
+import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,7 +46,7 @@ public class PaymentFlowPagerAdapter extends PagerAdapter {
     /* renamed from: c */
     private List<PaymentFlowPagerEnum> f12623c = new ArrayList();
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public boolean isViewFromObject(View view, Object obj) {
         return view == obj;
     }
@@ -92,7 +92,7 @@ public class PaymentFlowPagerAdapter extends PagerAdapter {
         notifyDataSetChanged();
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public Object instantiateItem(ViewGroup viewGroup, int i) {
         PaymentFlowPagerEnum iVar = this.f12623c.get(i);
         ViewGroup viewGroup2 = (ViewGroup) LayoutInflater.from(this.f12621a).inflate(iVar.getLayoutResId(), viewGroup, false);
@@ -111,12 +111,12 @@ public class PaymentFlowPagerAdapter extends PagerAdapter {
         return viewGroup2;
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public void destroyItem(ViewGroup viewGroup, int i, Object obj) {
         viewGroup.removeView((View) obj);
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public int getCount() {
         return this.f12623c.size();
     }
@@ -131,7 +131,7 @@ public class PaymentFlowPagerAdapter extends PagerAdapter {
         return null;
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public CharSequence getPageTitle(int i) {
         return this.f12621a.getString(this.f12623c.get(i).getTitleResId());
     }

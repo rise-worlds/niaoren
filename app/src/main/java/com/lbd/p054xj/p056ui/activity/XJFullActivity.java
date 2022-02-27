@@ -16,7 +16,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
-import android.support.p006v7.app.AppCompatDelegate;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;

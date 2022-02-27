@@ -1,6 +1,6 @@
 package okhttp3;
 
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
 package com.angel.nrzs.app.view;
 
 import android.content.Context;
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
@@ -24,17 +24,17 @@ public class CustomViewPager extends ViewPager {
         this.f5612a = z;
     }
 
-    @Override // android.support.p003v4.view.ViewPager, android.view.View
+    @Override // android.support.v4.view.ViewPager, android.view.View
     public boolean onTouchEvent(MotionEvent motionEvent) {
         return this.f5612a && super.onTouchEvent(motionEvent);
     }
 
-    @Override // android.support.p003v4.view.ViewPager, android.view.ViewGroup
+    @Override // android.support.v4.view.ViewPager, android.view.ViewGroup
     public boolean onInterceptTouchEvent(MotionEvent motionEvent) {
         return this.f5612a && super.onInterceptTouchEvent(motionEvent);
     }
 
-    @Override // android.support.p003v4.view.ViewPager
+    @Override // android.support.v4.view.ViewPager
     public void setCurrentItem(int i) {
         setCurrentItem(i, false);
     }

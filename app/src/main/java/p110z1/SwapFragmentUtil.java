@@ -1,8 +1,8 @@
 package p110z1;
 
-import android.support.p003v4.app.Fragment;
-import android.support.p003v4.app.FragmentManager;
-import android.support.p003v4.app.FragmentTransaction;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 

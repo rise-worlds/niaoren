@@ -1,8 +1,8 @@
 package com.lbd.p054xj.p056ui.fragment;
 
 import android.os.Bundle;
-import android.support.p003v4.view.ViewPager;
-import android.support.p006v7.widget.AppCompatTextView;
+import android.support.v4.view.ViewPager;
+import android.support.v7.widget.AppCompatTextView;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -48,11 +48,11 @@ public class SplashFragment extends AppBaseFragment implements ViewPager.OnPageC
     public void mo11419a(int i) {
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageScrollStateChanged(int i) {
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageScrolled(int i, float f, int i2) {
     }
 
@@ -105,7 +105,7 @@ public class SplashFragment extends AppBaseFragment implements ViewPager.OnPageC
         }
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageSelected(int i) {
         m19418b(i);
         if (this.f9784i.size() == i + 1) {

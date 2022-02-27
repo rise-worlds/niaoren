@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.p003v4.app.ActivityCompat;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.widget.Toast;
 import com.alibaba.android.arouter.facade.Postcard;
@@ -382,8 +382,8 @@ public final class _ARouter {
                     Object newInstance = postcard.getDestination().getConstructor(new Class[0]).newInstance(new Object[0]);
                     if (newInstance instanceof Fragment) {
                         ((Fragment) newInstance).setArguments(postcard.getExtras());
-                    } else if (newInstance instanceof android.support.p003v4.app.Fragment) {
-                        ((android.support.p003v4.app.Fragment) newInstance).setArguments(postcard.getExtras());
+                    } else if (newInstance instanceof android.support.v4.app.Fragment) {
+                        ((android.support.v4.app.Fragment) newInstance).setArguments(postcard.getExtras());
                     }
                     return newInstance;
                 } catch (Exception e) {

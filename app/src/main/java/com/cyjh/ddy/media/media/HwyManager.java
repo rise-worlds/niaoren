@@ -1,7 +1,7 @@
 package com.cyjh.ddy.media.media;
 
 import android.content.Context;
-import android.support.p003v4.app.ActivityCompat;
+import android.support.v4.app.ActivityCompat;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.view.ViewGroup;

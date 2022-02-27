@@ -4,10 +4,10 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.p003v4.app.DialogFragment;
-import android.support.p003v4.app.Fragment;
-import android.support.p003v4.app.FragmentActivity;
-import android.support.p003v4.app.FragmentManager;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import p110z1.EventBus;
 
@@ -56,7 +56,7 @@ public class ErrorDialogManager {
         /* renamed from: e */
         private Object f14807e;
 
-        @Override // android.support.p003v4.app.Fragment
+        @Override // android.support.v4.app.Fragment
         public void onCreate(Bundle bundle) {
             super.onCreate(bundle);
             this.f14805c = ErrorDialogManager.f14791a.f14826a.m14787b();
@@ -64,7 +64,7 @@ public class ErrorDialogManager {
             this.f14806d = true;
         }
 
-        @Override // android.support.p003v4.app.Fragment
+        @Override // android.support.v4.app.Fragment
         public void onResume() {
             super.onResume();
             if (this.f14806d) {
@@ -75,7 +75,7 @@ public class ErrorDialogManager {
             this.f14805c.m3446a(this);
         }
 
-        @Override // android.support.p003v4.app.Fragment
+        @Override // android.support.v4.app.Fragment
         public void onPause() {
             this.f14805c.m3430c(this);
             super.onPause();

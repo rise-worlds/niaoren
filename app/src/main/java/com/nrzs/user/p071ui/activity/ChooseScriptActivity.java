@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.widget.SwipeRefreshLayout;
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -199,7 +199,7 @@ public class ChooseScriptActivity extends UserBaseActivity {
             }
         });
         this.f11374e.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() { // from class: com.nrzs.user.ui.activity.ChooseScriptActivity.7
-            @Override // android.support.p003v4.widget.SwipeRefreshLayout.OnRefreshListener
+            @Override // android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener
             public void onRefresh() {
                 ChooseScriptActivity.this.f11376g.setVisibility(8);
                 ChooseScriptActivity.this.f11374e.setRefreshing(true);
@@ -216,7 +216,7 @@ public class ChooseScriptActivity extends UserBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         setIntent(intent);

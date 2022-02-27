@@ -13,7 +13,7 @@ import android.os.IBinder;
 import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import com.common.utils.log.LogUtils;
 import com.lbd.p054xj.C1467R;
 import com.lody.virtual.client.ipc.ServiceManagerNative;

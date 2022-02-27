@@ -1,6 +1,6 @@
 package javax.mail;
 
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import com.sun.mail.util.LineInputStream;
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -19,7 +19,7 @@ import java.util.Hashtable;
 import java.util.Properties;
 import java.util.StringTokenizer;
 import java.util.Vector;
-import javax.mail.Provider;
+
 import p110z1.C4963cj;
 import p110z1.SimpleComparison;
 

@@ -19,7 +19,7 @@ import android.support.annotation.FloatRange;
 import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.content.ContextCompat;
+import android.support.v4.content.ContextCompat;
 import android.text.Layout;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;

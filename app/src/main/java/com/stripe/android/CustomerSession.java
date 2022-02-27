@@ -10,9 +10,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.RestrictTo;
 import android.support.annotation.VisibleForTesting;
-import android.support.p003v4.content.LocalBroadcastManager;
-import com.stripe.android.EphemeralKeyManager;
-import com.stripe.android.StripeApiHandler;
+import android.support.v4.content.LocalBroadcastManager;
+
 import com.stripe.android.model.C2395g;
 import com.stripe.android.model.Customer;
 import com.stripe.android.model.ShippingInformation;

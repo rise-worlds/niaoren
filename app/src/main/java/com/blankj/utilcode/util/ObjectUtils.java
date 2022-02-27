@@ -2,8 +2,8 @@ package com.blankj.utilcode.util;
 
 import android.os.Build;
 import android.support.annotation.RequiresApi;
-import android.support.p003v4.util.LongSparseArray;
-import android.support.p003v4.util.SimpleArrayMap;
+import android.support.v4.util.LongSparseArray;
+import android.support.v4.util.SimpleArrayMap;
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;
 import android.util.SparseIntArray;

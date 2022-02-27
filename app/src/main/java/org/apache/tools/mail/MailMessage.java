@@ -1,6 +1,6 @@
 package org.apache.tools.mail;
 
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;

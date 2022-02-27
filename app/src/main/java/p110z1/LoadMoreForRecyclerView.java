@@ -1,7 +1,7 @@
 package p110z1;
 
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.MotionEvent;
 import android.view.View;
 

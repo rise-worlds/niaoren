@@ -1,10 +1,10 @@
 package com.tendcloud.tenddata;
 
 import android.os.Message;
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 import com.liulishuo.filedownloader.model.ConnectionModel;
-import com.tendcloud.tenddata.C3034zz;
+
 import java.util.TreeMap;
 import org.apache.http.cookie.ClientCookie;
 

@@ -1,6 +1,6 @@
 package p110z1;
 
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import com.cyjh.mobileanjian.ipc.share.proto.IpcCommand;
 import com.lody.virtual.helper.compat.IntentCompat;
 import com.tencent.smtt.sdk.TbsListener;

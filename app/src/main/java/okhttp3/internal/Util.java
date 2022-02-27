@@ -1,6 +1,6 @@
 package okhttp3.internal;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.InterruptedIOException;

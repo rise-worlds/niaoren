@@ -2,8 +2,8 @@ package com.nrzs.p067ft.p068ui.view;
 
 import android.content.Context;
 import android.content.res.Configuration;
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;

@@ -1,7 +1,7 @@
 package com.lbd.p054xj.p056ui.fragment;
 
 import android.content.res.Configuration;
-import android.support.p006v7.widget.Toolbar;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import com.gyf.barlibrary.ImmersionBar;
 import com.lbd.p054xj.C1467R;
@@ -24,7 +24,7 @@ public abstract class AppBaseFragment extends BaseFragment {
         m19430f();
     }
 
-    @Override // android.support.p003v4.app.Fragment, android.content.ComponentCallbacks
+    @Override // android.support.v4.app.Fragment, android.content.ComponentCallbacks
     public void onConfigurationChanged(Configuration configuration) {
         super.onConfigurationChanged(configuration);
         m19430f();

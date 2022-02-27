@@ -64,7 +64,7 @@ public class PackageAppDataStorage {
         if (installedAppInfo == null) {
             return null;
         }
-        PackageAppData dVar = new PackageAppData(GameApp.m13000d().m13006b(), installedAppInfo);
+        PackageAppData dVar = new PackageAppData(GameApp.getInstance().m13006b(), installedAppInfo);
         synchronized (this.f16047b) {
             this.f16047b.put(str, dVar);
         }

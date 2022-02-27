@@ -122,7 +122,7 @@ public class FloatLoadingAppDialog extends Dialog {
                 e.printStackTrace();
             }
         }
-        IntentToAssistService.m12801a(GameApp.m13000d().m13006b(), this.f16983d, this.f16982c);
+        IntentToAssistService.m12801a(GameApp.getInstance().m13006b(), this.f16983d, this.f16982c);
         VActivityManager.get().startActivity(intent, this.f16982c);
         m12060b();
     }

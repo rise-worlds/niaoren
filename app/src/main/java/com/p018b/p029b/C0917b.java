@@ -1,6 +1,6 @@
 package com.p018b.p029b;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import java.io.IOException;
 
 /* JADX INFO: Access modifiers changed from: package-private */

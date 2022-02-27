@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Process;
 import android.support.multidex.MultiDex;
-import android.support.p003v4.app.ActivityCompat;
+import android.support.v4.app.ActivityCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import com.angel.nrzs.app.activity.MainActivity;
@@ -113,7 +113,7 @@ public class App extends Application {
         m25211b();
         MultiDex.install(this);
         PreferenceUtil.m18517a(this);
-        GameApp.m13000d().m13009a(this, getPackageName(), MainActivity.class);
+        GameApp.getInstance().m13009a(this, getPackageName(), MainActivity.class);
     }
 
     /* renamed from: b */
@@ -176,7 +176,7 @@ public class App extends Application {
 
     /* renamed from: f */
     private void m25207f() {
-        GameApp.m13000d().m13011a();
+        GameApp.getInstance().m13011a();
     }
 
     /* renamed from: g */

@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.nrzs.game.C2029R;
-import com.nrzs.game.p069ui.activity.GameLocalActivity;
+import com.nrzs.game.ui.activity.GameLocalActivity;
 
 /* renamed from: z1.aom */
 /* loaded from: classes3.dex */

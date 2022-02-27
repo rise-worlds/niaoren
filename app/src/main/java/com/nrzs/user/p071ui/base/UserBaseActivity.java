@@ -12,7 +12,7 @@ import p110z1.IntentToAssistService;
 /* loaded from: classes2.dex */
 public abstract class UserBaseActivity extends BaseActivity {
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
     }
@@ -25,19 +25,19 @@ public abstract class UserBaseActivity extends BaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onPause() {
         super.onPause();
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onResume() {
         super.onResume();
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onStart() {
         super.onStart();
         Log.e("MyComponentDelegate", "UserBaseActivity");
@@ -45,7 +45,7 @@ public abstract class UserBaseActivity extends BaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         ImmersionBar.m20080a(this).m19985g();

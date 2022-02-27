@@ -6,7 +6,7 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -361,15 +361,15 @@ public final class UiShowLayout {
         slidingTabLayout.setSelectedIndicatorColors(this.f8584j.getResources().getColor(C1375R.color.ui_show_blue));
         slidingTabLayout.setBackgroundResource(C1375R.C1376drawable.bg_tab_host);
         slidingTabLayout.setOnPageChangeListener(new ViewPager.OnPageChangeListener() { // from class: com.cyjh.mobileanjian.ipc.ui.k.4
-            @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+            @Override // android.support.v4.view.ViewPager.OnPageChangeListener
             public final void onPageScrollStateChanged(int i2) {
             }
 
-            @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+            @Override // android.support.v4.view.ViewPager.OnPageChangeListener
             public final void onPageScrolled(int i2, float f, int i3) {
             }
 
-            @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+            @Override // android.support.v4.view.ViewPager.OnPageChangeListener
             public final void onPageSelected(int i2) {
                 slidingTabLayout.setFocusable(true);
                 slidingTabLayout.setFocusableInTouchMode(true);

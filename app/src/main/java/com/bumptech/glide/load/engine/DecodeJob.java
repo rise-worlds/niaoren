@@ -2,7 +2,7 @@ package com.bumptech.glide.load.engine;
 
 import android.os.Build;
 import android.support.annotation.NonNull;
-import android.support.p003v4.util.Pools;
+import android.support.v4.util.Pools;
 import android.util.Log;
 import com.bumptech.glide.GlideContext;
 import com.bumptech.glide.Priority;
@@ -15,8 +15,6 @@ import com.bumptech.glide.load.ResourceEncoder;
 import com.bumptech.glide.load.Transformation;
 import com.bumptech.glide.load.data.DataFetcher;
 import com.bumptech.glide.load.data.DataRewinder;
-import com.bumptech.glide.load.engine.DataFetcherGenerator;
-import com.bumptech.glide.load.engine.DecodePath;
 import com.bumptech.glide.load.engine.cache.DiskCache;
 import com.bumptech.glide.load.resource.bitmap.Downsampler;
 import com.bumptech.glide.util.LogTime;

@@ -3,7 +3,7 @@ package com.stripe.android.model;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.Size;
-import android.support.p003v4.media.MediaDescriptionCompat;
+import android.support.v4.media.MediaDescriptionCompat;
 import com.stripe.android.StripeTextUtils;
 import java.util.ArrayList;
 import java.util.HashMap;

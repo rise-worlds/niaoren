@@ -1,6 +1,6 @@
 package okhttp3.internal.p104ws;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import com.tencent.smtt.sdk.TbsListener;
 import java.io.IOException;
 import java.util.Random;

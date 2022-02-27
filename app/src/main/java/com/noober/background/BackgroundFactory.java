@@ -6,7 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.os.Build;
 import android.support.annotation.Nullable;
-import android.support.p003v4.util.ArrayMap;
+import android.support.v4.util.ArrayMap;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;

@@ -7,7 +7,7 @@ import android.net.NetworkInfo;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.p003v4.content.LocalBroadcastManager;
+import android.support.v4.content.LocalBroadcastManager;
 import com.cyjh.ddy.media.p035a.ResultTypeConstant;
 import com.cyjh.mobileanjian.ipc.stuff.IntentActions;
 import com.cyjh.mobileanjian.ipc.utils.RootUtil;

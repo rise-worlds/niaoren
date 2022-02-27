@@ -11,7 +11,7 @@ import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
-import android.support.p003v4.graphics.drawable.DrawableCompat;
+import android.support.v4.graphics.drawable.DrawableCompat;
 import android.text.InputFilter;
 import android.text.Layout;
 import android.text.TextWatcher;
@@ -27,10 +27,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import com.stripe.android.C2364R;
 import com.stripe.android.model.Card;
-import com.stripe.android.view.CardInputListener;
-import com.stripe.android.view.CardNumberEditText;
-import com.stripe.android.view.ExpiryDateEditText;
-import com.stripe.android.view.StripeEditText;
+
 import java.util.Locale;
 
 /* loaded from: classes2.dex */

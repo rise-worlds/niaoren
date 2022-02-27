@@ -8,7 +8,7 @@ import android.net.http.Headers;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Message;
-import android.support.p006v7.app.AppCompatDelegate;
+import android.support.v7.app.AppCompatDelegate;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
@@ -249,7 +249,7 @@ public class XJRenderActivity extends XJBaseANativityctivity implements View.OnT
         activity.startActivity(new Intent(activity, XJRenderActivity.class));
     }
 
-    @Override // com.lbd.p054xj.p056ui.activity.XJBaseANativityctivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // com.lbd.p054xj.p056ui.activity.XJBaseANativityctivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         Log.d("sunya", "newFullActivity oncreate");
@@ -402,7 +402,7 @@ public class XJRenderActivity extends XJBaseANativityctivity implements View.OnT
         return getApplicationInfo().nativeLibraryDir;
     }
 
-    @Override // com.lbd.p054xj.p056ui.activity.XJBaseANativityctivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.lbd.p054xj.p056ui.activity.XJBaseANativityctivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onPause() {
         super.onPause();
         FwManager.getInstance().isFront = true;
@@ -410,17 +410,17 @@ public class XJRenderActivity extends XJBaseANativityctivity implements View.OnT
         this.f9636j = false;
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onStart() {
         super.onStart();
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onStop() {
         super.onStop();
     }
 
-    @Override // com.lbd.p054xj.p056ui.activity.XJBaseANativityctivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.lbd.p054xj.p056ui.activity.XJBaseANativityctivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onResume() {
         super.onResume();
         if (!this.f9639m) {
@@ -520,7 +520,7 @@ public class XJRenderActivity extends XJBaseANativityctivity implements View.OnT
         return fArr;
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onBackPressed() {
         if (XJApp.click_return_phone_in_floatview) {
             moveTaskToBack(true);
@@ -536,7 +536,7 @@ public class XJRenderActivity extends XJBaseANativityctivity implements View.OnT
         }, 150L);
     }
 
-    @Override // com.lbd.p054xj.p056ui.activity.XJBaseANativityctivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.lbd.p054xj.p056ui.activity.XJBaseANativityctivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         com.common.utils.log.LogUtils.m22037e("Full onDestroy222222222222222222222222222222222222222222");

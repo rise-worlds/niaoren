@@ -2,7 +2,7 @@ package com.lbd.p054xj.p056ui.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.text.TextUtils;
 import android.view.LayoutInflater;

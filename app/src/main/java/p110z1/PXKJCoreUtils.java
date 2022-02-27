@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
-import android.support.p003v4.content.FileProvider;
+import android.support.v4.content.FileProvider;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.SurfaceView;
@@ -220,7 +220,7 @@ public class PXKJCoreUtils {
         PackageAppData a = PackageAppDataStorage.m12941a().m12937c(str);
         if (a != null) {
             a.f10574e = false;
-            FloatLoadingAppDialog.m12062a(GameApp.m13000d().m13006b(), i, a.f10570a, a);
+            FloatLoadingAppDialog.m12062a(GameApp.getInstance().m13006b(), i, a.f10570a, a);
         }
     }
 
@@ -237,7 +237,7 @@ public class PXKJCoreUtils {
 
     /* renamed from: a */
     public static void m12929a(Activity activity) {
-        List<VAGameScreenAdapterInfo> list = (List) apa.m11877a(apf.m11837b(GameApp.m13000d().m13006b(), ShareVal.f16591a, ShareVal.f16613w, ""), new TypeToken<List<VAGameScreenAdapterInfo>>() { // from class: z1.aji.1
+        List<VAGameScreenAdapterInfo> list = (List) apa.m11877a(apf.m11837b(GameApp.getInstance().m13006b(), ShareVal.f16591a, ShareVal.f16613w, ""), new TypeToken<List<VAGameScreenAdapterInfo>>() { // from class: z1.aji.1
         });
         if (!(list == null || list.isEmpty())) {
             for (VAGameScreenAdapterInfo vAGameScreenAdapterInfo : list) {
@@ -245,8 +245,8 @@ public class PXKJCoreUtils {
                     try {
                         SurfaceView surfaceView = (SurfaceView) ((ViewGroup) ((FrameLayout) activity.getWindow().getDecorView().findViewById(16908290)).getChildAt(0)).getChildAt(0);
                         ViewGroup.LayoutParams layoutParams = surfaceView.getLayoutParams();
-                        layoutParams.height = apf.m11838b(GameApp.m13000d().m13006b(), ShareVal.f16591a, ShareVal.f16612v, 0);
-                        layoutParams.width = apf.m11838b(GameApp.m13000d().m13006b(), ShareVal.f16591a, ShareVal.f16611u, 0);
+                        layoutParams.height = apf.m11838b(GameApp.getInstance().m13006b(), ShareVal.f16591a, ShareVal.f16612v, 0);
+                        layoutParams.width = apf.m11838b(GameApp.getInstance().m13006b(), ShareVal.f16591a, ShareVal.f16611u, 0);
                         surfaceView.setLayoutParams(layoutParams);
                         return;
                     } catch (Exception unused) {

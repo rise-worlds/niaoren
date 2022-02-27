@@ -5,8 +5,8 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.app.Fragment;
-import android.support.p003v4.app.FragmentTransaction;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,13 +61,13 @@ public abstract class BaseFragment extends Fragment {
     /* renamed from: e */
     protected abstract int mo19416e();
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onAttach(Context context) {
         super.onAttach(context);
         this.f9449a = (Activity) context;
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         if (bundle != null) {
@@ -86,7 +86,7 @@ public abstract class BaseFragment extends Fragment {
         mo19429a(bundle);
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     @Nullable
     public View onCreateView(@NonNull LayoutInflater layoutInflater, @Nullable ViewGroup viewGroup, @Nullable Bundle bundle) {
         View view = this.f9450b;
@@ -101,7 +101,7 @@ public abstract class BaseFragment extends Fragment {
         return this.f9450b;
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onViewCreated(@NonNull View view, @Nullable Bundle bundle) {
         super.onViewCreated(view, bundle);
         mo19431a(view);
@@ -110,7 +110,7 @@ public abstract class BaseFragment extends Fragment {
         m19787b();
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void setUserVisibleHint(boolean z) {
         super.setUserVisibleHint(z);
         if (this.f9451c) {
@@ -122,7 +122,7 @@ public abstract class BaseFragment extends Fragment {
         }
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onDestroy() {
         super.onDestroy();
         this.f9451c = false;

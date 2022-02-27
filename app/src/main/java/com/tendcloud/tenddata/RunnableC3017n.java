@@ -1,9 +1,8 @@
 package com.tendcloud.tenddata;
 
 import android.os.Message;
-import android.support.p003v4.app.NotificationCompat;
-import com.tendcloud.tenddata.C3034zz;
-import com.tendcloud.tenddata.TDAccount;
+import android.support.v4.app.NotificationCompat;
+
 import org.apache.http.cookie.ClientCookie;
 
 /* compiled from: td */

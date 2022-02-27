@@ -6,7 +6,7 @@ import android.content.ActivityNotFoundException;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.ViewPager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -205,7 +205,7 @@ public class DdyHomeFragment extends AppBaseFragment {
         m25119a("全部设备", 1, this.f5274c.size());
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onResume() {
         super.onResume();
         Log.e("ddyhaome", "resume");
@@ -381,14 +381,14 @@ public class DdyHomeFragment extends AppBaseFragment {
         }
     }
 
-    @Override // com.nrzs.libcommon.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.nrzs.libcommon.BaseFragment, android.support.v4.app.Fragment
     @Nullable
     public View onCreateView(@NonNull LayoutInflater layoutInflater, @Nullable ViewGroup viewGroup, @Nullable Bundle bundle) {
         EventBus.m3448a().m3446a(this);
         return super.onCreateView(layoutInflater, viewGroup, bundle);
     }
 
-    @Override // com.nrzs.libcommon.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.nrzs.libcommon.BaseFragment, android.support.v4.app.Fragment
     public void onDestroy() {
         super.onDestroy();
         ViewPageCardAdapter viewPageCardAdapter = this.f5277i;

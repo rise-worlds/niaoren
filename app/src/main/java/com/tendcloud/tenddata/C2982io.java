@@ -1,6 +1,6 @@
 package com.tendcloud.tenddata;
 
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
 package p110z1;
 
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import com.tencent.smtt.sdk.TbsListener;
 import java.io.UnsupportedEncodingException;
 import java.util.Collection;

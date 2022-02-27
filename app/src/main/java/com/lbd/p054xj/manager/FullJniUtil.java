@@ -3,7 +3,7 @@ package com.lbd.p054xj.manager;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Vibrator;
-import android.support.p006v7.app.AppCompatDelegate;
+import android.support.v7.app.AppCompatDelegate;
 import android.util.Log;
 import com.lbd.p054xj.device.MobileInfoManagerUtil;
 import com.lbd.p054xj.device.location.LocationManagerUtil;

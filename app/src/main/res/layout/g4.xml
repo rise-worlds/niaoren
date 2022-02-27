@@ -5,9 +5,10 @@
         <TextView android:id="@+id/we" android:text="@string/e9" style="@style/ss"/>
         <TextView android:id="@+id/cf" android:text="@string/dz" style="@style/sq"/>
     </RelativeLayout>
-    <android.support.p003v4.widget.SwipeRefreshLayout android:id="@+id/v0" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/v0" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
         <android.support.p006v7.widget.RecyclerView android:id="@+id/s9" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    </android.support.p003v4.widget.SwipeRefreshLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
     <LinearLayout style="@style/tx">
         <TextView android:text="@string/fl" style="@style/ty"/>
         <TextView android:text="bubbletea111101@gmail.com" style="@style/ty"/>

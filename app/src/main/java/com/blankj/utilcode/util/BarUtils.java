@@ -10,7 +10,7 @@ import android.support.annotation.ColorInt;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.support.annotation.RequiresPermission;
-import android.support.p003v4.widget.DrawerLayout;
+import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Display;

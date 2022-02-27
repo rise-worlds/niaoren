@@ -3,9 +3,9 @@ package com.nrzs.user.p071ui.activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.p003v4.view.PagerAdapter;
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v4.view.PagerAdapter;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
@@ -168,7 +168,7 @@ public class KickOutActivity extends UserBaseActivity implements IUserKickCallba
         this.f11394b.setVisibility(8);
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onBackPressed() {
         super.onBackPressed();
         if (this.f11413u) {
@@ -430,7 +430,7 @@ public class KickOutActivity extends UserBaseActivity implements IUserKickCallba
         /* renamed from: b */
         private List<View> f11424b;
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public boolean isViewFromObject(View view, Object obj) {
             return view == obj;
         }
@@ -439,18 +439,18 @@ public class KickOutActivity extends UserBaseActivity implements IUserKickCallba
             this.f11424b = list;
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public int getCount() {
             return this.f11424b.size();
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public Object instantiateItem(ViewGroup viewGroup, int i) {
             viewGroup.addView(this.f11424b.get(i));
             return this.f11424b.get(i);
         }
 
-        @Override // android.support.p003v4.view.PagerAdapter
+        @Override // android.support.v4.view.PagerAdapter
         public void destroyItem(ViewGroup viewGroup, int i, Object obj) {
             viewGroup.removeView((View) obj);
         }

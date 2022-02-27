@@ -1,7 +1,7 @@
 package com.lbd.p054xj.p056ui.adapter;
 
-import android.support.p003v4.app.FragmentManager;
-import android.support.p003v4.app.FragmentStatePagerAdapter;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import com.lbd.p054xj.p056ui.fragment.BannerFragment;
 import com.nrzs.data.xnkj.bean.XJBannerInfo;
 import java.util.List;
@@ -23,7 +23,7 @@ public class XJBannerAdapter extends FragmentStatePagerAdapter {
         return BannerFragment.m19427a(this.f9679a.get(i));
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public int getCount() {
         return this.f9679a.size();
     }

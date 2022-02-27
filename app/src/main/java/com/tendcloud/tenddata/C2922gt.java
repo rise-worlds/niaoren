@@ -3,11 +3,10 @@ package com.tendcloud.tenddata;
 import android.app.ActivityManager;
 import android.content.Context;
 import android.os.Process;
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
-import com.tendcloud.tenddata.C2945hn;
-import com.tendcloud.tenddata.C3034zz;
+
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;

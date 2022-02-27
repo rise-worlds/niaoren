@@ -1,7 +1,7 @@
 package com.lbd.p054xj.p056ui.fragment;
 
 import android.os.Bundle;
-import android.support.p006v7.widget.AppCompatImageView;
+import android.support.v7.widget.AppCompatImageView;
 import android.view.View;
 import com.bumptech.glide.Glide;
 import com.lbd.p054xj.C1467R;
@@ -71,7 +71,7 @@ public class BannerFragment extends AppBaseFragment {
         Glide.with(this).load(this.f9771g.imgUrl).into(this.f9770f);
     }
 
-    @Override // com.lbd.p054xj.base.p055ui.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.lbd.p054xj.base.p055ui.BaseFragment, android.support.v4.app.Fragment
     public void onDestroy() {
         super.onDestroy();
         Glide.with(this).clear(this.f9770f);

@@ -5,10 +5,10 @@ import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.Nullable;
-import android.support.p003v4.content.ContextCompat;
-import android.support.p003v4.content.res.ResourcesCompat;
-import android.support.p006v7.content.res.AppCompatResources;
-import android.support.p006v7.view.ContextThemeWrapper;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.content.res.ResourcesCompat;
+import android.support.v7.content.res.AppCompatResources;
+import android.support.v7.view.ContextThemeWrapper;
 
 /* loaded from: classes.dex */
 public final class DrawableDecoderCompat {

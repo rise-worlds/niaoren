@@ -17,7 +17,6 @@ import com.nrzs.core.models.AppData;
 import com.nrzs.data.DataApp;
 import com.nrzs.game.model.TentcentDownModel;
 import com.tencent.smtt.sdk.TbsConfig;
-import p110z1.CommonEvent;
 
 /* renamed from: z1.ez */
 /* loaded from: classes3.dex */
@@ -77,7 +76,7 @@ public class ScriptModelSwapDialog extends Dialog {
     public ScriptModelSwapDialog(Context context) {
         super(context, C0692R.style.f4318es);
         this.f21596b = (Activity) context;
-        f21594a = new AppRepository(GameApp.m13000d().m13006b());
+        f21594a = new AppRepository(GameApp.getInstance().m13006b());
         m2994b();
         m2991c();
         m2987e();

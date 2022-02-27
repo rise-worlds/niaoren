@@ -130,7 +130,7 @@ public class LoginActivity extends UserBaseActivity {
         context.startActivity(intent);
     }
 
-    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     protected void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
     }
@@ -158,13 +158,13 @@ public class LoginActivity extends UserBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         setIntent(intent);
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity, android.support.p003v4.app.ActivityCompat.OnRequestPermissionsResultCallback
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity, android.support.v4.app.ActivityCompat.OnRequestPermissionsResultCallback
     public void onRequestPermissionsResult(int i, String[] strArr, int[] iArr) {
         super.onRequestPermissionsResult(i, strArr, iArr);
         switch (PermissionUtil.m11847a(this, "android.permission.READ_PHONE_STATE")) {
@@ -273,7 +273,7 @@ public class LoginActivity extends UserBaseActivity {
         }
     }
 
-    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         InputMethodManager inputMethodManager = (InputMethodManager) getBaseContext().getSystemService("input_method");

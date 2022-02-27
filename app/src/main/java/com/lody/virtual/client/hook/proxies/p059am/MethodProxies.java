@@ -24,7 +24,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.os.IInterface;
 import android.os.Parcelable;
-import android.support.p003v4.view.InputDeviceCompat;
+import android.support.v4.view.InputDeviceCompat;
 import android.text.TextUtils;
 import com.lody.virtual.client.NativeEngine;
 import com.lody.virtual.client.VClient;

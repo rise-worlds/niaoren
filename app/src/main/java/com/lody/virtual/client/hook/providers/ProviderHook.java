@@ -8,7 +8,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.IInterface;
 import android.os.ParcelFileDescriptor;
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import com.lody.virtual.client.hook.base.MethodBox;
 import com.lody.virtual.helper.compat.BuildCompat;
 import com.lody.virtual.helper.utils.VLog;

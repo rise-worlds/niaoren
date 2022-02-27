@@ -6,7 +6,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
-import android.support.p003v4.content.ContextCompat;
+import android.support.v4.content.ContextCompat;
 
 /* loaded from: classes.dex */
 public class ResourceUtils {

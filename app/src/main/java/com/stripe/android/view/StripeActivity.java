@@ -8,10 +8,10 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.content.LocalBroadcastManager;
-import android.support.p006v7.app.AlertDialog;
-import android.support.p006v7.app.AppCompatActivity;
-import android.support.p006v7.widget.Toolbar;
+import android.support.v4.content.LocalBroadcastManager;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewStub;
@@ -56,7 +56,7 @@ abstract class StripeActivity extends AppCompatActivity {
     protected abstract void mo17218b();
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         setContentView(C2364R.layout.activity_stripe);
@@ -80,14 +80,14 @@ abstract class StripeActivity extends AppCompatActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onPause() {
         super.onPause();
         LocalBroadcastManager.getInstance(this).unregisterReceiver(this.f12642j);
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onResume() {
         super.onResume();
         LocalBroadcastManager.getInstance(this).registerReceiver(this.f12642j, new IntentFilter(CustomerSession.f11797a));

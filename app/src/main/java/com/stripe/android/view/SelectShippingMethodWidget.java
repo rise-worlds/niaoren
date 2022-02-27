@@ -1,8 +1,8 @@
 package com.stripe.android.view;
 
 import android.content.Context;
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 import com.stripe.android.C2364R;

@@ -2,7 +2,7 @@ package com.common.utils;
 
 import android.os.Build;
 import android.provider.Settings;
-import android.support.p003v4.app.ActivityCompat;
+import android.support.v4.app.ActivityCompat;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import com.lbd.p054xj.app.XJApp;

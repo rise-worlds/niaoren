@@ -1,6 +1,6 @@
 package com.angel.nrzs.app.view;
 
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /* renamed from: com.angel.nrzs.ui.view.CardTransformer */
@@ -13,7 +13,7 @@ public class CardTransformer implements ViewPager.PageTransformer {
     /* renamed from: b */
     private static final float f5611b = 0.5f;
 
-    @Override // android.support.p003v4.view.ViewPager.PageTransformer
+    @Override // android.support.v4.view.ViewPager.PageTransformer
     public void transformPage(View view, float f) {
         if (f < -1.0f || f > 1.0f) {
             view.setAlpha(f5611b);

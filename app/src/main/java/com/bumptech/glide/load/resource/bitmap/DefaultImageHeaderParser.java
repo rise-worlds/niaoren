@@ -1,8 +1,8 @@
 package com.bumptech.glide.load.resource.bitmap;
 
 import android.support.annotation.NonNull;
-import android.support.p003v4.internal.view.SupportMenu;
-import android.support.p003v4.view.MotionEventCompat;
+import android.support.v4.internal.view.SupportMenu;
+import android.support.v4.view.MotionEventCompat;
 import android.util.Log;
 import com.bumptech.glide.load.ImageHeaderParser;
 import com.bumptech.glide.load.engine.bitmap_recycle.ArrayPool;

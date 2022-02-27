@@ -6,7 +6,7 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Message;
-import android.support.p003v4.app.ActivityCompat;
+import android.support.v4.app.ActivityCompat;
 import android.text.TextUtils;
 import com.common.utils.log.LogUtils;
 import com.lbd.p054xj.manager.FullJniUtil;

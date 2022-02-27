@@ -2,14 +2,13 @@ package com.bumptech.glide.load.model;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.util.Pools;
+import android.support.v4.util.Pools;
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.Key;
 import com.bumptech.glide.load.Options;
 import com.bumptech.glide.load.data.DataFetcher;
 import com.bumptech.glide.load.engine.GlideException;
-import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.util.Preconditions;
 import java.util.ArrayList;
 import java.util.Arrays;

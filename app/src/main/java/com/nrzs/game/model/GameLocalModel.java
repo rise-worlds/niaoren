@@ -24,7 +24,7 @@ public class GameLocalModel extends AndroidViewModel {
     private MutableLiveData<List<GameInfo>> f10880a;
 
     /* renamed from: b */
-    private PackageManager f10881b = GameApp.m13000d().m13006b().getPackageManager();
+    private PackageManager f10881b = GameApp.getInstance().m13006b().getPackageManager();
 
     public GameLocalModel(@NonNull Application application) {
         super(application);
@@ -44,7 +44,7 @@ public class GameLocalModel extends AndroidViewModel {
             @Override // java.lang.Runnable
             public void run() {
                 ArrayList<GameInfo> arrayList = new ArrayList();
-                List<PackageInfo> a = PackageUtil.m11851a(GameApp.m13000d().m13006b());
+                List<PackageInfo> a = PackageUtil.m11851a(GameApp.getInstance().m13006b());
                 if (a != null) {
                     for (PackageInfo packageInfo : a) {
                         GameInfo gameInfo = new GameInfo();

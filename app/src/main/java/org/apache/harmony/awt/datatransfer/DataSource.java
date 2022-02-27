@@ -1,6 +1,6 @@
 package org.apache.harmony.awt.datatransfer;
 
-import android.support.p003v4.view.MotionEventCompat;
+import android.support.v4.view.MotionEventCompat;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.datatransfer.DataFlavor;

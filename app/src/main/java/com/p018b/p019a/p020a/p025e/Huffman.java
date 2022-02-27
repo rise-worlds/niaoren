@@ -1,7 +1,7 @@
 package com.p018b.p019a.p020a.p025e;
 
-import android.support.p003v4.view.PointerIconCompat;
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v4.view.PointerIconCompat;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import com.liulishuo.filedownloader.model.FileDownloadStatus;
 import com.p018b.p029b.BufferedSink;
 import com.p018b.p029b.ByteString;

@@ -1,6 +1,6 @@
 package com.youth.banner.transformer;
 
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /* loaded from: classes2.dex */
@@ -29,7 +29,7 @@ public abstract class ABaseTransformer implements ViewPager.PageTransformer {
     public void mo14898c(View view, float f) {
     }
 
-    @Override // android.support.p003v4.view.ViewPager.PageTransformer
+    @Override // android.support.v4.view.ViewPager.PageTransformer
     public void transformPage(View view, float f) {
         m14899b(view, f);
         mo14895a(view, f);

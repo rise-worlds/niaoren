@@ -2,8 +2,7 @@ package com.tendcloud.tenddata;
 
 import android.app.Activity;
 import android.os.Message;
-import android.support.p003v4.app.NotificationCompat;
-import com.tendcloud.tenddata.C3034zz;
+import android.support.v4.app.NotificationCompat;
 
 /* JADX INFO: Access modifiers changed from: package-private */
 /* compiled from: td */

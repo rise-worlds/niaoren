@@ -2,9 +2,8 @@ package com.nrzs.base.router;
 
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.p003v4.app.Fragment;
+import android.support.v4.app.Fragment;
 import com.alipay.sdk.widget.C0675j;
-import com.nrzs.base.router.RouterConstants;
 import com.nrzs.base.router.provider.InvokeProvider;
 import p110z1.ARouter;
 import p110z1.GlobalConstants;

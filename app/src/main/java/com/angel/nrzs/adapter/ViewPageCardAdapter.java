@@ -1,7 +1,7 @@
 package com.angel.nrzs.adapter;
 
 import android.content.Context;
-import android.support.p003v4.view.PagerAdapter;
+import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 import com.angel.nrzs.ddy.view.DdyHookview;
@@ -21,7 +21,7 @@ public class ViewPageCardAdapter extends PagerAdapter {
     public void m25151a(OrderDaileInfo orderDaileInfo, int i) {
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public boolean isViewFromObject(View view, Object obj) {
         return view == obj;
     }
@@ -36,7 +36,7 @@ public class ViewPageCardAdapter extends PagerAdapter {
         this.f5217a = list;
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public int getCount() {
         List<OrderDaileInfo> list = this.f5217a;
         if (list == null) {
@@ -57,7 +57,7 @@ public class ViewPageCardAdapter extends PagerAdapter {
         return -1;
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public Object instantiateItem(ViewGroup viewGroup, int i) {
         if (!(this.f5217a.get(i) instanceof OrderDaileInfo)) {
             return null;
@@ -67,7 +67,7 @@ public class ViewPageCardAdapter extends PagerAdapter {
         return ddyHookview;
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public void destroyItem(ViewGroup viewGroup, int i, Object obj) {
         viewGroup.removeView((View) obj);
     }

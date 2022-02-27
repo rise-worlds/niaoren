@@ -3,7 +3,7 @@ package com.bumptech.glide;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.util.ArrayMap;
+import android.support.v4.util.ArrayMap;
 import com.bumptech.glide.load.engine.Engine;
 import com.bumptech.glide.load.engine.bitmap_recycle.ArrayPool;
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;

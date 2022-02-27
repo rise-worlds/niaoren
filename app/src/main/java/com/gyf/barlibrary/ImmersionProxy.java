@@ -3,7 +3,7 @@ package com.gyf.barlibrary;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.p003v4.app.Fragment;
+import android.support.v4.app.Fragment;
 
 /* renamed from: com.gyf.barlibrary.i */
 /* loaded from: classes.dex */

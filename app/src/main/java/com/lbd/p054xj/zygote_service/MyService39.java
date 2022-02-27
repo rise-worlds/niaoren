@@ -12,7 +12,7 @@ import android.os.Build;
 import android.os.IBinder;
 import android.os.Process;
 import android.support.annotation.RequiresApi;
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import com.common.utils.log.LogUtils;
 import com.lbd.p054xj.C1467R;
 import com.lbd.p054xj.app.AppConfig;

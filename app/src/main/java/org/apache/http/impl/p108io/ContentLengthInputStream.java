@@ -1,6 +1,6 @@
 package org.apache.http.impl.p108io;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import java.io.IOException;
 import java.io.InputStream;
 import org.apache.http.p109io.SessionInputBuffer;

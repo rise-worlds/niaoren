@@ -1,12 +1,11 @@
 package com.lody.virtual.client.hook.proxies.telephony;
 
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import com.lody.virtual.client.core.VirtualCore;
 import com.lody.virtual.client.hook.base.BinderInvocationProxy;
 import com.lody.virtual.client.hook.base.ReplaceCallingPkgMethodProxy;
 import com.lody.virtual.client.hook.base.ReplaceLastPkgMethodProxy;
 import com.lody.virtual.client.hook.base.ResultStaticMethodProxy;
-import com.lody.virtual.client.hook.proxies.telephony.MethodProxies;
 import com.lody.virtual.helper.compat.BuildCompat;
 import com.stripe.android.view.ShippingInfoWidget;
 import p110z1.ITelephony;

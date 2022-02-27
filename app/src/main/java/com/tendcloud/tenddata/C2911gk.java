@@ -1,7 +1,7 @@
 package com.tendcloud.tenddata;
 
-import android.support.p003v4.app.NotificationCompat;
-import com.tendcloud.tenddata.C3034zz;
+import android.support.v4.app.NotificationCompat;
+
 import java.util.Map;
 import java.util.TreeMap;
 import org.json.JSONObject;

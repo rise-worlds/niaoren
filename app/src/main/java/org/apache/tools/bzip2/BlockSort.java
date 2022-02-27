@@ -1,9 +1,8 @@
 package org.apache.tools.bzip2;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import com.tencent.smtt.sdk.TbsListener;
 import java.util.BitSet;
-import org.apache.tools.bzip2.CBZip2OutputStream;
 
 /* loaded from: classes2.dex */
 class BlockSort {

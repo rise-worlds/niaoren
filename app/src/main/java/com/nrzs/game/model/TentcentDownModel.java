@@ -19,7 +19,6 @@ import com.nrzs.core.models.AppInfo;
 import com.nrzs.core.models.AppInfoLite;
 import com.nrzs.data.DataApp;
 import com.nrzs.data.p066ft.bean.MultVersion;
-import com.nrzs.game.model.TentcentDownModel;
 import com.nrzs.http.UICallback;
 import com.nrzs.p072va.AppInstallOptions;
 import com.nrzs.p072va.AppInstallResult;
@@ -105,8 +104,8 @@ public class TentcentDownModel {
 
     private TentcentDownModel() {
         if (!NRZSLocalConfig.m12512d()) {
-            this.f10892a = new AppRepository(GameApp.m13000d().m13006b());
-            m18800a(GameApp.m13000d().m13006b());
+            this.f10892a = new AppRepository(GameApp.getInstance().m13006b());
+            m18800a(GameApp.getInstance().m13006b());
             m18776g();
             m18782c();
             f10890b.clear();
@@ -409,7 +408,7 @@ public class TentcentDownModel {
     /* renamed from: c */
     private void m18780c(String str, String str2) {
         if (!f10890b.get(str2).booleanValue()) {
-            this.f10892a.mo12946b(GameApp.m13000d().m13006b(), str).mo3282b(new C20655(str2));
+            this.f10892a.mo12946b(GameApp.getInstance().m13006b(), str).mo3282b(new C20655(str2));
         }
     }
 
@@ -550,7 +549,7 @@ public class TentcentDownModel {
 
     /* renamed from: a */
     private BaseDownloadInfo m18790a(String str, String str2, String str3) {
-        BaseDownloadInfo downloadInfo = BaseDownloadOperate.getDownloadInfo(GameApp.m13000d().m13006b(), str2);
+        BaseDownloadInfo downloadInfo = BaseDownloadOperate.getDownloadInfo(GameApp.getInstance().m13006b(), str2);
         if (downloadInfo == null) {
             downloadInfo = m18783b(str, str2, str3);
             if (m18799a(downloadInfo)) {
@@ -572,7 +571,7 @@ public class TentcentDownModel {
 
     /* renamed from: b */
     private void m18786b(BaseDownloadInfo baseDownloadInfo) {
-        BaseDownloadOperate.addNewDownloadTask(GameApp.m13000d().m13006b(), baseDownloadInfo);
+        BaseDownloadOperate.addNewDownloadTask(GameApp.getInstance().m13006b(), baseDownloadInfo);
     }
 
     /* renamed from: m */

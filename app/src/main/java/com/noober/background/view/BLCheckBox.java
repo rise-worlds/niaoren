@@ -1,7 +1,7 @@
 package com.noober.background.view;
 
 import android.content.Context;
-import android.support.p006v7.widget.AppCompatCheckBox;
+import android.support.v7.widget.AppCompatCheckBox;
 import android.util.AttributeSet;
 import com.noober.background.BackgroundFactory;
 

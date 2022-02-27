@@ -141,7 +141,7 @@ public class NRZSWebviewActivity extends AppBaseActivity {
         context.startActivity(intent);
     }
 
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         EventBus.m3448a().m3446a(this);
@@ -192,7 +192,7 @@ public class NRZSWebviewActivity extends AppBaseActivity {
         this.f5431g.setVisibility(0);
     }
 
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     protected void onDestroy() {
         NRZSX5WebView nRZSX5WebView = this.f5435k;
         if (nRZSX5WebView != null) {
@@ -205,7 +205,7 @@ public class NRZSWebviewActivity extends AppBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         setIntent(intent);

@@ -1,7 +1,7 @@
 package com.lbd.p054xj.p056ui.p057fw;
 
 import android.content.Context;
-import android.support.p006v7.widget.AppCompatImageView;
+import android.support.v7.widget.AppCompatImageView;
 import android.view.MotionEvent;
 import android.view.WindowManager;
 import com.blankj.utilcode.util.LogUtils;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
     <TextView android:text="@string/f_" style="@style/tn"/>
-    <com.nrzs.game.p069ui.view.NRZSGridView android:id="@+id/gd" android:background="#fff" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="3"/>
+    <com.nrzs.game.ui.view.NRZSGridView android:id="@+id/gd" android:background="#fff" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="3"/>
 </LinearLayout>

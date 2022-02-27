@@ -1,7 +1,7 @@
 package p110z1;
 
-import android.support.p003v4.view.InputDeviceCompat;
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v4.view.InputDeviceCompat;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import com.tencent.smtt.sdk.TbsListener;
 
 /* JADX INFO: Access modifiers changed from: package-private */

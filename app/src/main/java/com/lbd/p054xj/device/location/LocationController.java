@@ -8,7 +8,7 @@ import android.net.http.Headers;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.p003v4.app.ActivityCompat;
+import android.support.v4.app.ActivityCompat;
 import androidx.annotation.RequiresApi;
 import com.common.utils.log.LogUtils;
 import com.lbd.p054xj.app.XJApp;

@@ -1,8 +1,7 @@
 package com.tendcloud.tenddata;
 
-import android.support.p003v4.app.NotificationCompat;
-import com.tendcloud.tenddata.C2945hn;
-import com.tendcloud.tenddata.C3034zz;
+import android.support.v4.app.NotificationCompat;
+
 import java.util.Map;
 import org.apache.http.cookie.ClientCookie;
 

@@ -1,6 +1,6 @@
 package com.cyjh.mobileanjian.ipc.p044ui;
 
-import android.support.p003v4.view.PagerAdapter;
+import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -17,7 +17,7 @@ public final class UiShowPagerAdapter extends PagerAdapter {
     /* renamed from: b */
     List<String> f8603b;
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public final boolean isViewFromObject(View view, Object obj) {
         return view == obj;
     }
@@ -27,24 +27,24 @@ public final class UiShowPagerAdapter extends PagerAdapter {
         this.f8603b = list2;
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public final int getCount() {
         return this.f8602a.size();
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public final Object instantiateItem(ViewGroup viewGroup, int i) {
         LinearLayout linearLayout = this.f8602a.get(i);
         viewGroup.addView(linearLayout);
         return linearLayout;
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public final void destroyItem(ViewGroup viewGroup, int i, Object obj) {
         viewGroup.removeView(this.f8602a.get(i));
     }
 
-    @Override // android.support.p003v4.view.PagerAdapter
+    @Override // android.support.v4.view.PagerAdapter
     public final CharSequence getPageTitle(int i) {
         return this.f8603b.get(i);
     }

@@ -2,7 +2,7 @@ package com.nrzs.p067ft.p068ui.view;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
-import android.support.p006v7.widget.AppCompatTextView;
+import android.support.v7.widget.AppCompatTextView;
 import android.text.method.ScrollingMovementMethod;
 import android.util.AttributeSet;
 import android.view.MotionEvent;

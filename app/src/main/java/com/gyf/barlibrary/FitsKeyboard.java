@@ -84,9 +84,9 @@ public class FitsKeyboard implements ViewTreeObserver.OnGlobalLayoutListener {
             r1.f9306h = r3
             android.view.View r3 = r1.f9306h
             if (r3 == 0) goto L_0x005d
-            boolean r4 = r3 instanceof android.support.p003v4.widget.DrawerLayout
+            boolean r4 = r3 instanceof android.support.v4.widget.DrawerLayout
             if (r4 == 0) goto L_0x003b
-            android.support.v4.widget.DrawerLayout r3 = (android.support.p003v4.widget.DrawerLayout) r3
+            android.support.v4.widget.DrawerLayout r3 = (android.support.v4.widget.DrawerLayout) r3
             android.view.View r3 = r3.getChildAt(r0)
             r1.f9306h = r3
         L_0x003b:

@@ -3,11 +3,11 @@ package com.nrzs.user;
 import android.arch.paging.PagedListAdapter;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.p003v4.internal.view.SupportMenu;
-import android.support.p006v7.app.AppCompatActivity;
-import android.support.p006v7.util.DiffUtil;
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v4.internal.view.SupportMenu;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.util.DiffUtil;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(C2222R.layout.activity_main);

@@ -380,7 +380,7 @@ public class XnkjFragment extends BaseFragment implements View.OnClickListener {
         this.f9789b.setVisibility(8);
     }
 
-    @Override // com.nrzs.libcommon.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.nrzs.libcommon.BaseFragment, android.support.v4.app.Fragment
     public void onDestroy() {
         EventBus.m3448a().m3430c(this);
         m19398m();

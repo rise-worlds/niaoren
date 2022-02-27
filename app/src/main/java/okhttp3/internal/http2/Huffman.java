@@ -1,7 +1,7 @@
 package okhttp3.internal.http2;
 
-import android.support.p003v4.view.PointerIconCompat;
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v4.view.PointerIconCompat;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import com.liulishuo.filedownloader.model.FileDownloadStatus;
 import com.tencent.smtt.sdk.TbsListener;
 import com.tendcloud.tenddata.C2771ci;

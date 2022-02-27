@@ -1,7 +1,7 @@
 package com.nrzs.moudleui.pinnedheader;
 
 import android.graphics.Rect;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import p110z1.MemoryConstants;
 

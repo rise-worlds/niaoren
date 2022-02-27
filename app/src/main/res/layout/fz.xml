@@ -18,9 +18,9 @@
                 <TextView android:id="@+id/eq" android:text="@string/kw" style="@style/a1w"/>
             </LinearLayout>
             <TextView android:text="@string/f9" style="@style/tn"/>
-            <com.nrzs.game.p069ui.view.NRZSGridView android:id="@+id/gc" android:background="#fff" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="3"/>
+            <com.nrzs.game.ui.view.NRZSGridView android:id="@+id/gc" android:background="#fff" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="3"/>
             <TextView android:text="@string/f8" style="@style/tn"/>
-            <com.nrzs.game.p069ui.view.NRZSGridView android:id="@+id/ge" android:background="#fff" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="3"/>
+            <com.nrzs.game.ui.view.NRZSGridView android:id="@+id/ge" android:background="#fff" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:numColumns="3"/>
         </LinearLayout>
         <LinearLayout android:id="@+id/jh" android:visibility="gone" style="@style/xc">
             <ImageView android:src="@drawable/nu" style="@style/a5g"/>

@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Environment;
 import android.os.RemoteException;
-import android.support.p006v7.app.AppCompatDelegate;
+import android.support.v7.app.AppCompatDelegate;
 import android.text.TextUtils;
 import android.util.Log;
 import com.kaopu.VACallBack;
@@ -273,17 +273,17 @@ public class GameApp {
     /* compiled from: GameApp.java */
     /* renamed from: z1.air$a */
     /* loaded from: classes3.dex */
-    public static class C3511a {
+    public static class SingletonHolder {
 
         /* renamed from: a */
-        private static final GameApp f16006a = new GameApp();
+        private static final GameApp instance = new GameApp();
 
-        private C3511a() {
+        private SingletonHolder() {
         }
     }
 
     /* renamed from: d */
-    public static GameApp m13000d() {
-        return C3511a.f16006a;
+    public static GameApp getInstance() {
+        return SingletonHolder.instance;
     }
 }

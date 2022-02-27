@@ -2,9 +2,8 @@ package com.bumptech.glide.manager;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import android.support.p003v4.content.ContextCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
-import com.bumptech.glide.manager.ConnectivityMonitor;
 
 /* loaded from: classes.dex */
 public class DefaultConnectivityMonitorFactory implements ConnectivityMonitorFactory {

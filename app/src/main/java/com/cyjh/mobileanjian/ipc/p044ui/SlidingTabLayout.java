@@ -1,8 +1,8 @@
 package com.cyjh.mobileanjian.ipc.p044ui;
 
 import android.content.Context;
-import android.support.p003v4.view.PagerAdapter;
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.util.SparseArray;
 import android.util.TypedValue;
@@ -284,7 +284,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
             this();
         }
 
-        @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+        @Override // android.support.v4.view.ViewPager.OnPageChangeListener
         public final void onPageScrolled(int i, float f, int i2) {
             int childCount = SlidingTabLayout.this.f8438k.getChildCount();
             if (childCount != 0 && i >= 0 && i < childCount) {
@@ -297,7 +297,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
             }
         }
 
-        @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+        @Override // android.support.v4.view.ViewPager.OnPageChangeListener
         public final void onPageScrollStateChanged(int i) {
             this.f8440b = i;
             if (SlidingTabLayout.this.f8437j != null) {
@@ -305,7 +305,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
             }
         }
 
-        @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+        @Override // android.support.v4.view.ViewPager.OnPageChangeListener
         public final void onPageSelected(int i) {
             if (this.f8440b == 0) {
                 SlidingTabLayout.this.f8438k.m20893a(i, 0.0f);

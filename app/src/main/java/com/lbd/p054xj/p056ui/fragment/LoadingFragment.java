@@ -84,7 +84,7 @@ public class LoadingFragment extends AppBaseFragment {
         this.f9774g.setText(getResources().getString(C1467R.string.bird_back_loading_first));
     }
 
-    @Override // com.lbd.p054xj.base.p055ui.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.lbd.p054xj.base.p055ui.BaseFragment, android.support.v4.app.Fragment
     public void onDestroy() {
         super.onDestroy();
         m19421h();
@@ -99,7 +99,7 @@ public class LoadingFragment extends AppBaseFragment {
         this.f9773f.setProgress(acuVar.m14342a());
     }
 
-    @Override // com.lbd.p054xj.base.p055ui.BaseFragment, android.support.p003v4.app.Fragment
+    @Override // com.lbd.p054xj.base.p055ui.BaseFragment, android.support.v4.app.Fragment
     public void onViewCreated(@NonNull View view, @Nullable Bundle bundle) {
         super.onViewCreated(view, bundle);
         EventBus.m3448a().m3446a(this);
@@ -185,7 +185,7 @@ public class LoadingFragment extends AppBaseFragment {
         }, 200L);
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onDestroyView() {
         super.onDestroyView();
         Handler handler = this.f9775h;

@@ -1,7 +1,7 @@
 package com.blankj.utilcode.util;
 
 import android.arch.persistence.room.RoomMasterTable;
-import android.support.p003v4.util.SimpleArrayMap;
+import android.support.v4.util.SimpleArrayMap;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

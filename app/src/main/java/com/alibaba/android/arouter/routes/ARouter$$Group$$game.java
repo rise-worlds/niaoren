@@ -4,10 +4,10 @@ import com.alibaba.android.arouter.facade.enums.RouteType;
 import com.alibaba.android.arouter.facade.model.RouteMeta;
 import com.alibaba.android.arouter.facade.template.IRouteGroup;
 import com.nrzs.base.router.RouterConstants;
-import com.nrzs.game.p069ui.activity.GameAllActivity;
-import com.nrzs.game.p069ui.activity.GameScriptInfoActivity;
-import com.nrzs.game.p069ui.activity.GameSearchActivity;
-import com.nrzs.game.p069ui.activity.GameTopicActivity;
+import com.nrzs.game.ui.activity.GameAllActivity;
+import com.nrzs.game.ui.activity.GameScriptInfoActivity;
+import com.nrzs.game.ui.activity.GameSearchActivity;
+import com.nrzs.game.ui.activity.GameTopicActivity;
 import java.util.Map;
 import p110z1.InvokeProviderImpl;
 

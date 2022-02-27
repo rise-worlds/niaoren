@@ -12,7 +12,7 @@ import android.content.IntentFilter;
 import android.content.res.Resources;
 import android.os.Build;
 import android.os.IBinder;
-import android.support.p003v4.internal.view.SupportMenu;
+import android.support.v4.internal.view.SupportMenu;
 import android.util.Log;
 import android.widget.RemoteViews;
 import com.blankj.utilcode.util.LogUtils;

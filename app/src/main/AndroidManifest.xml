@@ -214,7 +214,7 @@
         </activity>
         <meta-data android:name="notch.config" android:value="portrait|landscape"/>
         <meta-data android:name="android.max_aspect" android:value="2.3"/>
-        <provider android:name="android.support.p003v4.content.FileProvider" android:exported="false" android:authorities="com.angel.nrzs.fileprovider" android:grantUriPermissions="true">
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.angel.nrzs.fileprovider" android:grantUriPermissions="true">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/b"/>
         </provider>
         <service android:name="com.talkingdata.sdk.TDAntiCheatingService" android:process="com.talkingdata.sdk.TDAntiCheatingService">
@@ -299,16 +299,16 @@
         <service android:name="com.lbd.p054xj.zygote_service.MyService38" android:exported="true" android:process=":m38"/>
         <service android:name="com.lbd.p054xj.zygote_service.MyService39" android:exported="true" android:process=":m39"/>
         <service android:name="com.lbd.p054xj.zygote_service.MyService40" android:exported="true" android:process=":m40"/>
-        <activity android:theme="@style/eo" android:name="com.nrzs.game.p069ui.activity.GameAllActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
-        <activity android:theme="@style/eo" android:name="com.nrzs.game.p069ui.activity.GameLocalActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
-        <activity android:theme="@style/eo" android:name="com.nrzs.game.p069ui.activity.GameTopicActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
-        <activity android:theme="@style/eo" android:name="com.nrzs.game.p069ui.activity.GameScriptInfoActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
-        <activity android:theme="@style/eo" android:name="com.nrzs.game.p069ui.activity.GameSearchActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
-        <activity android:theme="@style/ep" android:name="com.nrzs.game.p069ui.activity.GameVALoadingActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
-        <activity android:theme="@style/ep" android:name="com.nrzs.game.p069ui.activity.GameScreenShotActivity"/>
-        <activity android:theme="@style/ep" android:name="com.nrzs.game.p069ui.activity.RealScreenShotActivity" android:process="com.angel.nrzs.p"/>
-        <activity android:theme="@style/ep" android:name="com.nrzs.game.p069ui.activity.PXKJInnerInstallCallDialog" android:excludeFromRecents="true" android:screenOrientation="portrait" android:noHistory="true"/>
-        <activity android:theme="@style/ep" android:name="com.nrzs.game.p069ui.activity.GameVa64InstallCourseActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/eo" android:name="com.nrzs.game.ui.activity.GameAllActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/eo" android:name="com.nrzs.game.ui.activity.GameLocalActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/eo" android:name="com.nrzs.game.ui.activity.GameTopicActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/eo" android:name="com.nrzs.game.ui.activity.GameScriptInfoActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/eo" android:name="com.nrzs.game.ui.activity.GameSearchActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/ep" android:name="com.nrzs.game.ui.activity.GameVALoadingActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/ep" android:name="com.nrzs.game.ui.activity.GameScreenShotActivity"/>
+        <activity android:theme="@style/ep" android:name="com.nrzs.game.ui.activity.RealScreenShotActivity" android:process="com.angel.nrzs.p"/>
+        <activity android:theme="@style/ep" android:name="com.nrzs.game.ui.activity.PXKJInnerInstallCallDialog" android:excludeFromRecents="true" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:theme="@style/ep" android:name="com.nrzs.game.ui.activity.GameVa64InstallCourseActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
         <activity android:theme="@style/eg" android:name="com.live.ddy.visual.activity.DdyMediaActivity" android:screenOrientation="landscape" android:configChanges="screenSize|orientation|keyboardHidden"/>
         <meta-data android:name="DDY_SDK_TYPE" android:value="yunphone"/>
         <meta-data android:name="DDY_SDK_APPKEY" android:value="2F0EA118B6DC3210"/>

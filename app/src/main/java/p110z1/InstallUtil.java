@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
-import android.support.p003v4.content.FileProvider;
+import android.support.v4.content.FileProvider;
 import java.io.File;
 import org.apache.tools.ant.taskdefs.XSLTLiaison;
 

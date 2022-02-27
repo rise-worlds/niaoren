@@ -1,7 +1,7 @@
 package com.tencent.smtt.sdk;
 
 import android.content.Context;
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import com.tencent.smtt.utils.DataReader;
 import java.io.IOException;
 import java.util.UnknownFormatConversionException;

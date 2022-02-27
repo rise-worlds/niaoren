@@ -2,8 +2,8 @@ package com.lbd.p054xj.p056ui.p057fw;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.p003v4.view.ViewPager;
-import android.support.p006v7.widget.AppCompatTextView;
+import android.support.v4.view.ViewPager;
+import android.support.v7.widget.AppCompatTextView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -68,11 +68,11 @@ public class XJInnerFloatView extends LinearLayout implements ViewPager.OnPageCh
     /* renamed from: j */
     private List<GridItem> f9857j = new ArrayList();
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageScrollStateChanged(int i) {
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageScrolled(int i, float f, int i2) {
     }
 
@@ -307,7 +307,7 @@ public class XJInnerFloatView extends LinearLayout implements ViewPager.OnPageCh
         }
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageSelected(int i) {
         setBannerSelectPoint(i);
     }

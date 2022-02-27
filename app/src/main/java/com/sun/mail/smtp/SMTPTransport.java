@@ -1,6 +1,6 @@
 package com.sun.mail.smtp;
 
-import android.support.p006v7.widget.helper.ItemTouchHelper;
+import android.support.v7.widget.helper.ItemTouchHelper;
 import com.ctetin.expandabletextviewlibrary.ExpandableTextView;
 import com.lidroid.xutils.http.client.multipart.MIME;
 import com.sun.mail.util.ASCIIUtility;

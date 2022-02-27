@@ -1,6 +1,6 @@
 package okio;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import javax.annotation.Nullable;
 
 /* JADX INFO: Access modifiers changed from: package-private */

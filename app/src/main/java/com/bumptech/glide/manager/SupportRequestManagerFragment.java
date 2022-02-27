@@ -5,8 +5,8 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
-import android.support.p003v4.app.Fragment;
-import android.support.p003v4.app.FragmentActivity;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
@@ -130,7 +130,7 @@ public class SupportRequestManagerFragment extends Fragment {
         }
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onAttach(Context context) {
         super.onAttach(context);
         try {
@@ -142,33 +142,33 @@ public class SupportRequestManagerFragment extends Fragment {
         }
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onDetach() {
         super.onDetach();
         this.parentFragmentHint = null;
         unregisterFragmentWithRoot();
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onStart() {
         super.onStart();
         this.lifecycle.onStart();
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onStop() {
         super.onStop();
         this.lifecycle.onStop();
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public void onDestroy() {
         super.onDestroy();
         this.lifecycle.onDestroy();
         unregisterFragmentWithRoot();
     }
 
-    @Override // android.support.p003v4.app.Fragment
+    @Override // android.support.v4.app.Fragment
     public String toString() {
         return super.toString() + "{parent=" + getParentFragmentUsingHint() + C4963cj.f20747d;
     }

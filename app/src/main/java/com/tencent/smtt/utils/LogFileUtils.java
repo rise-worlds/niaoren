@@ -1,6 +1,6 @@
 package com.tencent.smtt.utils;
 
-import android.support.p003v4.media.session.PlaybackStateCompat;
+import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.Log;
 import java.io.BufferedOutputStream;
 import java.io.File;

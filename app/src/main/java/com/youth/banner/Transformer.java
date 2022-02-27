@@ -1,6 +1,6 @@
 package com.youth.banner;
 
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.ViewPager;
 import com.youth.banner.transformer.AccordionTransformer;
 import com.youth.banner.transformer.BackgroundToForegroundTransformer;
 import com.youth.banner.transformer.CubeInTransformer;

@@ -1,9 +1,9 @@
 package com.tendcloud.tenddata;
 
-import android.support.p003v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import com.stripe.android.PaymentResultListener;
-import com.tendcloud.tenddata.C3034zz;
+
 import java.lang.Thread;
 import java.util.HashMap;
 import java.util.TreeMap;

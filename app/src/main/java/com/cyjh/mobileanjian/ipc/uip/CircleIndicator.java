@@ -8,7 +8,7 @@ import android.content.res.TypedArray;
 import android.database.DataSetObserver;
 import android.support.annotation.AnimatorRes;
 import android.support.annotation.DrawableRes;
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Interpolator;
@@ -63,15 +63,15 @@ public final class CircleIndicator extends LinearLayout {
 
     /* renamed from: o */
     private final ViewPager.OnPageChangeListener f8651o = new ViewPager.OnPageChangeListener() { // from class: com.cyjh.mobileanjian.ipc.uip.a.1
-        @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+        @Override // android.support.v4.view.ViewPager.OnPageChangeListener
         public final void onPageScrollStateChanged(int i) {
         }
 
-        @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+        @Override // android.support.v4.view.ViewPager.OnPageChangeListener
         public final void onPageScrolled(int i, float f, int i2) {
         }
 
-        @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+        @Override // android.support.v4.view.ViewPager.OnPageChangeListener
         public final void onPageSelected(int i) {
             CircleIndicator aVar;
             View childAt;

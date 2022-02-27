@@ -111,7 +111,7 @@ public class MyComponentDelegate extends AppCallback {
                     if (!TencentSupport.f16013a.contains(activity.getPackageName())) {
                         Log.d("MyComponentDelegate", "go toScriptServiceForKey");
                         Log.e("MyComponentDelegate", "onActivityResumed");
-                        IntentToAssistService.m12812a(GameApp.m13000d().m13006b(), 3);
+                        IntentToAssistService.m12812a(GameApp.getInstance().m13006b(), 3);
                     }
                     VAEnginUtils.m12917a(activity);
                     PXKJCoreUtils.m12929a(activity);
@@ -124,7 +124,7 @@ public class MyComponentDelegate extends AppCallback {
                 public void onActivityPaused(Activity activity) {
                     Log.d("MyComponentDelegate", "onActivityPaused:" + activity.getClass().getName());
                     Log.e("MyComponentDelegate", "MyComponentDelegate_onActivityPaused");
-                    IntentToAssistService.m12812a(GameApp.m13000d().m13006b(), 6);
+                    IntentToAssistService.m12812a(GameApp.getInstance().m13006b(), 6);
                 }
 
                 @Override // android.app.Application.ActivityLifecycleCallbacks
@@ -179,14 +179,14 @@ public class MyComponentDelegate extends AppCallback {
                 int i = a[0];
                 Log.d("updateEnginDis", "a1=" + i);
                 if (i > 0) {
-                    apf.m11843a(GameApp.m13000d().m13006b(), ShareVal.f16608r, ShareVal.f16609s, i);
-                    IntentToAssistService.m12811a(GameApp.m13000d().m13006b(), i, 10);
+                    apf.m11843a(GameApp.getInstance().m13006b(), ShareVal.f16608r, ShareVal.f16609s, i);
+                    IntentToAssistService.m12811a(GameApp.getInstance().m13006b(), i, 10);
                 }
                 int i2 = a[1];
                 Log.d("updateEnginDis", "a2=" + i2);
                 if (i2 > 0) {
-                    apf.m11843a(GameApp.m13000d().m13006b(), ShareVal.f16608r, ShareVal.f16610t, i2);
-                    IntentToAssistService.m12811a(GameApp.m13000d().m13006b(), i2, 10);
+                    apf.m11843a(GameApp.getInstance().m13006b(), ShareVal.f16608r, ShareVal.f16610t, i2);
+                    IntentToAssistService.m12811a(GameApp.getInstance().m13006b(), i2, 10);
                 }
             }
         }, 1000L);

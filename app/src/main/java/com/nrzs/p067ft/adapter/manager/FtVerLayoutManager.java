@@ -1,8 +1,8 @@
 package com.nrzs.p067ft.adapter.manager;
 
 import android.content.Context;
-import android.support.p006v7.widget.LinearLayoutManager;
-import android.support.p006v7.widget.RecyclerView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 
 /* renamed from: com.nrzs.ft.adapter.manager.FtVerLayoutManager */

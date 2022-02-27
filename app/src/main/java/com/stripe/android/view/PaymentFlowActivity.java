@@ -7,8 +7,8 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.p003v4.content.LocalBroadcastManager;
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.content.LocalBroadcastManager;
+import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 import com.stripe.android.C2364R;
@@ -87,7 +87,7 @@ public class PaymentFlowActivity extends StripeActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.stripe.android.view.StripeActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // com.stripe.android.view.StripeActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         CustomerSession.m18072a().m18055a(PaymentSession.f11905a);
@@ -101,15 +101,15 @@ public class PaymentFlowActivity extends StripeActivity {
             this.f12529q = new PaymentFlowPagerAdapter(this, paymentSessionConfig);
             this.f12530r.setAdapter(this.f12529q);
             this.f12530r.addOnPageChangeListener(new ViewPager.OnPageChangeListener() { // from class: com.stripe.android.view.PaymentFlowActivity.1
-                @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+                @Override // android.support.v4.view.ViewPager.OnPageChangeListener
                 public void onPageScrollStateChanged(int i) {
                 }
 
-                @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+                @Override // android.support.v4.view.ViewPager.OnPageChangeListener
                 public void onPageScrolled(int i, float f, int i2) {
                 }
 
-                @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+                @Override // android.support.v4.view.ViewPager.OnPageChangeListener
                 public void onPageSelected(int i) {
                     PaymentFlowActivity paymentFlowActivity = PaymentFlowActivity.this;
                     paymentFlowActivity.setTitle(paymentFlowActivity.f12530r.getAdapter().getPageTitle(i));
@@ -163,7 +163,7 @@ public class PaymentFlowActivity extends StripeActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.stripe.android.view.StripeActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.stripe.android.view.StripeActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onPause() {
         super.onPause();
         LocalBroadcastManager.getInstance(this).unregisterReceiver(this.f12528p);
@@ -171,7 +171,7 @@ public class PaymentFlowActivity extends StripeActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.stripe.android.view.StripeActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.stripe.android.view.StripeActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onResume() {
         super.onResume();
         LocalBroadcastManager.getInstance(this).registerReceiver(this.f12528p, new IntentFilter(f12523e));
@@ -238,7 +238,7 @@ public class PaymentFlowActivity extends StripeActivity {
         finish();
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onBackPressed() {
         if (m17331e()) {
             ViewPager viewPager = this.f12530r;

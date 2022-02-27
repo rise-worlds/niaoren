@@ -13,9 +13,9 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.support.annotation.Nullable;
-import android.support.p003v4.app.Fragment;
-import android.support.p003v4.app.FragmentManager;
-import android.support.p003v4.view.ViewPager;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.view.ViewPager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.DisplayCutout;
@@ -250,11 +250,11 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
         return C0692R.layout.nrzs_activity_main;
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageScrollStateChanged(int i) {
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageScrolled(int i, float f, int i2) {
     }
 
@@ -264,7 +264,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.support.p003v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         SharedPreferencesUtil.m11446a(getApplicationContext());
@@ -435,7 +435,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onResume() {
         super.onResume();
         MainFragmentAdapter mainFragmentAdapter = this.f5391f;
@@ -624,7 +624,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
         textView.setSelected(true);
     }
 
-    @Override // android.support.p003v4.view.ViewPager.OnPageChangeListener
+    @Override // android.support.v4.view.ViewPager.OnPageChangeListener
     public void onPageSelected(int i) {
         TextView textView = this.f5398m.get(i);
         TextView textView2 = this.f5394i;
@@ -657,7 +657,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         SharedPreferencesUtil.m11436a("STATE_ISPAUSE", true);
@@ -679,7 +679,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
         bindService(intent, this.f5406u, 1);
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onBackPressed() {
         m25012h();
     }
@@ -703,7 +703,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         int intExtra = intent.getIntExtra("position", -1);

@@ -37,7 +37,7 @@ public class FloatDialog extends AppBaseActivity implements View.OnClickListener
     public void mo19489c(Bundle bundle) {
     }
 
-    @Override // android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v4.app.FragmentActivity, android.app.Activity
     public void onBackPressed() {
     }
 
@@ -68,7 +68,7 @@ public class FloatDialog extends AppBaseActivity implements View.OnClickListener
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.lbd.p054xj.p056ui.activity.AppBaseActivity, android.support.p003v4.app.FragmentActivity, android.app.Activity
+    @Override // com.lbd.p054xj.p056ui.activity.AppBaseActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onResume() {
         super.onResume();
         if (FloatingPermissionCompat.m14338a().m14337a(this)) {
