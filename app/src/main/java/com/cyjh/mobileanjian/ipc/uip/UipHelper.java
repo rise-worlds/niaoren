@@ -24,7 +24,7 @@ import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import android.widget.TableLayout;
 import android.widget.TextView;
-import com.cyjh.mobileanjian.ipc.p044ui.SlidingTabLayout;
+import com.cyjh.mobileanjian.ipc.ui.SlidingTabLayout;
 import com.cyjh.mobileanjian.ipc.share.proto.UiMessage;
 import com.cyjh.mqsdk.C1375R;
 import com.google.protobuf.ByteString;

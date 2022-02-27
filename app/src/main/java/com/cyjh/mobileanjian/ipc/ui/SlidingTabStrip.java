@@ -1,4 +1,4 @@
-package com.cyjh.mobileanjian.ipc.p044ui;
+package com.cyjh.mobileanjian.ipc.ui;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,7 +7,7 @@ import android.graphics.Paint;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.LinearLayout;
-import com.cyjh.mobileanjian.ipc.p044ui.SlidingTabLayout;
+import com.cyjh.mobileanjian.ipc.ui.SlidingTabLayout;
 
 /* JADX INFO: Access modifiers changed from: package-private */
 /* renamed from: com.cyjh.mobileanjian.ipc.ui.d */
@@ -152,7 +152,7 @@ public final class SlidingTabStrip extends LinearLayout {
             this();
         }
 
-        @Override // com.cyjh.mobileanjian.ipc.p044ui.SlidingTabLayout.AbstractC1296c
+        @Override // com.cyjh.mobileanjian.ipc.ui.SlidingTabLayout.AbstractC1296c
         /* renamed from: a */
         public final int mo20889a(int i) {
             int[] iArr = this.f8484a;

@@ -1,4 +1,4 @@
-package com.cyjh.mobileanjian.ipc.p044ui;
+package com.cyjh.mobileanjian.ipc.ui;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;

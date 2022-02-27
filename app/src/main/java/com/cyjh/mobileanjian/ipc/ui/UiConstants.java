@@ -1,4 +1,4 @@
-package com.cyjh.mobileanjian.ipc.p044ui;
+package com.cyjh.mobileanjian.ipc.ui;
 
 /* renamed from: com.cyjh.mobileanjian.ipc.ui.e */
 /* loaded from: classes.dex */

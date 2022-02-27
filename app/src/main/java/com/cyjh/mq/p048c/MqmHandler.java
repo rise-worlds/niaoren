@@ -27,10 +27,10 @@ import com.cyjh.mobileanjian.ipc.interfaces.OnRecordScriptCallback;
 import com.cyjh.mobileanjian.ipc.interfaces.OnScreenShotCallback;
 import com.cyjh.mobileanjian.ipc.interfaces.OnScriptMessageCallback;
 import com.cyjh.mobileanjian.ipc.interfaces.OnUiElementCallback;
-import com.cyjh.mobileanjian.ipc.p044ui.FloatAlertDialog;
-import com.cyjh.mobileanjian.ipc.p044ui.FloatInputDialog;
-import com.cyjh.mobileanjian.ipc.p044ui.UiManager;
-import com.cyjh.mobileanjian.ipc.p044ui.UiShowFloat;
+import com.cyjh.mobileanjian.ipc.ui.FloatAlertDialog;
+import com.cyjh.mobileanjian.ipc.ui.FloatInputDialog;
+import com.cyjh.mobileanjian.ipc.ui.UiManager;
+import com.cyjh.mobileanjian.ipc.ui.UiShowFloat;
 import com.cyjh.mobileanjian.ipc.rpc.Invocator;
 import com.cyjh.mobileanjian.ipc.share.proto.Ipc;
 import com.cyjh.mobileanjian.ipc.share.proto.IpcCommand;
@@ -224,7 +224,7 @@ public final class MqmHandler {
                     ipcMessage2.getArg1(0);
                     ipcMessage2.getArg1(0);
                     new FloatAlertDialog(MqmHandler.this.f8856a, arg2, arg1, new FloatAlertDialog.AbstractC1300a() { // from class: com.cyjh.mq.c.d.1.1
-                        @Override // com.cyjh.mobileanjian.ipc.p044ui.FloatAlertDialog.AbstractC1300a
+                        @Override // com.cyjh.mobileanjian.ipc.ui.FloatAlertDialog.AbstractC1300a
                         /* renamed from: a */
                         public final void mo20463a(int i3) {
                             MqmHandler.this.f8858c.m20531a(Ipc.IpcMessage.newBuilder().setCmd(66).addArg1(i3).build());
@@ -237,7 +237,7 @@ public final class MqmHandler {
                     ipcMessage3.getArg1(0);
                     ipcMessage3.getArg1(0);
                     new FloatInputDialog(MqmHandler.this.f8856a, arg22, new FloatInputDialog.AbstractC1302a() { // from class: com.cyjh.mq.c.d.1.2
-                        @Override // com.cyjh.mobileanjian.ipc.p044ui.FloatInputDialog.AbstractC1302a
+                        @Override // com.cyjh.mobileanjian.ipc.ui.FloatInputDialog.AbstractC1302a
                         /* renamed from: a */
                         public final void mo20462a(String str) {
                             MqmHandler.this.f8858c.m20531a(Ipc.IpcMessage.newBuilder().setCmd(67).addArg2(str).build());

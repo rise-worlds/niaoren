@@ -1,4 +1,4 @@
-package com.cyjh.mobileanjian.ipc.p044ui;
+package com.cyjh.mobileanjian.ipc.ui;
 
 import android.content.Context;
 import android.os.Build;

@@ -41,12 +41,12 @@ import android.widget.TextView;
 import com.alipay.sdk.widget.C0675j;
 import com.cyjh.mobileanjian.ipc.AppAgent;
 import com.cyjh.mobileanjian.ipc.interfaces.OnScriptListener;
-import com.cyjh.mobileanjian.ipc.p044ui.FloatAlertDialog;
-import com.cyjh.mobileanjian.ipc.p044ui.FloatInputDialog;
-import com.cyjh.mobileanjian.ipc.p044ui.UiFactory;
-import com.cyjh.mobileanjian.ipc.p044ui.UiManagerLite;
-import com.cyjh.mobileanjian.ipc.p044ui.UiShowLayout;
-import com.cyjh.mobileanjian.ipc.p044ui.WidgetType;
+import com.cyjh.mobileanjian.ipc.ui.FloatAlertDialog;
+import com.cyjh.mobileanjian.ipc.ui.FloatInputDialog;
+import com.cyjh.mobileanjian.ipc.ui.UiFactory;
+import com.cyjh.mobileanjian.ipc.ui.UiManagerLite;
+import com.cyjh.mobileanjian.ipc.ui.UiShowLayout;
+import com.cyjh.mobileanjian.ipc.ui.WidgetType;
 import com.cyjh.mobileanjian.ipc.share.proto.UiMessage;
 import com.cyjh.mobileanjian.ipc.utils.C1335c;
 import com.cyjh.mobileanjian.ipc.utils.ContactsUtils;
@@ -361,7 +361,7 @@ public final class Injector {
         C12562() {
         }
 
-        @Override // com.cyjh.mobileanjian.ipc.p044ui.FloatAlertDialog.AbstractC1300a
+        @Override // com.cyjh.mobileanjian.ipc.ui.FloatAlertDialog.AbstractC1300a
         /* renamed from: a */
         public final void mo20463a(int i) {
             Injector.setSyncReturnValue(i, "");
@@ -380,7 +380,7 @@ public final class Injector {
         C12573() {
         }
 
-        @Override // com.cyjh.mobileanjian.ipc.p044ui.FloatInputDialog.AbstractC1302a
+        @Override // com.cyjh.mobileanjian.ipc.ui.FloatInputDialog.AbstractC1302a
         /* renamed from: a */
         public final void mo20462a(String str) {
             Injector.setSyncReturnValue(0, str);

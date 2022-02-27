@@ -1,4 +1,4 @@
-package com.cyjh.mobileanjian.ipc.p044ui;
+package com.cyjh.mobileanjian.ipc.ui;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -212,10 +212,10 @@ public final class UiShowLayout {
             boolean r2 = r1.hasNext()
             if (r2 == 0) goto L_0x0042
             java.lang.Object r0 = r1.next()
-            com.cyjh.mobileanjian.ipc.ui.SlidingTabLayout r0 = (com.cyjh.mobileanjian.ipc.p044ui.SlidingTabLayout) r0
+            com.cyjh.mobileanjian.ipc.ui.SlidingTabLayout r0 = (com.cyjh.mobileanjian.ipc.ui.SlidingTabLayout) r0
             android.support.v4.view.ViewPager r0 = r0.getViewPager()
             android.support.v4.view.PagerAdapter r0 = r0.getAdapter()
-            com.cyjh.mobileanjian.ipc.ui.l r0 = (com.cyjh.mobileanjian.ipc.p044ui.UiShowPagerAdapter) r0
+            com.cyjh.mobileanjian.ipc.ui.l r0 = (com.cyjh.mobileanjian.ipc.ui.UiShowPagerAdapter) r0
             r2 = 0
             java.util.List<android.widget.LinearLayout> r0 = r0.f8602a
             java.util.Iterator r0 = r0.iterator()
@@ -235,7 +235,7 @@ public final class UiShowLayout {
         L_0x0042:
             return r0
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.cyjh.mobileanjian.ipc.p044ui.UiShowLayout.m20732b(java.lang.String):android.view.View");
+        throw new UnsupportedOperationException("Method not decompiled: com.cyjh.mobileanjian.ipc.ui.UiShowLayout.m20732b(java.lang.String):android.view.View");
     }
 
     /* renamed from: a */
