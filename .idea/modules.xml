@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/鸟人助手.iml" filepath="$PROJECT_DIR$/.idea/modules/鸟人助手.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/鸟人助手.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/鸟人助手.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/niaoren.iml" filepath="$PROJECT_DIR$/niaoren.iml" />
     </modules>
   </component>
 </project>
