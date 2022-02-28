@@ -1,4 +1,4 @@
-package com.cyjh.p031db;
+package com.cyjh.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

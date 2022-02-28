@@ -282,20 +282,20 @@ public class FloatAssistManager {
             for (String str3 : file.list()) {
                 if (str3.endsWith(".lc")) {
                     this.f16723b.lc_path = str + str3;
-                } else if (str3.endsWith(ScriptSuffix.f8425c)) {
+                } else if (str3.endsWith(ScriptSuffix.f8425c)) { // .atc
                     this.f16723b.atc_Path = str + str3;
-                } else if (str3.endsWith(ScriptSuffix.f8426d)) {
+                } else if (str3.endsWith(ScriptSuffix.f8426d)) { // .ui
                     this.f16723b.uiPath = str + str3;
-                } else if (str3.endsWith(NRZSFileConfig.f16543a)) {
+                } else if (str3.endsWith(NRZSFileConfig.f16543a)) { // .uicfg
                     this.f16723b.uiCfgPath = str + str3;
-                } else if (str3.endsWith(ScriptSuffix.f8427e)) {
+                } else if (str3.endsWith(ScriptSuffix.f8427e)) { // .rtd
                     this.f16723b.rtd_path = str + str3;
                 } else if (str3.endsWith(".uip")) {
                     this.f16723b.uipPath = str + str3;
                 }
             }
             if (this.f16723b.uiCfgPath == null || this.f16723b.uiCfgPath.equals("")) {
-                this.f16723b.uiCfgPath = str + NRZSFileConfig.f16544b;
+                this.f16723b.uiCfgPath = str + NRZSFileConfig.f16544b; // a.uicfg
             }
             if (!StringUtil.m11795c((CharSequence) str2)) {
                 this.f16723b.uiCfgPath = m12404d(str, str2);
@@ -313,13 +313,13 @@ public class FloatAssistManager {
             for (String str3 : file.list()) {
                 if (str3.endsWith(".lc")) {
                     this.f16723b.lc_path = str + str3;
-                } else if (str3.endsWith(ScriptSuffix.f8425c)) {
+                } else if (str3.endsWith(ScriptSuffix.f8425c)) { // .atc
                     this.f16723b.atc_Path = str + str3;
-                } else if (str3.endsWith(ScriptSuffix.f8426d)) {
+                } else if (str3.endsWith(ScriptSuffix.f8426d)) { // .ui
                     this.f16723b.uiPath = str + str3;
-                } else if (str3.endsWith(NRZSFileConfig.f16543a)) {
+                } else if (str3.endsWith(NRZSFileConfig.f16543a)) { // .uicfg
                     this.f16723b.uiCfgPath = str + str3;
-                } else if (str3.endsWith(ScriptSuffix.f8427e)) {
+                } else if (str3.endsWith(ScriptSuffix.f8427e)) { // .rtd
                     this.f16723b.rtd_path = str + str3;
                 } else if (str3.endsWith(".uip")) {
                     this.f16723b.uipPath = str + str3;

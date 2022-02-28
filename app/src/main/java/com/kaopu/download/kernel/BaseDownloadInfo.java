@@ -2,7 +2,7 @@ package com.kaopu.download.kernel;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.cyjh.p031db.JsonPersister;
+import com.cyjh.db.JsonPersister;
 import com.kaopu.download.BaseDownloadWorker;
 import com.kaopu.download.abst.ADownloadWorker;
 import com.kaopu.download.intf.IDownloadClickHelper;

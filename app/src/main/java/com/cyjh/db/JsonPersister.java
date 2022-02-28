@@ -1,4 +1,4 @@
-package com.cyjh.p031db;
+package com.cyjh.db;
 
 import com.kaopu.download.BaseDownloadStateFactory;
 import com.kaopu.download.intf.IDownloadState;

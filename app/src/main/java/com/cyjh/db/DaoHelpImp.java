@@ -1,4 +1,4 @@
-package com.cyjh.p031db;
+package com.cyjh.db;
 
 import android.content.Context;
 import com.j256.ormlite.android.apptools.OpenHelperManager;
@@ -22,7 +22,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public int insert(T t) {
         try {
             return this.dao.mo1062e((Dao<T, ID>) t);
@@ -31,7 +31,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public int update(T t) {
         try {
             return this.dao.mo1055h(t);
@@ -40,7 +40,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public int delete(T t) {
         try {
             return this.dao.mo1051j(t);
@@ -49,7 +49,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public int deleteById(ID id) {
         try {
             return this.dao.mo1049k(id);
@@ -58,7 +58,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public int deleteAll() {
         try {
             return this.dao.mo1092a((PreparedDelete) this.dao.mo1063e().m511a());
@@ -67,7 +67,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public T query(ID id) {
         try {
             return this.dao.mo1104a((Dao<T, ID>) id);
@@ -76,7 +76,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public List<T> queryAll() {
         try {
             return this.dao.mo1083b();
@@ -85,7 +85,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public long getCount() {
         try {
             return this.dao.mo1048l();
@@ -94,12 +94,12 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public boolean isOpen() {
         return this.dao.mo1038w().mo248f();
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public void insertOrUpdate(T t) {
         try {
             this.dao.mo1057g(t);
@@ -108,7 +108,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public void batchInsertOrUpdate(final List<T> list) {
         try {
             this.dao.mo1094a(new Callable<Void>() { // from class: com.cyjh.db.DaoHelpImp.1
@@ -129,7 +129,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public void batchInsert(final List<T> list) {
         if (list != null && !list.isEmpty()) {
             try {
@@ -149,7 +149,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public void batchUpdate(final List<T> list) {
         if (list != null && !list.isEmpty()) {
             try {
@@ -168,7 +168,7 @@ public class DaoHelpImp<T, ID> implements IDaoHelp<T, ID> {
         }
     }
 
-    @Override // com.cyjh.p031db.IDaoHelp
+    @Override // com.cyjh.db.IDaoHelp
     public int batchDelete(List<ID> list) {
         try {
             return this.dao.mo1078b((Collection) list);
