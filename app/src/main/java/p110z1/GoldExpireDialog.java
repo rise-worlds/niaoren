@@ -7,7 +7,7 @@ import android.widget.TextView;
 import com.angel.nrzs.C0692R;
 import com.angel.nrzs.app.activity.NRZSWebviewActivity;
 import com.nrzs.data.other.bean.AdResultInfoItem;
-import com.nrzs.p067ft.p068ui.base.FtBaseDialog;
+import com.nrzs.ft.ui.base.FtBaseDialog;
 
 /* renamed from: z1.ew */
 /* loaded from: classes3.dex */
@@ -19,7 +19,7 @@ public class GoldExpireDialog extends FtBaseDialog {
     /* renamed from: b */
     private TextView f21578b;
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: d */
     protected void mo3011d() {
     }
@@ -28,13 +28,13 @@ public class GoldExpireDialog extends FtBaseDialog {
         super(context, false, C0692R.style.a4p);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: a */
     protected void mo3014a() {
         setCancelable(false);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: b */
     protected void mo3013b() {
         setContentView(C0692R.layout.f3435fe);
@@ -42,7 +42,7 @@ public class GoldExpireDialog extends FtBaseDialog {
         this.f21578b = (TextView) findViewById(C0692R.C0694id.f3168yu);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: c */
     protected void mo3012c() {
         this.f21577a.setOnClickListener(new View.OnClickListener() { // from class: z1.ew.1

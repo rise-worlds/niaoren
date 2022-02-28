@@ -260,7 +260,7 @@ public class PersonFragment extends AppBaseFragment implements View.OnClickListe
     @Nullable
     public View onCreateView(@NonNull LayoutInflater layoutInflater, @Nullable ViewGroup viewGroup, @Nullable Bundle bundle) {
         EventBus.m3448a().m3446a(this);
-        EventCollectManager.m12642a().m12640a(App.m25213a(), "我的页面展示", "我的页面展示", EventConstants.f16436d);
+        EventCollectManager.m12642a().m12640a(App.getInstance(), "我的页面展示", "我的页面展示", EventConstants.f16436d);
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction("fresh_vip_sgb");
         getContext().registerReceiver(this.f5575c, intentFilter);

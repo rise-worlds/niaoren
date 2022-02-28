@@ -29,7 +29,7 @@ import com.nrzs.data.game.bean.AuthorScriptBean;
 import com.nrzs.data.other.bean.AdResultInfoItem;
 import com.nrzs.game.ui.activity.GameAllActivity;
 import com.nrzs.game.ui.activity.GameSearchActivity;
-import com.nrzs.moudleui.p070ui.state.LoadingView;
+import com.nrzs.moudleui.ui.state.LoadingView;
 import java.util.ArrayList;
 import java.util.List;
 import p110z1.ADStatueEvent;

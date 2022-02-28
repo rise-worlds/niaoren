@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.p006v7.widget.AppCompatImageView android:layout_gravity="start|center_vertical" android:id="@+id/k4" android:layout_width="wrap_content" android:layout_height="@dimen/hi" android:src="@drawable/fl"/>
-    <android.support.p006v7.widget.AppCompatTextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:layout_gravity="start|center_vertical" android:id="@+id/k1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hm" android:layout_weight="1" android:layout_marginStart="@dimen/hm"/>
-    <android.support.p006v7.widget.AppCompatImageView android:layout_gravity="center" android:id="@+id/k3" android:layout_width="@dimen/hi" android:layout_height="wrap_content"/>
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="start|center_vertical" android:id="@+id/k4" android:layout_width="wrap_content" android:layout_height="@dimen/hi" android:src="@drawable/fl"/>
+    <android.support.v7.widget.AppCompatTextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:layout_gravity="start|center_vertical" android:id="@+id/k1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hm" android:layout_weight="1" android:layout_marginStart="@dimen/hm"/>
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="center" android:id="@+id/k3" android:layout_width="@dimen/hi" android:layout_height="wrap_content"/>
 </merge>

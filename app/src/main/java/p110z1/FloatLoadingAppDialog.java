@@ -11,7 +11,7 @@ import com.lody.virtual.client.ipc.VActivityManager;
 import com.nrzs.core.models.AppData;
 import com.nrzs.core.models.PackageAppData;
 import com.nrzs.game.C2029R;
-import com.nrzs.p072va.VirtualCoreProxy;
+import com.nrzs.va.VirtualCoreProxy;
 
 /* renamed from: z1.aol */
 /* loaded from: classes3.dex */

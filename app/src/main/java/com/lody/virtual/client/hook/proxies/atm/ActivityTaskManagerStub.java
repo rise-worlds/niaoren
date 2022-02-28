@@ -10,7 +10,7 @@ import com.lody.virtual.client.hook.base.BinderInvocationProxy;
 import com.lody.virtual.client.hook.base.StaticMethodProxy;
 import com.lody.virtual.client.ipc.VActivityManager;
 import com.lody.virtual.helper.utils.ComponentUtils;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import java.lang.reflect.Method;
 import p110z1.IActivityTaskManager;
 

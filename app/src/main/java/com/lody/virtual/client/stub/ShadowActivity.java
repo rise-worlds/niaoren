@@ -19,7 +19,7 @@ import com.lody.virtual.client.env.VirtualRuntime;
 import com.lody.virtual.client.hook.delegate.AppInstrumentation;
 import com.lody.virtual.client.hook.proxies.p059am.HCallbackStub;
 import com.lody.virtual.client.ipc.VActivityManager;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import com.lody.virtual.remote.StubActivityRecord;
 import p110z1.ActivityThread;
 import p110z1.BaseBundle;

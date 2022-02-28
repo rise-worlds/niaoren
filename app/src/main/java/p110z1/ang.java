@@ -15,7 +15,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.cyjh.ddy.media.media.ActionCode;
 import com.nrzs.data.DataApp;
-import com.nrzs.p067ft.C1990R;
+import com.nrzs.ft.C1990R;
 import p110z1.amu;
 import p110z1.anf;
 

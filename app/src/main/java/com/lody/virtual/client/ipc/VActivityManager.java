@@ -25,7 +25,7 @@ import com.lody.virtual.helper.compat.ActivityManagerCompat;
 import com.lody.virtual.helper.utils.ComponentUtils;
 import com.lody.virtual.helper.utils.IInterfaceUtils;
 import com.lody.virtual.helper.utils.VLog;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import com.lody.virtual.remote.AppTaskInfo;
 import com.lody.virtual.remote.BadgerInfo;
 import com.lody.virtual.remote.ClientConfig;

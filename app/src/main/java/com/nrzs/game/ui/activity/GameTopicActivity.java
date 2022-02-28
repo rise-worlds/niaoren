@@ -200,12 +200,12 @@ public class GameTopicActivity extends GameBaseActivity {
             }
         });
         this.f11052f.addOnScrollListener(new RecyclerView.OnScrollListener() { // from class: com.nrzs.game.ui.activity.GameTopicActivity.5
-            @Override // android.support.p006v7.widget.RecyclerView.OnScrollListener
+            @Override // android.support.v7.widget.RecyclerView.OnScrollListener
             public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int i) {
                 super.onScrollStateChanged(recyclerView, i);
             }
 
-            @Override // android.support.p006v7.widget.RecyclerView.OnScrollListener
+            @Override // android.support.v7.widget.RecyclerView.OnScrollListener
             public void onScrolled(RecyclerView recyclerView, int i, int i2) {
                 super.onScrolled(recyclerView, i, i2);
                 if (GameTopicActivity.this.f11058l.findLastVisibleItemPosition() + 1 == GameTopicActivity.this.f11058l.getItemCount() && GameTopicActivity.this.f11059m.getIsLastPage() != 1 && GameTopicActivity.this.f11060n.getCurrentPage() < GameTopicActivity.this.f11059m.getCurrentPage()) {

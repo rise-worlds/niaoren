@@ -114,7 +114,7 @@ public class SplashActivity extends AppBaseActivity {
                         arrayList.add(str2);
                         if (!new File(str2).exists()) {
                             C5351fg.m2880b(str2);
-                            BitmapUtil.m2966a(Glide.with(App.m25213a()).asBitmap().load(welcomeBannerInfo.ImgPath).into(Integer.MIN_VALUE, Integer.MIN_VALUE).get(), str2);
+                            BitmapUtil.m2966a(Glide.with(App.getInstance()).asBitmap().load(welcomeBannerInfo.ImgPath).into(Integer.MIN_VALUE, Integer.MIN_VALUE).get(), str2);
                         }
                     }
                     for (int i2 = 0; i2 < list2.length; i2++) {
@@ -381,7 +381,7 @@ public class SplashActivity extends AppBaseActivity {
             try {
                 GameApp.getInstance().m13003c();
                 new VAGameScreenInfoRepository().m12695a();
-                PXKJCoreUtils.m12928a(App.m25213a());
+                PXKJCoreUtils.m12928a(App.getInstance());
                 TentcentDownModel.m18803a().m18779d();
             } catch (Exception unused) {
                 Log.e("permmisionGranted", "permmisionGranted--isOnlyRoot-error");
@@ -435,7 +435,7 @@ public class SplashActivity extends AppBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         HandlerC0814a aVar = this.f5503n;
@@ -445,9 +445,9 @@ public class SplashActivity extends AppBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
-        EventCollectManager.m12642a().m12640a(App.m25213a(), "欢迎页面", "欢迎页面", EventConstants.f16434b);
+        EventCollectManager.m12642a().m12640a(App.getInstance(), "欢迎页面", "欢迎页面", EventConstants.f16434b);
     }
 }

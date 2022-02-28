@@ -39,7 +39,7 @@ public class PinnedHeaderRecyclerView extends RecyclerView {
         this.f11294a = aVar;
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView, android.view.ViewGroup
+    @Override // android.support.v7.widget.RecyclerView, android.view.ViewGroup
     public boolean onInterceptTouchEvent(MotionEvent motionEvent) {
         if (this.f11294a == null) {
             return super.onInterceptTouchEvent(motionEvent);
@@ -59,7 +59,7 @@ public class PinnedHeaderRecyclerView extends RecyclerView {
         return super.onInterceptTouchEvent(motionEvent);
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView, android.view.View
+    @Override // android.support.v7.widget.RecyclerView, android.view.View
     public boolean onTouchEvent(MotionEvent motionEvent) {
         if (this.f11294a == null) {
             return super.onTouchEvent(motionEvent);

@@ -5,8 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import com.nrzs.core.models.AppInfoLite;
 import com.nrzs.game.C2029R;
-import com.nrzs.p072va.AppInstallOptions;
-import com.nrzs.p072va.VirtualCoreProxy;
+import com.nrzs.va.AppInstallOptions;
+import com.nrzs.va.VirtualCoreProxy;
 import p110z1.DoneCallback;
 import p110z1.VUiKit;
 

@@ -87,7 +87,7 @@ public class PaymentFlowActivity extends StripeActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.stripe.android.view.StripeActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.stripe.android.view.StripeActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         CustomerSession.m18072a().m18055a(PaymentSession.f11905a);

@@ -31,7 +31,7 @@ public class NRZSJsCallAndroid {
     public void isHookLogin() {
         try {
             if (!LoginManager.m12620d().m12606r()) {
-                IntentToAssistService.m12813a(App.m25213a());
+                IntentToAssistService.m12813a(App.getInstance());
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -114,7 +114,7 @@ public class NRZSJsCallAndroid {
 
     @JavascriptInterface
     public void showToast(String str) {
-        aqg.m11586a(App.m25213a(), str);
+        aqg.m11586a(App.getInstance(), str);
     }
 
     @JavascriptInterface

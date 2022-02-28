@@ -20,7 +20,7 @@ import com.cyjh.ddy.media.p035a.ResultTypeConstant;
 import com.lody.virtual.helper.utils.Reflect;
 import com.lody.virtual.helper.utils.VLog;
 import com.nrzs.core.receive.PXKJReceiveReceive;
-import com.nrzs.p072va.AppCallback;
+import com.nrzs.va.AppCallback;
 import java.io.File;
 import patch.MyFixer;
 
@@ -146,7 +146,7 @@ public class MyComponentDelegate extends AppCallback {
         }
     }
 
-    @Override // com.nrzs.p072va.AppCallback, com.lody.virtual.client.core.AppCallback
+    @Override // com.nrzs.va.AppCallback, com.lody.virtual.client.core.AppCallback
     public void beforeActivityCreate(Activity activity) {
         Log.d("MyComponentDelegate", "beforeActivityCreate");
         if (activity.getPackageName().equals("com.hytc.sg")) {
@@ -167,7 +167,7 @@ public class MyComponentDelegate extends AppCallback {
         }
     }
 
-    @Override // com.nrzs.p072va.AppCallback, com.lody.virtual.client.core.AppCallback
+    @Override // com.nrzs.va.AppCallback, com.lody.virtual.client.core.AppCallback
     public void afterActivityResume(final Activity activity) {
         m12965a(activity.getWindow());
         Log.d("updateEnginDis", "afterActivityResume=1");
@@ -199,7 +199,7 @@ public class MyComponentDelegate extends AppCallback {
         decorView.setSystemUiVisibility(decorView.getSystemUiVisibility() | 2 | 512 | 4 | 1024 | 2048);
     }
 
-    @Override // com.nrzs.p072va.AppCallback, com.lody.virtual.client.core.AppCallback
+    @Override // com.nrzs.va.AppCallback, com.lody.virtual.client.core.AppCallback
     public void afterActivityCreate(Activity activity) {
         m12968a(activity);
         if (this.f16037a != null) {

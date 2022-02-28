@@ -53,7 +53,7 @@ public class GrouptManagerAdapter extends RecyclerView.Adapter<GroupViewHolder> 
         });
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public int getItemCount() {
         return this.f5137a.size();
     }

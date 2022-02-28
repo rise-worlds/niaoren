@@ -17,10 +17,10 @@ import com.nrzs.data.p066ft.bean.request.SessionRequestInfo;
 import com.nrzs.data.p066ft.bean.response.SessionInfoResponse;
 import com.nrzs.data.user.bean.respond.LoginResultV1Info;
 import com.nrzs.http.UICallback;
-import com.nrzs.p067ft.C1990R;
-import com.nrzs.p067ft.FloatApp;
-import com.nrzs.p067ft.adapter.UserKickAdapter;
-import com.nrzs.p067ft.p068ui.base.FtBaseDialog;
+import com.nrzs.ft.C1990R;
+import com.nrzs.ft.FloatApp;
+import com.nrzs.ft.adapter.UserKickAdapter;
+import com.nrzs.ft.ui.base.FtBaseDialog;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -110,7 +110,7 @@ public class XJFtUserKickDialog extends FtBaseDialog implements IUserKickCallbac
         }
     };
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: d */
     protected void mo3011d() {
     }
@@ -133,13 +133,13 @@ public class XJFtUserKickDialog extends FtBaseDialog implements IUserKickCallbac
         FwManager.getInstance().initXJFloatView(true);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: a */
     protected void mo3014a() {
         setCancelable(false);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: b */
     protected void mo3013b() {
         setContentView(C1990R.layout.nrzs_ft_dialog_user_kick);
@@ -157,7 +157,7 @@ public class XJFtUserKickDialog extends FtBaseDialog implements IUserKickCallbac
         this.f15360o = (LinearLayout) findViewById(C1990R.C1992id.data_lay);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: c */
     protected void mo3012c() {
         this.f15347b.setOnClickListener(new View.OnClickListener() { // from class: z1.ads.3
@@ -305,13 +305,13 @@ public class XJFtUserKickDialog extends FtBaseDialog implements IUserKickCallbac
         UserKickAdapter userKickAdapter = this.f15349d;
         if (userKickAdapter == null) {
             this.f15349d = new UserKickAdapter(new UserKickAdapter.AbstractC2004a() { // from class: z1.ads.7
-                @Override // com.nrzs.p067ft.adapter.UserKickAdapter.AbstractC2004a
+                @Override // com.nrzs.ft.adapter.UserKickAdapter.AbstractC2004a
                 /* renamed from: a */
                 public void mo12161a(long j, String str, int i) {
                     XJFtUserKickDialog.this.m14280a(j, str, i);
                 }
 
-                @Override // com.nrzs.p067ft.adapter.UserKickAdapter.AbstractC2004a
+                @Override // com.nrzs.ft.adapter.UserKickAdapter.AbstractC2004a
                 /* renamed from: a */
                 public void mo12160a(String str, long j, String str2, int i) {
                     XJFtUserKickDialog.this.m14279a(str, j, str2, i);

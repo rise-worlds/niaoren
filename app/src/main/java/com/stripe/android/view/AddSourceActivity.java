@@ -117,7 +117,7 @@ public class AddSourceActivity extends StripeActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.stripe.android.view.StripeActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.stripe.android.view.StripeActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         this.f12647o.setLayoutResource(C2364R.layout.activity_add_source);

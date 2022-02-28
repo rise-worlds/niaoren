@@ -321,9 +321,9 @@
             </intent-filter>
             <meta-data android:name="android.accessibilityservice" android:resource="@xml/a"/>
         </service>
-        <service android:name="com.nrzs.p067ft.service.AssistService" android:exported="true" android:process="com.angel.nrzs.p">
+        <service android:name="com.nrzs.ft.service.AssistService" android:exported="true" android:process="com.angel.nrzs.p">
             <intent-filter>
-                <action android:name="com.nrzs.p067ft.service.AssistService"/>
+                <action android:name="com.nrzs.ft.service.AssistService"/>
             </intent-filter>
         </service>
         <service android:name="com.cyjh.mq.service.IpcService" android:process="com.angel.nrzs.p"/>
@@ -333,7 +333,7 @@
             </intent-filter>
             <meta-data android:name="android.view.im" android:resource="@xml/c"/>
         </service>
-        <service android:name="com.nrzs.p067ft.NRZSAidlService" android:enabled="true" android:exported="true" android:process="com.angel.nrzs.p">
+        <service android:name="com.nrzs.ft.NRZSAidlService" android:enabled="true" android:exported="true" android:process="com.angel.nrzs.p">
             <intent-filter>
                 <action android:name="com.nrzs.ft.NRZSAidl.action"/>
             </intent-filter>

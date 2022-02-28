@@ -6,7 +6,7 @@ import android.os.IBinder;
 import android.os.IInterface;
 import android.os.Parcel;
 import android.os.RemoteException;
-import com.lody.virtual.p061os.VUserInfo;
+import com.lody.virtual.os.VUserInfo;
 import java.util.List;
 
 /* loaded from: classes.dex */

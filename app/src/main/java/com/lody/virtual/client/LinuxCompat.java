@@ -3,7 +3,7 @@ package com.lody.virtual.client;
 import android.os.Build;
 import com.lody.virtual.client.core.VirtualCore;
 import com.lody.virtual.helper.utils.FileUtils;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import java.io.File;
 import java.io.IOException;
 

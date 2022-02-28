@@ -3,7 +3,7 @@ package p110z1;
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
 import com.lody.virtual.client.hook.delegate.TaskDescriptionDelegate;
-import com.lody.virtual.p061os.VUserManager;
+import com.lody.virtual.os.VUserManager;
 
 @TargetApi(21)
 /* renamed from: z1.aja */

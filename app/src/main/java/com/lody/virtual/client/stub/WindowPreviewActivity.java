@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import com.lody.virtual.client.core.VirtualCore;
 import com.lody.virtual.helper.utils.VLog;
-import com.lody.virtual.server.p062am.AttributeCache;
+import com.lody.virtual.server.am.AttributeCache;
 import p110z1.LayerDrawable;
 import p110z1.R_Hide;
 

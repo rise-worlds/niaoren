@@ -27,7 +27,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     public abstract void mo19489c(Bundle bundle);
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         mo19555a(bundle);
         super.onCreate(bundle);

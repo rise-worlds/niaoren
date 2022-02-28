@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/a5h">
     <LinearLayout android:orientation="vertical" style="@style/pv">
-        <android.support.p006v7.widget.Toolbar android:id="@+id/nrzs_app_toolbar" android:background="@color/as" android:layout_width="match_parent" android:layout_height="0dp" app:contentInsetStart="0dp"/>
+        <android.support.v7.widget.Toolbar android:id="@+id/nrzs_app_toolbar" android:background="@color/as" android:layout_width="match_parent" android:layout_height="0dp" app:contentInsetStart="0dp"/>
         <LinearLayout android:orientation="vertical" style="@style/a5h">
             <LinearLayout style="@style/v3">
                 <RelativeLayout style="@style/v6">
@@ -17,7 +17,7 @@
                 </RelativeLayout>
             </LinearLayout>
             <LinearLayout android:layout_marginTop="@dimen/db" style="@style/uw">
-                <android.support.p006v7.widget.RecyclerView android:id="@+id/nrzs_app_channel_recyclerView" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <android.support.v7.widget.RecyclerView android:id="@+id/nrzs_app_channel_recyclerView" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
                 <LinearLayout android:id="@+id/nrzs_app_ll_nodata" android:visibility="gone" android:layout_marginTop="@dimen/db" style="@style/uw">
                     <ImageView android:src="@drawable/lg" style="@style/a5g"/>
                     <TextView android:text="@string/lw" style="@style/uv"/>

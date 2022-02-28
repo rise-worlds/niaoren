@@ -146,7 +146,7 @@ public class DdyMediaActivity extends DdyBaseActivity implements IDdyMediaActivi
         });
     }
 
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity, android.content.ComponentCallbacks
+    @Override // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity, android.content.ComponentCallbacks
     public void onConfigurationChanged(Configuration configuration) {
         super.onConfigurationChanged(configuration);
         DdyMediaModel aigVar = this.f10450a;
@@ -156,14 +156,14 @@ public class DdyMediaActivity extends DdyBaseActivity implements IDdyMediaActivi
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onStop() {
         super.onStop();
         finish();
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         this.f10458i = -1;

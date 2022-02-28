@@ -44,14 +44,14 @@ public class LoadMoreForRecyclerView {
         this.f17102f = aVar;
         final LinearLayoutManager linearLayoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() { // from class: z1.aow.1
-            @Override // android.support.p006v7.widget.RecyclerView.OnScrollListener
+            @Override // android.support.v7.widget.RecyclerView.OnScrollListener
             public void onScrollStateChanged(RecyclerView recyclerView2, int i) {
                 super.onScrollStateChanged(recyclerView2, i);
                 LoadMoreForRecyclerView.this.f17099c = i;
                 LoadMoreForRecyclerView.this.f17097a = linearLayoutManager.findLastVisibleItemPosition();
             }
 
-            @Override // android.support.p006v7.widget.RecyclerView.OnScrollListener
+            @Override // android.support.v7.widget.RecyclerView.OnScrollListener
             public void onScrolled(RecyclerView recyclerView2, int i, int i2) {
                 super.onScrolled(recyclerView2, i, i2);
                 LoadMoreForRecyclerView.this.f17100d = i2;

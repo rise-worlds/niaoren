@@ -17,7 +17,7 @@ import com.lody.virtual.client.core.InvocationStubManager;
 import com.lody.virtual.client.hook.proxies.p059am.ActivityManagerStub;
 import com.lody.virtual.helper.collection.SparseArray;
 import com.lody.virtual.helper.compat.JobWorkItemCompat;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import com.lody.virtual.server.job.VJobSchedulerService;
 import java.util.Map;
 

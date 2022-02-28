@@ -3,6 +3,6 @@
     <include layout="@layout/nrzs_main_index_toolbar_layout"/>
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/nrzs_app_home_swiprefresh" android:layout_width="match_parent" android:layout_height="match_parent">
-        <android.support.p006v7.widget.RecyclerView android:id="@+id/nrzs_app_home_recyclerView" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/nrzs_app_home_recyclerView" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent"/>
     </android.support.v4.widget.SwipeRefreshLayout>
 </LinearLayout>

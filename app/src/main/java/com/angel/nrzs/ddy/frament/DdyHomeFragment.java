@@ -266,16 +266,16 @@ public class DdyHomeFragment extends AppBaseFragment {
         if (list == null) {
             this.f5286r.setVisibility(8);
             if (this.f5290v.getVisibility() == 0) {
-                this.f5280l.setBackgroundColor(App.m25213a().getResources().getColor(C0692R.color.f1449fa));
+                this.f5280l.setBackgroundColor(App.getInstance().getResources().getColor(C0692R.color.f1449fa));
             } else {
-                this.f5280l.setBackgroundColor(App.m25213a().getResources().getColor(C0692R.color.ad_broucks));
+                this.f5280l.setBackgroundColor(App.getInstance().getResources().getColor(C0692R.color.ad_broucks));
             }
         } else if (list.size() <= 0 || getContext() == null) {
             this.f5286r.setVisibility(8);
             if (this.f5290v.getVisibility() == 0) {
-                this.f5280l.setBackgroundColor(App.m25213a().getResources().getColor(C0692R.color.f1449fa));
+                this.f5280l.setBackgroundColor(App.getInstance().getResources().getColor(C0692R.color.f1449fa));
             } else {
-                this.f5280l.setBackgroundColor(App.m25213a().getResources().getColor(C0692R.color.ad_broucks));
+                this.f5280l.setBackgroundColor(App.getInstance().getResources().getColor(C0692R.color.ad_broucks));
             }
         } else {
             this.f5286r.setVisibility(0);

@@ -14,7 +14,7 @@ import com.blankj.utilcode.util.ScreenUtils;
 import com.blankj.utilcode.util.SizeUtils;
 import com.cyjh.ddy.media.media.ActionCode;
 import com.cyjh.mobileanjian.ipc.uip.UisScriptRunner;
-import com.nrzs.p067ft.C1990R;
+import com.nrzs.ft.C1990R;
 
 /* renamed from: z1.adt */
 /* loaded from: classes3.dex */

@@ -15,7 +15,7 @@ import com.lody.virtual.client.stub.StubManifest;
 import com.lody.virtual.helper.compat.BuildCompat;
 import com.lody.virtual.helper.utils.ArrayUtils;
 import com.lody.virtual.helper.utils.VLog;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import com.lody.virtual.remote.InstalledAppInfo;
 import java.io.File;
 import java.io.IOException;

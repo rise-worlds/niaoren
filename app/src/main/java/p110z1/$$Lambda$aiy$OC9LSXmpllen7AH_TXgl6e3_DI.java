@@ -1,7 +1,7 @@
 package p110z1;
 
-import com.nrzs.p072va.AppInstallCallback;
-import com.nrzs.p072va.AppInstallResult;
+import com.nrzs.va.AppInstallCallback;
+import com.nrzs.va.AppInstallResult;
 
 /* compiled from: lambda */
 /* renamed from: z1.-$$Lambda$aiy$OC9LSXmpllen7AH_TXgl6e3_-DI  reason: invalid class name */
@@ -12,7 +12,7 @@ public final /* synthetic */ class $$Lambda$aiy$OC9LSXmpllen7AH_TXgl6e3_DI imple
     private /* synthetic */ $$Lambda$aiy$OC9LSXmpllen7AH_TXgl6e3_DI() {
     }
 
-    @Override // com.nrzs.p072va.AppInstallCallback
+    @Override // com.nrzs.va.AppInstallCallback
     public final void onFinish(AppInstallResult appInstallResult) {
         MyAppRequestListener.m12971a(appInstallResult);
     }

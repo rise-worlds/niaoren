@@ -7,9 +7,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.blankj.utilcode.util.Utils;
 import com.nrzs.data.other.bean.AdResultInfoItem;
-import com.nrzs.p067ft.C1990R;
-import com.nrzs.p067ft.FloatApp;
-import com.nrzs.p067ft.p068ui.base.FtBaseDialog;
+import com.nrzs.ft.C1990R;
+import com.nrzs.ft.FloatApp;
+import com.nrzs.ft.ui.base.FtBaseDialog;
 
 /* renamed from: z1.anv */
 /* loaded from: classes3.dex */
@@ -37,13 +37,13 @@ public class FtExceedDialog extends FtBaseDialog {
         super(context, C1990R.style.nrzs_assist_dialog_theme);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: a */
     protected void mo3014a() {
         setCancelable(false);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: b */
     protected void mo3013b() {
         setContentView(C1990R.layout.nrzs_ft_dialog_exceed);
@@ -54,7 +54,7 @@ public class FtExceedDialog extends FtBaseDialog {
         this.f16875d = (LinearLayout) findViewById(C1990R.C1992id.nrzs_ft_ll_root);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: c */
     protected void mo3012c() {
         this.f16874c.setOnClickListener(new View.OnClickListener() { // from class: z1.anv.1
@@ -90,7 +90,7 @@ public class FtExceedDialog extends FtBaseDialog {
         });
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: d */
     protected void mo3011d() {
         FloatViewManager.m12346a(FloatApp.m18899b().m18901a()).m12327e();

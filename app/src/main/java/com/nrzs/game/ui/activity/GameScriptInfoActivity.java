@@ -377,7 +377,7 @@ public class GameScriptInfoActivity extends GameBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.nrzs.game.ui.base.GameBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.nrzs.game.ui.base.GameBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         EventBus.m3448a().m3430c(this);

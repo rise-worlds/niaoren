@@ -20,7 +20,7 @@ import com.nrzs.data.other.bean.response.ExchageResponseinfo;
 import com.nrzs.data.user.bean.UserInfo;
 import com.nrzs.http.ThreadCallback;
 import com.nrzs.http.UICallback;
-import com.nrzs.p067ft.C1990R;
+import com.nrzs.ft.C1990R;
 import p110z1.FtEvent;
 
 /* renamed from: z1.ant */

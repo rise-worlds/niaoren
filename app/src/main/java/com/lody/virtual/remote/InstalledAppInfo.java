@@ -7,7 +7,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import com.lody.virtual.client.core.VirtualCore;
 import com.lody.virtual.client.ipc.VPackageManager;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import java.io.File;
 
 /* loaded from: classes.dex */

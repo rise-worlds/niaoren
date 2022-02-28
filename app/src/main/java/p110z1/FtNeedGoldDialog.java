@@ -6,8 +6,8 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.nrzs.p067ft.C1990R;
-import com.nrzs.p067ft.p068ui.base.FtBaseDialog;
+import com.nrzs.ft.C1990R;
+import com.nrzs.ft.ui.base.FtBaseDialog;
 import p110z1.FtEvent;
 
 /* renamed from: z1.any */
@@ -29,7 +29,7 @@ public class FtNeedGoldDialog extends FtBaseDialog {
     /* renamed from: e */
     private LinearLayout f16910e;
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: d */
     protected void mo3011d() {
     }
@@ -38,13 +38,13 @@ public class FtNeedGoldDialog extends FtBaseDialog {
         super(context, C1990R.style.nrzs_assist_dialog_theme);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: a */
     protected void mo3014a() {
         setCancelable(false);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: b */
     protected void mo3013b() {
         setContentView(C1990R.layout.nrzs_ft_dialog_needgold);
@@ -55,7 +55,7 @@ public class FtNeedGoldDialog extends FtBaseDialog {
         this.f16910e = (LinearLayout) findViewById(C1990R.C1992id.nrzs_ft_ll_root);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: c */
     protected void mo3012c() {
         this.f16906a.setOnClickListener(new View.OnClickListener() { // from class: z1.any.1

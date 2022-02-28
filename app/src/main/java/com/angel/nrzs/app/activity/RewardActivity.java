@@ -182,7 +182,7 @@ public class RewardActivity extends AppBaseActivity implements View.OnClickListe
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         getWindow().setSoftInputMode(32);
@@ -195,7 +195,7 @@ public class RewardActivity extends AppBaseActivity implements View.OnClickListe
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
     }

@@ -14,7 +14,7 @@ import com.blankj.utilcode.util.ScreenUtils;
 import com.blankj.utilcode.util.Utils;
 import com.lbd.p054xj.p056ui.adapter.AssistAdapter;
 import com.nrzs.moudleui.adapter.BaseListAdapter;
-import com.nrzs.p067ft.C1990R;
+import com.nrzs.ft.C1990R;
 import p110z1.AssistListContract;
 import p110z1.AssistListPresenter;
 import p110z1.CdKeyDialog;

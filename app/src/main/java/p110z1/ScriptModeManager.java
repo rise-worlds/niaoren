@@ -70,7 +70,7 @@ public class ScriptModeManager {
     /* renamed from: c */
     public boolean m3100c() {
         if (this.f21478b == 0) {
-            if (Build.VERSION.SDK_INT < 21 || CommonUtil.m11899a(App.m25213a())) {
+            if (Build.VERSION.SDK_INT < 21 || CommonUtil.m11899a(App.getInstance())) {
                 this.f21478b = 2;
             } else {
                 this.f21478b = 1;

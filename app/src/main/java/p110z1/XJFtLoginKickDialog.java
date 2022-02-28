@@ -13,9 +13,9 @@ import com.nrzs.data.user.bean.request.AutoLogin;
 import com.nrzs.data.user.bean.respond.LoginResultV1Info;
 import com.nrzs.http.ThreadCallback;
 import com.nrzs.http.UICallback;
-import com.nrzs.p067ft.C1990R;
-import com.nrzs.p067ft.FloatApp;
-import com.nrzs.p067ft.p068ui.base.FtBaseDialog;
+import com.nrzs.ft.C1990R;
+import com.nrzs.ft.FloatApp;
+import com.nrzs.ft.ui.base.FtBaseDialog;
 import p110z1.XNKJEvent;
 
 /* renamed from: z1.adq */
@@ -89,13 +89,13 @@ public class XJFtLoginKickDialog extends FtBaseDialog {
         this.f15326a = str;
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: a */
     protected void mo3014a() {
         setCancelable(false);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: b */
     protected void mo3013b() {
         setContentView(C1990R.layout.nrzs_ft_dialog_login_kick);
@@ -104,7 +104,7 @@ public class XJFtLoginKickDialog extends FtBaseDialog {
         this.f15329d = (TextView) findViewById(C1990R.C1992id.nrzs_ft_tv_reply_login);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: c */
     protected void mo3012c() {
         this.f15328c.setOnClickListener(new View.OnClickListener() { // from class: z1.adq.3
@@ -124,7 +124,7 @@ public class XJFtLoginKickDialog extends FtBaseDialog {
         });
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: d */
     protected void mo3011d() {
         FloatViewManager.m12346a(FloatApp.m18899b().m18901a()).m12327e();

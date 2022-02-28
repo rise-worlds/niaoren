@@ -11,7 +11,7 @@ import com.lody.virtual.client.core.VirtualCore;
 import com.lody.virtual.client.hook.annotations.LogInvocation;
 import com.lody.virtual.client.ipc.VirtualLocationManager;
 import com.lody.virtual.helper.utils.ComponentUtils;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import com.lody.virtual.remote.VDeviceConfig;
 import java.lang.reflect.Method;
 

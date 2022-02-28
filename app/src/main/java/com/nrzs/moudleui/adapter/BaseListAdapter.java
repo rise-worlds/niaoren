@@ -69,7 +69,7 @@ public abstract class BaseListAdapter<T, VH extends BaseViewHolder> extends Recy
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public /* synthetic */ void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
         m18484b((BaseListAdapter<T, VH>) ((BaseViewHolder) viewHolder), i);
     }
@@ -115,14 +115,14 @@ public abstract class BaseListAdapter<T, VH extends BaseViewHolder> extends Recy
         }
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
         RecyclerView.LayoutManager layoutManager = recyclerView.getLayoutManager();
         if (layoutManager instanceof GridLayoutManager) {
             final GridLayoutManager gridLayoutManager = (GridLayoutManager) layoutManager;
             gridLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() { // from class: com.nrzs.moudleui.adapter.BaseListAdapter.1
-                @Override // android.support.p006v7.widget.GridLayoutManager.SpanSizeLookup
+                @Override // android.support.v7.widget.GridLayoutManager.SpanSizeLookup
                 public int getSpanSize(int i) {
                     if (BaseListAdapter.this.m18479d(BaseListAdapter.this.getItemViewType(i))) {
                         return gridLayoutManager.getSpanCount();
@@ -295,12 +295,12 @@ public abstract class BaseListAdapter<T, VH extends BaseViewHolder> extends Recy
         return m18486b() + getItemCount();
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public int getItemCount() {
         return m18486b() + this.f11255c.size() + m18483c();
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public int getItemViewType(int i) {
         int b = m18486b();
         if (i < b) {

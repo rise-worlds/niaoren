@@ -27,7 +27,7 @@ import com.lody.virtual.client.ipc.VPackageManager;
 import com.lody.virtual.helper.collection.ArraySet;
 import com.lody.virtual.helper.utils.Reflect;
 import com.lody.virtual.helper.utils.VLog;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import com.lody.virtual.remote.InstalledAppInfo;
 import com.tencent.smtt.sdk.TbsConfig;
 import java.io.File;

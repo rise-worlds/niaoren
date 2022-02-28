@@ -1,7 +1,7 @@
 package com.lody.virtual.open;
 
 import com.lody.virtual.client.core.VirtualCore;
-import com.lody.virtual.p061os.VUserManager;
+import com.lody.virtual.os.VUserManager;
 import com.lody.virtual.remote.InstalledAppInfo;
 
 /* loaded from: classes.dex */

@@ -5,9 +5,9 @@ import android.widget.Toast;
 import com.lody.virtual.client.core.VirtualCore;
 import com.lody.virtual.client.ipc.VActivityManager;
 import com.lody.virtual.helper.utils.VLog;
-import com.nrzs.p072va.AppInstallOptions;
-import com.nrzs.p072va.AppInstallResult;
-import com.nrzs.p072va.VirtualCoreProxy;
+import com.nrzs.va.AppInstallOptions;
+import com.nrzs.va.AppInstallResult;
+import com.nrzs.va.VirtualCoreProxy;
 
 /* renamed from: z1.aiy */
 /* loaded from: classes3.dex */

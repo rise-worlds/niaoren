@@ -5,7 +5,7 @@ import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.text.TextUtils;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;

@@ -4,7 +4,7 @@ import android.content.Context;
 import com.nrzs.core.models.AppData;
 import com.nrzs.core.models.AppInfo;
 import com.nrzs.core.models.AppInfoLite;
-import com.nrzs.p072va.AppInstallResult;
+import com.nrzs.va.AppInstallResult;
 import java.io.File;
 import java.util.List;
 

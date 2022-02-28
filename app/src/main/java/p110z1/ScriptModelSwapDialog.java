@@ -267,7 +267,7 @@ public class ScriptModelSwapDialog extends Dialog {
                         ScriptModelSwapDialog.m2998a();
                         return;
                     }
-                    aqg.m11586a(App.m25213a(), "当前设备不支持【通用模式】");
+                    aqg.m11586a(App.getInstance(), "当前设备不支持【通用模式】");
                 } else if (a == 2) {
                     ScriptModelSwapDialog.this.dismiss();
                 }

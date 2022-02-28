@@ -3,7 +3,7 @@ package com.lody.virtual.server.device;
 import android.os.Parcel;
 import com.lody.virtual.helper.PersistenceLayer;
 import com.lody.virtual.helper.collection.SparseArray;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import com.lody.virtual.remote.VDeviceConfig;
 
 /* loaded from: classes.dex */

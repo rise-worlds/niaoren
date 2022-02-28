@@ -101,14 +101,14 @@ public abstract class BasePageAdapter<T, VH extends BaseViewHolder> extends Page
         }
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
         RecyclerView.LayoutManager layoutManager = recyclerView.getLayoutManager();
         if (layoutManager instanceof GridLayoutManager) {
             final GridLayoutManager gridLayoutManager = (GridLayoutManager) layoutManager;
             gridLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() { // from class: com.nrzs.moudleui.adapter.BasePageAdapter.1
-                @Override // android.support.p006v7.widget.GridLayoutManager.SpanSizeLookup
+                @Override // android.support.v7.widget.GridLayoutManager.SpanSizeLookup
                 public int getSpanSize(int i) {
                     if (BasePageAdapter.this.m18477a(BasePageAdapter.this.getItemViewType(i))) {
                         return gridLayoutManager.getSpanCount();
@@ -273,12 +273,12 @@ public abstract class BasePageAdapter<T, VH extends BaseViewHolder> extends Page
         return m18467b() + getItemCount();
     }
 
-    @Override // android.arch.paging.PagedListAdapter, android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.arch.paging.PagedListAdapter, android.support.v7.widget.RecyclerView.Adapter
     public int getItemCount() {
         return m18467b() + super.getItemCount() + m18464c();
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public int getItemViewType(int i) {
         int b = m18467b();
         if (i < b) {

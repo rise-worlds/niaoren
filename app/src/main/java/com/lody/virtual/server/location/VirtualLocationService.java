@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import com.lody.virtual.helper.PersistenceLayer;
 import com.lody.virtual.helper.collection.SparseArray;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import com.lody.virtual.remote.vloc.VCell;
 import com.lody.virtual.remote.vloc.VLocation;
 import com.lody.virtual.server.interfaces.IVirtualLocationManager;

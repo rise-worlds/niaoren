@@ -20,12 +20,12 @@ class ShippingMethodAdapter extends RecyclerView.Adapter<C2481a> {
     /* renamed from: b */
     private int f12628b = 0;
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public int getItemCount() {
         return this.f12627a.size();
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public long getItemId(int i) {
         return super.getItemId(i);
     }

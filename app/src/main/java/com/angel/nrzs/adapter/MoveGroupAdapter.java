@@ -58,15 +58,15 @@ public class MoveGroupAdapter extends RecyclerView.Adapter<GroupViewHolder> {
         textView.setText("编号 ：" + orderDaileInfo.DDYOrderId);
         groupViewHolder.f5171c.setText(orderDaileInfo.RemainTime);
         if (orderDaileInfo.TypeCode == 11 || orderDaileInfo.TypeCode == 4) {
-            groupViewHolder.f5173e.setImageDrawable(App.m25213a().getResources().getDrawable(C0692R.C0693drawable.f2175ka));
+            groupViewHolder.f5173e.setImageDrawable(App.getInstance().getResources().getDrawable(C0692R.C0693drawable.f2175ka));
         } else if (orderDaileInfo.TypeCode == 12) {
-            groupViewHolder.f5173e.setImageDrawable(App.m25213a().getResources().getDrawable(C0692R.C0693drawable.f2178kd));
+            groupViewHolder.f5173e.setImageDrawable(App.getInstance().getResources().getDrawable(C0692R.C0693drawable.f2178kd));
         } else if (orderDaileInfo.TypeCode == 7) {
-            groupViewHolder.f5173e.setImageDrawable(App.m25213a().getResources().getDrawable(C0692R.C0693drawable.f2177kc));
+            groupViewHolder.f5173e.setImageDrawable(App.getInstance().getResources().getDrawable(C0692R.C0693drawable.f2177kc));
         } else if (orderDaileInfo.TypeCode == 3 || orderDaileInfo.TypeCode == 9) {
-            groupViewHolder.f5173e.setImageDrawable(App.m25213a().getResources().getDrawable(C0692R.C0693drawable.f2176kb));
+            groupViewHolder.f5173e.setImageDrawable(App.getInstance().getResources().getDrawable(C0692R.C0693drawable.f2176kb));
         } else {
-            groupViewHolder.f5173e.setImageDrawable(App.m25213a().getResources().getDrawable(C0692R.C0693drawable.f2177kc));
+            groupViewHolder.f5173e.setImageDrawable(App.getInstance().getResources().getDrawable(C0692R.C0693drawable.f2177kc));
         }
         groupViewHolder.f5172d.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() { // from class: com.angel.nrzs.adapter.MoveGroupAdapter.1
             @Override // android.widget.CompoundButton.OnCheckedChangeListener
@@ -83,7 +83,7 @@ public class MoveGroupAdapter extends RecyclerView.Adapter<GroupViewHolder> {
         groupViewHolder.f5172d.setChecked(this.f5164a.get(i).isCheack);
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public int getItemCount() {
         return this.f5164a.size();
     }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/pv">
-    <com.nrzs.moudleui.p070ui.state.LoadingImageView android:id="@+id/hd" android:layout_centerInParent="true" style="@style/a5g"/>
+    <com.nrzs.moudleui.ui.state.LoadingImageView android:id="@+id/hd" android:layout_centerInParent="true" style="@style/a5g"/>
     <TextView android:id="@+id/w7" android:text="@string/hc" android:layout_below="@+id/hd" android:layout_centerHorizontal="true" style="@style/xj"/>
     <TextView android:id="@+id/wh" android:text="@string/hb" android:layout_below="@+id/w7" android:layout_centerHorizontal="true" style="@style/xi"/>
     <TextView android:id="@+id/wd" android:text="@string/h_" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/xf"/>

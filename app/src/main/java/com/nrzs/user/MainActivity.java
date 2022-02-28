@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(C2222R.layout.activity_main);

@@ -23,7 +23,7 @@ import com.blankj.utilcode.util.LogUtils;
 import com.nrzs.base.router.RouterUtils;
 import com.nrzs.data.game.bean.TopicInfo;
 import com.nrzs.data.other.bean.AdResultInfoItem;
-import com.nrzs.moudleui.p070ui.state.LoadingView;
+import com.nrzs.moudleui.ui.state.LoadingView;
 import java.util.ArrayList;
 import java.util.List;
 import p110z1.ADStatueEvent;
@@ -215,7 +215,7 @@ public class HomeFragment extends AppBaseFragment {
     @Nullable
     public View onCreateView(@NonNull LayoutInflater layoutInflater, @Nullable ViewGroup viewGroup, @Nullable Bundle bundle) {
         EventBus.m3448a().m3446a(this);
-        EventCollectManager.m12642a().m12640a(App.m25213a(), "首页展示", "首页展示", EventConstants.f16435c);
+        EventCollectManager.m12642a().m12640a(App.getInstance(), "首页展示", "首页展示", EventConstants.f16435c);
         return super.onCreateView(layoutInflater, viewGroup, bundle);
     }
 
@@ -232,7 +232,7 @@ public class HomeFragment extends AppBaseFragment {
         this.f5553m.setOnClickListener(new View.OnClickListener() { // from class: com.angel.nrzs.ui.fragment.HomeFragment.2
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
-                EventCollectManager.m12642a().m12640a(App.m25213a(), "搜索栏点击", "搜索栏点击", EventConstants.f16437e);
+                EventCollectManager.m12642a().m12640a(App.getInstance(), "搜索栏点击", "搜索栏点击", EventConstants.f16437e);
                 RouterUtils.toSearch();
             }
         });

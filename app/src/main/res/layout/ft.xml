@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
-    <android.support.p006v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d" app:contentInsetStart="0dp" app:title="登录界面" app:titleTextColor="@android:color/white">
+    <android.support.v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d" app:contentInsetStart="0dp" app:title="登录界面" app:titleTextColor="@android:color/white">
         <RelativeLayout style="@style/sm">
             <ImageView android:id="@+id/p9" style="@style/sp"/>
             <TextView android:text="@string/e0" style="@style/ss"/>
         </RelativeLayout>
-    </android.support.p006v7.widget.Toolbar>
+    </android.support.v7.widget.Toolbar>
     <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
         <com.nrzs.moudleui.pinnedheader.PinnedHeaderRecyclerView android:id="@+id/pg" android:layout_width="match_parent" android:layout_height="match_parent"/>
     </LinearLayout>

@@ -22,11 +22,11 @@ import com.lody.virtual.server.interfaces.IServiceFetcher;
 import com.lody.virtual.server.job.VJobSchedulerService;
 import com.lody.virtual.server.location.VirtualLocationService;
 import com.lody.virtual.server.notification.VNotificationManagerService;
-import com.lody.virtual.server.p062am.VActivityManagerService;
-import com.lody.virtual.server.p063pm.VAppManagerService;
-import com.lody.virtual.server.p063pm.VPackageManagerService;
-import com.lody.virtual.server.p063pm.VUserManagerService;
-import com.lody.virtual.server.p064vs.VirtualStorageService;
+import com.lody.virtual.server.am.VActivityManagerService;
+import com.lody.virtual.server.pm.VAppManagerService;
+import com.lody.virtual.server.pm.VPackageManagerService;
+import com.lody.virtual.server.pm.VUserManagerService;
+import com.lody.virtual.server.vs.VirtualStorageService;
 
 /* loaded from: classes.dex */
 public final class BinderProvider extends ContentProvider {

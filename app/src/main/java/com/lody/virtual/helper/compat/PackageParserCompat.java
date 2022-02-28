@@ -10,7 +10,7 @@ import android.os.Build;
 import android.os.Process;
 import android.util.DisplayMetrics;
 import com.lody.virtual.client.core.VirtualCore;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import java.io.File;
 import p110z1.PackageParserJellyBean;
 import p110z1.PackageParserJellyBean17;

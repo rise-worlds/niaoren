@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.nrzs.p067ft.p068ui.view.NRZSScreenChangeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/of" android:layout_width="wrap_content" android:layout_height="match_parent">
+<com.nrzs.ft.ui.view.NRZSScreenChangeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/of" android:layout_width="wrap_content" android:layout_height="match_parent">
     <RelativeLayout android:orientation="vertical" android:layout_height="match_parent" style="@style/a3x">
         <LinearLayout android:orientation="horizontal" android:id="@+id/om" android:layout_width="match_parent" style="@style/a2z">
             <ImageView android:layout_gravity="center" android:id="@+id/oc" android:src="@drawable/b5" style="@style/a37"/>
@@ -15,6 +15,6 @@
             <TextView android:layout_gravity="center" android:id="@+id/or" android:visibility="gone" android:text="@string/fd" style="@style/a3u"/>
         </LinearLayout>
         <TextView android:id="@+id/p2" android:text="@string/fe" android:layout_alignParentBottom="true" style="@style/a3y"/>
-        <com.nrzs.p067ft.p068ui.view.TouchScrollTextView android:id="@+id/os" android:scrollbars="vertical" android:layout_height="match_parent" android:text="@string/ln" android:layout_above="@+id/p2" android:layout_below="@+id/om" style="@style/a3z"/>
+        <com.nrzs.ft.ui.view.TouchScrollTextView android:id="@+id/os" android:scrollbars="vertical" android:layout_height="match_parent" android:text="@string/ln" android:layout_above="@+id/p2" android:layout_below="@+id/om" style="@style/a3z"/>
     </RelativeLayout>
-</com.nrzs.p067ft.p068ui.view.NRZSScreenChangeLayout>
+</com.nrzs.ft.ui.view.NRZSScreenChangeLayout>

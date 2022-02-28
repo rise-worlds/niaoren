@@ -2,8 +2,8 @@ package p110z1;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import com.nrzs.p067ft.FloatApp;
-import com.nrzs.p067ft.service.AidlFloatConnection;
+import com.nrzs.ft.FloatApp;
+import com.nrzs.ft.service.AidlFloatConnection;
 
 /* renamed from: z1.anh */
 /* loaded from: classes3.dex */

@@ -7,8 +7,8 @@ import com.cyjh.mobileanjian.ipc.utils.RootUtil;
 import com.nrzs.data.p066ft.bean.AInfo;
 import com.nrzs.data.p066ft.bean.VInfo;
 import com.nrzs.data.user.bean.UserInfo;
-import com.nrzs.p067ft.C1990R;
-import com.nrzs.p067ft.FloatApp;
+import com.nrzs.ft.C1990R;
+import com.nrzs.ft.FloatApp;
 import p110z1.FtEvent;
 
 /* renamed from: z1.anp */

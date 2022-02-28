@@ -20,7 +20,7 @@ public class XLinearLayoutManager extends LinearLayoutManager {
         super(context, attributeSet, i, i2);
     }
 
-    @Override // android.support.p006v7.widget.LinearLayoutManager, android.support.p006v7.widget.RecyclerView.LayoutManager
+    @Override // android.support.v7.widget.LinearLayoutManager, android.support.v7.widget.RecyclerView.LayoutManager
     public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
         try {
             super.onLayoutChildren(recycler, state);

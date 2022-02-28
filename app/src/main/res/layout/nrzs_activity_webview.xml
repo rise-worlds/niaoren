@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/jd" android:fitsSystemWindows="true" style="@style/pv">
-    <android.support.p006v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d">
+    <android.support.v7.widget.Toolbar android:theme="@style/jc" android:gravity="center" android:background="@color/bb" android:layout_width="match_parent" android:layout_height="?attr/d">
         <RelativeLayout android:id="@+id/rl_title_all" style="@style/sm">
             <ImageView android:id="@+id/ca" style="@style/sp"/>
             <ImageView android:id="@+id/finish_img" android:layout_marginLeft="@dimen/dc" android:src="@drawable/ko" android:layout_toRightOf="@+id/ca" style="@style/sp"/>
@@ -8,5 +8,5 @@
             <TextView android:textSize="@dimen/h3" android:textColor="@color/fa" android:id="@+id/textexchange" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g5" android:text="兑换卡密" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
             <TextView android:textSize="@dimen/h3" android:textColor="@color/fa" android:id="@+id/texquestio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g5" android:text="问题反馈" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
         </RelativeLayout>
-    </android.support.p006v7.widget.Toolbar>
+    </android.support.v7.widget.Toolbar>
 </LinearLayout>

@@ -63,7 +63,7 @@ public abstract class BaseProxyAdapter<T, VH extends BaseViewHolder> extends Pag
     protected abstract int m18442d();
 
     /* JADX WARN: Multi-variable type inference failed */
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public /* synthetic */ void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
         m18450a((BaseProxyAdapter<T, VH>) ((BaseViewHolder) viewHolder), i);
     }
@@ -106,14 +106,14 @@ public abstract class BaseProxyAdapter<T, VH extends BaseViewHolder> extends Pag
         }
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
         RecyclerView.LayoutManager layoutManager = recyclerView.getLayoutManager();
         if (layoutManager instanceof GridLayoutManager) {
             final GridLayoutManager gridLayoutManager = (GridLayoutManager) layoutManager;
             gridLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() { // from class: com.nrzs.moudleui.adapter.BaseProxyAdapter.1
-                @Override // android.support.p006v7.widget.GridLayoutManager.SpanSizeLookup
+                @Override // android.support.v7.widget.GridLayoutManager.SpanSizeLookup
                 public int getSpanSize(int i) {
                     if (BaseProxyAdapter.this.m18457a(BaseProxyAdapter.this.getItemViewType(i))) {
                         return gridLayoutManager.getSpanCount();
@@ -252,12 +252,12 @@ public abstract class BaseProxyAdapter<T, VH extends BaseViewHolder> extends Pag
         return i;
     }
 
-    @Override // android.arch.paging.PagedListAdapter, android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.arch.paging.PagedListAdapter, android.support.v7.widget.RecyclerView.Adapter
     public int getItemCount() {
         return m18458a() + super.getItemCount() + m18447b();
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public int getItemViewType(int i) {
         int a = m18458a();
         if (i < a) {

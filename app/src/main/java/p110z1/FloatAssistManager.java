@@ -22,7 +22,7 @@ import com.nrzs.data.game.bean.HeartInfo;
 import com.nrzs.data.p066ft.bean.AssistInfo;
 import com.nrzs.data.p066ft.bean.EnginInteraRequestInfo;
 import com.nrzs.data.p066ft.bean.ScriptPathInfo;
-import com.nrzs.p067ft.FloatApp;
+import com.nrzs.ft.FloatApp;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;

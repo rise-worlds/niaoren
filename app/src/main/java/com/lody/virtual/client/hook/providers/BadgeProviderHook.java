@@ -5,7 +5,7 @@ import com.lody.virtual.client.VClient;
 import com.lody.virtual.client.hook.base.MethodBox;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
 import com.lody.virtual.client.ipc.VActivityManager;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import com.lody.virtual.remote.BadgerInfo;
 import java.lang.reflect.InvocationTargetException;
 

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|center_horizontal" android:orientation="vertical" android:id="@+id/x_" android:layout_width="match_parent" android:layout_height="wrap_content">
     <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/wt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
         <ImageView android:layout_gravity="center_horizontal" android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="24dp" android:maxHeight="24dp"/>
-        <android.support.p006v7.widget.DialogTitle android:gravity="center" android:id="@+id/af" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:attr/windowTitleStyle"/>
+        <android.support.v7.widget.DialogTitle android:gravity="center" android:id="@+id/af" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:attr/windowTitleStyle"/>
     </LinearLayout>
     <android.widget.Space android:id="@+id/wr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/ab"/>
 </LinearLayout>

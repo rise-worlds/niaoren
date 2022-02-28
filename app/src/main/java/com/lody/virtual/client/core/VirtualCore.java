@@ -47,7 +47,7 @@ import com.lody.virtual.helper.utils.BitmapUtils;
 import com.lody.virtual.helper.utils.FileUtils;
 import com.lody.virtual.helper.utils.IInterfaceUtils;
 import com.lody.virtual.helper.utils.VLog;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import com.lody.virtual.remote.BroadcastIntentData;
 import com.lody.virtual.remote.InstallOptions;
 import com.lody.virtual.remote.InstallResult;

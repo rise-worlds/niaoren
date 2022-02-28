@@ -179,7 +179,7 @@ public class RedbgaIndextActivity extends AppCompatActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(C2342R.layout.activity_red_indext);
@@ -418,7 +418,7 @@ public class RedbgaIndextActivity extends AppCompatActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         unregisterReceiver(this.f11669e);

@@ -182,12 +182,12 @@ public class ChooseScriptActivity extends UserBaseActivity {
             }
         });
         this.f11375f.addOnScrollListener(new RecyclerView.OnScrollListener() { // from class: com.nrzs.user.ui.activity.ChooseScriptActivity.6
-            @Override // android.support.p006v7.widget.RecyclerView.OnScrollListener
+            @Override // android.support.v7.widget.RecyclerView.OnScrollListener
             public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int i) {
                 super.onScrollStateChanged(recyclerView, i);
             }
 
-            @Override // android.support.p006v7.widget.RecyclerView.OnScrollListener
+            @Override // android.support.v7.widget.RecyclerView.OnScrollListener
             public void onScrolled(RecyclerView recyclerView, int i, int i2) {
                 super.onScrolled(recyclerView, i, i2);
                 if (ChooseScriptActivity.this.f11379j.findLastVisibleItemPosition() + 1 == ChooseScriptActivity.this.f11379j.getItemCount() && ChooseScriptActivity.this.f11380k.getIsLastPage() != 1 && ChooseScriptActivity.this.f11381l.getCurrentPage() < ChooseScriptActivity.this.f11380k.getCurrentPage()) {

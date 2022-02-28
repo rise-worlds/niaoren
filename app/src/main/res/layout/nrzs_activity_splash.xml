@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/a5h">
     <RelativeLayout style="@style/pu">
-        <android.support.p006v7.widget.Toolbar android:id="@+id/nrzs_app_toolbar" android:layout_width="match_parent" android:layout_height="?attr/d" android:alpha="0"/>
+        <android.support.v7.widget.Toolbar android:id="@+id/nrzs_app_toolbar" android:layout_width="match_parent" android:layout_height="?attr/d" android:alpha="0"/>
         <ImageView android:id="@+id/nrzs_app_iv_banner" style="@style/a2q"/>
         <TextView android:id="@+id/nrzs_app_tv_skip" android:text="@string/lb" style="@style/a2r"/>
     </RelativeLayout>

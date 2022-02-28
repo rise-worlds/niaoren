@@ -20,7 +20,7 @@ import com.nrzs.data.p066ft.bean.SessionInfo;
 import com.nrzs.data.p066ft.bean.request.SessionRequestInfo;
 import com.nrzs.data.p066ft.bean.response.SessionInfoResponse;
 import com.nrzs.data.user.bean.respond.LoginResultV1Info;
-import com.nrzs.p067ft.adapter.UserKickAdapter;
+import com.nrzs.ft.adapter.UserKickAdapter;
 import com.nrzs.user.C2222R;
 import com.nrzs.user.p071ui.base.UserBaseActivity;
 import java.util.ArrayList;
@@ -334,13 +334,13 @@ public class KickOutActivity extends UserBaseActivity implements IUserKickCallba
         UserKickAdapter userKickAdapter = this.f11396d;
         if (userKickAdapter == null) {
             this.f11396d = new UserKickAdapter(new UserKickAdapter.AbstractC2004a() { // from class: com.nrzs.user.ui.activity.KickOutActivity.7
-                @Override // com.nrzs.p067ft.adapter.UserKickAdapter.AbstractC2004a
+                @Override // com.nrzs.ft.adapter.UserKickAdapter.AbstractC2004a
                 /* renamed from: a */
                 public void mo12161a(long j, String str, int i) {
                     KickOutActivity.this.m18358a(j, str, i);
                 }
 
-                @Override // com.nrzs.p067ft.adapter.UserKickAdapter.AbstractC2004a
+                @Override // com.nrzs.ft.adapter.UserKickAdapter.AbstractC2004a
                 /* renamed from: a */
                 public void mo12160a(String str, long j, String str2, int i) {
                     KickOutActivity.this.m18353a(str, j, str2, i);

@@ -2,7 +2,7 @@ package com.lody.virtual.remote;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 
 /* loaded from: classes.dex */
 public class BadgerInfo implements Parcelable {

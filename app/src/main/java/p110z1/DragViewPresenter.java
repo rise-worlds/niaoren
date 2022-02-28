@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import com.blankj.utilcode.util.ScreenUtils;
 import com.blankj.utilcode.util.SizeUtils;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
-import com.nrzs.p067ft.C1990R;
+import com.nrzs.ft.C1990R;
 import java.util.List;
 import p110z1.FtEvent;
 

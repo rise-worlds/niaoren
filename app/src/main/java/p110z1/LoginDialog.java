@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
-import com.nrzs.moudleui.p070ui.state.LoadingView;
+import com.nrzs.moudleui.ui.state.LoadingView;
 import com.nrzs.user.C2222R;
 
 /* renamed from: z1.apy */

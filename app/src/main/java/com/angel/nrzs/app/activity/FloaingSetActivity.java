@@ -64,7 +64,7 @@ public class FloaingSetActivity extends AppBaseActivity implements View.OnClickL
         context.startActivity(intent);
     }
 
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
     }
@@ -137,7 +137,7 @@ public class FloaingSetActivity extends AppBaseActivity implements View.OnClickL
         }
     }
 
-    @Override // android.support.p006v7.app.AppCompatActivity, android.app.Activity, android.view.KeyEvent.Callback
+    @Override // android.support.v7.app.AppCompatActivity, android.app.Activity, android.view.KeyEvent.Callback
     public boolean onKeyDown(int i, KeyEvent keyEvent) {
         if (i == 4) {
             return false;

@@ -115,7 +115,7 @@ public class GameLocalAdapter extends PinnedHeaderAdapter {
         return C2029R.layout.nrzs_item_game_layout;
     }
 
-    @Override // com.nrzs.moudleui.adapter.BaseListAdapter, android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // com.nrzs.moudleui.adapter.BaseListAdapter, android.support.v7.widget.RecyclerView.Adapter
     public int getItemViewType(int i) {
         if (((GameInfo) this.f11255c.get(i)).f10549m) {
             return 77;

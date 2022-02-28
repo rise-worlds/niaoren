@@ -6,7 +6,7 @@
             <TextView android:text="@string/cm" style="@style/ye"/>
         </RelativeLayout>
         <RelativeLayout style="@style/yc">
-            <android.support.p006v7.widget.RecyclerView android:id="@+id/recycler_group_list" android:paddingBottom="@dimen/dc" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dc" android:layout_marginTop="@dimen/dc" android:layout_marginRight="@dimen/dc" android:minHeight="15dp"/>
+            <android.support.v7.widget.RecyclerView android:id="@+id/recycler_group_list" android:paddingBottom="@dimen/dc" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dc" android:layout_marginTop="@dimen/dc" android:layout_marginRight="@dimen/dc" android:minHeight="15dp"/>
         </RelativeLayout>
         <TextView android:id="@+id/manage_btn" android:text="@string/ci" style="@style/yd"/>
     </LinearLayout>

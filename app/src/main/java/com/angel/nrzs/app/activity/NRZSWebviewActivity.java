@@ -141,7 +141,7 @@ public class NRZSWebviewActivity extends AppBaseActivity {
         context.startActivity(intent);
     }
 
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         EventBus.m3448a().m3446a(this);
@@ -192,7 +192,7 @@ public class NRZSWebviewActivity extends AppBaseActivity {
         this.f5431g.setVisibility(0);
     }
 
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     protected void onDestroy() {
         NRZSX5WebView nRZSX5WebView = this.f5435k;
         if (nRZSX5WebView != null) {
@@ -343,7 +343,7 @@ public class NRZSWebviewActivity extends AppBaseActivity {
         }
     }
 
-    @Override // android.support.p006v7.app.AppCompatActivity, android.app.Activity, android.view.KeyEvent.Callback
+    @Override // android.support.v7.app.AppCompatActivity, android.app.Activity, android.view.KeyEvent.Callback
     public boolean onKeyDown(int i, KeyEvent keyEvent) {
         if (i == 4) {
             if (this.f5435k.canGoBack()) {

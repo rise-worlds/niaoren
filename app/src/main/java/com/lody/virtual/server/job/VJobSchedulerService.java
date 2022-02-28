@@ -12,7 +12,7 @@ import com.lody.virtual.client.core.VirtualCore;
 import com.lody.virtual.client.ipc.VJobScheduler;
 import com.lody.virtual.client.stub.StubManifest;
 import com.lody.virtual.helper.utils.Singleton;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import com.lody.virtual.remote.VJobWorkItem;
 import com.lody.virtual.server.interfaces.IJobService;
 import java.io.File;

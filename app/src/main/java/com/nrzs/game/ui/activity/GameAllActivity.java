@@ -128,7 +128,7 @@ public class GameAllActivity extends GameBaseActivity {
         this.f10940h.setAdapter(this.f10934b);
         final GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 3);
         gridLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() { // from class: com.nrzs.game.ui.activity.GameAllActivity.4
-            @Override // android.support.p006v7.widget.GridLayoutManager.SpanSizeLookup
+            @Override // android.support.v7.widget.GridLayoutManager.SpanSizeLookup
             public int getSpanSize(int i) {
                 if (((TopicInfo) GameAllActivity.this.f10939g.get(i)).isFirst) {
                     return gridLayoutManager.getSpanCount();

@@ -16,7 +16,7 @@ import com.kaopu.download.kernel.DownloadServiceConnection;
 import com.nrzs.data.DataApp;
 import com.nrzs.libcommon.util.share.PreferenceUtil;
 import com.nrzs.moudlepay.AliPayManeger;
-import com.nrzs.p067ft.FloatApp;
+import com.nrzs.ft.FloatApp;
 import com.nrzs.umeng.UmengAnalyModule;
 import com.nrzs.umeng.UmengModule;
 import com.tencent.smtt.sdk.QbSdk;
@@ -35,7 +35,7 @@ public class App extends Application {
     public static boolean f419a = false;
 
     /* renamed from: b */
-    public static boolean f420b = false;
+    public static boolean bIsArmAddon = false;
 
     /* renamed from: c */
     public static boolean f421c = false;
@@ -47,14 +47,14 @@ public class App extends Application {
     private String f423e;
 
     /* renamed from: f */
-    private String f424f;
+    private String strPackageName;
 
     /* renamed from: j */
     private void m25203j() {
     }
 
     /* renamed from: a */
-    public static App m25213a() {
+    public static App getInstance() {
         if (f422d == null) {
             f422d = new App();
         }
@@ -110,26 +110,26 @@ public class App extends Application {
     @Override // android.content.ContextWrapper
     protected void attachBaseContext(Context context) {
         super.attachBaseContext(context);
-        m25211b();
+        initProcess();
         MultiDex.install(this);
         PreferenceUtil.m18517a(this);
         GameApp.getInstance().m13009a(this, getPackageName(), MainActivity.class);
     }
 
     /* renamed from: b */
-    private void m25211b() {
+    private void initProcess() {
         this.f423e = m25212a(Process.myPid());
-        this.f424f = getPackageName();
-        Log.i("TAG", "initProcess: " + this.f424f);
+        this.strPackageName = getPackageName();
+        Log.i("TAG", "initProcess: " + this.strPackageName);
         String str = this.f423e;
         if ((str != null && str.contains("addon.arm64")) || this.f423e.contains("addon.arm32")) {
-            f420b = true;
+            bIsArmAddon = true;
         }
         if (getPackageName().equals(this.f423e)) {
             f421c = true;
             f419a = true;
         }
-        if ((this.f424f + ":channel64").equals(this.f423e)) {
+        if ((this.strPackageName + ":channel64").equals(this.f423e)) {
             f421c = true;
         }
     }
@@ -144,7 +144,7 @@ public class App extends Application {
     /* renamed from: c */
     private void m25210c() {
         m25207f();
-        if (!f420b) {
+        if (!bIsArmAddon) {
             m25208e();
         }
         if (f419a) {

@@ -14,11 +14,11 @@ public class Getchannelmpl implements ChannelProvider {
     @Override // com.nrzs.data.router.ChannelProvider
     /* renamed from: a */
     public String mo3077a() {
-        return WalleChannelReader.m13041a(App.m25213a(), EventConstants.f16434b);
+        return WalleChannelReader.m13041a(App.getInstance(), EventConstants.f16434b);
     }
 
     @Override // com.alibaba.android.arouter.facade.template.IProvider
     public void init(Context context) {
-        ARouter.m1713a((Application) App.m25213a());
+        ARouter.m1713a((Application) App.getInstance());
     }
 }

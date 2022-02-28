@@ -20,7 +20,7 @@ import com.lody.virtual.client.ipc.VAccountManager;
 import com.lody.virtual.helper.utils.Reflect;
 import com.lody.virtual.helper.utils.VLog;
 import com.lody.virtual.remote.InstalledAppInfo;
-import com.nrzs.p072va.SettingConfigProxy;
+import com.nrzs.va.SettingConfigProxy;
 import com.tencent.smtt.sdk.TbsConfig;
 import java.io.BufferedReader;
 import java.io.File;
@@ -168,18 +168,18 @@ public class GameApp {
                 return false;
             }
 
-            @Override // com.nrzs.p072va.SettingConfigProxy, com.lody.virtual.client.core.SettingConfig
+            @Override // com.nrzs.va.SettingConfigProxy, com.lody.virtual.client.core.SettingConfig
             public String getHostPackageName() {
                 return GameApp.this.f16000d.endsWith(".addon.arm64") ? GameApp.this.f16000d.substring(0, GameApp.this.f16000d.indexOf(".addon.arm64")) : GameApp.this.f16000d;
             }
 
-            @Override // com.nrzs.p072va.SettingConfigProxy, com.lody.virtual.client.core.SettingConfig
+            @Override // com.nrzs.va.SettingConfigProxy, com.lody.virtual.client.core.SettingConfig
             public String get32bitEnginePackageName() {
                 Log.i("TAG", "get32bitEnginePackageName: com.angel.nrzs.addon.arm64");
                 return "com.angel.nrzs.addon.arm64";
             }
 
-            @Override // com.nrzs.p072va.SettingConfigProxy, com.lody.virtual.client.core.SettingConfig
+            @Override // com.nrzs.va.SettingConfigProxy, com.lody.virtual.client.core.SettingConfig
             public String get64bitEnginePackageName() {
                 Log.i("TAG", "get64bitEnginePackageName: com.angel.nrzs.addon.arm64");
                 return "com.angel.nrzs.addon.arm64";
@@ -192,7 +192,7 @@ public class GameApp {
                 return intent2;
             }
 
-            @Override // com.nrzs.p072va.SettingConfigProxy, com.lody.virtual.client.core.SettingConfig
+            @Override // com.nrzs.va.SettingConfigProxy, com.lody.virtual.client.core.SettingConfig
             public SettingConfig.AppLibConfig getAppLibConfig(String str) {
                 return SettingConfig.AppLibConfig.UseRealLib;
             }

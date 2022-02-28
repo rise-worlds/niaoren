@@ -471,7 +471,7 @@ public class GameSearchActivity extends GameBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.nrzs.game.ui.base.GameBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.nrzs.game.ui.base.GameBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         EventCollectManager.m12642a().m12640a(getBaseContext(), "搜索页面展示", "搜索页面展示", EventConstants.f16438f);

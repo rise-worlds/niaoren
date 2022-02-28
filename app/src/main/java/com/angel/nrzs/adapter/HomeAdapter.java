@@ -94,7 +94,7 @@ public class HomeAdapter extends BaseListAdapter<TopicInfo, C0710a> {
                 @Override // android.view.View.OnClickListener
                 public void onClick(final View view) {
                     EventCollectManager.m12642a().m12640a(HomeAdapter.this.m18480d(), "首页猜你喜欢运行", "首页猜你喜欢运行", EventConstants.f16439g);
-                    boolean b = apf.m11836b((Context) App.m25213a(), ShareVal.f16591a, ShareVal.f16615y, false);
+                    boolean b = apf.m11836b((Context) App.getInstance(), ShareVal.f16591a, ShareVal.f16615y, false);
                     if (topicInfo.SportBackGround != 1 || b || XnkjUtils.m12528a()) {
                         CKU aiqVar = new CKU();
                         Context context = view.getContext();

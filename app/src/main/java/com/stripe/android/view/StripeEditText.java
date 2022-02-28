@@ -108,7 +108,7 @@ public class StripeEditText extends TextInputEditText {
         return getResources().getColor(this.f12586e);
     }
 
-    @Override // android.support.design.widget.TextInputEditText, android.support.p006v7.widget.AppCompatEditText, android.widget.TextView, android.view.View
+    @Override // android.support.design.widget.TextInputEditText, android.support.v7.widget.AppCompatEditText, android.widget.TextView, android.view.View
     public InputConnection onCreateInputConnection(EditorInfo editorInfo) {
         if (super.onCreateInputConnection(editorInfo) == null) {
             return null;

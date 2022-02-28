@@ -130,7 +130,7 @@ public class LoginActivity extends UserBaseActivity {
         context.startActivity(intent);
     }
 
-    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     protected void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
     }
@@ -273,7 +273,7 @@ public class LoginActivity extends UserBaseActivity {
         }
     }
 
-    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         InputMethodManager inputMethodManager = (InputMethodManager) getBaseContext().getSystemService("input_method");

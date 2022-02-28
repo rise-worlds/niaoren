@@ -7,8 +7,8 @@ import android.content.res.AssetManager;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
-import com.lody.virtual.server.p063pm.PackageCacheManager;
-import com.lody.virtual.server.p063pm.PackageSetting;
+import com.lody.virtual.server.pm.PackageCacheManager;
+import com.lody.virtual.server.pm.PackageSetting;
 
 /* loaded from: classes.dex */
 public class RegisteredServicesParser {

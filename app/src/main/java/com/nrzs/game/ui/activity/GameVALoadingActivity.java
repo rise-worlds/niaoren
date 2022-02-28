@@ -29,7 +29,7 @@ import com.nrzs.game.C2029R;
 import com.nrzs.game.model.TentcentDownModel;
 import com.nrzs.game.ui.base.GameBaseActivity;
 import com.nrzs.http.UICallback;
-import com.nrzs.p072va.VirtualCoreProxy;
+import com.nrzs.va.VirtualCoreProxy;
 import java.util.List;
 import p110z1.DoneCallback;
 import p110z1.FailCallback;
@@ -399,7 +399,7 @@ public class GameVALoadingActivity extends GameBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.nrzs.game.ui.base.GameBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.nrzs.game.ui.base.GameBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         this.f11077g.removeCallbacksAndMessages(null);

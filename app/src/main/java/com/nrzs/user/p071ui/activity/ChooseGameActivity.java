@@ -97,7 +97,7 @@ public class ChooseGameActivity extends UserBaseActivity {
         }
     }
 
-    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     @Subscribe(m3389a = ThreadMode.MAIN)
     protected void onDestroy() {
         super.onDestroy();
@@ -132,7 +132,7 @@ public class ChooseGameActivity extends UserBaseActivity {
         this.f11360f.setAdapter(this.f11355a);
         final GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 3);
         gridLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() { // from class: com.nrzs.user.ui.activity.ChooseGameActivity.3
-            @Override // android.support.p006v7.widget.GridLayoutManager.SpanSizeLookup
+            @Override // android.support.v7.widget.GridLayoutManager.SpanSizeLookup
             public int getSpanSize(int i) {
                 if (((TopicInfo) ChooseGameActivity.this.f11359e.get(i)).isFirst) {
                     return gridLayoutManager.getSpanCount();

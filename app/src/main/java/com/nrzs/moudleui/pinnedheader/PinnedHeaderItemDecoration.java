@@ -14,18 +14,18 @@ public class PinnedHeaderItemDecoration extends RecyclerView.ItemDecoration impl
     /* renamed from: b */
     private int f11293b = -1;
 
-    @Override // android.support.p006v7.widget.RecyclerView.ItemDecoration
+    @Override // android.support.v7.widget.RecyclerView.ItemDecoration
     public void getItemOffsets(Rect rect, View view, RecyclerView recyclerView, RecyclerView.State state) {
     }
 
     /* JADX WARN: Type inference failed for: r2v2, types: [com.nrzs.moudleui.adapter.BaseViewHolder] */
     /* JADX WARN: Unknown variable types count: 1 */
-    @Override // android.support.p006v7.widget.RecyclerView.ItemDecoration
+    @Override // android.support.v7.widget.RecyclerView.ItemDecoration
     /*
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void onDrawOver(android.graphics.Canvas r7, android.support.p006v7.widget.RecyclerView r8, android.support.p006v7.widget.RecyclerView.State r9) {
+    public void onDrawOver(android.graphics.Canvas r7, android.support.v7.widget.RecyclerView r8, android.support.v7.widget.RecyclerView.State r9) {
         /*
             r6 = this;
             super.onDrawOver(r7, r8, r9)
@@ -70,7 +70,7 @@ public class PinnedHeaderItemDecoration extends RecyclerView.ItemDecoration impl
         L_0x0064:
             int r9 = r7.save()
             android.view.ViewGroup$LayoutParams r2 = r1.getLayoutParams()
-            android.support.v7.widget.RecyclerView$LayoutParams r2 = (android.support.p006v7.widget.RecyclerView.LayoutParams) r2
+            android.support.v7.widget.RecyclerView$LayoutParams r2 = (android.support.v7.widget.RecyclerView.LayoutParams) r2
             if (r2 == 0) goto L_0x00a2
             int r2 = r2.leftMargin
             float r2 = (float) r2

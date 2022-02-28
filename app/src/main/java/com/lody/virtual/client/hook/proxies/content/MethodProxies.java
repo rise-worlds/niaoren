@@ -8,7 +8,7 @@ import com.lody.virtual.client.hook.base.MethodProxy;
 import com.lody.virtual.client.ipc.VContentManager;
 import com.lody.virtual.client.ipc.VPackageManager;
 import com.lody.virtual.helper.Keep;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 import java.lang.reflect.Method;
 
 @Keep

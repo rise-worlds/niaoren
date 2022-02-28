@@ -7,7 +7,7 @@
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout android:orientation="vertical" android:id="@+id/jf" android:layout_width="match_parent" android:layout_height="match_parent">
-        <android.support.p006v7.widget.RecyclerView android:id="@+id/s_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/s_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
         <LinearLayout android:orientation="vertical" android:id="@+id/jg" android:layout_width="match_parent" android:layout_height="match_parent">
             <LinearLayout android:id="@+id/u2" style="@style/a1u">
                 <ImageView android:id="@+id/u3" android:src="@drawable/n7" style="@style/a5g"/>

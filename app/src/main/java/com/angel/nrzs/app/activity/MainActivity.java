@@ -44,9 +44,9 @@ import com.nrzs.data.user.bean.UserInfo;
 import com.nrzs.game.model.TentcentDownModel;
 import com.nrzs.http.ThreadCallback;
 import com.nrzs.http.UICallback;
-import com.nrzs.p067ft.INRZSAidlInterface;
-import com.nrzs.p067ft.IOnNewLoginInfoListener;
-import com.nrzs.p067ft.NRZSAidlService;
+import com.nrzs.ft.INRZSAidlInterface;
+import com.nrzs.ft.IOnNewLoginInfoListener;
+import com.nrzs.ft.NRZSAidlService;
 import java.io.File;
 import java.io.IOException;
 import java.text.ParseException;
@@ -171,7 +171,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
 
     /* renamed from: r */
     private final IOnNewLoginInfoListener f5403r = new IOnNewLoginInfoListener.AbstractBinderC2010a() { // from class: com.angel.nrzs.ui.activity.MainActivity.7
-        @Override // com.nrzs.p067ft.IOnNewLoginInfoListener
+        @Override // com.nrzs.ft.IOnNewLoginInfoListener
         public void onNewLoginInfo(String str) throws RemoteException {
             UserInfo userInfo;
             if (str != null && !str.isEmpty() && (userInfo = (UserInfo) new Gson().m1589a(str, (Class<Object>) UserInfo.class)) != null) {
@@ -179,7 +179,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
             }
         }
 
-        @Override // com.nrzs.p067ft.IOnNewLoginInfoListener
+        @Override // com.nrzs.ft.IOnNewLoginInfoListener
         public void onCdKeyUpdateInfo(String str) throws RemoteException {
             UserInfo userInfo;
             if (str != null && !str.isEmpty() && (userInfo = (UserInfo) new Gson().m1589a(str, (Class<Object>) UserInfo.class)) != null) {
@@ -264,13 +264,13 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, com.nrzs.libcommon.BaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.support.v4.app.ComponentActivity, android.app.Activity
     public void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         SharedPreferencesUtil.m11446a(getApplicationContext());
         EventBus.m3448a().m3446a(this);
         LoginManager.m12620d().m12624a(true);
-        Autologinmanager.m11654a(App.m25213a()).m11655a();
+        Autologinmanager.m11654a(App.getInstance()).m11655a();
         VersionManager.m3095a(this).m3086a(true, true);
         m25014g();
         m25021c();
@@ -657,7 +657,7 @@ public class MainActivity extends AppBaseActivity implements ViewPager.OnPageCha
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         SharedPreferencesUtil.m11436a("STATE_ISPAUSE", true);

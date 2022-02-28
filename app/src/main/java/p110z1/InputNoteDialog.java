@@ -8,8 +8,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import com.nrzs.data.p066ft.bean.SessionInfo;
-import com.nrzs.p067ft.C1990R;
-import com.nrzs.p067ft.p068ui.base.FtBaseDialog;
+import com.nrzs.ft.C1990R;
+import com.nrzs.ft.ui.base.FtBaseDialog;
 
 /* renamed from: z1.aoa */
 /* loaded from: classes3.dex */
@@ -42,19 +42,19 @@ public class InputNoteDialog extends FtBaseDialog {
         this.f16943d = str;
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: a */
     protected void mo3014a() {
         setCancelable(false);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: b */
     protected void mo3013b() {
         setContentView(C1990R.layout.nrzs_ft_dialog_edit_note);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: c */
     protected void mo3012c() {
         findViewById(C1990R.C1992id.tv_sure).setOnClickListener(new View.OnClickListener() { // from class: z1.aoa.1
@@ -75,7 +75,7 @@ public class InputNoteDialog extends FtBaseDialog {
         });
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: d */
     protected void mo3011d() {
         this.f16940a = (EditText) findViewById(C1990R.C1992id.edit_remark);

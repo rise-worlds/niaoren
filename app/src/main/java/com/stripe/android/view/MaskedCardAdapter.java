@@ -54,7 +54,7 @@ class MaskedCardAdapter extends RecyclerView.Adapter<C2479a> {
         notifyDataSetChanged();
     }
 
-    @Override // android.support.p006v7.widget.RecyclerView.Adapter
+    @Override // android.support.v7.widget.RecyclerView.Adapter
     public int getItemCount() {
         return this.f12612b.size();
     }

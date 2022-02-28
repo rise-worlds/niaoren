@@ -16,7 +16,7 @@ import com.nrzs.base.router.RouterUtils;
 import com.nrzs.data.p066ft.bean.AInfo;
 import com.nrzs.data.p066ft.bean.AssistInfo;
 import com.nrzs.data.p066ft.bean.ScriptPathInfo;
-import com.nrzs.p067ft.C1990R;
+import com.nrzs.ft.C1990R;
 import java.io.File;
 import p110z1.AssistRunTJRepository;
 import p110z1.CdKeyDialog;

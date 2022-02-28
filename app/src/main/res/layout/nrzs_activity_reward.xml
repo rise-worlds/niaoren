@@ -17,7 +17,7 @@
             <ScrollView style="@style/vr">
                 <LinearLayout android:orientation="vertical" style="@style/a5h">
                     <TextView android:text="@string/gw" style="@style/wk"/>
-                    <android.support.p006v7.widget.RecyclerView android:id="@+id/nrzs_app_reward_recycle" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/nrzs_app_reward_recycle" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
                     <LinearLayout style="@style/a2v">
                         <TextView android:layout_marginBottom="0dp" android:text="@string/gs" style="@style/a2x"/>
                         <TextView android:text="@string/lq" style="@style/a2y"/>

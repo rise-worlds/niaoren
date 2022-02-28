@@ -8,11 +8,11 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import com.blankj.utilcode.util.LogUtils;
 import com.nrzs.data.p066ft.bean.AssistInfo;
-import com.nrzs.p067ft.FloatApp;
-import com.nrzs.p067ft.p068ui.base.FtBaseView;
-import com.nrzs.p067ft.p068ui.view.AssistInfoView;
-import com.nrzs.p067ft.p068ui.view.AssistListView;
-import com.nrzs.p067ft.p068ui.view.FtDView;
+import com.nrzs.ft.FloatApp;
+import com.nrzs.ft.ui.base.FtBaseView;
+import com.nrzs.ft.ui.view.AssistInfoView;
+import com.nrzs.ft.ui.view.AssistListView;
+import com.nrzs.ft.ui.view.FtDView;
 import java.util.Iterator;
 import java.util.Stack;
 

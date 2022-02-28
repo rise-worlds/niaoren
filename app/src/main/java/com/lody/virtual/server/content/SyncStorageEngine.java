@@ -25,7 +25,7 @@ import com.liulishuo.filedownloader.model.ConnectionModel;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
 import com.lody.virtual.helper.utils.AtomicFile;
 import com.lody.virtual.helper.utils.FastXmlSerializer;
-import com.lody.virtual.p061os.VEnvironment;
+import com.lody.virtual.os.VEnvironment;
 import com.lody.virtual.server.accounts.AccountAndUser;
 import com.lody.virtual.server.content.SyncManager;
 import com.tendcloud.tenddata.C2986is;

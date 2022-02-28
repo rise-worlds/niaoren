@@ -179,7 +179,7 @@ public class MoveDdyActivity extends AppBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         this.f5244i.m25177a(false);

@@ -169,19 +169,19 @@ public class GridViewPager extends ViewPager {
             this.f9967c = i;
         }
 
-        @Override // android.support.p006v7.widget.RecyclerView.Adapter
+        @Override // android.support.v7.widget.RecyclerView.Adapter
         public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
             return new C1655a(LayoutInflater.from(viewGroup.getContext()).inflate(this.f9966b.m14240a(), (ViewGroup) null));
         }
 
-        @Override // android.support.p006v7.widget.RecyclerView.Adapter
+        @Override // android.support.v7.widget.RecyclerView.Adapter
         public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int i) {
             int i2 = (this.f9967c * GridViewPager.this.f9961b) + i;
             viewHolder.itemView.setTag(Integer.valueOf(i2));
             this.f9966b.m14231b(viewHolder.itemView, i2, this.f9966b.m14239a(i2));
         }
 
-        @Override // android.support.p006v7.widget.RecyclerView.Adapter
+        @Override // android.support.v7.widget.RecyclerView.Adapter
         public int getItemCount() {
             return this.f9967c < GridViewPager.this.f9963d + (-1) ? GridViewPager.this.f9961b : GridViewPager.this.f9960a - (GridViewPager.this.f9961b * (GridViewPager.this.f9963d - 1));
         }

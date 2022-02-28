@@ -11,7 +11,7 @@ import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.blankj.utilcode.util.SPUtils;
-import com.nrzs.p067ft.C1990R;
+import com.nrzs.ft.C1990R;
 
 /* renamed from: z1.anu */
 /* loaded from: classes3.dex */

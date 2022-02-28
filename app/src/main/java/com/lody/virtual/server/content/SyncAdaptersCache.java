@@ -14,7 +14,7 @@ import android.util.AttributeSet;
 import android.util.Xml;
 import com.lody.virtual.helper.utils.ComponentUtils;
 import com.lody.virtual.server.accounts.RegisteredServicesParser;
-import com.lody.virtual.server.p063pm.VPackageManagerService;
+import com.lody.virtual.server.pm.VPackageManagerService;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;

@@ -9,7 +9,7 @@ import com.angel.nrzs.C0692R;
 import com.angel.nrzs.adapter.GrouptAdapter;
 import com.angel.nrzs.ddy.activity.GroupManagerActivity;
 import com.nrzs.data.ddy.bean.respond.GroupInfo;
-import com.nrzs.p067ft.p068ui.base.FtBaseDialog;
+import com.nrzs.ft.ui.base.FtBaseDialog;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +29,7 @@ public class DdyGroupDialog extends FtBaseDialog {
     /* renamed from: d */
     private List<GroupInfo> f21394d = new ArrayList();
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: d */
     protected void mo3011d() {
     }
@@ -38,14 +38,14 @@ public class DdyGroupDialog extends FtBaseDialog {
         super(context, false, C0692R.style.a4p);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: a */
     protected void mo3014a() {
         setCancelable(true);
         getWindow().setGravity(48);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: b */
     protected void mo3013b() {
         setContentView(C0692R.layout.nrzs_group_view);
@@ -53,7 +53,7 @@ public class DdyGroupDialog extends FtBaseDialog {
         this.f21392b = (RecyclerView) findViewById(C0692R.C0694id.recycler_group_list);
     }
 
-    @Override // com.nrzs.p067ft.p068ui.base.FtBaseDialog
+    @Override // com.nrzs.ft.ui.base.FtBaseDialog
     /* renamed from: c */
     protected void mo3012c() {
         this.f21391a.setOnClickListener(new View.OnClickListener() { // from class: z1.eb.1

@@ -14,9 +14,9 @@ import com.nrzs.core.models.GameInfo;
 import com.nrzs.data.game.bean.TopicInfo;
 import com.nrzs.data.p066ft.bean.AssistInfo;
 import com.nrzs.game.ui.activity.GameVALoadingActivity;
-import com.nrzs.p072va.AppInstallOptions;
-import com.nrzs.p072va.AppInstallResult;
-import com.nrzs.p072va.VirtualCoreProxy;
+import com.nrzs.va.AppInstallOptions;
+import com.nrzs.va.AppInstallResult;
+import com.nrzs.va.VirtualCoreProxy;
 import java.util.concurrent.Callable;
 import p110z1.GameDialogVARunScriptCheck;
 
@@ -213,11 +213,11 @@ public class VAManager {
                                 com.lody.virtual.remote.InstalledAppInfo r6 = r2.getInstalledAppInfo(r6, r1)
                                 android.content.pm.ApplicationInfo r2 = r6.getApplicationInfo(r1)
                                 java.lang.String r3 = r6.packageName
-                                boolean r3 = com.nrzs.p072va.VirtualCoreProxy.isRunProcess(r3)
+                                boolean r3 = com.nrzs.va.VirtualCoreProxy.isRunProcess(r3)
                                 boolean r2 = com.lody.virtual.helper.compat.PermissionCompat.isCheckPermissionRequired(r2)
                                 if (r2 == 0) goto L_0x0051
                                 java.lang.String r6 = r6.packageName
-                                java.lang.String[] r6 = com.nrzs.p072va.VirtualCoreProxy.getDangrousPermissions(r6)
+                                java.lang.String[] r6 = com.nrzs.va.VirtualCoreProxy.getDangrousPermissions(r6)
                                 boolean r2 = com.lody.virtual.helper.compat.PermissionCompat.checkPermissions(r6, r3)
                                 if (r2 != 0) goto L_0x0051
                                 z1.aoj$2 r2 = p110z1.VAManager.C37702.this

@@ -26,7 +26,7 @@
                 <TextView android:layout_width="@dimen/g_" android:text="@string/j2" style="@style/a0c"/>
                 <TextView style="@style/a0c"/>
             </LinearLayout>
-            <android.support.p006v7.widget.RecyclerView android:id="@+id/te" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <android.support.v7.widget.RecyclerView android:id="@+id/te" android:layout_width="match_parent" android:layout_height="wrap_content"/>
         </LinearLayout>
     </LinearLayout>
     <TextView android:id="@+id/yx" android:visibility="invisible" android:text="@string/je" style="@style/a0p"/>

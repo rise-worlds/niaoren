@@ -10,8 +10,8 @@ import android.os.IInterface;
 import android.os.Parcel;
 import android.os.RemoteException;
 import com.lody.virtual.remote.VParceledListSlice;
-import com.lody.virtual.server.p063pm.installer.SessionInfo;
-import com.lody.virtual.server.p063pm.installer.SessionParams;
+import com.lody.virtual.server.pm.installer.SessionInfo;
+import com.lody.virtual.server.pm.installer.SessionParams;
 
 /* loaded from: classes.dex */
 public interface IPackageInstaller extends IInterface {

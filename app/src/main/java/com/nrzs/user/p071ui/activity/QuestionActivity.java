@@ -227,7 +227,7 @@ public class QuestionActivity extends UserBaseActivity implements View.OnClickLi
         super.onBackPressed();
     }
 
-    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.p006v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.nrzs.user.p071ui.base.UserBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     protected void onDestroy() {
         super.onDestroy();
         EventBus.m3448a().m3430c(this);

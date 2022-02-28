@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="500dp">
     <RelativeLayout android:layout_alignParentBottom="true" style="@style/a24">
-        <android.support.p006v7.widget.RecyclerView android:id="@+id/j4" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/a27"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/j4" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/a27"/>
         <TextView android:text="@string/l2" style="@style/a2a"/>
     </RelativeLayout>
 </LinearLayout>

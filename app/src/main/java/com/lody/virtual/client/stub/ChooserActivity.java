@@ -9,7 +9,7 @@ import com.lody.virtual.C1713R;
 import com.lody.virtual.client.env.Constants;
 import com.lody.virtual.helper.compat.BundleCompat;
 import com.lody.virtual.helper.utils.VLog;
-import com.lody.virtual.p061os.VUserHandle;
+import com.lody.virtual.os.VUserHandle;
 
 /* loaded from: classes.dex */
 public class ChooserActivity extends ResolverActivity {

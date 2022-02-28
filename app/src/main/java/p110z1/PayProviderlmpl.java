@@ -16,7 +16,7 @@ import com.nrzs.data.other.bean.AdResultInfoItem;
 public class PayProviderlmpl implements PayProvider {
     @Override // com.alibaba.android.arouter.facade.template.IProvider
     public void init(Context context) {
-        ARouter.m1713a((Application) App.m25213a());
+        ARouter.m1713a((Application) App.getInstance());
     }
 
     @Override // com.nrzs.base.router.provider.PayProvider
