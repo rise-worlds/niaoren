@@ -17,22 +17,22 @@ import com.google.protobuf.ByteString;
 public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     /* renamed from: a */
-    ScriptRunnerLite f8884a;
+    ScriptRunnerLite scriptRunnerLite;
 
     /* renamed from: b */
-    public OnSpecialMqCmdCallback f8885b;
+    public OnSpecialMqCmdCallback specialMqCmdCallback;
 
     /* renamed from: c */
-    public OnScriptListener f8886c;
+    public OnScriptListener scriptListener;
 
     /* renamed from: d */
-    public OnRequestCallback f8887d;
+    public OnRequestCallback requestCallback;
 
     /* renamed from: e */
     public boolean f8888e;
 
     /* renamed from: f */
-    private Script4Run f8889f;
+    private Script4Run script4Run;
 
     @Override // com.cyjh.mq.sdk.inf.IRunnerOther
     /* renamed from: a */
@@ -66,7 +66,7 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     private MqRunnerLite() {
         this.f8888e = true;
-        this.f8884a = new ScriptRunnerLite();
+        this.scriptRunnerLite = new ScriptRunnerLite();
     }
 
     /* JADX INFO: Access modifiers changed from: private */
@@ -91,7 +91,7 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     @Override // com.cyjh.mq.sdk.inf.IRunner
     public boolean isScriptStarted() {
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         if (eVar == null) {
             return false;
         }
@@ -100,8 +100,8 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     @Override // com.cyjh.mq.sdk.inf.IRunner
     public IRunner setScript(Script4Run script4Run) {
-        this.f8889f = script4Run;
-        ScriptRunnerLite eVar = this.f8884a;
+        this.script4Run = script4Run;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         if (!(eVar == null || script4Run == null)) {
             eVar.f8249a = script4Run;
         }
@@ -110,8 +110,8 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     @Override // com.cyjh.mq.sdk.inf.IRunner
     public IRunner setOnScriptListener(OnScriptListener onScriptListener) {
-        this.f8886c = onScriptListener;
-        ScriptRunnerLite eVar = this.f8884a;
+        this.scriptListener = onScriptListener;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         if (!(eVar == null || onScriptListener == null)) {
             eVar.f8250b = onScriptListener;
         }
@@ -120,40 +120,40 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
     public void setOnSpecialMqCmdCallback(OnSpecialMqCmdCallback onSpecialMqCmdCallback) {
-        this.f8885b = onSpecialMqCmdCallback;
+        this.specialMqCmdCallback = onSpecialMqCmdCallback;
     }
 
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
     public void setRequestCallback(OnRequestCallback onRequestCallback) {
-        this.f8887d = onRequestCallback;
+        this.requestCallback = onRequestCallback;
     }
 
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
     public void recordLog2File(boolean z) {
-        this.f8884a.m20993g().SetWriteLog2File(z);
+        this.scriptRunnerLite.m20993g().SetWriteLog2File(z);
     }
 
     @Override // com.cyjh.mq.sdk.inf.IRunnerLite
     /* renamed from: a */
-    public final OnScriptListener mo20417a() {
-        return this.f8886c;
+    public final OnScriptListener getScriptListener() {
+        return this.scriptListener;
     }
 
     @Override // com.cyjh.mq.sdk.inf.IRunnerLite
     /* renamed from: d */
-    public final OnSpecialMqCmdCallback mo20416d() {
-        return this.f8885b;
+    public final OnSpecialMqCmdCallback getSpecialMqCmdCallback() {
+        return this.specialMqCmdCallback;
     }
 
     @Override // com.cyjh.mq.sdk.inf.IRunnerOther
     /* renamed from: b */
-    public final OnRequestCallback mo20412b() {
-        return this.f8887d;
+    public final OnRequestCallback getRequestCallback() {
+        return this.requestCallback;
     }
 
     @Override // com.cyjh.mq.sdk.inf.IRunner
     public void start() {
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         if (eVar == null) {
             return;
         }
@@ -174,7 +174,7 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     @Override // com.cyjh.mq.sdk.inf.IRunner
     public void resume() {
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         if (eVar != null) {
             eVar.m20993g().Resume();
         }
@@ -182,7 +182,7 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     @Override // com.cyjh.mq.sdk.inf.IRunner
     public void pause() {
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         if (eVar != null) {
             eVar.m20993g().Pause();
         }
@@ -190,7 +190,7 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     @Override // com.cyjh.mq.sdk.inf.IRunner
     public void stop() {
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         if (eVar != null) {
             eVar.mo20996e();
         }
@@ -198,16 +198,16 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
 
     @Override // com.cyjh.mq.sdk.inf.IRunner
     public void notifyRotationStatus() {
-        this.f8884a.m20994f();
+        this.scriptRunnerLite.m20994f();
     }
 
     public void setImageCrop(boolean z, int i, int i2, int i3, int i4) {
-        this.f8884a.m20992h().SetImageCrop(z, i, i2, i3, i4);
+        this.scriptRunnerLite.m20992h().SetImageCrop(z, i, i2, i3, i4);
     }
 
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
     public void init(Application application, String str) {
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         try {
             if (!eVar.f8253e) {
                 eVar.f8255g = new ScriptRunnerLite.C1270c("ScriptRunnerLite_Request");
@@ -222,19 +222,19 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
     public void getScriptPerm(String str) {
         this.f8888e = true;
-        this.f8884a.m21006a(str);
+        this.scriptRunnerLite.m21006a(str);
     }
 
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
     public void download(String str) {
         this.f8888e = true;
-        this.f8884a.m21006a(str);
+        this.scriptRunnerLite.m21006a(str);
     }
 
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
     public void setSid(long j) {
         this.f8888e = true;
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         try {
             eVar.m20993g().SetSid(Long.valueOf(new ScriptRunnerLite.C1268a(eVar, 17, String.valueOf(j)).f8269i).longValue());
         } catch (Exception e) {
@@ -245,7 +245,7 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
     public void setDeviceSessionId(String str) {
         this.f8888e = true;
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         try {
             eVar.m20993g().SetDeviceSessionId(new ScriptRunnerLite.C1268a(eVar, 18, str).f8269i);
         } catch (Exception e) {
@@ -262,18 +262,18 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
     /* renamed from: b */
     private void m20427b(String str) {
         this.f8888e = false;
-        this.f8884a.m21006a(str);
+        this.scriptRunnerLite.m21006a(str);
     }
 
     /* renamed from: c */
     private void m20426c(String str) {
         this.f8888e = false;
-        this.f8884a.m21006a(str);
+        this.scriptRunnerLite.m21006a(str);
     }
 
     /* renamed from: f */
     private void m20425f() {
-        ScriptRunnerLite eVar = this.f8884a;
+        ScriptRunnerLite eVar = this.scriptRunnerLite;
         eVar.f8254f = false;
         eVar.mo20996e();
         try {

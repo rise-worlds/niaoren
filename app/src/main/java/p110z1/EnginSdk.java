@@ -15,7 +15,7 @@ public class EnginSdk {
     private EnginSDKCallback f15154b;
 
     /* renamed from: c */
-    private EnginModel f15155c;
+    private EnginModel enginModel;
 
     /* renamed from: d */
     private Context f15156d;
@@ -38,14 +38,14 @@ public class EnginSdk {
         this.f15156d = context;
         this.f15154b = aceVar;
         this.f15157e = str;
-        if (this.f15155c == null) {
-            this.f15155c = new EnginModel();
+        if (this.enginModel == null) {
+            this.enginModel = new EnginModel();
         }
     }
 
     /* renamed from: a */
     public void m14394a() {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14431a(this.f15156d.getApplicationContext(), this.f15158f, this.f15157e);
         }
@@ -54,7 +54,7 @@ public class EnginSdk {
     /* renamed from: a */
     public void m14392a(int i) {
         this.f15159g = i;
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14434a(i);
         }
@@ -62,18 +62,18 @@ public class EnginSdk {
 
     /* renamed from: a */
     public void m14384a(byte[] bArr, String str, String str2, String str3) {
-        if (this.f15155c != null) {
+        if (this.enginModel != null) {
             Script4Run script4Run = new Script4Run();
             script4Run.lcPath = str;
             script4Run.atcPath = str2;
             script4Run.uiCfgPath = str3;
-            this.f15155c.m14430a(script4Run);
+            this.enginModel.m14430a(script4Run);
         }
     }
 
     /* renamed from: b */
     public void m14383b() {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14426b();
         }
@@ -81,7 +81,7 @@ public class EnginSdk {
 
     /* renamed from: c */
     public void m14381c() {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14436a();
         }
@@ -94,7 +94,7 @@ public class EnginSdk {
 
     /* renamed from: e */
     public boolean m14378e() {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             return abtVar.m14424c();
         }
@@ -103,7 +103,7 @@ public class EnginSdk {
 
     /* renamed from: a */
     public void m14388a(String str) {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14432a(this.f15156d, str);
         }
@@ -113,7 +113,7 @@ public class EnginSdk {
     public void m14382b(String str) {
         PrintStream printStream = System.out;
         printStream.println("json:" + str);
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14429a(str);
         }
@@ -121,7 +121,7 @@ public class EnginSdk {
 
     /* renamed from: c */
     public void m14380c(String str) {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14425b(str);
         }
@@ -129,7 +129,7 @@ public class EnginSdk {
 
     /* renamed from: a */
     public void m14385a(boolean z, int i, int i2, int i3, int i4) {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14427a(z, i, i2, i3, i4);
         }
@@ -142,7 +142,7 @@ public class EnginSdk {
 
     /* renamed from: a */
     public void m14386a(boolean z) {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14428a(z);
         }
@@ -150,7 +150,7 @@ public class EnginSdk {
 
     /* renamed from: a */
     public void m14393a(float f, float f2) {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             abtVar.m14435a(f, f2);
         }
@@ -158,7 +158,7 @@ public class EnginSdk {
 
     /* renamed from: a */
     public boolean m14391a(int i, int i2, int i3, int i4, String str, String str2, int i5, float f, int[] iArr) {
-        EnginModel abtVar = this.f15155c;
+        EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
             return abtVar.m14433a(i, i2, i3, i4, str, str2, i5, f, iArr);
         }
@@ -301,7 +301,7 @@ public class EnginSdk {
     }
 
     /* renamed from: g */
-    public static final EnginSdk m14376g() {
+    public static final EnginSdk getInstance() {
         return C3330a.f15161a;
     }
 

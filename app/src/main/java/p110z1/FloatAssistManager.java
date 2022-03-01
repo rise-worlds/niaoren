@@ -31,7 +31,6 @@ import org.apache.commons.p105io.FileUtils;
 import org.apache.tools.ant.Project;
 import org.apache.tools.ant.taskdefs.Expand;
 import org.apache.tools.ant.taskdefs.optional.vss.MSVSSConstants;
-import p110z1.FtEvent;
 
 /* renamed from: z1.ani */
 /* loaded from: classes3.dex */
@@ -231,8 +230,8 @@ public class FloatAssistManager {
     public void m12424a(Context context) {
         EnginSdk.f15153a = false;
         FloatApp.m18899b().m18898b(context);
-        EnginSdk.m14376g().m14389a(FloatApp.m18899b().m18901a(), this.f16728g, ShareVal.f16591a);
-        EnginSdk.m14376g().m14394a();
+        EnginSdk.getInstance().m14389a(FloatApp.m18899b().m18901a(), this.f16728g, ShareVal.f16591a);
+        EnginSdk.getInstance().m14394a();
         if (this.f16727f == null) {
             this.f16727f = new Handler(Looper.getMainLooper()) { // from class: z1.ani.2
                 @Override // android.os.Handler
@@ -261,7 +260,7 @@ public class FloatAssistManager {
 
     /* renamed from: a */
     public boolean m12427a() {
-        return EnginSdk.m14376g().m14378e();
+        return EnginSdk.getInstance().m14378e();
     }
 
     /* renamed from: b */
@@ -269,7 +268,7 @@ public class FloatAssistManager {
         Log.d("setCurrentStopType", "准备停止-stopScript:" + FloatDataManager.m12352j().m12371a());
         if (m12427a()) {
             Log.d("setCurrentStopType", "stopScript-stopScript:" + FloatDataManager.m12352j().m12371a(), new Exception());
-            EnginSdk.m14376g().m14383b();
+            EnginSdk.getInstance().m14383b();
         }
     }
 
@@ -361,7 +360,7 @@ public class FloatAssistManager {
 
     /* renamed from: b */
     public LinearLayout m12412b(Context context) throws Exception {
-        this.f16724c = EnginSdk.m14376g().m14390a(context, this.f16723b.uiPath, this.f16723b.uipPath, this.f16723b.uiCfgPath);
+        this.f16724c = EnginSdk.getInstance().m14390a(context, this.f16723b.uiPath, this.f16723b.uipPath, this.f16723b.uiCfgPath);
         IScriptUiModel acbVar = this.f16724c;
         this.f16722a = acbVar instanceof ScriptUipModel;
         LinearLayout a = acbVar.mo14399a();
@@ -376,7 +375,7 @@ public class FloatAssistManager {
     /* renamed from: a */
     public LinearLayout m12423a(Context context, String str, String str2) throws Exception {
         m12410b(str + File.separatorChar, str2);
-        this.f16724c = EnginSdk.m14376g().m14390a(context, this.f16723b.uiPath, this.f16723b.uipPath, this.f16723b.uiCfgPath);
+        this.f16724c = EnginSdk.getInstance().m14390a(context, this.f16723b.uiPath, this.f16723b.uipPath, this.f16723b.uiCfgPath);
         IScriptUiModel acbVar = this.f16724c;
         this.f16722a = acbVar instanceof ScriptUipModel;
         LinearLayout a = acbVar.mo14399a();
@@ -433,7 +432,7 @@ public class FloatAssistManager {
             this.f16727f.postDelayed(new Runnable() { // from class: z1.ani.3
                 @Override // java.lang.Runnable
                 public void run() {
-                    EnginSdk.m14376g().m14384a(FloatAssistManager.this.f16723b.compiledContent, FloatAssistManager.this.f16723b.lc_path, FloatAssistManager.this.f16723b.atc_Path, FloatAssistManager.this.f16723b.uiCfgPath);
+                    EnginSdk.getInstance().m14384a(FloatAssistManager.this.f16723b.compiledContent, FloatAssistManager.this.f16723b.lc_path, FloatAssistManager.this.f16723b.atc_Path, FloatAssistManager.this.f16723b.uiCfgPath);
                 }
             }, 500L);
         }
@@ -441,7 +440,7 @@ public class FloatAssistManager {
 
     /* renamed from: k */
     private void m12395k() {
-        EnginSdk.m14376g().m14381c();
+        EnginSdk.getInstance().m14381c();
     }
 
     /* renamed from: a */
@@ -457,10 +456,10 @@ public class FloatAssistManager {
             int b3 = apf.m11838b(FloatApp.m18899b().m18901a(), ShareVal.f16608r, ShareVal.f16611u, 0);
             int b4 = apf.m11838b(FloatApp.m18899b().m18901a(), ShareVal.f16608r, ShareVal.f16612v, 0);
             LogUtils.m23734c("updateEnginDis", "updateEnginDis:disY=" + b + ",disX=" + b2 + ",m1=" + b3 + ",m2=" + b4);
-            EnginSdk.m14376g().m14385a(true, b4, b3, b, b2);
+            EnginSdk.getInstance().m14385a(true, b4, b3, b, b2);
             return;
         }
-        EnginSdk.m14376g().m14385a(false, 0, 0, 0, 0);
+        EnginSdk.getInstance().m14385a(false, 0, 0, 0, 0);
     }
 
     /* JADX INFO: Access modifiers changed from: private */
@@ -559,17 +558,17 @@ public class FloatAssistManager {
     public void m12420a(EnginInteraRequestInfo enginInteraRequestInfo, String str) {
         this.f16725d = enginInteraRequestInfo;
         LogUtils.m23734c("newEngin", "user json:" + apa.m11879a(enginInteraRequestInfo) + ",threadName:" + Thread.currentThread().getName());
-        EnginSdk.m14376g().m14388a(apa.m11879a(enginInteraRequestInfo));
+        EnginSdk.getInstance().m14388a(apa.m11879a(enginInteraRequestInfo));
     }
 
     /* renamed from: a */
     public void m12421a(EnginInteraRequestInfo enginInteraRequestInfo) {
-        EnginSdk.m14376g().m14382b(apa.m11879a(enginInteraRequestInfo));
+        EnginSdk.getInstance().m14382b(apa.m11879a(enginInteraRequestInfo));
     }
 
     /* renamed from: b */
     public void m12411b(EnginInteraRequestInfo enginInteraRequestInfo) {
-        EnginSdk.m14376g().m14380c(apa.m11879a(enginInteraRequestInfo));
+        EnginSdk.getInstance().m14380c(apa.m11879a(enginInteraRequestInfo));
     }
 
     /* renamed from: e */
@@ -659,7 +658,7 @@ public class FloatAssistManager {
 
     /* renamed from: b */
     public void m12413b(int i) {
-        EnginSdk.m14376g().m14392a(i);
+        EnginSdk.getInstance().m14392a(i);
     }
 
     /* renamed from: i */

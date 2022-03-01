@@ -193,8 +193,8 @@ public final class Injector {
                 case 8:
                     MessageForSingleProcess bVar = (MessageForSingleProcess) message.obj;
                     if (MqRunnerLite.getInstance().f8888e) {
-                        if (MqRunnerLite.getInstance().f8887d != null) {
-                            MqRunnerLite.getInstance().f8887d.onCallback(bVar.f8183a, bVar.f8186d);
+                        if (MqRunnerLite.getInstance().requestCallback != null) {
+                            MqRunnerLite.getInstance().requestCallback.onCallback(bVar.f8183a, bVar.f8186d);
                         }
                         MqRunnerLite.getInstance();
                         return;
@@ -394,7 +394,7 @@ public final class Injector {
 
     /* renamed from: h */
     private static void m21097h(MessageForSingleProcess bVar) {
-        OnScriptListener onScriptListener = MqRunnerLite.getInstance().f8886c;
+        OnScriptListener onScriptListener = MqRunnerLite.getInstance().scriptListener;
         if (onScriptListener != null) {
             onScriptListener.onUpdateControlBarPos(bVar.f8187e, bVar.f8183a, bVar.f8184b);
         }
@@ -402,7 +402,7 @@ public final class Injector {
 
     /* renamed from: c */
     private static void m21110c() {
-        OnScriptListener onScriptListener = MqRunnerLite.getInstance().f8886c;
+        OnScriptListener onScriptListener = MqRunnerLite.getInstance().scriptListener;
         if (onScriptListener != null) {
             onScriptListener.onResume();
         }
@@ -410,7 +410,7 @@ public final class Injector {
 
     /* renamed from: d */
     private static void m21107d() {
-        OnScriptListener onScriptListener = MqRunnerLite.getInstance().f8886c;
+        OnScriptListener onScriptListener = MqRunnerLite.getInstance().scriptListener;
         if (onScriptListener != null) {
             onScriptListener.onPause();
         }
@@ -999,8 +999,8 @@ public final class Injector {
     }
 
     public static void KeyPress(int i) {
-        if (MqRunnerLite.getInstance().f8885b != null) {
-            MqRunnerLite.getInstance().f8885b.keyPress(i);
+        if (MqRunnerLite.getInstance().specialMqCmdCallback != null) {
+            MqRunnerLite.getInstance().specialMqCmdCallback.keyPress(i);
         }
     }
 
@@ -1045,8 +1045,8 @@ public final class Injector {
     }
 
     public static void sendText(String str, int i) {
-        if (MqRunnerLite.getInstance().f8885b != null) {
-            MqRunnerLite.getInstance().f8885b.inputText(str);
+        if (MqRunnerLite.getInstance().specialMqCmdCallback != null) {
+            MqRunnerLite.getInstance().specialMqCmdCallback.inputText(str);
         }
     }
 
@@ -1738,14 +1738,14 @@ public final class Injector {
     }
 
     public static void RunApp(String str, String str2) {
-        if (MqRunnerLite.getInstance().f8885b != null) {
-            MqRunnerLite.getInstance().f8885b.launchApp(str);
+        if (MqRunnerLite.getInstance().specialMqCmdCallback != null) {
+            MqRunnerLite.getInstance().specialMqCmdCallback.launchApp(str);
         }
     }
 
     public static void KillApp(String str) {
-        if (MqRunnerLite.getInstance().f8885b != null) {
-            MqRunnerLite.getInstance().f8885b.killApp(str);
+        if (MqRunnerLite.getInstance().specialMqCmdCallback != null) {
+            MqRunnerLite.getInstance().specialMqCmdCallback.killApp(str);
         }
     }
 
@@ -1754,8 +1754,8 @@ public final class Injector {
         sb.append(i);
         sb.append(", ");
         sb.append(str);
-        if (MqRunnerLite.getInstance().f8885b != null) {
-            MqRunnerLite.getInstance().f8885b.doSpecialFuction(i, str);
+        if (MqRunnerLite.getInstance().specialMqCmdCallback != null) {
+            MqRunnerLite.getInstance().specialMqCmdCallback.doSpecialFuction(i, str);
         }
     }
 
@@ -1776,11 +1776,11 @@ public final class Injector {
     }
 
     public static String GetRunningApp() {
-        return MqRunnerLite.getInstance().f8885b.getRunningPackages();
+        return MqRunnerLite.getInstance().specialMqCmdCallback.getRunningPackages();
     }
 
     public static String GetForegroundPackage() {
-        return MqRunnerLite.getInstance().f8885b != null ? MqRunnerLite.getInstance().f8885b.getForegroundPackage() : "";
+        return MqRunnerLite.getInstance().specialMqCmdCallback != null ? MqRunnerLite.getInstance().specialMqCmdCallback.getForegroundPackage() : "";
     }
 
     public static void OnPause() {
@@ -2252,7 +2252,7 @@ public final class Injector {
 
     /* renamed from: d */
     static /* synthetic */ void m21105d(MessageForSingleProcess bVar) {
-        OnScriptListener onScriptListener = MqRunnerLite.getInstance().f8886c;
+        OnScriptListener onScriptListener = MqRunnerLite.getInstance().scriptListener;
         if (onScriptListener != null) {
             onScriptListener.onUpdateControlBarPos(bVar.f8187e, bVar.f8183a, bVar.f8184b);
         }
@@ -2260,7 +2260,7 @@ public final class Injector {
 
     /* renamed from: a */
     static /* synthetic */ void m21123a() {
-        OnScriptListener onScriptListener = MqRunnerLite.getInstance().f8886c;
+        OnScriptListener onScriptListener = MqRunnerLite.getInstance().scriptListener;
         if (onScriptListener != null) {
             onScriptListener.onPause();
         }
@@ -2268,7 +2268,7 @@ public final class Injector {
 
     /* renamed from: b */
     static /* synthetic */ void m21114b() {
-        OnScriptListener onScriptListener = MqRunnerLite.getInstance().f8886c;
+        OnScriptListener onScriptListener = MqRunnerLite.getInstance().scriptListener;
         if (onScriptListener != null) {
             onScriptListener.onResume();
         }

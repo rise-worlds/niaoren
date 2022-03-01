@@ -13,7 +13,7 @@ public interface IRunnerOther {
     void mo20413a(String str);
 
     /* renamed from: b */
-    OnRequestCallback mo20412b();
+    OnRequestCallback getRequestCallback();
 
     /* renamed from: b */
     void mo20411b(ByteString byteString);

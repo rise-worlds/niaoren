@@ -7,10 +7,10 @@ import com.cyjh.mobileanjian.ipc.interfaces.OnSpecialMqCmdCallback;
 /* loaded from: classes.dex */
 public interface IRunnerLite extends IRunner {
     /* renamed from: a */
-    OnScriptListener mo20417a();
+    OnScriptListener getScriptListener();
 
     /* renamed from: d */
-    OnSpecialMqCmdCallback mo20416d();
+    OnSpecialMqCmdCallback getSpecialMqCmdCallback();
 
     /* renamed from: e */
     boolean mo20415e();

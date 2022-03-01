@@ -117,7 +117,7 @@ public class MqRunner extends GeneralMqRunner implements CustomRunner {
 
     @Override // com.cyjh.mq.sdk.inf.IRunnerOther
     /* renamed from: b */
-    public final OnRequestCallback mo20412b() {
+    public final OnRequestCallback getRequestCallback() {
         return this.f8880g;
     }
 
@@ -150,7 +150,7 @@ public class MqRunner extends GeneralMqRunner implements CustomRunner {
         }
         MqRunnerLite instance = MqRunnerLite.getInstance();
         instance.f8888e = false;
-        instance.f8884a.m21006a(str);
+        instance.scriptRunnerLite.m21006a(str);
     }
 
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
@@ -161,7 +161,7 @@ public class MqRunner extends GeneralMqRunner implements CustomRunner {
         }
         MqRunnerLite instance = MqRunnerLite.getInstance();
         instance.f8888e = false;
-        instance.f8884a.m21006a(str);
+        instance.scriptRunnerLite.m21006a(str);
     }
 
     @Override // com.cyjh.mq.sdk.inf.CustomRunner
