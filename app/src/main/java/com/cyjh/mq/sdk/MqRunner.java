@@ -50,19 +50,19 @@ public class MqRunner extends GeneralMqRunner implements CustomRunner {
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: com.cyjh.mq.sdk.MqRunner$a */
     /* loaded from: classes.dex */
-    public static class C1367a {
+    public static class Single {
 
         /* renamed from: a */
-        private static final MqRunner f8883a = new MqRunner((byte) 0);
+        private static final MqRunner instance = new MqRunner((byte) 0);
 
-        private C1367a() {
+        private Single() {
         }
     }
 
     public static synchronized MqRunner getInstance() {
         MqRunner mqRunner;
         synchronized (MqRunner.class) {
-            mqRunner = C1367a.f8883a;
+            mqRunner = Single.instance;
         }
         return mqRunner;
     }
