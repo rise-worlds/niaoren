@@ -8,6 +8,7 @@
     </android.support.v7.widget.Toolbar>
     <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
         <com.nrzs.moudleui.pinnedheader.PinnedHeaderRecyclerView android:id="@+id/pg" android:layout_width="match_parent" android:layout_height="match_parent"/>
-        <com.nrzs.user.p071ui.view.PYSideBar android:id="@+id/pf" android:layout_width="36dp" android:layout_height="360dp" android:layout_alignParentRight="true" android:layout_centerInParent="true"/>
+        <com.nrzs.user.ui.view.PYSideBar
+            android:id="@+id/pf" android:layout_width="36dp" android:layout_height="360dp" android:layout_alignParentRight="true" android:layout_centerInParent="true"/>
     </RelativeLayout>
 </LinearLayout>

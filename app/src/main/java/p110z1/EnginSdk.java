@@ -18,7 +18,7 @@ public class EnginSdk {
     private EnginModel enginModel;
 
     /* renamed from: d */
-    private Context f15156d;
+    private Context context;
 
     /* renamed from: e */
     private String f15157e;
@@ -35,7 +35,7 @@ public class EnginSdk {
 
     /* renamed from: a */
     public void m14389a(Context context, EnginSDKCallback aceVar, String str) {
-        this.f15156d = context;
+        this.context = context;
         this.f15154b = aceVar;
         this.f15157e = str;
         if (this.enginModel == null) {
@@ -47,7 +47,7 @@ public class EnginSdk {
     public void m14394a() {
         EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
-            abtVar.m14431a(this.f15156d.getApplicationContext(), this.f15158f, this.f15157e);
+            abtVar.m14431a(this.context.getApplicationContext(), this.f15158f, this.f15157e);
         }
     }
 
@@ -105,7 +105,7 @@ public class EnginSdk {
     public void m14388a(String str) {
         EnginModel abtVar = this.enginModel;
         if (abtVar != null) {
-            abtVar.m14432a(this.f15156d, str);
+            abtVar.m14432a(this.context, str);
         }
     }
 

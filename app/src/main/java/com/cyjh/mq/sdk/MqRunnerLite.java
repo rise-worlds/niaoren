@@ -209,7 +209,7 @@ public class MqRunnerLite implements CustomRunner, IRunnerLite {
     public void init(Application application, String str) {
         ScriptRunnerLite eVar = this.scriptRunnerLite;
         try {
-            if (!eVar.f8253e) {
+            if (!eVar.isRuning) {
                 eVar.f8255g = new ScriptRunnerLite.C1270c("ScriptRunnerLite_Request");
                 eVar.f8255g.start();
             }

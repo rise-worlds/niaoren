@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="135" android:versionName="1.3.5" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.angel.nrzs" platformBuildVersionCode="135" platformBuildVersionName="1.3.5">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="135" android:versionName="1.3.5" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.angel.nrzs" android:platformBuildVersionCode="135" android:platformBuildVersionName="1.3.5">
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="26"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -187,14 +187,19 @@
     <uses-permission android:name="android.permission.SAMSUNG_TUNTAP"/>
     <uses-permission android:name="com.android.permission.RECV.DOWNLOAD"/>
     <permission android:name="com.android.permission.RECV.DOWNLOAD"/>
-    <application android:theme="@style/NRZS_App_Theme" android:label="鸟人助手" android:icon="@mipmap/a" android:name="com.angel.nrzs.App" android:allowBackup="false" android:supportsRtl="true" android:resizeableActivity="true" android:networkSecurityConfig="@xml/d" android:roundIcon="@mipmap/a" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
-        <activity android:name="com.angel.nrzs.app.activity.MainActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
+    <application android:theme="@style/NRZS_App_Theme" android:label="鸟人助手" android:icon="@mipmap/a"
+        android:name="com.angel.nrzs.App" android:allowBackup="false" android:supportsRtl="true" android:roundIcon="@mipmap/a"
+        android:resizeableActivity="true" android:networkSecurityConfig="@xml/d"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <activity android:name="com.angel.nrzs.app.activity.MainActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="com.angel.nrzs.app.MainActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.angel.nrzs.app.activity.SplashActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
+        <activity android:name="com.angel.nrzs.app.activity.SplashActivity" android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.intent.action.VIEW"/>
@@ -226,20 +231,20 @@
         <meta-data android:name="TD_CHANNEL_ID" android:value="Umeng"/>
         <meta-data android:name="UMENG_CHANNEL" android:value="Umeng"/>
         <provider android:name="com.nrzs.libcommon.util.share.SharedPreferenceProvider" android:exported="true" android:process=":remote" android:authorities="com.angel.nrzs.preference"/>
-        <activity android:name="com.nrzs.user.p071ui.activity.LoginActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
+        <activity android:name="com.nrzs.user.ui.activity.LoginActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="com.angel.nrzs.user.LoginActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.nrzs.user.p071ui.activity.RegisterActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
-        <activity android:name="com.nrzs.user.p071ui.activity.AlterPasswordActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
-        <activity android:name="com.nrzs.user.p071ui.activity.ChooseGameActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
-        <activity android:name="com.nrzs.user.p071ui.activity.ChooseScriptActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
-        <activity android:name="com.nrzs.user.p071ui.activity.QuestionActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
-        <activity android:theme="@style/a4k" android:name="com.nrzs.user.p071ui.activity.KickOutActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
+        <activity android:name="com.nrzs.user.ui.activity.RegisterActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.nrzs.user.ui.activity.AlterPasswordActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.nrzs.user.ui.activity.ChooseGameActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.nrzs.user.ui.activity.ChooseScriptActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.nrzs.user.ui.activity.QuestionActivity" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/a4k" android:name="com.nrzs.user.ui.activity.KickOutActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize">
             <intent-filter>
-                <action android:name="com.nrzs.user.p071ui.activity.KickOutActivity"/>
+                <action android:name="com.nrzs.user.ui.activity.KickOutActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

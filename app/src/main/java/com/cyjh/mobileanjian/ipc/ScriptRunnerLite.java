@@ -54,7 +54,7 @@ public final class ScriptRunnerLite implements IRunner {
     boolean f8252d = false;
 
     /* renamed from: e */
-    public boolean f8253e = false;
+    public boolean isRuning = false;
 
     /* renamed from: f */
     public boolean f8254f = true;
@@ -197,7 +197,7 @@ public final class ScriptRunnerLite implements IRunner {
         @Override // java.lang.Thread, java.lang.Runnable
         public final void run() {
             Looper.prepare();
-            ScriptRunnerLite.this.f8253e = true;
+            ScriptRunnerLite.this.isRuning = true;
             while (MyApplication.f8788g != null) {
                 try {
                     C1268a take = ScriptRunnerLite.this.f8256h.take();
@@ -227,7 +227,7 @@ public final class ScriptRunnerLite implements IRunner {
             }
             Looper.myLooper().quit();
             Looper.loop();
-            ScriptRunnerLite.this.f8253e = false;
+            ScriptRunnerLite.this.isRuning = false;
         }
     }
 
@@ -289,7 +289,7 @@ public final class ScriptRunnerLite implements IRunner {
     /* renamed from: a */
     private void m21011a(Application application, String str) {
         try {
-            if (!this.f8253e) {
+            if (!this.isRuning) {
                 this.f8255g = new C1270c("ScriptRunnerLite_Request");
                 this.f8255g.start();
             }

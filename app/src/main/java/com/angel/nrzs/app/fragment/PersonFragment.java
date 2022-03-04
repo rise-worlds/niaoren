@@ -38,7 +38,7 @@ import com.nrzs.data.user.bean.request.LoginOutReg;
 import com.nrzs.http.ThreadCallback;
 import com.nrzs.http.UICallback;
 import com.nrzs.libcommon.NRZSViewClickListener;
-import com.nrzs.user.p071ui.activity.RegisterActivity;
+import com.nrzs.user.ui.activity.RegisterActivity;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
