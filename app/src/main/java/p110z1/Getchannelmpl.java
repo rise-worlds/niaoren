@@ -3,7 +3,7 @@ package p110z1;
 import android.app.Application;
 import android.content.Context;
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.angel.nrzs.App;
+import com.angel.nrzs.ui;
 import com.nrzs.base.router.RouterConstants;
 import com.nrzs.data.router.ChannelProvider;
 

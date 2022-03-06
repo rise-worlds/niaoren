@@ -2,9 +2,9 @@ package p110z1;
 
 import android.util.Log;
 import com.common.utils.StringUtil;
-import com.lbd.p054xj.app.AppConfig;
-import com.lbd.p054xj.manager.XJRenderActivityManager;
-import com.lbd.p054xj.socket.model.ResolvingModle;
+import com.lbd.xj.app.AppConfig;
+import com.lbd.xj.manager.XJRenderActivityManager;
+import com.lbd.xj.socket.model.ResolvingModle;
 
 /* renamed from: z1.aen */
 /* loaded from: classes3.dex */

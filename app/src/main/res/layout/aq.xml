@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a08" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.lbd.p054xj.p056ui.view.MyVideoView android:id="@+id/a07" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.lbd.xj.ui.view.MyVideoView
+        android:id="@+id/a07" android:layout_width="match_parent" android:layout_height="match_parent"/>
     <LinearLayout android:layout_gravity="right" android:paddingTop="25dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <ImageView android:id="@+id/de" style="@style/np"/>
     </LinearLayout>

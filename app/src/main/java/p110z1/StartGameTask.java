@@ -1,9 +1,9 @@
 package p110z1;
 
 import android.support.annotation.Nullable;
-import com.lbd.p054xj.socket.C1545f;
-import com.lbd.p054xj.socket.SocketManagerServer;
-import com.lbd.p054xj.socket.model.AppInfo;
+import com.lbd.xj.socket.C1545f;
+import com.lbd.xj.socket.SocketManagerServer;
+import com.lbd.xj.socket.model.AppInfo;
 
 /* renamed from: z1.adj */
 /* loaded from: classes3.dex */
@@ -12,7 +12,7 @@ public class StartGameTask extends C1545f.AbstractC1551c {
     /* renamed from: a */
     private AppInfo f15295a;
 
-    @Override // com.lbd.p054xj.socket.C1545f.AbstractRunnableC1552d
+    @Override // com.lbd.xj.socket.C1545f.AbstractRunnableC1552d
     public void onSuccess(@Nullable Object obj) {
     }
 
@@ -20,7 +20,7 @@ public class StartGameTask extends C1545f.AbstractC1551c {
         this.f15295a = appInfo;
     }
 
-    @Override // com.lbd.p054xj.socket.C1545f.AbstractRunnableC1552d
+    @Override // com.lbd.xj.socket.C1545f.AbstractRunnableC1552d
     @Nullable
     public Object doInBackground() throws Throwable {
         AppInfo appInfo = this.f15295a;

@@ -1,6 +1,6 @@
 package com.common.utils;
 
-import com.lbd.p054xj.app.XJApp;
+import com.lbd.xj.app.XJApp;
 import p110z1.ChannelUtil;
 import p110z1.GeneralUtil;
 import p110z1.aes;

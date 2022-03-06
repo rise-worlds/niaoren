@@ -7,7 +7,7 @@ import android.support.multidex.MultiDex;
 import android.support.v4.app.ActivityCompat;
 import android.text.TextUtils;
 import android.util.Log;
-import com.angel.nrzs.app.activity.MainActivity;
+import com.angel.nrzs.ui.activity.MainActivity;
 import com.blankj.utilcode.util.CrashUtils;
 import com.blankj.utilcode.util.LogUtils;
 import com.cyjh.ddy.base.utils.CLog;
@@ -182,7 +182,7 @@ public class App extends Application {
     /* renamed from: g */
     private void m25206g() {
         m25202k();
-        QbSdk.initX5Environment(getApplicationContext(), new QbSdk.PreInitCallback() { // from class: com.angel.nrzs.App.1
+        QbSdk.initX5Environment(getApplicationContext(), new QbSdk.PreInitCallback() { // from class: com.angel.nrzs.ui.1
             @Override // com.tencent.smtt.sdk.QbSdk.PreInitCallback
             public void onCoreInitFinished() {
             }

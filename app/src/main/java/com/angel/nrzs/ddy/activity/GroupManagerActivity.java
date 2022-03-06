@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.angel.nrzs.C0692R;
 import com.angel.nrzs.adapter.GrouptManagerAdapter;
 import com.angel.nrzs.ddy.model.DdyHomeFragmentModel;
-import com.angel.nrzs.app.base.AppBaseActivity;
+import com.angel.nrzs.ui.base.AppBaseActivity;
 import com.blankj.utilcode.util.LogUtils;
 import com.gyf.barlibrary.ImmersionBar;
 import com.nrzs.data.ddy.bean.respond.GroupInfo;
@@ -118,7 +118,7 @@ public class GroupManagerActivity extends AppBaseActivity {
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
-    @Override // com.angel.nrzs.app.base.AppBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
+    @Override // com.angel.nrzs.ui.base.AppBaseActivity, android.support.v7.app.AppCompatActivity, android.support.v4.app.FragmentActivity, android.app.Activity
     public void onDestroy() {
         super.onDestroy();
         ImmersionBar.m20080a(this).m19985g();

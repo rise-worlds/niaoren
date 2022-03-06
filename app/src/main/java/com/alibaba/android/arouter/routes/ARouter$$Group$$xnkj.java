@@ -4,8 +4,8 @@ import com.alibaba.android.arouter.facade.enums.RouteType;
 import com.alibaba.android.arouter.facade.model.RouteMeta;
 import com.alibaba.android.arouter.facade.template.IRouteGroup;
 import com.common.router.XNKJRunProviderImpl;
-import com.lbd.p054xj.p056ui.activity.XJActivity;
-import com.lbd.p054xj.p056ui.fragment.XnkjFragment;
+import com.lbd.xj.ui.activity.XJActivity;
+import com.lbd.xj.ui.fragment.XnkjFragment;
 import com.nrzs.base.router.RouterConstants;
 import java.util.Map;
 

@@ -8,7 +8,7 @@ import android.os.Process;
 import android.os.StatFs;
 import android.text.format.Formatter;
 import com.common.utils.log.LogUtils;
-import com.lbd.p054xj.C1467R;
+import com.lbd.xj.C1467R;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

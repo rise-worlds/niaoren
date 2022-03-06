@@ -15,7 +15,7 @@ import android.util.Log;
 import android.view.DisplayCutout;
 import android.view.WindowInsets;
 import com.blankj.utilcode.util.LogUtils;
-import com.lbd.p054xj.app.XJApp;
+import com.lbd.xj.app.XJApp;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
 import com.stripe.android.PaymentResultListener;
 import java.io.BufferedReader;

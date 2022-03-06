@@ -5,7 +5,7 @@ import android.view.ContextThemeWrapper;
 import android.widget.LinearLayout;
 import com.blankj.utilcode.util.LogUtils;
 import com.cyjh.mobileanjian.ipc.utils.Util;
-import com.lbd.p054xj.app.XJApp;
+import com.lbd.xj.app.XJApp;
 import com.nrzs.data.p066ft.bean.AInfo;
 import com.nrzs.data.p066ft.bean.AssistInfo;
 import com.nrzs.data.p066ft.bean.EnginInteraRequestInfo;

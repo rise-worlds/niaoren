@@ -16,8 +16,8 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import com.common.utils.log.LogUtils;
-import com.lbd.p054xj.app.AppConfig;
-import com.lbd.p054xj.app.XJApp;
+import com.lbd.xj.app.AppConfig;
+import com.lbd.xj.app.XJApp;
 
 /* compiled from: ScreenUtils.java */
 /* renamed from: z1.aeo */

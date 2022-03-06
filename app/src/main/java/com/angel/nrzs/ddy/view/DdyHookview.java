@@ -15,7 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.angel.nrzs.C0692R;
-import com.angel.nrzs.app.activity.NRZSWebviewActivity;
+import com.angel.nrzs.ui.activity.NRZSWebviewActivity;
 import com.blankj.utilcode.util.ConvertUtils;
 import com.blankj.utilcode.util.ScreenUtils;
 import com.blankj.utilcode.util.Utils;

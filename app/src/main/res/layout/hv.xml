@@ -8,7 +8,8 @@
             <TextView android:id="@+id/a0s" android:text="@string/c4" style="@style/nj"/>
         </GridLayout>
         <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/dr">
-            <com.lbd.p054xj.p056ui.view.gvp.widget.GridViewPager android:id="@+id/g4" android:layout_height="@dimen/dr" app:num_columns="2" app:page_size="4" style="@style/n_"/>
+            <com.lbd.xj.ui.view.gvp.widget.GridViewPager
+                android:id="@+id/g4" android:layout_height="@dimen/dr" app:num_columns="2" app:page_size="4" style="@style/n_"/>
             <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/il" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
         </RelativeLayout>
         <GridLayout android:layout_marginTop="@dimen/dc" android:columnCount="2" style="@style/n_">

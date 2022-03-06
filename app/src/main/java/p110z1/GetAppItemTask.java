@@ -2,9 +2,9 @@ package p110z1;
 
 import android.support.annotation.Nullable;
 import com.common.utils.log.LogUtils;
-import com.lbd.p054xj.app.XJApp;
-import com.lbd.p054xj.socket.C1545f;
-import com.lbd.p054xj.socket.model.AppInfo;
+import com.lbd.xj.app.XJApp;
+import com.lbd.xj.socket.C1545f;
+import com.lbd.xj.socket.model.AppInfo;
 import com.nrzs.data.DataApp;
 import com.nrzs.data.game.bean.TopicInfo;
 import java.io.UnsupportedEncodingException;
@@ -14,19 +14,19 @@ import java.util.List;
 /* renamed from: z1.adi */
 /* loaded from: classes3.dex */
 public class GetAppItemTask extends C1545f.AbstractRunnableC1552d {
-    @Override // com.lbd.p054xj.socket.C1545f.AbstractRunnableC1552d
+    @Override // com.lbd.xj.socket.C1545f.AbstractRunnableC1552d
     public void onCancel() {
     }
 
-    @Override // com.lbd.p054xj.socket.C1545f.AbstractRunnableC1552d
+    @Override // com.lbd.xj.socket.C1545f.AbstractRunnableC1552d
     public void onFail(Throwable th) {
     }
 
-    @Override // com.lbd.p054xj.socket.C1545f.AbstractRunnableC1552d
+    @Override // com.lbd.xj.socket.C1545f.AbstractRunnableC1552d
     public void onSuccess(@Nullable Object obj) {
     }
 
-    @Override // com.lbd.p054xj.socket.C1545f.AbstractRunnableC1552d
+    @Override // com.lbd.xj.socket.C1545f.AbstractRunnableC1552d
     @Nullable
     public Object doInBackground() {
         AppInfo a;

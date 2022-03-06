@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
-import com.lbd.p054xj.p056ui.activity.XJWebViewActivity;
+import com.lbd.xj.ui.activity.XJWebViewActivity;
 import org.apache.http.HttpHost;
 import org.apache.http.HttpVersion;
 

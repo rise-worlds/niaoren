@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.support.annotation.Nullable;
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.lbd.p054xj.p056ui.dialog.XnkjRunDialog;
-import com.lbd.p054xj.socket.C1545f;
+import com.lbd.xj.ui.dialog.XnkjRunDialog;
+import com.lbd.xj.socket.C1545f;
 import com.nrzs.base.router.RouterConstants;
 import com.nrzs.base.router.provider.XNKJRunProvider;
 import com.nrzs.data.game.bean.TopicInfo;
@@ -52,11 +52,11 @@ public class XNKJRunProviderImpl implements XNKJRunProvider {
 
     private void writeEnginInteraToRom(final EnginInteraRequestInfo enginInteraRequestInfo) {
         C1545f.m19586c(new C1545f.AbstractC1551c<Object>() { // from class: com.common.router.XNKJRunProviderImpl.1
-            @Override // com.lbd.p054xj.socket.C1545f.AbstractRunnableC1552d
+            @Override // com.lbd.xj.socket.C1545f.AbstractRunnableC1552d
             public void onSuccess(@Nullable Object obj) {
             }
 
-            @Override // com.lbd.p054xj.socket.C1545f.AbstractRunnableC1552d
+            @Override // com.lbd.xj.socket.C1545f.AbstractRunnableC1552d
             @Nullable
             public Object doInBackground() throws Throwable {
                 FileWriteUtils.m14066g(apa.m11879a(enginInteraRequestInfo));

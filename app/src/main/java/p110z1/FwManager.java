@@ -13,21 +13,20 @@ import android.view.WindowManager;
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.SizeUtils;
 import com.cyjh.ddy.media.media.ActionCode;
-import com.lbd.p054xj.C1467R;
-import com.lbd.p054xj.app.XJApp;
-import com.lbd.p054xj.manager.XJDataManager;
-import com.lbd.p054xj.p056ui.p057fw.XJAssistInfoView;
-import com.lbd.p054xj.p056ui.p057fw.XJAssistListView;
-import com.lbd.p054xj.p056ui.p057fw.XJFloatView;
-import com.lbd.p054xj.p056ui.p057fw.XJInnerFloatView;
-import com.lbd.p054xj.p056ui.p057fw.XJLiveView;
-import com.lbd.p054xj.p056ui.p057fw.XJOutFloatView;
-import com.lbd.p054xj.service.XJFloatService;
-import com.lbd.p054xj.socket.SocketManagerServer;
+import com.lbd.xj.C1467R;
+import com.lbd.xj.app.XJApp;
+import com.lbd.xj.manager.XJDataManager;
+import com.lbd.xj.ui.p057fw.XJAssistInfoView;
+import com.lbd.xj.ui.p057fw.XJAssistListView;
+import com.lbd.xj.ui.p057fw.XJFloatView;
+import com.lbd.xj.ui.p057fw.XJInnerFloatView;
+import com.lbd.xj.ui.p057fw.XJLiveView;
+import com.lbd.xj.ui.p057fw.XJOutFloatView;
+import com.lbd.xj.service.XJFloatService;
+import com.lbd.xj.socket.SocketManagerServer;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
 import com.nrzs.base.router.RouterUtils;
 import com.nrzs.data.p066ft.bean.AssistInfo;
-import p110z1.FloatXnkjManager;
 
 /* renamed from: z1.adu */
 /* loaded from: classes3.dex */

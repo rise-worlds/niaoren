@@ -6,7 +6,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
-import com.lbd.p054xj.app.XJApp;
+import com.lbd.xj.app.XJApp;
 import com.stripe.android.view.ShippingInfoWidget;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

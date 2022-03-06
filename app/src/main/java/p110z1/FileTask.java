@@ -2,9 +2,9 @@ package p110z1;
 
 import android.os.AsyncTask;
 import com.common.utils.log.LogUtils;
-import com.lbd.p054xj.socket.SocketManagerServer;
-import com.lbd.p054xj.socket.model.FileBean;
-import com.lbd.p054xj.socket.model.MessgeBean;
+import com.lbd.xj.socket.SocketManagerServer;
+import com.lbd.xj.socket.model.FileBean;
+import com.lbd.xj.socket.model.MessgeBean;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -3,7 +3,7 @@ package com.common.utils;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import com.common.utils.log.LogUtils;
-import com.lbd.p054xj.app.AppConfig;
+import com.lbd.xj.app.AppConfig;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.TextView;
-import com.lbd.p054xj.C1467R;
+import com.lbd.xj.C1467R;
 import java.util.List;
 
 /* renamed from: z1.adm */

@@ -1,0 +1,332 @@
+package com.noober.background;
+
+import com.angel.nrzs.C0692R;
+
+/* renamed from: com.noober.background.R */
+/* loaded from: classes.dex */
+public final class C1944R {
+    private C1944R() {
+    }
+
+    /* renamed from: com.noober.background.R$attr */
+    /* loaded from: classes.dex */
+    public static final class attr {
+        public static final int bl_activated_textColor = 2130903105;
+        public static final int bl_active_textColor = 2130903106;
+        public static final int bl_anim_auto_start = 2130903107;
+        public static final int bl_checkable_drawable = 2130903108;
+        public static final int bl_checkable_solid_color = 2130903109;
+        public static final int bl_checkable_stroke_color = 2130903110;
+        public static final int bl_checkable_textColor = 2130903111;
+        public static final int bl_checked_button_drawable = 2130903112;
+        public static final int bl_checked_drawable = 2130903113;
+        public static final int bl_checked_solid_color = 2130903114;
+        public static final int bl_checked_stroke_color = 2130903115;
+        public static final int bl_checked_textColor = 2130903116;
+        public static final int bl_corners_bottomLeftRadius = 2130903117;
+        public static final int bl_corners_bottomRightRadius = 2130903118;
+        public static final int bl_corners_radius = 2130903119;
+        public static final int bl_corners_topLeftRadius = 2130903120;
+        public static final int bl_corners_topRightRadius = 2130903121;
+        public static final int bl_duration = 2130903122;
+        public static final int bl_duration_item0 = 2130903123;
+        public static final int bl_duration_item1 = 2130903124;
+        public static final int bl_duration_item10 = 2130903125;
+        public static final int bl_duration_item11 = 2130903126;
+        public static final int bl_duration_item12 = 2130903127;
+        public static final int bl_duration_item13 = 2130903128;
+        public static final int bl_duration_item14 = 2130903129;
+        public static final int bl_duration_item2 = 2130903130;
+        public static final int bl_duration_item3 = 2130903131;
+        public static final int bl_duration_item4 = 2130903132;
+        public static final int bl_duration_item5 = 2130903133;
+        public static final int bl_duration_item6 = 2130903134;
+        public static final int bl_duration_item7 = 2130903135;
+        public static final int bl_duration_item8 = 2130903136;
+        public static final int bl_duration_item9 = 2130903137;
+        public static final int bl_enabled_drawable = 2130903138;
+        public static final int bl_enabled_solid_color = 2130903139;
+        public static final int bl_enabled_stroke_color = 2130903140;
+        public static final int bl_enabled_textColor = 2130903141;
+        public static final int bl_expanded_textColor = 2130903142;
+        public static final int bl_focused_activated = 2130903143;
+        public static final int bl_focused_drawable = 2130903144;
+        public static final int bl_focused_hovered = 2130903145;
+        public static final int bl_focused_solid_color = 2130903146;
+        public static final int bl_focused_stroke_color = 2130903147;
+        public static final int bl_focused_textColor = 2130903148;
+        public static final int bl_frame_drawable_item0 = 2130903149;
+        public static final int bl_frame_drawable_item1 = 2130903150;
+        public static final int bl_frame_drawable_item10 = 2130903151;
+        public static final int bl_frame_drawable_item11 = 2130903152;
+        public static final int bl_frame_drawable_item12 = 2130903153;
+        public static final int bl_frame_drawable_item13 = 2130903154;
+        public static final int bl_frame_drawable_item14 = 2130903155;
+        public static final int bl_frame_drawable_item2 = 2130903156;
+        public static final int bl_frame_drawable_item3 = 2130903157;
+        public static final int bl_frame_drawable_item4 = 2130903158;
+        public static final int bl_frame_drawable_item5 = 2130903159;
+        public static final int bl_frame_drawable_item6 = 2130903160;
+        public static final int bl_frame_drawable_item7 = 2130903161;
+        public static final int bl_frame_drawable_item8 = 2130903162;
+        public static final int bl_frame_drawable_item9 = 2130903163;
+        public static final int bl_function = 2130903164;
+        public static final int bl_gradient_angle = 2130903165;
+        public static final int bl_gradient_centerColor = 2130903166;
+        public static final int bl_gradient_centerX = 2130903167;
+        public static final int bl_gradient_centerY = 2130903168;
+        public static final int bl_gradient_endColor = 2130903169;
+        public static final int bl_gradient_gradientRadius = 2130903170;
+        public static final int bl_gradient_startColor = 2130903171;
+        public static final int bl_gradient_type = 2130903172;
+        public static final int bl_gradient_useLevel = 2130903173;
+        public static final int bl_multi_selector1 = 2130903174;
+        public static final int bl_multi_selector2 = 2130903175;
+        public static final int bl_multi_selector3 = 2130903176;
+        public static final int bl_multi_selector4 = 2130903177;
+        public static final int bl_multi_selector5 = 2130903178;
+        public static final int bl_multi_selector6 = 2130903179;
+        public static final int bl_multi_text_selector1 = 2130903180;
+        public static final int bl_multi_text_selector2 = 2130903181;
+        public static final int bl_multi_text_selector3 = 2130903182;
+        public static final int bl_multi_text_selector4 = 2130903183;
+        public static final int bl_multi_text_selector5 = 2130903184;
+        public static final int bl_multi_text_selector6 = 2130903185;
+        public static final int bl_oneshot = 2130903186;
+        public static final int bl_padding_bottom = 2130903187;
+        public static final int bl_padding_left = 2130903188;
+        public static final int bl_padding_right = 2130903189;
+        public static final int bl_padding_top = 2130903190;
+        public static final int bl_position = 2130903191;
+        public static final int bl_pressed_color = 2130903192;
+        public static final int bl_pressed_drawable = 2130903193;
+        public static final int bl_pressed_solid_color = 2130903194;
+        public static final int bl_pressed_stroke_color = 2130903195;
+        public static final int bl_pressed_textColor = 2130903196;
+        public static final int bl_ripple_color = 2130903197;
+        public static final int bl_ripple_enable = 2130903198;
+        public static final int bl_selected_drawable = 2130903199;
+        public static final int bl_selected_solid_color = 2130903200;
+        public static final int bl_selected_stroke_color = 2130903201;
+        public static final int bl_selected_textColor = 2130903202;
+        public static final int bl_shape = 2130903203;
+        public static final int bl_size_height = 2130903204;
+        public static final int bl_size_width = 2130903205;
+        public static final int bl_solid_color = 2130903206;
+        public static final int bl_stroke_color = 2130903207;
+        public static final int bl_stroke_dashGap = 2130903208;
+        public static final int bl_stroke_dashWidth = 2130903209;
+        public static final int bl_stroke_position = 2130903210;
+        public static final int bl_stroke_width = 2130903211;
+        public static final int bl_unActivated_textColor = 2130903212;
+        public static final int bl_unActive_textColor = 2130903213;
+        public static final int bl_unCheckable_drawable = 2130903214;
+        public static final int bl_unCheckable_solid_color = 2130903215;
+        public static final int bl_unCheckable_stroke_color = 2130903216;
+        public static final int bl_unCheckable_textColor = 2130903217;
+        public static final int bl_unChecked_button_drawable = 2130903218;
+        public static final int bl_unChecked_drawable = 2130903219;
+        public static final int bl_unChecked_solid_color = 2130903220;
+        public static final int bl_unChecked_stroke_color = 2130903221;
+        public static final int bl_unChecked_textColor = 2130903222;
+        public static final int bl_unEnabled_drawable = 2130903223;
+        public static final int bl_unEnabled_solid_color = 2130903224;
+        public static final int bl_unEnabled_stroke_color = 2130903225;
+        public static final int bl_unEnabled_textColor = 2130903226;
+        public static final int bl_unExpanded_textColor = 2130903227;
+        public static final int bl_unFocused_activated = 2130903228;
+        public static final int bl_unFocused_drawable = 2130903229;
+        public static final int bl_unFocused_hovered = 2130903230;
+        public static final int bl_unFocused_solid_color = 2130903231;
+        public static final int bl_unFocused_stroke_color = 2130903232;
+        public static final int bl_unFocused_textColor = 2130903233;
+        public static final int bl_unPressed_drawable = 2130903234;
+        public static final int bl_unPressed_solid_color = 2130903235;
+        public static final int bl_unPressed_stroke_color = 2130903236;
+        public static final int bl_unPressed_textColor = 2130903237;
+        public static final int bl_unSelected_drawable = 2130903238;
+        public static final int bl_unSelected_solid_color = 2130903239;
+        public static final int bl_unSelected_stroke_color = 2130903240;
+        public static final int bl_unSelected_textColor = 2130903241;
+        public static final int bl_unpressed_color = 2130903242;
+
+        private attr() {
+        }
+    }
+
+    /* renamed from: com.noober.background.R$id */
+    /* loaded from: classes.dex */
+    public static final class C1945id {
+        public static final int bottom = 2131230797;
+        public static final int left = 2131231074;
+        public static final int line = 2131231077;
+        public static final int linear = 2131231080;
+        public static final int match_parent = 2131231120;
+        public static final int oval = 2131231393;
+        public static final int radial = 2131231415;
+        public static final int rectangle = 2131231429;
+        public static final int right = 2131231438;
+        public static final int ring = 2131231443;
+        public static final int sweep = 2131231540;
+        public static final int top = 2131231603;
+        public static final int wrap_content = 2131231723;
+
+        private C1945id() {
+        }
+    }
+
+    /* renamed from: com.noober.background.R$styleable */
+    /* loaded from: classes.dex */
+    public static final class styleable {
+        public static final int background_bl_checkable_solid_color = 0;
+        public static final int background_bl_checkable_stroke_color = 1;
+        public static final int background_bl_checked_solid_color = 2;
+        public static final int background_bl_checked_stroke_color = 3;
+        public static final int background_bl_corners_bottomLeftRadius = 4;
+        public static final int background_bl_corners_bottomRightRadius = 5;
+        public static final int background_bl_corners_radius = 6;
+        public static final int background_bl_corners_topLeftRadius = 7;
+        public static final int background_bl_corners_topRightRadius = 8;
+        public static final int background_bl_enabled_solid_color = 9;
+        public static final int background_bl_enabled_stroke_color = 10;
+        public static final int background_bl_focused_solid_color = 11;
+        public static final int background_bl_focused_stroke_color = 12;
+        public static final int background_bl_gradient_angle = 13;
+        public static final int background_bl_gradient_centerColor = 14;
+        public static final int background_bl_gradient_centerX = 15;
+        public static final int background_bl_gradient_centerY = 16;
+        public static final int background_bl_gradient_endColor = 17;
+        public static final int background_bl_gradient_gradientRadius = 18;
+        public static final int background_bl_gradient_startColor = 19;
+        public static final int background_bl_gradient_type = 20;
+        public static final int background_bl_gradient_useLevel = 21;
+        public static final int background_bl_padding_bottom = 22;
+        public static final int background_bl_padding_left = 23;
+        public static final int background_bl_padding_right = 24;
+        public static final int background_bl_padding_top = 25;
+        public static final int background_bl_pressed_solid_color = 26;
+        public static final int background_bl_pressed_stroke_color = 27;
+        public static final int background_bl_ripple_color = 28;
+        public static final int background_bl_ripple_enable = 29;
+        public static final int background_bl_selected_solid_color = 30;
+        public static final int background_bl_selected_stroke_color = 31;
+        public static final int background_bl_shape = 32;
+        public static final int background_bl_size_height = 33;
+        public static final int background_bl_size_width = 34;
+        public static final int background_bl_solid_color = 35;
+        public static final int background_bl_stroke_color = 36;
+        public static final int background_bl_stroke_dashGap = 37;
+        public static final int background_bl_stroke_dashWidth = 38;
+        public static final int background_bl_stroke_position = 39;
+        public static final int background_bl_stroke_width = 40;
+        public static final int background_bl_unCheckable_solid_color = 41;
+        public static final int background_bl_unCheckable_stroke_color = 42;
+        public static final int background_bl_unChecked_solid_color = 43;
+        public static final int background_bl_unChecked_stroke_color = 44;
+        public static final int background_bl_unEnabled_solid_color = 45;
+        public static final int background_bl_unEnabled_stroke_color = 46;
+        public static final int background_bl_unFocused_solid_color = 47;
+        public static final int background_bl_unFocused_stroke_color = 48;
+        public static final int background_bl_unPressed_solid_color = 49;
+        public static final int background_bl_unPressed_stroke_color = 50;
+        public static final int background_bl_unSelected_solid_color = 51;
+        public static final int background_bl_unSelected_stroke_color = 52;
+        public static final int background_button_drawable_bl_checked_button_drawable = 0;
+        public static final int background_button_drawable_bl_unChecked_button_drawable = 1;
+        public static final int background_multi_selector_bl_multi_selector1 = 0;
+        public static final int background_multi_selector_bl_multi_selector2 = 1;
+        public static final int background_multi_selector_bl_multi_selector3 = 2;
+        public static final int background_multi_selector_bl_multi_selector4 = 3;
+        public static final int background_multi_selector_bl_multi_selector5 = 4;
+        public static final int background_multi_selector_bl_multi_selector6 = 5;
+        public static final int background_multi_selector_text_bl_multi_text_selector1 = 0;
+        public static final int background_multi_selector_text_bl_multi_text_selector2 = 1;
+        public static final int background_multi_selector_text_bl_multi_text_selector3 = 2;
+        public static final int background_multi_selector_text_bl_multi_text_selector4 = 3;
+        public static final int background_multi_selector_text_bl_multi_text_selector5 = 4;
+        public static final int background_multi_selector_text_bl_multi_text_selector6 = 5;
+        public static final int background_press_bl_pressed_color = 0;
+        public static final int background_press_bl_unpressed_color = 1;
+        public static final int background_selector_bl_checkable_drawable = 0;
+        public static final int background_selector_bl_checked_drawable = 1;
+        public static final int background_selector_bl_enabled_drawable = 2;
+        public static final int background_selector_bl_focused_activated = 3;
+        public static final int background_selector_bl_focused_drawable = 4;
+        public static final int background_selector_bl_focused_hovered = 5;
+        public static final int background_selector_bl_pressed_drawable = 6;
+        public static final int background_selector_bl_selected_drawable = 7;
+        public static final int background_selector_bl_unCheckable_drawable = 8;
+        public static final int background_selector_bl_unChecked_drawable = 9;
+        public static final int background_selector_bl_unEnabled_drawable = 10;
+        public static final int background_selector_bl_unFocused_activated = 11;
+        public static final int background_selector_bl_unFocused_drawable = 12;
+        public static final int background_selector_bl_unFocused_hovered = 13;
+        public static final int background_selector_bl_unPressed_drawable = 14;
+        public static final int background_selector_bl_unSelected_drawable = 15;
+        public static final int bl_anim_bl_anim_auto_start = 0;
+        public static final int bl_anim_bl_duration = 1;
+        public static final int bl_anim_bl_duration_item0 = 2;
+        public static final int bl_anim_bl_duration_item1 = 3;
+        public static final int bl_anim_bl_duration_item10 = 4;
+        public static final int bl_anim_bl_duration_item11 = 5;
+        public static final int bl_anim_bl_duration_item12 = 6;
+        public static final int bl_anim_bl_duration_item13 = 7;
+        public static final int bl_anim_bl_duration_item14 = 8;
+        public static final int bl_anim_bl_duration_item2 = 9;
+        public static final int bl_anim_bl_duration_item3 = 10;
+        public static final int bl_anim_bl_duration_item4 = 11;
+        public static final int bl_anim_bl_duration_item5 = 12;
+        public static final int bl_anim_bl_duration_item6 = 13;
+        public static final int bl_anim_bl_duration_item7 = 14;
+        public static final int bl_anim_bl_duration_item8 = 15;
+        public static final int bl_anim_bl_duration_item9 = 16;
+        public static final int bl_anim_bl_frame_drawable_item0 = 17;
+        public static final int bl_anim_bl_frame_drawable_item1 = 18;
+        public static final int bl_anim_bl_frame_drawable_item10 = 19;
+        public static final int bl_anim_bl_frame_drawable_item11 = 20;
+        public static final int bl_anim_bl_frame_drawable_item12 = 21;
+        public static final int bl_anim_bl_frame_drawable_item13 = 22;
+        public static final int bl_anim_bl_frame_drawable_item14 = 23;
+        public static final int bl_anim_bl_frame_drawable_item2 = 24;
+        public static final int bl_anim_bl_frame_drawable_item3 = 25;
+        public static final int bl_anim_bl_frame_drawable_item4 = 26;
+        public static final int bl_anim_bl_frame_drawable_item5 = 27;
+        public static final int bl_anim_bl_frame_drawable_item6 = 28;
+        public static final int bl_anim_bl_frame_drawable_item7 = 29;
+        public static final int bl_anim_bl_frame_drawable_item8 = 30;
+        public static final int bl_anim_bl_frame_drawable_item9 = 31;
+        public static final int bl_anim_bl_oneshot = 32;
+        public static final int bl_other_bl_function = 0;
+        public static final int bl_other_bl_position = 1;
+        public static final int text_selector_bl_activated_textColor = 0;
+        public static final int text_selector_bl_active_textColor = 1;
+        public static final int text_selector_bl_checkable_textColor = 2;
+        public static final int text_selector_bl_checked_textColor = 3;
+        public static final int text_selector_bl_enabled_textColor = 4;
+        public static final int text_selector_bl_expanded_textColor = 5;
+        public static final int text_selector_bl_focused_textColor = 6;
+        public static final int text_selector_bl_pressed_textColor = 7;
+        public static final int text_selector_bl_selected_textColor = 8;
+        public static final int text_selector_bl_unActivated_textColor = 9;
+        public static final int text_selector_bl_unActive_textColor = 10;
+        public static final int text_selector_bl_unCheckable_textColor = 11;
+        public static final int text_selector_bl_unChecked_textColor = 12;
+        public static final int text_selector_bl_unEnabled_textColor = 13;
+        public static final int text_selector_bl_unExpanded_textColor = 14;
+        public static final int text_selector_bl_unFocused_textColor = 15;
+        public static final int text_selector_bl_unPressed_textColor = 16;
+        public static final int text_selector_bl_unSelected_textColor = 17;
+        public static final int[] background = {C0692R.attr.f528b6, C0692R.attr.f529b7, C0692R.attr.f533ba, C0692R.attr.f534bb, C0692R.attr.f536bd, C0692R.attr.f537be, C0692R.attr.f538bf, C0692R.attr.f539bg, C0692R.attr.f540bh, C0692R.attr.f558bz, C0692R.attr.f559c0, C0692R.attr.f565c6, C0692R.attr.f566c7, C0692R.attr.f584co, C0692R.attr.f585cp, C0692R.attr.f586cq, C0692R.attr.f587cr, C0692R.attr.f588cs, C0692R.attr.f589ct, C0692R.attr.f590cu, C0692R.attr.f591cv, C0692R.attr.f592cw, C0692R.attr.f606d_, C0692R.attr.f607da, C0692R.attr.f608db, C0692R.attr.f609dc, C0692R.attr.f613dg, C0692R.attr.f614dh, C0692R.attr.f616dj, C0692R.attr.f617dk, C0692R.attr.f619dm, C0692R.attr.f620dn, C0692R.attr.f622dp, C0692R.attr.f623dq, C0692R.attr.f624dr, C0692R.attr.f625ds, C0692R.attr.f626dt, C0692R.attr.f627du, C0692R.attr.f628dv, C0692R.attr.f629dw, C0692R.attr.f630dx, C0692R.attr.f634e1, C0692R.attr.f635e2, C0692R.attr.f639e6, C0692R.attr.f640e7, C0692R.attr.f643e_, C0692R.attr.f644ea, C0692R.attr.f650eg, C0692R.attr.f651eh, C0692R.attr.f654ek, C0692R.attr.f655el, C0692R.attr.f658eo, C0692R.attr.f659ep};
+        public static final int[] background_button_drawable = {C0692R.attr.f531b9, C0692R.attr.f637e4};
+        public static final int[] background_multi_selector = {C0692R.attr.f593cx, C0692R.attr.f594cy, C0692R.attr.f595cz, C0692R.attr.f596d0, C0692R.attr.f597d1, C0692R.attr.f598d2};
+        public static final int[] background_multi_selector_text = {C0692R.attr.f599d3, C0692R.attr.f600d4, C0692R.attr.f601d5, C0692R.attr.f602d6, C0692R.attr.f603d7, C0692R.attr.f604d8};
+        public static final int[] background_press = {C0692R.attr.f611de, C0692R.attr.f661er};
+        public static final int[] background_selector = {C0692R.attr.f527b5, C0692R.attr.f532b_, C0692R.attr.f557by, C0692R.attr.f562c3, C0692R.attr.f563c4, C0692R.attr.f564c5, C0692R.attr.f612df, C0692R.attr.f618dl, C0692R.attr.f633e0, C0692R.attr.f638e5, C0692R.attr.f642e9, C0692R.attr.f647ed, C0692R.attr.f648ee, C0692R.attr.f649ef, C0692R.attr.f653ej, C0692R.attr.f657en};
+        public static final int[] bl_anim = {C0692R.attr.f526b4, C0692R.attr.f541bi, C0692R.attr.f542bj, C0692R.attr.f543bk, C0692R.attr.f544bl, C0692R.attr.f545bm, C0692R.attr.f546bn, C0692R.attr.f547bo, C0692R.attr.f548bp, C0692R.attr.f549bq, C0692R.attr.f550br, C0692R.attr.f551bs, C0692R.attr.f552bt, C0692R.attr.f553bu, C0692R.attr.f554bv, C0692R.attr.f555bw, C0692R.attr.f556bx, C0692R.attr.f568c9, C0692R.attr.f569c_, C0692R.attr.f570ca, C0692R.attr.f571cb, C0692R.attr.f572cc, C0692R.attr.f573cd, C0692R.attr.f574ce, C0692R.attr.f575cf, C0692R.attr.f576cg, C0692R.attr.f577ch, C0692R.attr.f578ci, C0692R.attr.f579cj, C0692R.attr.f580ck, C0692R.attr.f581cl, C0692R.attr.f582cm, C0692R.attr.f605d9};
+        public static final int[] bl_other = {C0692R.attr.f583cn, C0692R.attr.f610dd};
+        public static final int[] text_selector = {C0692R.attr.f524b2, C0692R.attr.f525b3, C0692R.attr.f530b8, C0692R.attr.f535bc, C0692R.attr.f560c1, C0692R.attr.f561c2, C0692R.attr.f567c8, C0692R.attr.f615di, C0692R.attr.f621do, C0692R.attr.f631dy, C0692R.attr.f632dz, C0692R.attr.f636e3, C0692R.attr.f641e8, C0692R.attr.f645eb, C0692R.attr.f646ec, C0692R.attr.f652ei, C0692R.attr.f656em, C0692R.attr.f660eq};
+
+        private styleable() {
+        }
+    }
+}

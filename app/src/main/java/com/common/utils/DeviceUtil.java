@@ -5,7 +5,7 @@ import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
-import com.lbd.p054xj.app.XJApp;
+import com.lbd.xj.app.XJApp;
 import com.stripe.android.view.ShippingInfoWidget;
 import java.util.UUID;
 

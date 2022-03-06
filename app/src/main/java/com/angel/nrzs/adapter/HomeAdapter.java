@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.angel.nrzs.App;
+import com.angel.nrzs.ui;
 import com.angel.nrzs.C0692R;
 import com.nrzs.base.router.RouterUtils;
 import com.nrzs.base.router.provider.ProviderFactory;

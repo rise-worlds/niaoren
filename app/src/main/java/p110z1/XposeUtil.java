@@ -1,8 +1,8 @@
 package p110z1;
 
 import android.util.Xml;
-import com.lbd.p054xj.app.AppConfig;
-import com.lbd.p054xj.manager.launch.BoxLaunchManager;
+import com.lbd.xj.app.AppConfig;
+import com.lbd.xj.manager.launch.BoxLaunchManager;
 import com.lody.virtual.client.ipc.ServiceManagerNative;
 import java.io.File;
 import java.io.FileInputStream;

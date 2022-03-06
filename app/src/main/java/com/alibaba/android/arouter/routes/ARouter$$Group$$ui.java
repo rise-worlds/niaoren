@@ -3,7 +3,7 @@ package com.alibaba.android.arouter.routes;
 import com.alibaba.android.arouter.facade.enums.RouteType;
 import com.alibaba.android.arouter.facade.model.RouteMeta;
 import com.alibaba.android.arouter.facade.template.IRouteGroup;
-import com.angel.nrzs.app.activity.RewardActivity;
+import com.angel.nrzs.ui.activity.RewardActivity;
 import com.nrzs.base.router.RouterConstants;
 import java.util.Map;
 

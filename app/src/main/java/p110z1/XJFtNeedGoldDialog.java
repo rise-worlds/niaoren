@@ -6,7 +6,7 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.lbd.p054xj.app.XJApp;
+import com.lbd.xj.app.XJApp;
 import com.nrzs.ft.C1990R;
 import com.nrzs.ft.ui.base.FtBaseDialog;
 import p110z1.FtEvent;

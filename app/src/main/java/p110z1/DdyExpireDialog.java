@@ -8,7 +8,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.angel.nrzs.C0692R;
-import com.angel.nrzs.app.activity.NRZSWebviewActivity;
+import com.angel.nrzs.ui.activity.NRZSWebviewActivity;
 import com.blankj.utilcode.util.ClickUtils;
 import com.nrzs.base.router.provider.ProviderFactory;
 import com.nrzs.data.ddy.bean.YsjResultInfo;

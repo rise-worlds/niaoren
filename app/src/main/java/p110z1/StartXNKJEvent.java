@@ -1,6 +1,6 @@
 package p110z1;
 
-import com.lbd.p054xj.socket.model.AppInfo;
+import com.lbd.xj.socket.model.AppInfo;
 
 /* renamed from: z1.act */
 /* loaded from: classes3.dex */

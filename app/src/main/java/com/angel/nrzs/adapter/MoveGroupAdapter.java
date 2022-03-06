@@ -8,7 +8,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.angel.nrzs.App;
+import com.angel.nrzs.ui;
 import com.angel.nrzs.C0692R;
 import com.nrzs.data.ddy.bean.respond.OrderDaileInfo;
 import java.util.ArrayList;

@@ -5,11 +5,11 @@ package p110z1;
 public class ActionVal {
 
     /* renamed from: a */
-    public static final String f16464a = "com.angel.nrzs.app.MainActivity";
+    public static final String f16464a = "com.angel.nrzs.ui.MainActivity";
 
     /* renamed from: b */
     public static final String f16465b = "com.angel.nrzs.modeluser.LoginActivity";
 
     /* renamed from: c */
-    public static final String f16466c = "com.angel.nrzs.app.NRZSWebviewActivity";
+    public static final String f16466c = "com.angel.nrzs.ui.NRZSWebviewActivity";
 }

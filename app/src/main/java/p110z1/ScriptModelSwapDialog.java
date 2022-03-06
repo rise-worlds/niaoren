@@ -11,7 +11,7 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import com.angel.nrzs.App;
+import com.angel.nrzs.ui;
 import com.angel.nrzs.C0692R;
 import com.nrzs.core.models.AppData;
 import com.nrzs.data.DataApp;

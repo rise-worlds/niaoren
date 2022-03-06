@@ -1,7 +1,7 @@
 package p110z1;
 
 import android.os.Build;
-import com.angel.nrzs.App;
+import com.angel.nrzs.ui;
 import com.blankj.utilcode.util.SPUtils;
 import com.cyjh.mobileanjian.ipc.utils.RootUtil;
 

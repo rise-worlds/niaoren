@@ -1,7 +1,7 @@
 package p110z1;
 
 import com.common.utils.log.LogUtils;
-import com.lbd.p054xj.app.XJApp;
+import com.lbd.xj.app.XJApp;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -251,7 +251,7 @@ public class FileWriteUtils {
     public static java.lang.String m14074a(java.lang.String r5, boolean r6) {
         /*
             java.io.File r0 = new java.io.File
-            com.lbd.xj.app.XJApp r1 = com.lbd.p054xj.app.XJApp.getInstance()
+            com.lbd.xj.app.XJApp r1 = com.lbd.xj.app.XJApp.getInstance()
             android.content.pm.ApplicationInfo r1 = r1.getApplicationInfo()
             java.lang.String r1 = r1.dataDir
             java.lang.String r2 = "osimg"
